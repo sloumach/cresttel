@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactController;
 
 // Main routes
 Route::get('/', function () {
@@ -11,7 +12,7 @@ Route::get('/about', function () {
     return view('about');
 })->name('about');
 
-Route::get('/service', function () {
+Route::get('/services', function () {
     return view('services');
 })->name('service');
 
@@ -27,95 +28,100 @@ Route::get('/project', function () {
     return view('project');
 })->name('project');
 
-// Additional routes for all other views
-Route::get('/success', function () {
-    return view('success');
-})->name('success');
-
-Route::get('/residential', function () {
-    return view('residential');
-})->name('residential');
-
-Route::get('/residentialBlog1', function () {
-    return view('residentialBlog1');
-})->name('residentialBlog1');
-
-Route::get('/residentialBlog2', function () {
-    return view('residentialBlog2');
-})->name('residentialBlog2');
-
-Route::get('/residentialBlog3', function () {
-    return view('residentialBlog3');
-})->name('residentialBlog3');
-
-Route::get('/fence', function () {
-    return view('fence');
-})->name('fence');
-
-Route::get('/fenceBlog1', function () {
-    return view('fenceBlog1');
-})->name('fenceBlog1');
-
-Route::get('/fenceBlog2', function () {
-    return view('fenceBlog2');
-})->name('fenceBlog2');
-
-Route::get('/fenceBlog3', function () {
-    return view('fenceBlog3');
-})->name('fenceBlog3');
-
-Route::get('/mdu', function () {
-    return view('mdu');
-})->name('mdu');
-
-Route::get('/mduBlog1', function () {
-    return view('mduBlog1');
-})->name('mduBlog1');
-
-Route::get('/mduBlog2', function () {
-    return view('mduBlog2');
-})->name('mduBlog2');
-
-Route::get('/mduBlog3', function () {
-    return view('mduBlog3');
-})->name('mduBlog3');
+Route::get('/contact', function () {
+    return view('contact');
+})->name('contact');
 
 Route::get('/adu', function () {
     return view('adu');
 })->name('adu');
 
-Route::get('/aduBlog1', function () {
-    return view('aduBlog1');
-})->name('aduBlog1');
+Route::get('/mdu', function () {
+    return view('mdu');
+})->name('mdu');
 
-Route::get('/aduBlog2', function () {
-    return view('aduBlog2');
-})->name('aduBlog2');
-
-Route::get('/aduBlog3', function () {
-    return view('aduBlog3');
-})->name('aduBlog3');
+Route::get('/success', function () {
+    return view('success');
+})->name('success');
 
 Route::get('/commercial', function () {
     return view('commercial');
 })->name('commercial');
 
-Route::get('/commercialBlog1', function () {
+Route::get('/fence', function () {
+    return view('fence');
+})->name('fence');
+
+Route::get('/residential', function () {
+    return view('residential');
+})->name('residential');
+
+Route::get('/adublog1', function () {
+    return view('aduBlog1');
+})->name('adublog1');
+
+Route::get('/adublog2', function () {
+    return view('aduBlog2');
+})->name('adublog2');
+
+Route::get('/adublog3', function () {
+    return view('aduBlog3');
+})->name('adublog3');
+
+Route::get('/mdublog1', function () {
+    return view('mduBlog1');
+})->name('mdublog1');
+
+Route::get('/mdublog2', function () {
+    return view('mduBlog2');
+})->name('mdublog2');
+
+Route::get('/mdublog3', function () {
+    return view('mduBlog3');
+})->name('mdublog3');
+
+Route::get('/fenceblog1', function () {
+    return view('fenceBlog1');
+})->name('fenceblog1');
+
+Route::get('/fenceblog2', function () {
+    return view('fenceBlog2');
+})->name('fenceblog2');
+
+Route::get('/fenceblog3', function () {
+    return view('fenceBlog3');
+})->name('fenceblog3');
+
+Route::get('/commercialblog1', function () {
     return view('commercialBlog1');
-})->name('commercialBlog1');
+})->name('commercialblog1');
 
-Route::get('/commercialBlog2', function () {
+Route::get('/commercialblog2', function () {
     return view('commercialBlog2');
-})->name('commercialBlog2');
+})->name('commercialblog2');
 
-Route::get('/commercialBlog3', function () {
+Route::get('/commercialblog3', function () {
     return view('commercialBlog3');
-})->name('commercialBlog3');
+})->name('commercialblog3');
 
-Route::get('/contactForm', function () {
-    return view('contactForm');
-})->name('contactForm');
-// Optional: Add fallback route for 404
-Route::fallback(function () {
-    return view('404'); // Create a 404.blade.php if not already present
+Route::get('/residentialblog1', function () {
+    return view('residentialBlog1');
+})->name('residentialblog1');
+
+Route::get('/residentialblog2', function () {
+    return view('residentialBlog2');
+})->name('residentialblog2');
+
+Route::get('/residentialblog3', function () {
+    return view('residentialBlog3');
+})->name('residentialblog3');
+
+Route::controller(ContactController::class)->group(function () {
+    Route::post('/contact', 'saveMessage')->name('saveMessage');
+
+});
+
+Route::controller(ContactController::class)->group(function () {
+    Route::get('/inboxmessages', 'inboxmessages')->name('inboxmessages');
+
 });
