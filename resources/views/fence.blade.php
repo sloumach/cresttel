@@ -942,12 +942,7 @@
     <!-- Contact Section -->
     <section id="contact">
         <h2>Get in Touch</h2>
-        <form id="contact-form">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-            <button type="submit">Submit</button>
-        </form>
+        @include('contactform')
     </section>
     <!-- Blog Section -->
     <section id="blog" class="blog">
