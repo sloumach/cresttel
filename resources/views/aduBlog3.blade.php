@@ -11,8 +11,9 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="Best Accessory Dwelling Unit ( ADU ) | Cresttel" name="description">
+    <meta content="ADU design ideas" name="keywords">
+    <meta content="Best Accessory Dwelling Unit" name="keywords">
+    <meta content="Discover top ADU design ideas, Maximize space, boost functionality, and create stunning Accessory Dwelling Units for any property. Learn more with Cresttel" name="description">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">

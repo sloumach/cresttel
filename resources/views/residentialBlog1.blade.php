@@ -11,8 +11,9 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="The Importance of Regular Home Maintenance | Cresttel" name="description">
+    <meta content="residential construction" name="keywords">
+    <meta content="residential optimization" name="keywords">
+    <meta content="Explore residential construction insights, Learn how to design, build, and optimize your home for comfort, efficiency, and property value. Read more with Cresttel." name="description">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">

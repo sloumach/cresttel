@@ -7,10 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Construction and remodeling company" name="keywords">
-    <meta content="San diego construction and renovation & building contractors" name="keywords">
     <meta content="Reliable Residential and commercial construction services in san Diego and its
 surrounding areas. Contact us for efficient renovation and remodeling solutions." name="description">
-    <title>cresttel titles</title>
+    <title> Construction & remodeling services in san diego | cresttel </title>
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
 
@@ -262,7 +261,7 @@ surrounding areas. Contact us for efficient renovation and remodeling solutions.
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-12 col-lg-8 text-center">
-                                <h1 class="display-3 text-white animated slideInDown mb-4" style="font-size:480%;">We Build Homes That Last</h1>
+                                <h1 class="display-3 text-white animated slideInDown mb-4" style="font-size:480%;">We Build Homes That Lasts</h1>
                                 <p class="fs-5 text-white mb-4 pb-2">Expert construction services <br> for residential and commercial properties
 
                                 </p>
@@ -294,7 +293,7 @@ surrounding areas. Contact us for efficient renovation and remodeling solutions.
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-12 col-lg-8 text-center">
-                                <h3 class="display-3 text-white animated slideInDown mb-4">Renovation & Remodling</h3>
+                                <h2 class="display-3 text-white animated slideInDown mb-4">Renovation & Remodling</h2>
                                 <p class="fs-5 fw-medium text-white mb-4 pb-2">Home renovation or remodeling services provided with expert results.</p>
                                 <a href="project.blade.php"  class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft"><span style="color: rgb(255, 255, 255);">View Projects</span></a>
                                 
@@ -440,7 +439,7 @@ surrounding areas. Contact us for efficient renovation and remodeling solutions.
     <div class="container">
         <div class="text-center">
             
-          <h5 class="display-5 mb-5"><span style="color: #1591ea;"><br><br>Our Services</span>
+          <h2 class="display-5 mb-5"><span style="color: #1591ea;"><br><br>Our Services</span>
         </div>
         <!-- Increase gutter spacing between columns with g-4 -->
         <div class="row g-4 justify-content-center">
@@ -451,7 +450,7 @@ surrounding areas. Contact us for efficient renovation and remodeling solutions.
                           <img class="img-fluid" src="img/wephome/ezgif-2-117d8ed6c3.webp" alt="Icon" style="width: 70px; height: 70px;">
                       </a>
                   </div>
-                  <h5 class="mb-2">ADU</h5>
+                  <h3 class="mb-2">ADU</h3>
                   <p class="mb-3">"Innovative ADU Design & Construction for Extra Space"</p>
                   <div class="text-start">
                       <a href="adu.blade.php" class="custom-btn">More</a>
@@ -465,7 +464,7 @@ surrounding areas. Contact us for efficient renovation and remodeling solutions.
                           <img class="img-fluid" src="img/wephome/ezgif-5-23356bdb13.webp" alt="Icon" style="width: 70px; height: 70px;">
                       </a>
                   </div>
-                  <h5 class="mb-2">MDU</h5>
+                  <h3 class="mb-2">MDU</h3>
                   <p class="mb-3">"Efficient MDU Development for Modern Living Solutions"</p>
                   <div class="text-start">
                       <a href="mdu.blade.php" class="custom-btn">More</a>
@@ -479,7 +478,7 @@ surrounding areas. Contact us for efficient renovation and remodeling solutions.
                           <img class="img-fluid" src="img/wephome/ezgif-5-613f01933b.webp" alt="Icon" style="width: 70px; height: 70px;">
                       </a>
                   </div>
-                  <h5 class="mb-2">Residential</h5>
+                  <h3 class="mb-2">Residential</h3>
                   <p class="mb-3">"Residential Building & Remodeling Experts"</p>
                   <div class="text-start">
                       <a href="residential.blade.php" class="custom-btn">More</a>
@@ -493,7 +492,7 @@ surrounding areas. Contact us for efficient renovation and remodeling solutions.
                           <img class="img-fluid" src="img/Home icons/Commercial.webp" alt="Icon" style="width: 70px; height: 70px;">
                       </a>
                   </div>
-                  <h5 class="mb-2">Commercial</h5>
+                  <h3 class="mb-2">Commercial</h3>
                   <p class="mb-3">"Commercial Construction & Renovation Services"</p>
                   <div class="text-start">
                       <a href="commercial.blade.php" class="custom-btn">More</a>
@@ -507,7 +506,7 @@ surrounding areas. Contact us for efficient renovation and remodeling solutions.
                           <img class="img-fluid" src="img/Home icons/fence-6148694-5024979.png" alt="Icon" style="width: 70px; height: 70px;">
                       </a>
                   </div>
-                  <h5 class="mb-2">Fence</h5>
+                  <h3 class="mb-2">Fence</h3>
                   <p class="mb-3">"Reliable Fence Installation & Custom Design Solutions"</p>
                   <div class="text-start">
                       <a href="fence.blade.php" class="custom-btn">More</a>
@@ -562,8 +561,8 @@ surrounding areas. Contact us for efficient renovation and remodeling solutions.
             </div> 
         </div>
         <div class="col-lg-7" style="padding-left: 50px;"> <!-- Increased padding-left here -->
-            <h3 class="display-5 text-uppercase mb-4">We are <span class="fading">the Leader</span> in Construction Industry!</h3>
-            <h4 class="text-uppercase mb-3 text-body">About us</h4>
+            <h2 class="display-5 text-uppercase mb-4">We are <span class="fading">the Leader</span> in Construction Industry!</h2>
+            <h3 class="text-uppercase mb-3 text-body">About us</h3>
             <p>With over 20 years of experience, we pride ourselves in delivering top-notch services for both residential and commercial properties. With a wealth of experience under our belt, our skilled team of contractors specializes in custom home building, remodeling projects, and commercial construction endeavors. We are dedicated to achieving excellence and ensuring customer satisfaction, making it a priority to complete every project on schedule and within the agreed budget. Cresttel offers innovative solutions and meticulous attention to detail, making us a standout choice for those seeking excellent construction services. Explore how our Nicheknightss can transform your space with their expert craftsmanship and professionalism.</p>
             <div class="row gx-5 py-2">
                 <div class="col-sm-6 mb-2">

@@ -4,10 +4,10 @@
 <head>
     <link rel="canonical" href="https://cresttel.net/BLOGS.html">
     <meta charset="utf-8">
-    <title>Cresttel Blog | San Diego Construction News, Tips & Insights </title>
+    <title>Tips & Insights for Construction & Renovation | Cresttel</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="Check out the Cresttel Blog for valuable construction tips, remodeling ideas, and San Diego project highlights. Get inspired for your next project." name="description">
+    <meta content="construction industry & home design tips & remodeling solution " name="keywords">
+    <meta content="Learn more on latest new on the construction industry with cresttel's blogs and articles featuring in home design tips, expert remodeling solution and more." name="description">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">

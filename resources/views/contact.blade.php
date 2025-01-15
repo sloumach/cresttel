@@ -5,10 +5,12 @@
         <link rel="canonical" href="https://cresttel.net/contact.html">
 
     <meta charset="utf-8">
-    <title>Contact Cresttel in San Diego | Start Your Project Today</title>
+    <title>Contact Us : San Diego's construction company | Cresttel</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="Looking for construction services in San Diego? Contact Cresttel for professional guidance and a free consultation. We’re here to bring your vision to life." name="description">
+    <meta content="construction & residential services" name="keywords">
+    <meta content="San Diego" name="keywords">
+    <meta content="home renovation" name="keywords">
+    <meta content="Contact Cresttel for construction & residential services in San Diego. Our team of experts will help you with your business construction or home renovation.">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">

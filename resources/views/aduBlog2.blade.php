@@ -12,8 +12,9 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="Top 5 Benefits of Building an ADU | Cresttel" name="description">
+    <meta content="ADU financing options" name="keywords">
+    <meta content="Benefits of ADU" name="keywords">
+    <meta content="Explore ADU financing options, Learn how to fund your Accessory Dwelling Unit project easily and boost your property's potential. Learn more with Cresttel." name="description">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">

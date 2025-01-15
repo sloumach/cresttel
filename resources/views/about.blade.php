@@ -4,12 +4,12 @@
 <head>
         <link rel="canonical" href="https://cresttel.net/about.html">
     <meta charset="utf-8">
-    <title>About Us - San Diego's Construction Companyàààà</title>
+    <title>About us : Cresttel San Diego construction company</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Construction and renovation company" name="keywords">
     <meta content="Construction company san diego" name="description">
     
-    <meta name="description" content="Discover Cresttel, a top construction company in San Diego, committed to quality craftsmanship, reliability, and exceptional service. Learn more about us.">
+    <meta name="description" content="Learn about Cresttel, San Diego's leading construction & renovation Services Company. Discover our expertise in residential, commercial, ADU, and MDU projects.">
     
     
     <!-- Favicon -->

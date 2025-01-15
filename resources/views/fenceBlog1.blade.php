@@ -6,13 +6,15 @@
     <meta charset="utf-8">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guide to Choosing the Perfect Fence for Your Home | Cresttel</title>
+    <title>Guide to Choosing the Right Fence for Your Home | Cresttel</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="Guide to Choosing the Perfect Fence for Your Home | Cresttel" name="description">
+    <meta content="Fence" name="keywords">
+    <meta content="fence installation" name="keywords">
+    <meta content="fencing solutions" name="keywords">
+    <meta content="Explore these fence installation tips and Learn how to choose the best materials, styles, and techniques for durable, attractive fencing solutions with Cresttel." name="description">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">

@@ -4,7 +4,7 @@
 <head>
     <link rel="canonical" href="https://cresttel.net/fence.blade.php">
     <meta charset="utf-8">
-    <title>Fence Installation & Repair services in San Diego</title>
+    <title>Fence Installation & Repair services in San Diego | cresttel</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="fence service" name="keywords">
     <meta content="san diego fence company" name="keywords">
@@ -13,7 +13,7 @@
     <meta content="fencing solutions" name="keywords">
     <meta content="fence repairs" name="keywords">
     <meta content="fencing services" name="keywords">
-    <meta content="Cresttel is a trusted fence company in San Diego, offering durable, stylish fencing solutions for homes and businesses. Contact us for a free consultation." name="description">
+    <meta content="Cresttel delivers excellent fence installation and repair services in San Diego. Our skilled team secure your property with excellent fencing solutions." name="description">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">

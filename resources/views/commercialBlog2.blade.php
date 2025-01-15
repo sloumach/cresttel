@@ -6,13 +6,15 @@
     <meta charset="utf-8">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Importance Of Commercial Property Maintenance | Cresttel </title>
+    <title>The Importance of Maintenance for Commercial Properties</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="The Importance of Maintenance for Commercial Properties | Cresttel" name="description">
+    <meta content="Commercial Properties" name="keywords">
+    <meta content="Maintenance for Commercial Properties" name="keywords">
+    
+    <meta content="Learn about commercial property investment strategies with Cresttel. Maximize returns and optimize your commercial spaces for long-term success. Read more!" name="description">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">

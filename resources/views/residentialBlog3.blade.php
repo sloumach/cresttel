@@ -11,8 +11,9 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="How to Choose the Right Flooring for Your Home? | Cresttel" name="description">
+    <meta content="residential design ideas" name="keywords">
+    <meta content="increase property value" name="keywords">
+    <meta content="Explore sustainable residential design ideas with Cresttel. Create eco-friendly, energy-efficient homes that enhance comfort and increase property value. Learn more!" name="description">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">

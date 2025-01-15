@@ -6,13 +6,14 @@
     <meta charset="utf-8">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>How to Build a Proper Fence: A Comprehensive Guide | Cresttel</title>
+    <title>A Guide on How to Build a Proper Fence | Cresttel</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="How to Build a Proper Fence: A Comprehensive Guide | Cresttel" name="description">
+    <meta content="Building a Fence" name="keywords">
+    <meta content="fence maintenance" name="keywords">
+    <meta content="Learn about fence maintenance and care. Keep your fence looking great with expert tips on cleaning, repairs, and extending its lifespan. Discover more with Cresttel" name="description">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">

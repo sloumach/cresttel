@@ -11,8 +11,12 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="How an ADU Can Add Value to Your Property | cresttel" name="description">
+    <meta content="ADU" name="keywords">
+    <meta content="Value to Your Property" name="keywords">
+    <meta content="Accessory Dwelling Units" name="keywords">
+    <meta content="maximize property value" name="keywords">
+    <meta content="ADU blog" name="keywords">
+    <meta content="Discover the benefits of ADUs (Accessory Dwelling Units). Learn how to maximize property value, expand living space, and more. Learn More With Cresttel." name="description">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">

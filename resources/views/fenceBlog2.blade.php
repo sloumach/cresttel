@@ -11,8 +11,12 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="Top 5 Benefits of Building a Fence | Cresttel" name="description">
+    <meta content="Building a Fence" name="keywords">
+    <meta content="fencing design" name="keywords">
+    <meta content="fence styles" name="keywords">
+    <meta content="fence materials" name="keywords">
+    <meta content="Benefits of Fence" name="keywords">
+    <meta content="Discover fencing design ideas with Cresttel. Learn how to enhance privacy, security, and curb appeal with top fence styles and materials for your property." name="description">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">

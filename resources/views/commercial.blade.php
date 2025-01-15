@@ -11,7 +11,7 @@
     <meta content="commercial construction company" name="keywords">
     <meta content="commercial construction services" name="keywords">
 
-   <meta name="description" content="Cresttel provides expert commercial construction in San Diego. From design to completion, trust us for reliable, high-quality solutions for your business.">
+   <meta name="description" content="Cresttel offers high quality commercial construction services in San Diego. Our team ensures timely and efficient work on the project. Contact us today.">
   
   
 

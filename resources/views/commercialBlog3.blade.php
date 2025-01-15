@@ -11,8 +11,10 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="Choosing the Right Contractor for Commercial Renovation" name="description">
+    <meta content="Commercial Renovation" name="keywords">
+    <meta content="Contractor" name="keywords">
+    <meta content="commercial property management" name="keywords">
+    <meta content="Discover commercial property management tips to Enhance operational efficiency and property value for long-term success. Learn More with Cresttel." name="description">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">

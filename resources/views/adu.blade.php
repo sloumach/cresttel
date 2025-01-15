@@ -4,13 +4,13 @@
 <head>
     <link rel="canonical" href="https://cresttel.net/adu.blade.php">
     <meta charset="utf-8">
-    <title>Accessory Dwelling Units Service in San Diego | Cresttel</title>
+    <title>Accessory Dwelling Units Services in San Diego | Cresttel</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content=accessory dwelling unit"" name="keywords">
     <meta content="accessory dwelling unit for sale " name="keywords">
     <meta content="adu installation" name="keywords">
     <meta content="residential construction" name="keywords">
-    <meta content="Accessory Dwelling Units Service in San Diego | Cresttel" name="description">
+    <meta content="Cresttel delivers expert accessory dwelling unit services in San Diego. Our team of experts enhance your property with stylish, functional ADU solutions." name="description">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">

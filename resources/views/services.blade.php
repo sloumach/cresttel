@@ -4,10 +4,10 @@
 <head>
         <link rel="canonical" href="https://cresttel.net/service.html">
     <meta charset="utf-8">
-    <title>Construction and remodeling services</title>
+    <title>Affordable construction & renovation services | cresttel </title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="remodeling services san diego & construction services san diego" name="keywords">
-    <meta content="Cresttel offers expert construction and remodeling services in San Diego. Trust us to bring your vision to life with quality craftsmanship and reliability." name="description">
+    <meta content="Explore Cresttel's affordable construction and renovation services in San Diego. Offering expert solutions for residential, commercial, and industrial projects." name="description">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -163,7 +163,7 @@
     <!-- Page Header Start -->
     <div class="container-fluid s" style="background-color: #007bff;">
         <div class="container py-5">
-            <h1 class="display-3 text-white mb-3 animated slideInDown">Expert Construction and Remodeling Services in San Diego</h1>
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Expert Construction & Remodeling Services in San Diego</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>

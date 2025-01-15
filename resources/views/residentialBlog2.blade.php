@@ -11,8 +11,10 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="Top 5 Home Renovation Trends for 2024 | Cresttel" name="description">
+    <meta content="Home Renovation" name="keywords">
+    <meta content="residential design ideas" name="keywords">
+    <meta content="residential design ideas" name="keywords">
+    <meta content="Discover innovative residential design ideas with Cresttel. Maximize space, boost curb appeal, and create a home that blends style and functionality. Learn more!" name="description">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">

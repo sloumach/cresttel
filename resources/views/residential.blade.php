@@ -4,13 +4,13 @@
 <head>
         <link rel="canonical" href="https://cresttel.net/residential.blade.php">
     <meta charset="utf-8">
-    <title>Residential Construction & Remodeling in San Diego | Cresttel</title>
+    <title>Residential Renovation Services in San Diego | Cresttel</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="residential construction and remodeling" name="keywords">
     <meta content="residential construction " name="keywords">
     <meta content="home remodeling " name="keywords">
     <meta content="home renovation san diego" name="keywords">
-    <meta name="description" content="Looking for residential construction or home remodeling in San Diego? Cresttel offers reliable, expert services to bring your dream home to life.">
+    <meta name="description" content="Cresttel offers top quality residential renovation and remodeling services in San Diego. Transform your home with our expert services. Reach out to us today.">
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
 

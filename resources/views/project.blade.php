@@ -4,9 +4,11 @@
 <head>
     <link rel="canonical" href="https://cresttel.net/project.blade.php">
     <meta charset="utf-8">
-    <title>Cresttel's Projects in San Diego | Construction & Remodeling</title>
+    <title>Cresttel's construction & Remodeling Projects in San Diego</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
+    <meta content="construction" name="keywords">
+    <meta content="Remodeling" name="keywords">
+    <meta content="San Diego" name="keywords">
     <meta content="View our portfolio of projects in San Diego, completed by Cresttel's expert team. Quality and attention to detail in every construction and remodeling job." name="description">
 
     <!-- Favicon -->

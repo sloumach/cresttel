@@ -4,13 +4,14 @@
 <head>
         <link rel="canonical" href="https://cresttel.net/mdu.blade.php">
     <meta charset="utf-8">
-    <title>San Diego MDU Multi Dwelling Unit Construction | Cresttel</title>
+    <title>Multi-Dwelling Units Services in San diego | cresttel</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="MDU" name="keywords">
     <meta content="Multi dwelling unit" name="keywords">
     <meta content="Mdu construction services " name="keywords">
-
-    <meta content="Cresttel specializes in MDU (Multi Dwelling Unit) projects in San Diego. Rely on us for expert design and construction to meet your multi-unit needs." name="description">
+    <meta content="Multi-Dwelling Units services " name="keywords">
+    <meta content="MDU construction solutions " name="keywords">
+    <meta content="Cresttel offers affordable Multi-Dwelling Units services in san Diego. Our expert contractors focus on delivering excellent MDU construction solutions." name="description">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
