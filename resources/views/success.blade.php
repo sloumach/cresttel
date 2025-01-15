@@ -43,7 +43,7 @@
         </div>
     
         <div class="item">
-            <a href="BLOGS.html">
+            <a href="{{ route('blogs') }}">
                 <img src="img/blog-3d.png" alt="">
             </a>
             <div class="content">

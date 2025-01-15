@@ -38,6 +38,12 @@
 </head>
 
 <body>
+ <!-- Navbar Start -->
+ @include('navbar')
+    <!-- Navbar End -->
+
+
+
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
@@ -133,31 +139,9 @@
         
         </div>
     </div>
-</body>
-</html>
 
 
-    <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5">
-        <a href="index.html" class="navbar-brand d-flex align-items-center">
-           <h2 class="m-0" style="color: #1591ea;">Cresttel</h2>
-        </a>
-        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto py-4 py-lg-0">
-                <a href="index.html" class="nav-item nav-link">Home</a>
-                <a href="about.html" class="nav-item nav-link">About</a>
-                <a href="service.html" class="nav-item nav-link active">Service</a>
-                <a href="project.blade.php" class="nav-item nav-link">Project</a>
-                <a href="BLOGS.html" class="nav-item nav-link">Blogs</a>
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
-            </div>
-            
-        </div>
-    </nav>
-    <!-- Navbar End -->
+   
 
 
     <!-- Page Header Start -->
@@ -427,7 +411,9 @@
                 <p>
                     Enhance your property's security and aesthetics with Cresttel's professional fence installation services. We offer a wide range of fencing options, including wood, vinyl, and metal, tailored to your specific requirements.
                 </p>
-                <button class="link-button"><a href="fence.blade.php" target="_blank">Learn More</a></button>
+                <button class="link-button">
+                    <a href="{{ route('fence') }}" target="_blank">Learn More</a>
+                </button>
             </div>
         </div>
         <div class="item">
@@ -438,7 +424,9 @@
                 <p>
                     Unlock the potential of your property with Cresttel's ADU (Accessory Dwelling Unit) construction services. Our expert team specializes in creating custom-built ADUs that blend seamlessly with your existing property.
                 </p>
-                <button class="link-button"><a href="adu.blade.php" target="_blank">Learn More</a></button>
+                <button class="link-button">
+                    <a href="{{ route('adu') }}" target="_blank">Learn More</a>
+                </button>
             </div>
         </div>
         <div class="item">
@@ -449,7 +437,9 @@
                 <p>
                     Cresttel specializes in commercial construction services that cater to businesses of all sizes. Our team delivers efficient and high-quality construction solutions for office buildings, retail spaces, and industrial facilities.
                 </p>
-                <button class="link-button"><a href="commercial.blade.php" target="_blank">Learn More</a></button>
+                <button class="link-button">
+                    <a href="{{ route('commercial') }}" target="_blank">Learn More</a>
+                </button>
             </div>
         </div>
         <div class="item">
@@ -460,24 +450,27 @@
                 <p>
                     Cresttel provides top-tier MDU construction services for property developers and investors. Our expert team ensures quality and efficiency in building apartments, condominiums, and townhouses, meeting all your construction needs.
                 </p>
-                <button class="link-button"><a href="mdu.blade.php" target="_blank">Learn More</a></button>
+                <button class="link-button">
+                    <a href="{{ route('mdu') }}" target="_blank">Learn More</a>
+                </button>
             </div>
         </div>
-        
         <div class="item">
-            <img src="img/service img/rs.jpg" alt="Elegant modern luxury home with lush landscaping, grand entrance, and beautiful exterior - Cresttel residential construction and renovation services."
- 
-            >
+            <img src="img/service img/rs.jpg" alt="Elegant modern luxury home with lush landscaping, grand entrance, and beautiful exterior - Cresttel residential construction and renovation services.">
             <div class="content">
                 <p>Service</p>
                 <h2>Residential</h2>
                 <p>
-                 Transform your dream home into reality with Cresttel's residential construction services. From new builds to renovations, our skilled team provides exceptional craftsmanship and personalized service to create homes that reflect your style and needs.
+                    Transform your dream home into reality with Cresttel's residential construction services. From new builds to renovations, our skilled team provides exceptional craftsmanship and personalized service to create homes that reflect your style and needs.
                 </p>
-                <button class="link-button"><a href="residential.blade.php" target="_blank">Learn More</a></button>
+                <button class="link-button">
+                    <a href="{{ route('residential') }}" target="_blank">Learn More</a>
+                </button>
             </div>
         </div>
     </div>
+
+
     <!-- Arrows -->
     <div class="arrows">
         <button id="prev"><</button>
@@ -523,81 +516,7 @@
 
         
 
-   <!-- Footer Start -->
-   <div class="container-fluid bg-dark text-secondary footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
-    <div class="container py-5">
-        <div class="row g-5">
-            <div class="col-lg-3 col-md-6">
-                <h5 class="text-light mb-4">Address</h5>
-                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>1662 north magnolia Ave El Cajon, ca 92020</p>
-                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>(+1) 619-430-4313 </p>
-                <p class="mb-2"><i class="fa fa-envelope me-3"></i>cs@cresttel.net</p>
-                <div class="d-flex pt-2">
-                        <a class="btn btn-square btn-facebook rounded-circle me-2" href="https://www.facebook.com/cresttelconstruction" target="_blank">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a class="btn btn-square btn-instagram rounded-circle me-2" href="https://www.instagram.com/cresttelconstruction/" target="_blank">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                         <a class="btn btn-square btn-youtube rounded-circle me-2" href="https://www.youtube.com/@Cresttel" target="_blank">
-                            <i class="fab fa-youtube"></i>
-                        </a>
-                    </div>
-<style>.btn-facebook {
-    background-color: #1877f2; /* Facebook Blue */
-    color: white;
-    border: none;
-}
-.btn-facebook:hover {
-    background-color: #145dbf;
-    color: white;
-}
-
-.btn-instagram {
-    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
-    color: white;
-    border: none;
-}
-.btn-instagram:hover {
-    background: linear-gradient(45deg, #e6683c, #f09433);
-    color: white;
-}
-
-.btn-youtube {
-    background-color: #ff0000; /* YouTube Red */
-    color: white;
-    border: none;
-}
-.btn-youtube:hover {
-    background-color: #cc0000;
-    color: white;
-}
-</style>     
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <h5 class="text-light mb-4">Services</h5>
-                <a class="btn btn-link" href="adu.blade.php">ADU</a>
-                <a class="btn btn-link" href="mdu.blade.php">MDU</a>
-                <a class="btn btn-link" href="commercial.blade.php">Commercial</a>
-                <a class="btn btn-link" href="fence.blade.php">Fence</a>
-                <a class="btn btn-link" href="residential.blade.php">Residential</a>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <h5 class="text-light mb-4">Quick Links</h5>
-                <a class="btn btn-link" href="about.html">About Us</a>
-                <a class="btn btn-link" href="contact.html">Contact Us</a>
-                <a class="btn btn-link" href="service.html">Our Services</a>
-                <a class="btn btn-link" href="BLOGS.html">Our Blogs</a>
-                <a class="btn btn-link" href="project.blade.php">Projects</a>
-            </div>
-          
-                
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Footer End -->
+@include('footer')
 
 
 <!-- Copyright Start -->

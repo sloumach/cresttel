@@ -49,6 +49,7 @@ surrounding areas. Contact us for efficient renovation and remodeling solutions.
      <!-- Navbar Start -->
      @include('navbar')
     <!-- Navbar End -->
+
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
@@ -409,82 +410,85 @@ surrounding areas. Contact us for efficient renovation and remodeling solutions.
 <div class="container-xxl py-5">
     <div class="container">
         <div class="text-center">
-            
-          <h5 class="display-5 mb-5"><span style="color: #1591ea;"><br><br>Our Services</span>
+            <h5 class="display-5 mb-5">
+                <span style="color: #1591ea;"><br><br>Our Services</span>
+            </h5>
         </div>
-        <!-- Increase gutter spacing between columns with g-4 -->
         <div class="row g-4 justify-content-center">
-          <div class="col-md-6 col-lg-2 wow fadeIn" data-wow-delay="0.1s">
-              <div class="service-item border h-100 p-3">
-                  <div class="btn-square bg-light rounded-circle mb-3 image-hover" style="width: 70px; height: 70px;">
-                      <a href="adu.blade.php">
-                          <img class="img-fluid" src="img/wephome/ezgif-2-117d8ed6c3.webp" alt="Icon" style="width: 70px; height: 70px;">
-                      </a>
-                  </div>
-                  <h5 class="mb-2">ADU</h5>
-                  <p class="mb-3">"Innovative ADU Design & Construction for Extra Space"</p>
-                  <div class="text-start">
-                      <a href="adu.blade.php" class="custom-btn">More</a>
-                  </div>
-              </div>
-          </div>
-          <div class="col-md-6 col-lg-2 wow fadeIn" data-wow-delay="0.3s">
-              <div class="service-item border h-100 p-3">
-                  <div class="btn-square bg-light rounded-circle mb-3 image-hover" style="width: 70px; height: 70px;">
-                      <a href="mdu.blade.php">
-                          <img class="img-fluid" src="img/wephome/ezgif-5-23356bdb13.webp" alt="Icon" style="width: 70px; height: 70px;">
-                      </a>
-                  </div>
-                  <h5 class="mb-2">MDU</h5>
-                  <p class="mb-3">"Efficient MDU Development for Modern Living Solutions"</p>
-                  <div class="text-start">
-                      <a href="mdu.blade.php" class="custom-btn">More</a>
-                  </div>
-              </div>
-          </div>
-          <div class="col-md-6 col-lg-2 wow fadeIn" data-wow-delay="0.5s">
-              <div class="service-item border h-100 p-3">
-                  <div class="btn-square bg-light rounded-circle mb-3 image-hover" style="width: 70px; height: 70px;">
-                      <a href="residential.blade.php">
-                          <img class="img-fluid" src="img/wephome/ezgif-5-613f01933b.webp" alt="Icon" style="width: 70px; height: 70px;">
-                      </a>
-                  </div>
-                  <h5 class="mb-2">Residential</h5>
-                  <p class="mb-3">"Residential Building & Remodeling Experts"</p>
-                  <div class="text-start">
-                      <a href="residential.blade.php" class="custom-btn">More</a>
-                  </div>
-              </div>
-          </div>
-          <div class="col-md-6 col-lg-2 wow fadeIn" data-wow-delay="0.7s">
-              <div class="service-item border h-100 p-3">
-                  <div class="btn-square bg-light rounded-circle mb-3 image-hover" style="width: 70px; height: 70px;">
-                      <a href="commercial.blade.php">
-                          <img class="img-fluid" src="img/Home icons/Commercial.webp" alt="Icon" style="width: 70px; height: 70px;">
-                      </a>
-                  </div>
-                  <h5 class="mb-2">Commercial</h5>
-                  <p class="mb-3">"Commercial Construction & Renovation Services"</p>
-                  <div class="text-start">
-                      <a href="commercial.blade.php" class="custom-btn">More</a>
-                  </div>
-              </div>
-          </div>
-          <div class="col-md-6 col-lg-2 wow fadeIn" data-wow-delay="0.9s">
-              <div class="service-item border h-100 p-3">
-                  <div class="btn-square bg-light rounded-circle mb-3 image-hover" style="width: 70px; height: 70px;">
-                      <a href="fence.blade.php">
-                          <img class="img-fluid" src="img/Home icons/fence-6148694-5024979.png" alt="Icon" style="width: 70px; height: 70px;">
-                      </a>
-                  </div>
-                  <h5 class="mb-2">Fence</h5>
-                  <p class="mb-3">"Reliable Fence Installation & Custom Design Solutions"</p>
-                  <div class="text-start">
-                      <a href="fence.blade.php" class="custom-btn">More</a>
-                  </div>
-              </div>
-          </div>
-      </div>
+            <div class="col-md-6 col-lg-2 wow fadeIn" data-wow-delay="0.1s">
+                <div class="service-item border h-100 p-3">
+                    <div class="btn-square bg-light rounded-circle mb-3 image-hover" style="width: 70px; height: 70px;">
+                        <a href="{{ route('adu') }}">
+                            <img class="img-fluid" src="img/wephome/ezgif-2-117d8ed6c3.webp" alt="Icon" style="width: 70px; height: 70px;">
+                        </a>
+                    </div>
+                    <h5 class="mb-2">ADU</h5>
+                    <p class="mb-3">"Innovative ADU Design & Construction for Extra Space"</p>
+                    <div class="text-start">
+                        <a href="{{ route('adu') }}" class="custom-btn">More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-2 wow fadeIn" data-wow-delay="0.3s">
+                <div class="service-item border h-100 p-3">
+                    <div class="btn-square bg-light rounded-circle mb-3 image-hover" style="width: 70px; height: 70px;">
+                        <a href="{{ route('mdu') }}">
+                            <img class="img-fluid" src="img/wephome/ezgif-5-23356bdb13.webp" alt="Icon" style="width: 70px; height: 70px;">
+                        </a>
+                    </div>
+                    <h5 class="mb-2">MDU</h5>
+                    <p class="mb-3">"Efficient MDU Development for Modern Living Solutions"</p>
+                    <div class="text-start">
+                        <a href="{{ route('mdu') }}" class="custom-btn">More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-2 wow fadeIn" data-wow-delay="0.5s">
+                <div class="service-item border h-100 p-3">
+                    <div class="btn-square bg-light rounded-circle mb-3 image-hover" style="width: 70px; height: 70px;">
+                        <a href="{{ route('residential') }}">
+                            <img class="img-fluid" src="img/wephome/ezgif-5-613f01933b.webp" alt="Icon" style="width: 70px; height: 70px;">
+                        </a>
+                    </div>
+                    <h5 class="mb-2">Residential</h5>
+                    <p class="mb-3">"Residential Building & Remodeling Experts"</p>
+                    <div class="text-start">
+                        <a href="{{ route('residential') }}" class="custom-btn">More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-2 wow fadeIn" data-wow-delay="0.7s">
+                <div class="service-item border h-100 p-3">
+                    <div class="btn-square bg-light rounded-circle mb-3 image-hover" style="width: 70px; height: 70px;">
+                        <a href="{{ route('commercial') }}">
+                            <img class="img-fluid" src="img/Home icons/Commercial.webp" alt="Icon" style="width: 70px; height: 70px;">
+                        </a>
+                    </div>
+                    <h5 class="mb-2">Commercial</h5>
+                    <p class="mb-3">"Commercial Construction & Renovation Services"</p>
+                    <div class="text-start">
+                        <a href="{{ route('commercial') }}" class="custom-btn">More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-2 wow fadeIn" data-wow-delay="0.9s">
+                <div class="service-item border h-100 p-3">
+                    <div class="btn-square bg-light rounded-circle mb-3 image-hover" style="width: 70px; height: 70px;">
+                        <a href="{{ route('fence') }}">
+                            <img class="img-fluid" src="img/Home icons/fence-6148694-5024979.png" alt="Icon" style="width: 70px; height: 70px;">
+                        </a>
+                    </div>
+                    <h5 class="mb-2">Fence</h5>
+                    <p class="mb-3">"Reliable Fence Installation & Custom Design Solutions"</p>
+                    <div class="text-start">
+                        <a href="{{ route('fence') }}" class="custom-btn">More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
       
       <style>
       .image-hover img {
@@ -664,81 +668,8 @@ surrounding areas. Contact us for efficient renovation and remodeling solutions.
 <!-- Quote Request End -->
 
 
-    <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-secondary footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-light mb-4">Address</h5>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>1662 north magnolia Ave El Cajon, ca 92020</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>(+1) 619-430-4313</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>cs@cresttel.net</p>
-                    <div class="d-flex pt-2">
-                        <a class="btn btn-square btn-facebook rounded-circle me-2" href="https://www.facebook.com/cresttelconstruction" target="_blank">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a class="btn btn-square btn-instagram rounded-circle me-2" href="https://www.instagram.com/cresttelconstruction/" target="_blank">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                        <a class="btn btn-square btn-youtube rounded-circle me-2" href="https://www.youtube.com/@Cresttel" target="_blank">
-                            <i class="fab fa-youtube"></i>
-                        </a>
-                    </div>
-<style>.btn-facebook {
-    background-color: #1877f2; /* Facebook Blue */
-    color: white;
-    border: none;
-}
-.btn-facebook:hover {
-    background-color: #145dbf;
-    color: white;
-}
-
-.btn-instagram {
-    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
-    color: white;
-    border: none;
-}
-.btn-instagram:hover {
-    background: linear-gradient(45deg, #e6683c, #f09433);
-    color: white;
-}
-
-.btn-youtube {
-    background-color: #ff0000; /* YouTube Red */
-    color: white;
-    border: none;
-}
-.btn-youtube:hover {
-    background-color: #cc0000;
-    color: white;
-}
-</style>                    
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-light mb-4">Services</h5>
-                    <a class="btn btn-link" href="adu.blade.php">ADU</a>
-                    <a class="btn btn-link" href="mdu.blade.php">MDU</a>
-                    <a class="btn btn-link" href="commercial.blade.php">Commercial</a>
-                    <a class="btn btn-link" href="fence.blade.php">Fence</a>
-                    <a class="btn btn-link" href="residential.blade.php">Residential</a>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-light mb-4">Quick Links</h5>
-                    <a class="btn btn-link" href="about.html">About Us</a>
-                    <a class="btn btn-link" href="contact.html">Contact Us</a>
-                    <a class="btn btn-link" href="service.html">Our Services</a>
-                    <a class="btn btn-link" href="BLOGS.html">Our Blogs</a>
-                    <a class="btn btn-link" href="project.blade.php">Projects</a>
-                </div>
-              
-                    
-                    </div>
-                </div>
-            </div>
-      
-    <!-- Footer End -->
-
+   
+@include('footer')
 
    <!-- Copyright Start -->
    <div class="container-fluid py-4" style="background: #000000;">

@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="canonical" href="https://cresttel.net/fence.blade.php">
+    <link rel="canonical" href="https://cresttel.net/{{ route('fence') }}">
     <meta charset="utf-8">
     <title>Fence Installation & Repair services in San Diego</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -45,6 +45,11 @@
 </head>
 
 <body>
+
+ <!-- Navbar Start -->
+ @include('navbar')
+    <!-- Navbar End -->
+
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
@@ -142,33 +147,11 @@
       </div>
   </div>
 
-   </body>
-   </html>
+  
     <!-- Topbar End -->
 
 
-    <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5">
-        <a href="index.html" class="navbar-brand d-flex align-items-center">
-           <h2 class="m-0" style="color: #1591ea;">Cresttel</h2>
-        </a>
-        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto py-4 py-lg-0">
-               <a href="{{ route('welcome') }}" class="nav-item nav-link active">Home</a>
-            <a href="{{ route('about') }}" class="nav-item nav-link">About</a>
-            <a href="{{ route('service') }}" class="nav-item nav-link">Service</a>
-            <a href="{{ route('project') }}" class="nav-item nav-link">Project</a>
-            <a href="{{ route('blogs') }}" class="nav-item nav-link">Blogs</a>
-            <a href="{{ route('contact') }}" class="nav-item nav-link">Contact</a>
-            </div>
-            
-        </div>
-    </nav>
-    <!-- Navbar End -->
-
+   
 
     <!-- Page Header Start -->
 <div class="container-fluid page-header py-5">
@@ -934,7 +917,7 @@ a {
 
             <hr>
 
-            <a href="fenceBlog1.blade.php" class="readmore stretched-link"><span></span></i></a>
+            <a href="{{ route('fenceBlog1') }}" class="readmore stretched-link"><span></span></i></a>
 
           </div>
 
@@ -965,7 +948,7 @@ a {
             </p>
 
             <hr>
-            <a href="fenceBlog2.blade.php" class="readmore stretched-link"><span></span></i></a>
+            <a href="{{ route('fenceBlog2') }}" class="readmore stretched-link"><span></span></i></a>
 
 
           </div>
@@ -997,7 +980,7 @@ a {
             </p>
 
             <hr>
-            <a href="fenceBlog3.blade.php" class="readmore stretched-link"><span></span></i></a>
+            <a href="{{ route('fenceBlog3') }}" class="readmore stretched-link"><span></span></i></a>
 
 
           </div>
@@ -1218,81 +1201,7 @@ a {
    
     
         
- <!-- Footer Start -->
- <div class="container-fluid bg-dark text-secondary footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
-  <div class="container py-5">
-      <div class="row g-5">
-          <div class="col-lg-3 col-md-6">
-              <h5 class="text-light mb-4">Address</h5>
-              <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>1662 north magnolia Ave El Cajon, ca 92020</p>
-              <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>(+1) 619-430-4313 </p>
-              <p class="mb-2"><i class="fa fa-envelope me-3"></i>cs@cresttel.net</p>
-             <div class="d-flex pt-2">
-                        <a class="btn btn-square btn-facebook rounded-circle me-2" href="https://www.facebook.com/cresttelconstruction" target="_blank">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a class="btn btn-square btn-instagram rounded-circle me-2" href="https://www.instagram.com/cresttelconstruction/" target="_blank">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                         <a class="btn btn-square btn-youtube rounded-circle me-2" href="https://www.youtube.com/@Cresttel" target="_blank">
-                            <i class="fab fa-youtube"></i>
-                        </a>
-                    </div>
-<style>.btn-facebook {
-    background-color: #1877f2; /* Facebook Blue */
-    color: white;
-    border: none;
-}
-.btn-facebook:hover {
-    background-color: #145dbf;
-    color: white;
-}
-
-.btn-instagram {
-    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
-    color: white;
-    border: none;
-}
-.btn-instagram:hover {
-    background: linear-gradient(45deg, #e6683c, #f09433);
-    color: white;
-}
-
-.btn-youtube {
-    background-color: #ff0000; /* YouTube Red */
-    color: white;
-    border: none;
-}
-.btn-youtube:hover {
-    background-color: #cc0000;
-    color: white;
-}
-</style>     
-          </div>
-          <div class="col-lg-3 col-md-6">
-                    <h5 class="text-light mb-4">Services</h5>
-                    <a class="btn btn-link" href="adu.blade.php">ADU</a>
-                    <a class="btn btn-link" href="mdu.blade.php">MDU</a>
-                    <a class="btn btn-link" href="commercial.blade.php">Commercial</a>
-                    <a class="btn btn-link" href="fence.blade.php">Fence</a>
-                    <a class="btn btn-link" href="residential.blade.php">Residential</a>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-light mb-4">Quick Links</h5>
-                    <a class="btn btn-link" href="about.html">About Us</a>
-                    <a class="btn btn-link" href="contact.html">Contact Us</a>
-                    <a class="btn btn-link" href="service.html">Our Services</a>
-                    <a class="btn btn-link" href="BLOGS.html">Our Blogs</a>
-                    <a class="btn btn-link" href="project.blade.php">Projects</a>
-                </div>
-        
-              
-              </div>
-          </div>
-      </div>
-  </div>
-</div>
-<!-- Footer End -->
+@include('footer')
 
 
 <!-- Copyright Start -->

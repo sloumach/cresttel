@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="canonical" href="https://cresttel.net/BLOGS.html">
+    <link rel="canonical" href="https://cresttel.net/{{ route('blogs') }}">
     <meta charset="utf-8">
     <title>Cresttel Blog | San Diego Construction News, Tips & Insights </title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -48,6 +48,13 @@
 </head>
 
 <body>
+
+
+
+ <!-- Navbar Start -->
+ @include('navbar')
+    <!-- Navbar End -->
+
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
@@ -148,32 +155,7 @@
     <!-- Topbar End -->
 
 
-  <!-- Navbar Start -->
-<nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5">
-  <a href="index.html" class="navbar-brand d-flex align-items-center">
-      <h2 class="m-0" style="color: #1591ea;">Cresttel</h2>
-  </a>
-  <!-- Toggler for Mobile -->
-  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-      <span class="navbar-toggler-icon"></span>
-  </button>
-  <!-- Navbar Links -->
-  <div class="navbar-collapse collapse" id="navbarCollapse">
-      <ul class="navbar-nav ms-auto py-4 py-lg-0">
-          <a href="{{ route('welcome') }}" class="nav-item nav-link active">Home</a>
-            <a href="{{ route('about') }}" class="nav-item nav-link">About</a>
-            <a href="{{ route('service') }}" class="nav-item nav-link">Service</a>
-            <a href="{{ route('project') }}" class="nav-item nav-link">Project</a>
-            <a href="{{ route('blogs') }}" class="nav-item nav-link">Blogs</a>
-            <a href="{{ route('contact') }}" class="nav-item nav-link">Contact</a>
-      </ul>
-      <!-- Close Button -->
-      <button type="button" class="navbar-close-btn d-lg-none">
-          <span>&times;</span>
-      </button>
-  </div>
-</nav>
-<!-- Navbar End -->
+ 
 
 
 <style>/* Hide close button on larger screens */
@@ -228,201 +210,7 @@
     
    
 
-	<section id="intro" class="scrollspy-section">
-		<div class="main-slider">
-			<div class="slider-item jarallax" data-speed="0.2">
-				<img  src="images/r2.jpg" alt="banner" class="jarallax-img">
-				<div class="banner-content">
-					<h2 style="color: #ffffff;" class="banner-title txt-fx">Modern Designs</h2>
-					<div class="btn-wrap">
-						<a href="project.blade.php" class="btn-with-line">View Project</a>
-					</div>
-				</div><!--banner-content-->
-			</div><!--slider-item-->
-
-			<div class="slider-item jarallax" data-speed="0.2">
-				<img src="images/NW Fields_0099 copy.jpg" alt="banner" class="jarallax-img">
-				<div class="banner-content">
-					<h2 style="color: #ffffff;" class="banner-title txt-fx">Clean & Minimal</h2>
-					<div class="btn-wrap">
-						<a href="project.blade.php" class="btn-with-line">View Project</a>
-					</div>
-				</div><!--banner-content-->
-			</div><!--slider-item-->
-
-			<div class="slider-item jarallax" data-speed="0.2">
-				<img src="images/main-banner3.jpg" alt="banner" class="jarallax-img">
-				<div class="banner-content">
-					<h2 style="color: #ffffff;" class="banner-title txt-fx">Personalize and Customize</h2>
-					<div class="btn-wrap">
-						<a href="project.blade.php" class="btn-with-line">View Project</a>
-					</div>
-				</div><!--banner-content-->
-			</div><!--slider-item-->
-		</div><!--slider-->
-
-		<div class="button-container">
-			<button class="prev slick-arrow">
-				<i class="icon icon-chevron-thin-left"></i>
-			</button>
-			<button class="next slick-arrow">
-				<i class="icon icon-chevron-thin-right"></i>
-			</button>
-		</div>
-	</section>
-
 	
-
-	<section id="portfolio" class="scrollspy-section bg-dark padding-large">
-		<div class="container">
-
-			<div class="row">
-				<div class="col-md-12">
-
-					<div class="section-header">
-						<div class="title">
-							<span>Some of Our Works</span>
-						</div>
-						<h2 class="section-title light">Our Portfolio</h2>
-					</div>
-				</div>
-			</div>
-
-			<div class="row">
-
-				<div id="filters" class="button-group d-flex flex-wrap gap-4 py-5" data-aos="fade-up">
-					<a href="#" class="btn btn-outline-light rounded-pill text-uppercase is-checked"
-						data-filter=".design">Design</a>
-					<a href="#" class="btn btn-outline-light rounded-pill text-uppercase"
-						data-filter=".interior">Interior</a>
-					<a href="#" class="btn btn-outline-light rounded-pill text-uppercase"
-						data-filter=".landscape">Landscape</a>
-					<a href="#" class="btn btn-outline-light rounded-pill text-uppercase"
-						data-filter=".construction">Construction</a>
-				</div>
-
-			</div>
-
-			<div class="grid p-0 clearfix row row-cols-2 row-cols-lg-3 row-cols-xl-3" data-aos="fade-up">
-				<div class="col mb-4 portfolio-item construction construction ">
-					<a href="images/modern cons/con6.jpg" class="image-link"
-						title="Cresttel Project1."><img src="images/modern cons/con6.jpg"
-							class="img-fluid" alt="portfolio"></a>
-				</div>
-				<div class="col mb-4 portfolio-item construction construction">
-					<a href="images/modern cons/con4.jpg" class="image-link"
-						title="Cresttel Project2."><img src="images/modern cons/con4.jpg"
-							class="img-fluid" alt="portfolio"></a>
-				</div>
-				<div class="col mb-4 portfolio-item construction">
-					<a href="images/modern cons/con3.jpg" class="image-link"
-						title="Cresttel Project3."><img src="images/modern cons/con3.jpg"
-							class="img-fluid" alt="portfolio"></a>
-				</div>
-				<div class="col mb-4 portfolio-item construction">
-					<a href="images/modern cons/con2.jpg" class="image-link"
-						title="Cresttel Projects 4"><img src="images/modern cons/con2.jpg"
-							class="img-fluid" alt="portfolio"></a>
-				</div>
-				<div class="col mb-4 portfolio-item interior">
-					<a href="images/modern interior/in2.jpg" class="image-link"
-						title="Cresttel Project5."><img src="images/modern interior/in2.jpg"
-							class="img-fluid" alt="portfolio"></a>
-				</div>
-				<div class="col mb-4 portfolio-item design">
-					<a href="images/modern design/d1.jpg" class="image-link"
-						title="Cresttel Project6."><img src="images/modern design/d1.jpg"
-							class="img-fluid" alt="portfolio"></a>
-				</div>
-				<div class="col mb-4 portfolio-item design">
-					<a href="images/modern design/d2.jpg" class="image-link"
-						title="Cresttel Project7."><img src="images/modern design/d2.jpg"
-							class="img-fluid" alt="portfolio"></a>
-				</div>
-				<div class="col mb-4 portfolio-item design">
-					<a href="images/modern design/d3.jpg" class="image-link"
-						title="Cresttel Project8."><img src="images/modern design/d3.jpg"
-							class="img-fluid" alt="portfolio"></a>
-				</div>
-				<div class="col mb-4 portfolio-item design">
-					<a href="images/modern design/d4.jpg" class="image-link"
-						title="Cresttel Project9."><img src="images/modern design/d4.jpg"
-							class="img-fluid" alt="portfolio"></a>
-				</div>
-				<div class="col mb-4 portfolio-item design">
-					<a href="images/modern design/d5.jpg" class="image-link"
-						title="Sample Caption goes here for Portfolio Item1 0."><img src="images/modern design/d5.jpg"
-							class="img-fluid" alt="portfolio"></a>
-				</div>
-				<div class="col mb-4 portfolio-item design">
-					<a href="images/modern design/d6.jpg" class="image-link"
-						title="Sample Caption goes here for Portfolio Item1 1."><img src="images/modern design/d6.jpg"
-							class="img-fluid" alt="portfolio"></a>
-				</div>
-				<div class="col mb-4 portfolio-item construction">
-					<a href="images/modern cons/con1.jpg" class="image-link"
-						title="Sample Caption goes here for Portfolio Item1 2."><img src="images/modern cons/con1.jpg"
-							class="img-fluid" alt="portfolio"></a>
-				</div>
-				<div class="col mb-4 portfolio-item interior">
-					<a href="images/modern interior/in3.jpg" class="image-link"
-						title="Cresttel Project1."><img src="images/modern interior/in3.jpg"
-							class="img-fluid" alt="portfolio"></a>
-				</div>
-				<div class="col mb-4 portfolio-item landscape">
-					<a href="images/modern landscape/lan6.jpg" class="image-link"
-						title="Cresttel Project2."><img src="images/modern landscape/lan6.jpg"
-							class="img-fluid" alt="portfolio"></a>
-				</div>
-				<div class="col mb-4 portfolio-item landscape">
-					<a href="images/modern landscape/lan5.jpg" class="image-link"
-						title="Cresttel Project3."><img src="images/modern landscape/lan5.jpg"
-							class="img-fluid" alt="portfolio"></a>
-				</div>
-				<div class="col mb-4 portfolio-item interior">
-					<a href="images/modern interior/in4.jpg" class="image-link"
-						title="Cresttel Projects"><img src="images/modern interior/in4.jpg"
-							class="img-fluid" alt="portfolio"></a>
-				</div>
-				<div class="col mb-4 portfolio-item interior">
-					<a href="images/modern interior/in5.jpg" class="image-link"
-						title="Cresttel Project5."><img src="images/modern interior/in5.jpg"
-							class="img-fluid" alt="portfolio"></a>
-				</div>
-				<div class="col mb-4 portfolio-item interior">
-					<a href="images/modern interior/in6.jpg" class="image-link"
-						title="Cresttel Project6."><img src="images/modern interior/in6.jpg"
-							class="img-fluid" alt="portfolio"></a>
-				</div>
-				<div class="col mb-4 portfolio-item landscape">
-					<a href="images/modern landscape/lan1.jpg" class="image-link"
-						title="Cresttel Project7."><img src="images/modern landscape/lan1.jpg"
-							class="img-fluid" alt="portfolio"></a>
-				</div>
-				<div class="col mb-4 portfolio-item landscape">
-					<a href="images/modern landscape/lan2.jpg" class="image-link"
-						title="Cresttel Project8."><img src="images/modern landscape/lan2.jpg"
-							class="img-fluid" alt="portfolio"></a>
-				</div>
-				<div class="col mb-4 portfolio-item landscape">
-					<a href="images/modern landscape/lan3.jpg" class="image-link"
-						title="Sample Caption goes here for Portfolio Item1 0."><img src="images/modern landscape/lan3.jpg"
-							class="img-fluid" alt="portfolio"></a>
-				</div>
-				<div class="col mb-4 portfolio-item construction">
-					<a href="images/modern cons/con5.jpg" class="image-link"
-						title="Sample Caption goes here for Portfolio Item1 1."><img src="images/modern cons/con5.jpg"
-							class="img-fluid" alt="portfolio"></a>
-				</div>
-				<div class="col mb-4 portfolio-item landscape">
-					<a href="images/modern landscape/lan4.jpg" class="image-link"
-						title="Sample Caption goes here for Portfolio Item1 2."><img src="images/modern landscape/lan4.jpg"
-							class="img-fluid" alt="portfolio"></a>
-				</div>
-			</div>
-
-		</div>
-	</section>
 
 	<section id="latest-blog" class="scrollspy-section bg-grey padding-large">
 		<div class="container">
@@ -452,13 +240,13 @@
 								<article class="post-item">
 
 									<figure>
-										<a href="aduBlog1.blade.php" class="image-hvr-effect">
+										<a href="{{ route('aduBlog1') }}" class="image-hvr-effect">
 											<img src="images/ADU1.jpg" alt="post" class="post-image">
 										</a>
 									</figure>
 
 									<div class="post-content">
-										<h3 class="post-title"><a href="aduBlog1.blade.php">How an Accessory Dwelling Unit Can Add Value to Your Property?</a></h3>
+										<h3 class="post-title"><a href="{{ route('aduBlog1') }}">How an Accessory Dwelling Unit Can Add Value to Your Property?</a></h3>
 										
 									</div>
 								</article>
@@ -469,12 +257,12 @@
 
 								<article class="post-item">
 									<figure>
-										<a href="aduBlog2.blade.php" class="image-hvr-effect">
+										<a href="{{ route('aduBlog2') }}" class="image-hvr-effect">
 											<img src="images/ADU2.jpg" alt="post" class="post-image">
 										</a>
 									</figure>
 									<div class="post-content">
-										<h3 class="post-title"><a href="aduBlog2.blade.php">Top 5 Benefits of Building an ADU on Your Property</a></h3>
+										<h3 class="post-title"><a href="{{ route('aduBlog2') }}">Top 5 Benefits of Building an ADU on Your Property</a></h3>
 										
 									</div>
 								</article>
@@ -483,12 +271,12 @@
 							<div class="col-md-4">
 								<article class="post-item">
 									<figure>
-										<a href="aduBlog3.blade.php" class="image-hvr-effect">
+										<a href="{{ route('aduBlog3') }}" class="image-hvr-effect">
 											<img src="images/ADU3.jpg" alt="post" class="post-image">
 										</a>
 									</figure>
 									<div class="post-content">
-										<h3 class="post-title"><a href="aduBlog3.blade.php">Best Accessory Dwelling Unit - ADU Features to Consider</a></h3>
+										<h3 class="post-title"><a href="{{ route('aduBlog3') }}">Best Accessory Dwelling Unit - ADU Features to Consider</a></h3>
 										
 									</div>
 								</article>
@@ -540,13 +328,13 @@
 								<article class="post-item">
 
 									<figure>
-										<a href="mduBlog1.blade.php" class="image-hvr-effect">
+										<a href="{{ route('mduBlog1') }}" class="image-hvr-effect">
 											<img src="images/MDU1.jpg" alt="post" class="post-image">
 										</a>
 									</figure>
 
 									<div class="post-content">
-										<h3 class="post-title"><a href="mduBlog1.blade.php">What Are MDUs and Why Are They Important?</a></h3>
+										<h3 class="post-title"><a href="{{ route('mduBlog1') }}">What Are MDUs and Why Are They Important?</a></h3>
 										
 									</div>
 								</article>
@@ -557,12 +345,12 @@
 
 								<article class="post-item">
 									<figure>
-										<a href="mduBlog2.blade.php" class="image-hvr-effect">
+										<a href="{{ route('mduBlog2') }}" class="image-hvr-effect">
 											<img src="images/MDU2.jpg" alt="post" class="post-image">
 										</a>
 									</figure>
 									<div class="post-content">
-										<h3 class="post-title"><a href="mduBlog2.blade.php">The Future of MDUs: Innovations and Emerging Trends
+										<h3 class="post-title"><a href="{{ route('mduBlog2') }}">The Future of MDUs: Innovations and Emerging Trends
                                         </a></h3>
 										
 									</div>
@@ -572,12 +360,12 @@
 							<div class="col-md-4">
 								<article class="post-item">
 									<figure>
-										<a href="mduBlog3.blade.php" class="image-hvr-effect">
+										<a href="{{ route('mduBlog3') }}" class="image-hvr-effect">
 											<img src="images/MDU3.jpg" alt="post" class="post-image">
 										</a>
 									</figure>
 									<div class="post-content">
-										<h3 class="post-title"><a href="mduBlog3.blade.php">Understanding the Different Types of Multi-Dwelling Units: Which One Is Right for You?</a></h3>
+										<h3 class="post-title"><a href="{{ route('mduBlog3') }}">Understanding the Different Types of Multi-Dwelling Units: Which One Is Right for You?</a></h3>
 										
 									</div>
 								</article>
@@ -629,13 +417,13 @@
 								<article class="post-item">
 
 									<figure>
-										<a href="fenceBlog1.blade.php" class="image-hvr-effect">
+										<a href="{{ route('fenceBlog1') }}" class="image-hvr-effect">
 											<img src="images/F1.jpg" alt="post" class="post-image">
 										</a>
 									</figure>
 
 									<div class="post-content">
-										<h3 class="post-title"><a href="fenceBlog1.blade.php">Choosing the Perfect Fence for Your Home: A Comprehensive Guide</a></h3>
+										<h3 class="post-title"><a href="{{ route('fenceBlog1') }}">Choosing the Perfect Fence for Your Home: A Comprehensive Guide</a></h3>
 										
 									</div>
 								</article>
@@ -646,12 +434,12 @@
 
 								<article class="post-item">
 									<figure>
-										<a href="fenceBlog2.blade.php" class="image-hvr-effect">
+										<a href="{{ route('fenceBlog2') }}" class="image-hvr-effect">
 											<img src="images/F2.jpg" alt="post" class="post-image">
 										</a>
 									</figure>
 									<div class="post-content">
-										<h3 class="post-title"><a href="fenceBlog2.blade.php">Top 5 Benefits of Building a Fence</a></h3>
+										<h3 class="post-title"><a href="{{ route('fenceBlog2') }}">Top 5 Benefits of Building a Fence</a></h3>
 										
 									</div>
 								</article>
@@ -660,12 +448,12 @@
 							<div class="col-md-4">
 								<article class="post-item">
 									<figure>
-										<a href="fenceBlog3.blade.php" class="image-hvr-effect">
+										<a href="{{ route('fenceBlog3') }}" class="image-hvr-effect">
 											<img src="images/F3.jpg" alt="post" class="post-image">
 										</a>
 									</figure>
 									<div class="post-content">
-										<h3 class="post-title"><a href="fenceBlog3.blade.php">How to Build a Proper Fence: A Comprehensive Guide</a></h3>
+										<h3 class="post-title"><a href="{{ route('fenceBlog3') }}">How to Build a Proper Fence: A Comprehensive Guide</a></h3>
 										
 									</div>
 								</article>
@@ -717,13 +505,13 @@
 								<article class="post-item">
 
 									<figure>
-										<a href="commercialBlog1.blade.php" class="image-hvr-effect">
+										<a href=" {{ route('commercialBlog1') }} " class="image-hvr-effect">
 											<img src="images/comm1.jpg" alt="post" class="post-image">
 										</a>
 									</figure>
 
 									<div class="post-content">
-										<h3 class="post-title"><a href="commercialBlog1.blade.php">The Benefits of Commercial Remodeling</a></h3>
+										<h3 class="post-title"><a href="{{ route('commercialBlog1') }}">The Benefits of Commercial Remodeling</a></h3>
 										
 									</div>
 								</article>
@@ -734,12 +522,12 @@
 
 								<article class="post-item">
 									<figure>
-										<a href="commercialBlog2.blade.php" class="image-hvr-effect">
+										<a href="{{ route('commercialBlog2') }}" class="image-hvr-effect">
 											<img src="images/comm2.jpg" alt="post" class="post-image">
 										</a>
 									</figure>
 									<div class="post-content">
-										<h3 class="post-title"><a href="commercialBlog2.blade.php">The Importance of Regular Maintenance for Commercial Properties</a></h3>
+										<h3 class="post-title"><a href="{{ route('commercialBlog2') }}">The Importance of Regular Maintenance for Commercial Properties</a></h3>
 										
 									</div>
 								</article>
@@ -748,12 +536,12 @@
 							<div class="col-md-4">
 								<article class="post-item">
 									<figure>
-										<a href="commercialBlog3.blade.php" class="image-hvr-effect">
+										<a href="{{ route('commercialBlog3') }}" class="image-hvr-effect">
 											<img src="images/comm3.jpg" alt="post" class="post-image">
 										</a>
 									</figure>
 									<div class="post-content">
-										<h3 class="post-title"><a href="commercialBlog3.blade.php">Choosing the Right Contractor for Commercial Renovations</a></h3>
+										<h3 class="post-title"><a href="{{ route('commercialBlog3') }}">Choosing the Right Contractor for Commercial Renovations</a></h3>
 										
 									</div>
 								</article>
@@ -805,13 +593,13 @@
 								<article class="post-item">
 
 									<figure>
-										<a href="residentialBlog1.blade.php" class="image-hvr-effect">
+										<a href="{{ route('residentialBlog1') }}" class="image-hvr-effect">
 											<img src="images/Resi1.jpg" alt="post" class="post-image">
 										</a>
 									</figure>
 
 									<div class="post-content">
-										<h3 class="post-title"><a href="residentialBlog1.blade.php">The Importance of Regular Home Maintenance</a></h3>
+										<h3 class="post-title"><a href="{{ route('residentialBlog1') }}">The Importance of Regular Home Maintenance</a></h3>
 										
 									</div>
 								</article>
@@ -822,12 +610,12 @@
 
 								<article class="post-item">
 									<figure>
-										<a href="residentialBlog2.blade.php" class="image-hvr-effect">
+										<a href="{{ route('residentialBlog2') }}" class="image-hvr-effect">
 											<img src="images/Resi2.jpg" alt="post" class="post-image">
 										</a>
 									</figure>
 									<div class="post-content">
-										<h3 class="post-title"><a href="residentialBlog2.blade.php">Top 5 Home Renovation Trends for 2024</a></h3>
+										<h3 class="post-title"><a href="{{ route('residentialBlog2') }}">Top 5 Home Renovation Trends for 2024</a></h3>
 									
 									</div>
 								</article>
@@ -836,12 +624,12 @@
 							<div class="col-md-4">
 								<article class="post-item">
 									<figure>
-										<a href="residentialBlog3.blade.php" class="image-hvr-effect">
+										<a href="{{ route('residentialBlog3') }}" class="image-hvr-effect">
 											<img src="images/Resi3.jpg" alt="post" class="post-image">
 										</a>
 									</figure>
 									<div class="post-content">
-										<h3 class="post-title"><a href="residentialBlog3.blade.php">How to Choose the Right Flooring for Your Home?</a></h3>
+										<h3 class="post-title"><a href="{{ route('residentialBlog3') }}">How to Choose the Right Flooring for Your Home?</a></h3>
 										
 									</div>
 								</article>
@@ -2991,77 +2779,8 @@ scrollToTop.addEventListener("click", () => {
         }
     });
     </script>
-     <!-- Footer Start -->
-     <div class="container-fluid bg-dark text-secondary footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-light mb-4">Address</h5>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>1662 north magnolia Ave El Cajon, ca 92020</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>(+1) 619-430-4313 </p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>cs@cresttel.net</p>
-                    <div class="d-flex pt-2">
-                        <a class="btn btn-square btn-facebook rounded-circle me-2" href="https://www.facebook.com/cresttelconstruction" target="_blank">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a class="btn btn-square btn-instagram rounded-circle me-2" href="https://www.instagram.com/cresttelconstruction/" target="_blank">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                         <a class="btn btn-square btn-youtube rounded-circle me-2" href="https://www.youtube.com/@Cresttel" target="_blank">
-                            <i class="fab fa-youtube"></i>
-                        </a>
-                    </div>
-<style>.btn-facebook {
-    background-color: #1877f2; /* Facebook Blue */
-    color: white;
-    border: none;
-}
-.btn-facebook:hover {
-    background-color: #145dbf;
-    color: white;
-}
-
-.btn-instagram {
-    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
-    color: white;
-    border: none;
-}
-.btn-instagram:hover {
-    background: linear-gradient(45deg, #e6683c, #f09433);
-    color: white;
-}
-
-.btn-youtube {
-    background-color: #ff0000; /* YouTube Red */
-    color: white;
-    border: none;
-}
-.btn-youtube:hover {
-    background-color: #cc0000;
-    color: white;
-}
-</style>     
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-light mb-4">Services</h5>
-                    <a class="btn btn-link" href="adu.blade.php">ADU</a>
-                    <a class="btn btn-link" href="mdu.blade.php">MDU</a>
-                    <a class="btn btn-link" href="commercial.blade.php">Commercial</a>
-                    <a class="btn btn-link" href="fence.blade.php">Fence</a>
-                    <a class="btn btn-link" href="residential.blade.php">Residential</a>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-light mb-4">Quick Links</h5>
-                    <a class="btn btn-link" href="about.html">About Us</a>
-                    <a class="btn btn-link" href="contact.html">Contact Us</a>
-                    <a class="btn btn-link" href="service.html">Our Services</a>
-                    <a class="btn btn-link" href="BLOGS.html">Our Blogs</a>
-                    <a class="btn btn-link" href="project.blade.php">Projects</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Footer End -->
+    
+@include('footer')
 
 
     <!-- Copyright Start -->
