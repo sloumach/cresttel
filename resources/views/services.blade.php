@@ -455,7 +455,7 @@
                     services. We offer a wide range of fencing options, including wood, vinyl, and metal, tailored to
                     your specific requirements.
                 </p>
-                <button class="link-button"><a href="{{ route('fence') }}" target="_blank">Learn More</a></button>
+                <button class="link-button"><a href="{{ route('fence') }}" >Learn More</a></button>
             </div>
         </div>
         <div class="item">
@@ -469,7 +469,7 @@
                     services. Our expert team specializes in creating custom-built ADUs that blend seamlessly with your
                     existing property.
                 </p>
-                <button class="link-button"><a href="{{ route('adu') }}" target="_blank">Learn More</a></button>
+                <button class="link-button"><a href="{{ route('adu') }}" >Learn More</a></button>
             </div>
         </div>
         <div class="item">
@@ -483,7 +483,7 @@
                     team delivers efficient and high-quality construction solutions for office buildings, retail spaces,
                     and industrial facilities.
                 </p>
-                <button class="link-button"><a href="{{ route('commercial') }}" target="_blank">Learn More</a></button>
+                <button class="link-button"><a href="{{ route('commercial') }}" >Learn More</a></button>
             </div>
         </div>
         <div class="item">
@@ -497,7 +497,7 @@
                     expert team ensures quality and efficiency in building apartments, condominiums, and townhouses,
                     meeting all your construction needs.
                 </p>
-                <button class="link-button"><a href="{{ route('mdu') }}" target="_blank">Learn More</a></button>
+                <button class="link-button"><a href="{{ route('mdu') }}" >Learn More</a></button>
             </div>
         </div>
 
@@ -512,7 +512,7 @@
                     builds to renovations, our skilled team provides exceptional craftsmanship and personalized service
                     to create homes that reflect your style and needs.
                 </p>
-                <button class="link-button"><a href="{{ route('residential') }}" target="_blank">Learn More</a></button>
+                <button class="link-button"><a href="{{ route('residential') }}" >Learn More</a></button>
             </div>
         </div>
     </div>

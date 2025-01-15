@@ -257,7 +257,7 @@
                                     and commercial properties
 
                                 </p>
-                                <a href="project.blade.php"
+                                <a href="{{ route('projet') }}"
                                     class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft"><span
                                         style="color: rgb(255, 255, 255);">View Projects</span></a>
 
@@ -458,7 +458,7 @@
                         <h5 class="mb-2">ADU</h5>
                         <p class="mb-3">"Innovative ADU Design & Construction for Extra Space"</p>
                         <div class="text-start">
-                            <a href="adu.blade.php" class="custom-btn">More</a>
+                            <a href="{{ route('adu') }}" class="custom-btn">More</a>
                         </div>
                     </div>
                 </div>
@@ -474,7 +474,7 @@
                         <h5 class="mb-2">MDU</h5>
                         <p class="mb-3">"Efficient MDU Development for Modern Living Solutions"</p>
                         <div class="text-start">
-                            <a href="mdu.blade.php" class="custom-btn">More</a>
+                            <a href="{{ route('mdu') }}" class="custom-btn">More</a>
                         </div>
                     </div>
                 </div>
@@ -490,7 +490,7 @@
                         <h5 class="mb-2">Residential</h5>
                         <p class="mb-3">"Residential Building & Remodeling Experts"</p>
                         <div class="text-start">
-                            <a href="residential.blade.php" class="custom-btn">More</a>
+                            <a href="{{ route('residential') }}" class="custom-btn">More</a>
                         </div>
                     </div>
                 </div>
@@ -506,7 +506,7 @@
                         <h5 class="mb-2">Commercial</h5>
                         <p class="mb-3">"Commercial Construction & Renovation Services"</p>
                         <div class="text-start">
-                            <a href="commercial.blade.php" class="custom-btn">More</a>
+                            <a href="{{ route('commercial') }}" class="custom-btn">More</a>
                         </div>
                     </div>
                 </div>
@@ -522,7 +522,7 @@
                         <h5 class="mb-2">Fence</h5>
                         <p class="mb-3">"Reliable Fence Installation & Custom Design Solutions"</p>
                         <div class="text-start">
-                            <a href="fence.blade.php" class="custom-btn">More</a>
+                            <a href="{{ route('fence') }}" class="custom-btn">More</a>
                         </div>
                     </div>
                 </div>

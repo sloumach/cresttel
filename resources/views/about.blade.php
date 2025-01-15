@@ -720,7 +720,7 @@
                                 </div>
                             </div>
                         </div>
-                        <a href="service.html" class="btn btn-primary rounded-pill py-3 px-5">Explore More</a>
+                        <a href="{{ route('service') }}" class="btn btn-primary rounded-pill py-3 px-5">Explore More</a>
                     </div>
                 </div>
             </div>
