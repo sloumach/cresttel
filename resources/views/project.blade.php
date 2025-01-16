@@ -35,6 +35,8 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/project.css" rel="stylesheet">
+
     <link rel="icon" href="img/icon/Cresttel-icon.png" type="image/x-icon">
     <!-- or for PNG files -->
     <link rel="icon" href="img/icon/Cresttel-icon.png" type="image/png">
@@ -42,6 +44,13 @@
 </head>
 
 <body>
+
+
+<!-- Navbar Start -->
+@include('navbar')
+<!-- Navbar End -->
+
+
     <!-- Spinner Start -->
     <div id="spinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
@@ -52,62 +61,7 @@
     <!-- Spinner End -->
 
 
-    <!-- Topbar Start -->
-    <style>
-        .icon-container {
-            display: flex;
-            justify-content: space-around;
-            background-color: #1c1c1c;
-            /* Match your website's background */
-            padding: 20px;
-            flex-wrap: wrap;
-            /* Allow wrapping for smaller screens */
-        }
-
-        .icon-wrapper {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            color: #1591ea;
-            flex: 1;
-            /* Allow even spacing */
-            min-width: 250px;
-            /* Prevent collapsing too much on smaller screens */
-        }
-
-        .icon {
-            width: 24px;
-            height: 24px;
-            display: inline-block;
-        }
-
-        .text {
-            font-family: Arial, sans-serif;
-            color: #ffffff;
-            /* Adjust text color */
-            font-size: 14px;
-            /* Adjust text size for smaller screens */
-        }
-
-        /* Responsive styles for smaller screens */
-        @media (max-width: 768px) {
-            .icon-container {
-                flex-direction: column;
-                align-items: center;
-                /* Center items */
-            }
-
-            .icon-wrapper {
-                justify-content: center;
-                text-align: center;
-            }
-
-            .text {
-                font-size: 12px;
-                /* Slightly smaller text */
-            }
-        }
-    </style>
+    
 
     <div class="icon-container">
         <!-- Location Icon -->
@@ -149,15 +103,8 @@
 
     </div>
     </div>
-</body>
 
-</html>
 <!-- Topbar End -->
-
-
-<!-- Navbar Start -->
-@include('navbar')
-<!-- Navbar End -->
 
 
 
@@ -165,6 +112,97 @@
 
 <!-- Projects Start -->
 <!-- partial:index.partial.html -->
+
+
+<!-- About Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                <div class="about-img">
+                    <img class="img-fluid" src="img2/about-2.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                <h4 class="section-title">About Us</h4>
+                <h1 class="display-5 mb-4">A Creative Construction Company For Your Dream Buildings</h1>
+                <p style="color: #1c1c1c;">At Cresttel, we don’t just build structures; we create environments that
+                    inspire, protect, and elevate the way people live and work. Our journey begins with a vision—a
+                    commitment to delivering excellence in every project, no matter the scale or complexity. From
+                    Accessory Dwelling Units (ADUs) to Multi-Dwelling Units (MDUs), from commercial properties to
+                    residential developments, and even fencing solutions, we bring expertise and innovation to every
+                    venture we undertake.</p>
+                <div class="d-flex align-items-center mb-5">
+                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center border border-5 border-primary"
+                        style="width: 120px; height: 120px;">
+                        <h2 class="display-1 mb-n2" data-toggle="counter-up">25</h2>
+                    </div>
+                    <div class="ps-4">
+                        <h3>Years</h3>
+                        <h3>Working</h3>
+                        <h3 class="mb-0">Experience and + </h3>
+                    </div>
+                </div>
+                <a class="btn btn-primary py-3 px-5" href="{{ route('blogs') }}">Read More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About End -->
+
+<!-- Facts Start -->
+<div class="container-xxl py-5">
+    <div class="container pt-5">
+        <div class="row g-4">
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="fact-item text-center bg-light h-100 p-5 pt-0">
+                    <div class="fact-icon">
+                        <img src="img2/design_4x.jpg.png" alt="Icon">
+                    </div>
+                    <h3 class="mb-3">Designing</h3>
+                    <p style="color: #1c1c1c;" class="mb-0">At Cresttel, we believe that the foundation of any
+                        successful construction project lies in meticulous planning and innovative design. Our team of
+                        architects and engineers work collaboratively to create detailed plans and blueprints that align
+                        with your vision. We focus on selecting the best materials and ensuring that our designs meet
+                        all regulatory and safety standards. Our goal is to deliver a functional, aesthetically
+                        pleasing, and sustainable design that exceeds your expectations.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="fact-item text-center bg-light h-100 p-5 pt-0">
+                    <div class="fact-icon">
+                        <img src="img2/OIP.jpg.png" alt="Icon">
+                    </div>
+                    <h3 class="mb-3">Renovation Solutions</h3>
+                    <p style="color: #1c1c1c;" class="mb-0">Renovation is about breathing new life into existing
+                        structures. Whether it's a minor cosmetic update or a major structural overhaul, Cresttel is
+                        here to help. Our renovation process includes demolishing outdated elements, repairing or
+                        replacing damaged components, and installing new features to enhance the functionality and
+                        appearance of your property. We aim to preserve the original character of the building while
+                        adding modern touches that increase its value and appeal.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="fact-item text-center bg-light h-100 p-5 pt-0">
+                    <div class="fact-icon">
+                        <img src="img2/maintenance-3d-icon-illustrations-png.png" alt="Icon">
+                    </div>
+                    <h3 class="mb-3">Maintenance</h3>
+                    <p style="color: #1c1c1c;" class="mb-0">Maintenance is crucial for the longevity and safety of
+                        any building. At Cresttel, we offer comprehensive maintenance services to keep your property in
+                        top condition. Our team conducts regular inspections, performs necessary repairs, and services
+                        essential systems such as plumbing, electrical, and HVAC. Effective maintenance prevents costly
+                        repairs and ensures a safe and comfortable environment for all occupants.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Facts End -->
+
+
+
+
 
 
 <section class="slider">
@@ -251,97 +289,6 @@
     </div>
 </section>
 </main>
-
-<!-- Facts Start -->
-<div class="container-xxl py-5">
-    <div class="container pt-5">
-        <div class="row g-4">
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="fact-item text-center bg-light h-100 p-5 pt-0">
-                    <div class="fact-icon">
-                        <img src="img2/design_4x.jpg.png" alt="Icon">
-                    </div>
-                    <h3 class="mb-3">Designing</h3>
-                    <p style="color: #1c1c1c;" class="mb-0">At Cresttel, we believe that the foundation of any
-                        successful construction project lies in meticulous planning and innovative design. Our team of
-                        architects and engineers work collaboratively to create detailed plans and blueprints that align
-                        with your vision. We focus on selecting the best materials and ensuring that our designs meet
-                        all regulatory and safety standards. Our goal is to deliver a functional, aesthetically
-                        pleasing, and sustainable design that exceeds your expectations.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="fact-item text-center bg-light h-100 p-5 pt-0">
-                    <div class="fact-icon">
-                        <img src="img2/OIP.jpg.png" alt="Icon">
-                    </div>
-                    <h3 class="mb-3">Renovation Solutions</h3>
-                    <p style="color: #1c1c1c;" class="mb-0">Renovation is about breathing new life into existing
-                        structures. Whether it's a minor cosmetic update or a major structural overhaul, Cresttel is
-                        here to help. Our renovation process includes demolishing outdated elements, repairing or
-                        replacing damaged components, and installing new features to enhance the functionality and
-                        appearance of your property. We aim to preserve the original character of the building while
-                        adding modern touches that increase its value and appeal.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="fact-item text-center bg-light h-100 p-5 pt-0">
-                    <div class="fact-icon">
-                        <img src="img2/maintenance-3d-icon-illustrations-png.png" alt="Icon">
-                    </div>
-                    <h3 class="mb-3">Maintenance</h3>
-                    <p style="color: #1c1c1c;" class="mb-0">Maintenance is crucial for the longevity and safety of
-                        any building. At Cresttel, we offer comprehensive maintenance services to keep your property in
-                        top condition. Our team conducts regular inspections, performs necessary repairs, and services
-                        essential systems such as plumbing, electrical, and HVAC. Effective maintenance prevents costly
-                        repairs and ensures a safe and comfortable environment for all occupants.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Facts End -->
-
-
-<!-- About Start -->
-<div class="container-xxl py-5">
-    <div class="container">
-        <div class="row g-5">
-            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                <div class="about-img">
-                    <img class="img-fluid" src="img2/about-2.jpg" alt="">
-                </div>
-            </div>
-            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                <h4 class="section-title">About Us</h4>
-                <h1 class="display-5 mb-4">A Creative Construction Company For Your Dream Buildings</h1>
-                <p style="color: #1c1c1c;">At Cresttel, we don’t just build structures; we create environments that
-                    inspire, protect, and elevate the way people live and work. Our journey begins with a vision—a
-                    commitment to delivering excellence in every project, no matter the scale or complexity. From
-                    Accessory Dwelling Units (ADUs) to Multi-Dwelling Units (MDUs), from commercial properties to
-                    residential developments, and even fencing solutions, we bring expertise and innovation to every
-                    venture we undertake.</p>
-                <div class="d-flex align-items-center mb-5">
-                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center border border-5 border-primary"
-                        style="width: 120px; height: 120px;">
-                        <h2 class="display-1 mb-n2" data-toggle="counter-up">25</h2>
-                    </div>
-                    <div class="ps-4">
-                        <h3>Years</h3>
-                        <h3>Working</h3>
-                        <h3 class="mb-0">Experience and + </h3>
-                    </div>
-                </div>
-                <a class="btn btn-primary py-3 px-5" href="{{ route('blogs') }}">Read More</a>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- About End -->
-
-
-
-
 
 <!-- Feature Start -->
 <div class="container-xxl py-5">
@@ -569,6 +516,84 @@
 <!-- Project End -->
 
 </div>
+
+<!-- Projects End -->
+
+
+<!-- Footer Start -->
+@include('footer')
+<!-- Footer End -->
+
+
+<!-- Copyright Start -->
+<div class="container-fluid py-4" style="background: #000000;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                &copy; <a class="border-bottom" href="#"><span
+                        style="color: rgb(255, 255, 255);">Cresttel</span></a>,
+                <span style="color: #1591ea;">All Right Reserved</span>.
+            </div>
+
+            <div class="col-md-6 text-center text-md-end">
+
+                <span style="color: #1591ea;">Distributed By</span>. <a class="border-bottom"
+                    href="https://nicheknights.com/"><span style="color: rgb(255, 255, 255);">Nicheknights</span></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Copyright End -->
+
+
+<!-- Back to Top -->
+<!-- Scroll to Top Button -->
+<div id="scrollToTop">
+    <i class="fas fa-arrow-up"></i>
+</div>
+
+  
+<
+
+<div id="expandable-bubble">
+    <div class="primary-bubble" onclick="toggleSocialIcons()">
+        <span class="flashing-text">Contact Us</span>
+    </div>
+    <div class="social-icons">
+
+        <a href="https://www.facebook.com/cresttelconstruction" target="_blank" class="icon facebook"
+            title="Facebook">
+            <img src="img/Home icons/3d-render-facebook-logo-icon-with-new-notification-isolated-on-transparent-background-free-png.png"
+                alt="Facebook" />
+        </a>
+        <a href="https://www.instagram.com/cresttelconstruction/" target="_blank" class="icon instagram"
+            title="Instagram">
+            <img src="img/Home icons/instagram-logo-3d-illustration-free-png.png" alt="Instagram" />
+        </a>
+        <a href="https://www.linkedin.com/company/cresttelconstruction" target="_blank" class="icon linkedin"
+            title="LinkedIn">
+            <img src="img/Home icons/linkedin-3d-icon-free-png.png" alt="LinkedIn" />
+        </a>
+    </div>
+</div>
+
+</body>
+
+<!-- JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="{{ asset('lib/wow/wow.min.js') }}"></script>
+<script src="{{ asset('lib/easing/easing.min.js') }}"></script>
+<script src="{{ asset('lib/waypoints/waypoints.min.js') }}"></script>
+<script src="{{ asset('lib/counterup/counterup.min.js') }}"></script>
+<script src="{{ asset('lib/owlcarousel/owl.carousel.min.js') }}"></script>
+<script src="{{ asset('lib/isotope/isotope.pkgd.min.js') }}"></script>
+<script src="{{ asset('lib/lightbox/js/lightbox.min.js') }}"></script>
+<script src="{{ asset('js/main.js') }}"></script>
+<script src="{{ asset('js/bublle.js') }}"></script>
+<script src="{{ asset('js/project.js') }}"></script>
+
+</html>
 <script>
     let items = document.querySelectorAll('.slider .list .item');
     let prevBtn = document.getElementById('prev');
@@ -918,354 +943,3 @@
         }
     }
 </style>
-<!-- Projects End -->
-
-
-<!-- Footer Start -->
-@include('footer')
-<!-- Footer End -->
-
-
-<!-- Copyright Start -->
-<div class="container-fluid py-4" style="background: #000000;">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                &copy; <a class="border-bottom" href="#"><span
-                        style="color: rgb(255, 255, 255);">Cresttel</span></a>,
-                <span style="color: #1591ea;">All Right Reserved</span>.
-            </div>
-
-            <div class="col-md-6 text-center text-md-end">
-
-                <span style="color: #1591ea;">Distributed By</span>. <a class="border-bottom"
-                    href="https://nicheknights.com/"><span style="color: rgb(255, 255, 255);">Nicheknights</span></a>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Copyright End -->
-
-
-<!-- Back to Top -->
-<!-- Scroll to Top Button -->
-<div id="scrollToTop">
-    <i class="fas fa-arrow-up"></i>
-</div>
-<style>
-    /* Scroll to Top Button Styles */
-    #scrollToTop {
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        width: 50px;
-        height: 50px;
-        background-color: #007BFF;
-        /* Circle background color */
-        color: #fff;
-        /* Arrow color */
-        border-radius: 50%;
-        /* Makes it circular */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        cursor: pointer;
-        opacity: 0;
-        visibility: hidden;
-        transition: opacity 0.3s ease, visibility 0.3s ease;
-        z-index: 1000;
-        /* Keeps it on top */
-    }
-
-    #scrollToTop i {
-        font-size: 20px;
-        /* Arrow size */
-    }
-
-    /* Show button when visible */
-    #scrollToTop.show {
-        opacity: 1;
-        visibility: visible;
-    }
-</style>
-<script>
-    // Show/Hide Scroll to Top Button
-    const scrollToTop = document.getElementById("scrollToTop");
-
-    window.addEventListener("scroll", () => {
-        if (window.scrollY > 200) {
-            scrollToTop.classList.add("show");
-        } else {
-            scrollToTop.classList.remove("show");
-        }
-    });
-
-    // Scroll to Top Functionality
-    scrollToTop.addEventListener("click", () => {
-        window.scrollTo({
-            top: 0,
-            behavior: "smooth",
-        });
-    });
-</script>
-
-<div id="expandable-bubble">
-    <div class="primary-bubble" onclick="toggleSocialIcons()">
-        <span class="flashing-text">Contact Us</span>
-    </div>
-    <div class="social-icons">
-
-        <a href="https://www.facebook.com/cresttelconstruction" target="_blank" class="icon facebook"
-            title="Facebook">
-            <img src="img/Home icons/3d-render-facebook-logo-icon-with-new-notification-isolated-on-transparent-background-free-png.png"
-                alt="Facebook" />
-        </a>
-        <a href="https://www.instagram.com/cresttelconstruction/" target="_blank" class="icon instagram"
-            title="Instagram">
-            <img src="img/Home icons/instagram-logo-3d-illustration-free-png.png" alt="Instagram" />
-        </a>
-        <a href="https://www.linkedin.com/company/cresttelconstruction" target="_blank" class="icon linkedin"
-            title="LinkedIn">
-            <img src="img/Home icons/linkedin-3d-icon-free-png.png" alt="LinkedIn" />
-        </a>
-    </div>
-</div>
-<style>
-    .social-icons img {
-        width: 40px;
-        /* Adjust the size */
-        height: 40px;
-        margin: 10px;
-        /* Adjust spacing */
-    }
-</style>
-
-
-
-
-
-
-<style>
-    /* Responsive styles for smaller screens */
-    @media (max-width: 768px) {
-
-        /* Adjust container positioning */
-        #expandable-bubble {
-            bottom: 10px;
-            /* Bring closer to the screen edge */
-            left: 10px;
-        }
-
-        /* Primary button adjustments */
-        .primary-bubble {
-            font-size: 12px;
-            /* Smaller text size */
-            padding: 8px 15px;
-            /* Smaller padding */
-            border-radius: 20px;
-            /* Slightly smaller rounded corners */
-            width: auto;
-            /* Allow the button to shrink if needed */
-            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
-            /* Adjust shadow size */
-        }
-
-        /* Adjust flashing text size */
-        .flashing-text {
-            font-size: 12px;
-            /* Slightly smaller font */
-            letter-spacing: 0.8px;
-            /* Reduce spacing */
-        }
-
-        /* Social icons adjustments */
-        .social-icons .icon {
-            width: 40px;
-            /* Smaller icon size */
-            height: 40px;
-            font-size: 20px;
-            /* Adjust icon size */
-        }
-
-        .social-icons {
-            gap: 8px;
-            /* Reduce spacing between icons */
-        }
-    }
-
-    /* Ultra-small screens (e.g., phones in portrait mode) */
-    @media (max-width: 480px) {
-        #expandable-bubble {
-            bottom: 5px;
-            /* Further adjust position */
-            left: 5px;
-        }
-
-        .primary-bubble {
-            font-size: 10px;
-            /* Even smaller text */
-            padding: 6px 12px;
-            /* Tighter padding */
-        }
-
-        .social-icons .icon {
-            width: 35px;
-            /* Smaller icons */
-            height: 35px;
-            font-size: 18px;
-        }
-    }
-
-
-    /* Primary button styling */
-    .primary-bubble {
-        width: auto;
-        /* Adjust width to fit the text */
-        padding: 10px 20px;
-        /* Add padding for button look */
-        background: linear-gradient(45deg, #0077b5, #00bfff);
-        /* Gradient background */
-        color: white;
-        border: 2px solid white;
-        /* Add a white border */
-        border-radius: 25px;
-        /* Rounded edges */
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-        font-family: Arial, sans-serif;
-        font-size: 14px;
-        font-weight: bold;
-        text-align: center;
-        cursor: pointer;
-        transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
-    }
-
-    .primary-bubble:hover {
-        background: linear-gradient(45deg, #00bfff, #0077b5);
-        /* Reverse gradient on hover */
-        transform: translateY(-3px);
-        /* Slight lift on hover */
-        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
-        /* Deeper shadow on hover */
-    }
-
-    /* Flashing text (remains the same) */
-    .flashing-text {
-        animation: flash 1.5s infinite;
-        font-size: 14px;
-        font-weight: bold;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-    }
-
-    /* Flashing text effect for "Contact Us" */
-    .flashing-text {
-        animation: flash 1.5s infinite;
-        font-size: 12px;
-        font-weight: bold;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-    }
-
-    /* Keyframes for flashing animation */
-    @keyframes flash {
-
-        0%,
-        100% {
-            color: white;
-            text-shadow: 0 0 5px #0077b5, 0 0 10px #0077b5;
-        }
-
-        50% {
-            color: #f1f1f1;
-            text-shadow: 0 0 15px #00bfff, 0 0 30px #00bfff;
-        }
-    }
-
-    /* Container for the expandable bubble */
-    #expandable-bubble {
-        position: fixed;
-        bottom: 20px;
-        left: 20px;
-        z-index: 1000;
-        display: flex;
-        flex-direction: column-reverse;
-        /* Social icons will expand upwards */
-        align-items: center;
-        gap: 15px;
-    }
-
-
-
-    .primary-bubble:hover {
-        transform: scale(1.1);
-        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
-    }
-
-    /* Hidden social icons container */
-    .social-icons {
-        display: none;
-        /* Hidden initially */
-        flex-direction: column;
-        /* Expand upwards */
-        gap: 10px;
-    }
-
-    /* Social media icon styles */
-    .social-icons .icon {
-        width: 50px;
-        height: 50px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 50%;
-        color: #fff;
-        font-size: 24px;
-        text-decoration: none;
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-
-    .social-icons .icon:hover {
-        transform: scale(1.1);
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    }
-
-    .social-icons .whatsapp {
-        background-color: #25d366;
-    }
-
-    .social-icons .facebook {
-        background-color: #3b5998;
-    }
-
-    .social-icons .instagram {
-        background: radial-gradient(circle at 30% 30%, #fdf497, #fd5949, #d6249f, #285aeb);
-    }
-
-    .social-icons .linkedin {
-        background-color: #0077b5;
-    }
-</style>
-</body>
-<script>
-    function toggleSocialIcons() {
-        const socialIcons = document.querySelector("#expandable-bubble .social-icons");
-        socialIcons.style.display = socialIcons.style.display === "flex" ? "none" : "flex";
-    }
-</script>
-
-<!-- JavaScript Libraries -->
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-<script src="{{ asset('lib/wow/wow.min.js') }}"></script>
-<script src="{{ asset('lib/easing/easing.min.js') }}"></script>
-<script src="{{ asset('lib/waypoints/waypoints.min.js') }}"></script>
-<script src="{{ asset('lib/counterup/counterup.min.js') }}"></script>
-<script src="{{ asset('lib/owlcarousel/owl.carousel.min.js') }}"></script>
-<script src="{{ asset('lib/isotope/isotope.pkgd.min.js') }}"></script>
-<script src="{{ asset('lib/lightbox/js/lightbox.min.js') }}"></script>
-<script src="{{ asset('js/main.js') }}"></script>
-<script src="{{ asset('js/bublle.js') }}"></script>
-
-
-</html>

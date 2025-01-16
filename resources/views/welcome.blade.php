@@ -37,6 +37,8 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/home.css" rel="stylesheet">
+
 
     <link rel="icon" href="path-to-your-favicon/favicon.ico" type="image/x-icon">
     <!-- or for PNG files -->
@@ -66,62 +68,6 @@
     <!-- Topbar Start -->
 
 
-
-    <style>
-        .icon-container {
-            display: flex;
-            justify-content: space-around;
-            background-color: #1c1c1c;
-            /* Match your website's background */
-            padding: 20px;
-            flex-wrap: wrap;
-            /* Allow wrapping for smaller screens */
-        }
-
-        .icon-wrapper {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            color: #1591ea;
-            flex: 1;
-            /* Allow even spacing */
-            min-width: 250px;
-            /* Prevent collapsing too much on smaller screens */
-        }
-
-        .icon {
-            width: 24px;
-            height: 24px;
-            display: inline-block;
-        }
-
-        .text {
-            font-family: Arial, sans-serif;
-            color: #ffffff;
-            /* Adjust text color */
-            font-size: 14px;
-            /* Adjust text size for smaller screens */
-        }
-
-        /* Responsive styles for smaller screens */
-        @media (max-width: 768px) {
-            .icon-container {
-                flex-direction: column;
-                align-items: center;
-                /* Center items */
-            }
-
-            .icon-wrapper {
-                justify-content: center;
-                text-align: center;
-            }
-
-            .text {
-                font-size: 12px;
-                /* Slightly smaller text */
-            }
-        }
-    </style>
 
     <div class="icon-container">
         <!-- Location Icon -->
@@ -162,84 +108,10 @@
     </div>
 
 
-    <!-- word effect start-->
-    <style>
-        .dynamic-text {
-            font-size: 24px;
-            color: #333;
-            text-align: center;
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-            position: relative;
-            overflow: hidden;
-            font-size: 300%;
-            font-weight: bold;
+   
 
-        }
-
-        .replacement {
-            display: inline-block;
-            transition: opacity 0.5s ease;
-            white-space: nowrap;
-            /* Prevent wrapping */
-            color: #1591ea;
-            /* Set the color for the changing words */
-            font-size: 100%;
-            font-weight: bold;
-        }
-    </style>
-
-
-
-    <!-- CSS for the pulsing effect -->
-    <style>
-        @keyframes pulse {
-            0% {
-                transform: scale(1);
-                opacity: 1;
-            }
-
-            50% {
-                transform: scale(1.3);
-                opacity: 0.7;
-            }
-
-            100% {
-                transform: scale(1);
-                opacity: 1;
-            }
-        }
-    </style>
-    <!-- JavaScript for changing the viewer number every second -->
-    <script>
-        // Function to generate an array of 50 random numbers
-        function generateRandomNumbers(count, min, max) {
-            const numbers = [];
-            for (let i = 0; i < count; i++) {
-                // Generate a random number between min and max
-                numbers.push(Math.floor(Math.random() * (max - min + 1)) + min);
-            }
-            return numbers;
-        }
-
-        // Generate 50 random viewer numbers between 1 and 1000
-        const viewerNumbers = generateRandomNumbers(50, 1, 1000);
-
-        let currentIndex = 0;
-        const viewerCountElement = document.getElementById('viewerCount');
-
-        // Function to update the viewer count every second
-        setInterval(() => {
-            // Move to the next index in the array, and if it reaches the end, start over
-            currentIndex = (currentIndex + 1) % viewerNumbers.length;
-
-            // Update the content of the viewerCountElement with the new number
-            viewerCountElement.textContent = viewerNumbers[currentIndex];
-        }, 5000); // This will execute every 1000 milliseconds (1 second)
-    </script>
-
+   
+   
 
 
     <!-- Carousel Start -->
@@ -311,131 +183,7 @@
             <span class="replacement" id="replacement"></span>
     </div>
 
-    <script>
-        // JavaScript for typing effect
-        const words = ["Integrity.", "Commitment.", " Reliabilty."];
-        let currentWordIndex = 0;
-        let currentCharIndex = 0;
-        const replacementElement = document.getElementById('replacement');
-
-        function typeWord() {
-            const currentWord = words[currentWordIndex];
-            if (currentCharIndex < currentWord.length) {
-                replacementElement.textContent += currentWord[currentCharIndex];
-                currentCharIndex++;
-                setTimeout(typeWord, 100); // Type next character after 100ms
-            } else {
-                // Wait for a second before starting to erase the word
-                setTimeout(eraseWord, 1000);
-            }
-        }
-
-        function eraseWord() {
-            if (currentCharIndex > 0) {
-                replacementElement.textContent = replacementElement.textContent.slice(0, -1);
-                currentCharIndex--;
-                setTimeout(eraseWord, 100); // Erase next character after 100ms
-            } else {
-                // Move to the next word
-                currentWordIndex = (currentWordIndex + 1) % words.length;
-                currentCharIndex = 0; // Reset char index for new word
-                setTimeout(typeWord, 500); // Wait before typing the next word
-            }
-        }
-
-        // Start the typing effect
-        typeWord();
-    </script>
-
-
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        img {
-            max-width: 100%;
-        }
-
-        body {
-            font-size: 16px;
-            line-height: 1.5;
-            color: #131722;
-        }
-
-
-
-        .stock-ticker {
-            font-size: 20px;
-            padding-block: 8px;
-            border-block: 1px solid;
-            overflow: hidden;
-            user-select: none;
-
-            --gap: 20px;
-            display: flex;
-            gap: var(--gap);
-        }
-
-        .stock-ticker ul {
-            list-style: none;
-            flex-shrink: 0;
-            min-width: 100%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            gap: var(--gap);
-
-            animation: scroll 20s linear infinite;
-        }
-
-        .stock-ticker:hover ul {
-            animation-play-state: paused;
-        }
-
-        @keyframes scroll {
-            to {
-                transform: translateX(calc(-100% - var(--gap)));
-            }
-        }
-
-        .stock-ticker ul:first-child {
-            /* background-color: yellow; */
-        }
-
-        .stock-ticker ul:last-child {
-            /* background-color: pink; */
-        }
-
-        .stock-ticker .company,
-        .stock-ticker .price {
-            font-weight: bold;
-        }
-
-        .stock-ticker .price {
-            margin-inline: 4px;
-        }
-
-        .stock-ticker .plus::before {
-            content: "↑";
-        }
-
-        .stock-ticker .minus::before {
-            content: "↓";
-        }
-
-        .stock-ticker .plus .change,
-        .stock-ticker .plus::before {
-            color: #089981;
-        }
-
-        .stock-ticker .minus .change,
-        .stock-ticker .minus::before {
-            color: #f23645;
-        }
-    </style>
+   
 
     <!-- Service Start -->
     <div class="container-xxl py-5">
@@ -528,44 +276,10 @@
                 </div>
             </div>
 
-            <style>
-                .image-hover img {
-                    transition: transform 0.3s ease-in-out;
-                }
-
-                .image-hover img:hover {
-                    transform: scale(1.1);
-                }
-
-                .custom-btn {
-                    display: inline-block;
-                    background-color: #007bff;
-                    color: #fff;
-                    border: none;
-                    border-radius: 5px;
-                    padding: 8px 15px;
-                    font-size: 14px;
-                    cursor: pointer;
-                    text-decoration: none;
-                    transition: background-color 0.3s ease, transform 0.2s ease;
-                    text-align: left;
-                }
-
-                .custom-btn:hover {
-                    background-color: #0056b3;
-                    transform: scale(1.05);
-                }
-
-                .custom-btn:active {
-                    transform: scale(0.95);
-                }
-            </style>
-
             <!-- Service End -->
 
 
 
-            <!-- About Start -->
             <!-- About Start -->
             <div class="container-fluid py-6 px-5">
                 <div class="row g-5">
@@ -708,26 +422,7 @@
         </ul>
     </div>
 
-    <style>
-        .fading {
-            color: #1591ea;
-            animation: fade 2s infinite;
-        }
-
-        @keyframes fade {
-            0% {
-                opacity: 1;
-            }
-
-            50% {
-                opacity: 0;
-            }
-
-            100% {
-                opacity: 1;
-            }
-        }
-    </style>
+  
 
     <!-- Quote Request End -->
 
@@ -766,63 +461,8 @@
     <div id="scrollToTop">
         <i class="fas fa-arrow-up"></i>
     </div>
-    <style>
-        /* Scroll to Top Button Styles */
-        #scrollToTop {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            width: 50px;
-            height: 50px;
-            background-color: #007BFF;
-            /* Circle background color */
-            color: #fff;
-            /* Arrow color */
-            border-radius: 50%;
-            /* Makes it circular */
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            cursor: pointer;
-            opacity: 0;
-            visibility: hidden;
-            transition: opacity 0.3s ease, visibility 0.3s ease;
-            z-index: 1000;
-            /* Keeps it on top */
-        }
-
-        #scrollToTop i {
-            font-size: 20px;
-            /* Arrow size */
-        }
-
-        /* Show button when visible */
-        #scrollToTop.show {
-            opacity: 1;
-            visibility: visible;
-        }
-    </style>
-    <script>
-        // Show/Hide Scroll to Top Button
-        const scrollToTop = document.getElementById("scrollToTop");
-
-        window.addEventListener("scroll", () => {
-            if (window.scrollY > 200) {
-                scrollToTop.classList.add("show");
-            } else {
-                scrollToTop.classList.remove("show");
-            }
-        });
-
-        // Scroll to Top Functionality
-        scrollToTop.addEventListener("click", () => {
-            window.scrollTo({
-                top: 0,
-                behavior: "smooth",
-            });
-        });
-    </script>
+   
+    
 
     <div id="expandable-bubble">
         <div class="primary-bubble" onclick="toggleSocialIcons()">
@@ -845,228 +485,12 @@
             </a>
         </div>
     </div>
-    <style>
-        .social-icons img {
-            width: 40px;
-            /* Adjust the size */
-            height: 40px;
-            margin: 10px;
-            /* Adjust spacing */
-        }
-    </style>
+   
 
 
 
 
-
-    <style>
-        /* Responsive styles for smaller screens */
-        @media (max-width: 768px) {
-
-            /* Adjust container positioning */
-            #expandable-bubble {
-                bottom: 10px;
-                /* Bring closer to the screen edge */
-                left: 10px;
-            }
-
-            /* Primary button adjustments */
-            .primary-bubble {
-                font-size: 12px;
-                /* Smaller text size */
-                padding: 8px 15px;
-                /* Smaller padding */
-                border-radius: 20px;
-                /* Slightly smaller rounded corners */
-                width: auto;
-                /* Allow the button to shrink if needed */
-                box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
-                /* Adjust shadow size */
-            }
-
-            /* Adjust flashing text size */
-            .flashing-text {
-                font-size: 12px;
-                /* Slightly smaller font */
-                letter-spacing: 0.8px;
-                /* Reduce spacing */
-            }
-
-            /* Social icons adjustments */
-            .social-icons .icon {
-                width: 40px;
-                /* Smaller icon size */
-                height: 40px;
-                font-size: 20px;
-                /* Adjust icon size */
-            }
-
-            .social-icons {
-                gap: 8px;
-                /* Reduce spacing between icons */
-            }
-        }
-
-        /* Ultra-small screens (e.g., phones in portrait mode) */
-        @media (max-width: 480px) {
-            #expandable-bubble {
-                bottom: 5px;
-                /* Further adjust position */
-                left: 5px;
-            }
-
-            .primary-bubble {
-                font-size: 10px;
-                /* Even smaller text */
-                padding: 6px 12px;
-                /* Tighter padding */
-            }
-
-            .social-icons .icon {
-                width: 35px;
-                /* Smaller icons */
-                height: 35px;
-                font-size: 18px;
-            }
-        }
-
-
-        /* Primary button styling */
-        .primary-bubble {
-            width: auto;
-            /* Adjust width to fit the text */
-            padding: 10px 20px;
-            /* Add padding for button look */
-            background: linear-gradient(45deg, #0077b5, #00bfff);
-            /* Gradient background */
-            color: white;
-            border: 2px solid white;
-            /* Add a white border */
-            border-radius: 25px;
-            /* Rounded edges */
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-            font-family: Arial, sans-serif;
-            font-size: 14px;
-            font-weight: bold;
-            text-align: center;
-            cursor: pointer;
-            transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
-        }
-
-        .primary-bubble:hover {
-            background: linear-gradient(45deg, #00bfff, #0077b5);
-            /* Reverse gradient on hover */
-            transform: translateY(-3px);
-            /* Slight lift on hover */
-            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
-            /* Deeper shadow on hover */
-        }
-
-        /* Flashing text (remains the same) */
-        .flashing-text {
-            animation: flash 1.5s infinite;
-            font-size: 14px;
-            font-weight: bold;
-            letter-spacing: 1px;
-            text-transform: uppercase;
-        }
-
-        /* Flashing text effect for "Contact Us" */
-        .flashing-text {
-            animation: flash 1.5s infinite;
-            font-size: 12px;
-            font-weight: bold;
-            letter-spacing: 1px;
-            text-transform: uppercase;
-        }
-
-        /* Keyframes for flashing animation */
-        @keyframes flash {
-
-            0%,
-            100% {
-                color: white;
-                text-shadow: 0 0 5px #0077b5, 0 0 10px #0077b5;
-            }
-
-            50% {
-                color: #f1f1f1;
-                text-shadow: 0 0 15px #00bfff, 0 0 30px #00bfff;
-            }
-        }
-
-        /* Container for the expandable bubble */
-        #expandable-bubble {
-            position: fixed;
-            bottom: 20px;
-            left: 20px;
-            z-index: 1000;
-            display: flex;
-            flex-direction: column-reverse;
-            /* Social icons will expand upwards */
-            align-items: center;
-            gap: 15px;
-        }
-
-
-
-        .primary-bubble:hover {
-            transform: scale(1.1);
-            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
-        }
-
-        /* Hidden social icons container */
-        .social-icons {
-            display: none;
-            /* Hidden initially */
-            flex-direction: column;
-            /* Expand upwards */
-            gap: 10px;
-        }
-
-        /* Social media icon styles */
-        .social-icons .icon {
-            width: 50px;
-            height: 50px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 50%;
-            color: #fff;
-            font-size: 24px;
-            text-decoration: none;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .social-icons .icon:hover {
-            transform: scale(1.1);
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-        }
-
-        .social-icons .whatsapp {
-            background-color: #25d366;
-        }
-
-        .social-icons .facebook {
-            background-color: #3b5998;
-        }
-
-        .social-icons .instagram {
-            background: radial-gradient(circle at 30% 30%, #fdf497, #fd5949, #d6249f, #285aeb);
-        }
-
-        .social-icons .linkedin {
-            background-color: #0077b5;
-        }
-    </style>
 </body>
-<script>
-    function toggleSocialIcons() {
-        const socialIcons = document.querySelector("#expandable-bubble .social-icons");
-        socialIcons.style.display = socialIcons.style.display === "flex" ? "none" : "flex";
-    }
-</script>
-
 <!-- JavaScript Libraries -->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -1079,5 +503,5 @@
 <script src="{{ asset('lib/lightbox/js/lightbox.min.js') }}"></script>
 <script src="{{ asset('js/main.js') }}"></script>
 <script src="{{ asset('js/bublle.js') }}"></script>
-
+<script src="{{ asset('js/home.js') }}"></script>
 </html>

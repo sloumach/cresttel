@@ -8,7 +8,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav ms-auto py-4 py-lg-0">
-            <a href="{{ route('welcome') }}" class="nav-item nav-link active">Home</a>
+            <a href="{{ route('welcome') }}" class="nav-item nav-link ">Home</a>
             <a href="{{ route('about') }}" class="nav-item nav-link">About</a>
             <a href="{{ route('service') }}" class="nav-item nav-link">Service</a>
             <a href="{{ route('project') }}" class="nav-item nav-link">Project</a>
