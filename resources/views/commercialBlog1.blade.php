@@ -126,11 +126,11 @@
     </div>
 </div>
 <!-- Page Header End -->
-s
 
 
 
-<body>
+
+
 
     <!-- Blog Details Section -->
     <section id="blog-details" class="blog-details">

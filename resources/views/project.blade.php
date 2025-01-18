@@ -594,6 +594,10 @@
 <script src="{{ asset('js/project.js') }}"></script>
 
 </html>
+
+
+
+
 <script>
     let items = document.querySelectorAll('.slider .list .item');
     let prevBtn = document.getElementById('prev');

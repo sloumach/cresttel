@@ -126,7 +126,6 @@
 </div>
 <!-- Page Header End -->
 
-<body>
 
     <!-- Blog Details Section -->
     <section id="blog-details" class="blog-details">
