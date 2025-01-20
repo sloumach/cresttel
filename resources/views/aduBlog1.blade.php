@@ -114,7 +114,7 @@
 
 
 <!-- Page Header Start -->
-<div class="container-fluid s" style="background-color: #007bff;">
+<div class="container-fluid s bg-primary">
     <div class="container py-5">
         <h1 class="display-3 text-white mb-3 animated slideInDown">How an Accessory Dwelling Unit Can Add Value to Your
             Property</h1>
@@ -148,14 +148,13 @@
 
                         <!-- Blog Content -->
                         <div class="content mt-4">
-                            <p style="font-size: larger; color: #000000;">
-                                If you think constructing an accessory dwelling is too costly, you should take the
-                                long-term value such a strategy could add. Accessory dwelling units (ADUs) can enhance
-                                the quality of your life in numerous ways. You could generate extra income by leasing to
-                                a tenant and add considerable value to the rest of your property. While the construction
-                                of an ADU might seem like a huge undertaking, it may be one of the most lucrative
-                                investments you’ll ever make in your life.</p>
-                            </p>
+                        <p class="fs-4 text-black">
+    If you think constructing an accessory dwelling is too costly, you should take the long-term value such a strategy could add. 
+    Accessory dwelling units (ADUs) can enhance the quality of your life in numerous ways. You could generate extra income by leasing to 
+    a tenant and add considerable value to the rest of your property. While the construction of an ADU might seem like a huge undertaking, 
+    it may be one of the most lucrative investments you’ll ever make in your life.
+</p>
+
                             <p></p>
                         </div><!-- End post content -->
 
@@ -164,7 +163,7 @@
                         <h3>Here are some of the ways your ADU can pay dividends in the coming months and years :</h3>
                         <div class="content">
                             <p>
-                            <ul style="font-size: larger;color: #000000;">
+                            <ul class="fs-4 text-black">
                                 <li>Rental property. In California, housing is at a premium. Constructing an ADU for
                                     tenancy can generate steady income for years. Best of all, there are incentive
                                     programs that can further lower the cost of construction if you build an ADU as an
@@ -181,17 +180,16 @@
                                     gym.</li>
 
                                 <li>
-                                    <p>Add valuable workspace. Are you thinking of starting a business? A workspace or
-                                        office is a fabulous use of an ADU. It adds value to your property while
-                                        facilitating an entrepreneurial effort. Cresttel helps California homeowners
-                                        construct beautiful, efficient accessory dwelling units on diverse properties.
-                                        If you have a property in <strong
-                                            style="color:#000000; text-decoration:underline;">San Diego</strong>,
-                                        <strong style="color:#000000; text-decoration:underline;">Los Angeles</strong>,
-                                        or in any <strong style="color:#000000; text-decoration:underline;">city in
-                                            California</strong>, contact us today <strong
-                                            style="color:#000000; text-decoration:underline;">for a
-                                            consultation</strong>.</p>
+                                <p>
+    Add valuable workspace. Are you thinking of starting a business? A workspace or office is a fabulous use of an ADU. 
+    It adds value to your property while facilitating an entrepreneurial effort. Cresttel helps California homeowners 
+    construct beautiful, efficient accessory dwelling units on diverse properties. If you have a property in 
+    <strong class="text-black text-decoration-underline">San Diego</strong>, 
+    <strong class="text-black text-decoration-underline">Los Angeles</strong>, or in any 
+    <strong class="text-black text-decoration-underline">city in California</strong>, 
+    contact us today 
+    <strong class="text-black text-decoration-underline">for a consultation</strong>.
+</p>
 
                                 </li>
                             </ul>
@@ -203,7 +201,7 @@
                             <img src="img/ADU_img/Detached.jpg" class="img-fluid" alt="">
                             <a style="margin-left: 30%;margin-top: 10%;" href="adu.blade.php"
                                 class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft"><span
-                                    style="color: rgb(255, 255, 255);">Visit Our Service ADU Page</span></a>
+                                   >Visit Our Service ADU Page</span></a>
                         </div><!-- End post content -->
 
 
@@ -278,25 +276,10 @@
 
 
 
-    <!-- Copyright Start -->
-    <div class="container-fluid py-4" style="background: #000000;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom" href="#"><span
-                            style="color: rgb(255, 255, 255);">Cresttel</span></a>,
-                    <span style="color: #1591ea;">All Right Reserved</span>.
-                </div>
+     <!-- Copyright Start -->
 
-                <div class="col-md-6 text-center text-md-end">
-
-                    <span style="color: #1591ea;">Distributed By</span>. <a class="border-bottom"
-                        href="https://nicheknights.com/"><span
-                            style="color: rgb(255, 255, 255);">Nicheknights</span></a>
-                </div>
-            </div>
-        </div>
-    </div>
+    @include('copyright')
+    
     <!-- Copyright End -->
 
 

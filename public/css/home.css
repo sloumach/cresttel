@@ -1,3 +1,15 @@
+#unique-image-id {
+    /* Custom styles for this specific image */
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+
+h5{
+    color: #1591ea;
+}
 
     .dynamic-text {
         font-size: 24px;
@@ -156,7 +168,7 @@
         }
 
         .custom-btn:hover {
-            background-color: #0056b3;
+            background-color: #a8abaf;
             transform: scale(1.05);
         }
 

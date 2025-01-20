@@ -113,7 +113,7 @@
 
 
 <!-- Page Header Start -->
-<div class="container-fluid s" style="background-color: #007bff;">
+<div class="container-fluid s bg-primary">
     <div class="container py-5">
         <h1 class="display-3 text-white mb-3 animated slideInDown">Top 5 Benefits of Building an ADU on Your Property
         </h1>
@@ -159,51 +159,38 @@
 
 
                         <h3>1. Supplemental Income :</h3>
-                        <div class="content">
-                            <p>
-                            <ul style="font-size: larger;color: #000000;">
-                                <li>Renting out your ADU can provide a steady stream of additional income, helping to
-                                    offset mortgage payments or other expenses. With the growing demand for affordable
-                                    housing options, finding tenants is often straightforward.</li>
-                            </ul>
-                            <h4>2. Enhanced Property Value :</h4>
+<div class="content">
+    <p>
+        <ul class="fs-4 text-black">
+            <li>Renting out your ADU can provide a steady stream of additional income, helping to offset mortgage payments or other expenses. With the growing demand for affordable housing options, finding tenants is often straightforward.</li>
+        </ul>
+        <h4>2. Enhanced Property Value :</h4>
 
-                            <ul style="font-size: larger;color: #000000;">
-                                <li>Investing in an ADU can significantly increase the overall value of your property.
-                                    Homebuyers view ADUs as desirable additions, enhancing the appeal and providing a
-                                    higher return on investment when it comes time to sell.</li>
-                            </ul>
-                            <h4>3. Housing for Family Members :</h4>
-                            <ul style="font-size: larger;color: #000000;">
-                                <li>ADUs offer a separate living space for elderly parents or adult children, allowing
-                                    families to remain close while maintaining privacy and independence for all.</li>
-                            </ul>
-                            <h4>4. Versatile Living Space :</h4>
-                            <ul style="font-size: larger;color: #000000;">
-                                <li>ADUs can adapt to various needs, serving as a home office, guest house, or private
-                                    retreat. This versatility ensures that the space remains functional and valuable
-                                    over time.</li>
-                            </ul>
-                            <h4>5. Sustainable Living Options :</h4>
-                            <ul style="font-size: larger;color: #000000;">
-                                <li>Building an ADU promotes efficient use of space and resources, contributing to a
-                                    smaller carbon footprint compared to larger homes. They often incorporate
-                                    energy-efficient practices and materials in their construction.</li>
-                            </ul>
-                            </p>
-                            <h4>Conclusion :</h4>
-                            <p style="font-size: larger; color: #000000;">Building an ADU offers numerous benefits,
-                                from generating income and increasing property value to providing flexible living
-                                solutions for various situations. For expert guidance and professional construction
-                                services, contact Cresttel today to explore how an ADU can transform your property and
-                                enhance your living experience.</p>
+        <ul class="fs-4 text-black">
+            <li>Investing in an ADU can significantly increase the overall value of your property. Homebuyers view ADUs as desirable additions, enhancing the appeal and providing a higher return on investment when it comes time to sell.</li>
+        </ul>
+        <h4>3. Housing for Family Members :</h4>
+        <ul class="fs-4 text-black">
+            <li>ADUs offer a separate living space for elderly parents or adult children, allowing families to remain close while maintaining privacy and independence for all.</li>
+        </ul>
+        <h4>4. Versatile Living Space :</h4>
+        <ul class="fs-4 text-black">
+            <li>ADUs can adapt to various needs, serving as a home office, guest house, or private retreat. This versatility ensures that the space remains functional and valuable over time.</li>
+        </ul>
+        <h4>5. Sustainable Living Options :</h4>
+        <ul class="fs-4 text-black">
+            <li>Building an ADU promotes efficient use of space and resources, contributing to a smaller carbon footprint compared to larger homes. They often incorporate energy-efficient practices and materials in their construction.</li>
+        </ul>
+    </p>
+    <h4>Conclusion :</h4>
+    <p class="fs-4 text-black">Building an ADU offers numerous benefits, from generating income and increasing property value to providing flexible living solutions for various situations. For expert guidance and professional construction services, contact Cresttel today to explore how an ADU can transform your property and enhance your living experience.</p>
+</div>
 
 
 
                             <img src="img/ADU_img/adu ar3.jpg" class="img-fluid" alt="">
                             <a style="margin-left: 30%;margin-top: 10%;" href="adu.blade.php"
-                                class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft"><span
-                                    style="color: rgb(255, 255, 255);">Visit Our Service ADU Page</span></a>
+                                class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft"><span>Visit Our Service ADU Page</span></a>
                         </div><!-- End post content -->
 
 
@@ -278,25 +265,10 @@
     <!-- Footer End -->
 
 
-    <!-- Copyright Start -->
-    <div class="container-fluid py-4" style="background: #000000;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom" href="#"><span
-                            style="color: rgb(255, 255, 255);">Cresttel</span></a>,
-                    <span style="color: #1591ea;">All Right Reserved</span>.
-                </div>
+     <!-- Copyright Start -->
 
-                <div class="col-md-6 text-center text-md-end">
-
-                    <span style="color: #1591ea;">Distributed By</span>. <a class="border-bottom"
-                        href="https://nicheknights.com/"><span
-                            style="color: rgb(255, 255, 255);">Nicheknights</span></a>
-                </div>
-            </div>
-        </div>
-    </div>
+    @include('copyright')
+    
     <!-- Copyright End -->
 
 

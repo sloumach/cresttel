@@ -130,8 +130,7 @@
 
                                 </p>
                                 <a href="{{ route('project') }}"
-                                    class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft"><span
-                                        style="color: rgb(255, 255, 255);">View Projects</span></a>
+                                    class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft"><span>View Projects</span></a>
 
                             </div>
                         </div>
@@ -150,8 +149,7 @@
                                     services with high quality craftsmanship tailored for your business success in San
                                     Diego.</p>
                                 <a href="project.blade.php"
-                                    class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft"><span
-                                        style="color: rgb(255, 255, 255);">View Projects</span></a>
+                                    class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft"><span>View Projects</span></a>
 
                             </div>
                         </div>
@@ -168,8 +166,7 @@
                                 <p class="fs-5 fw-medium text-white mb-4 pb-2">Home renovation or remodeling services
                                     provided with expert results.</p>
                                 <a href="project.blade.php"
-                                    class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft"><span
-                                        style="color: rgb(255, 255, 255);">View Projects</span></a>
+                                    class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft"><span>View Projects</span></a>
 
                             </div>
                         </div>
@@ -178,10 +175,9 @@
             </div>
         </div>
     </div>
-    <div class="dynamic-text">
-        <b> Expertly Construct And Build <br> Your Vision With
-            <span class="replacement" id="replacement"></span>
-    </div>
+
+    @include('dynamictext')
+
 
    
 
@@ -189,8 +185,7 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center">
-
-                <h5 class="display-5 mb-5"><span style="color: #1591ea;"><br><br>Our Services</span>
+                <h5 class="display-5 mb-5"><span><br><br>Our Services</span>
             </div>
             <!-- Increase gutter spacing between columns with g-4 -->
             <div class="row g-4 justify-content-center">
@@ -284,12 +279,12 @@
             <div class="container-fluid py-6 px-5">
                 <div class="row g-5">
                     <div class="col-lg-5 pb-5" style="min-height: 500px;">
-                        <div class="position-relative bg-dark-radial h-100 ms-3 larger-image">
-                            <img class="position-absolute w-100 h-100 mt-3 ms-n3"
-                                src="img/wephome/ezgif-2-a4321ed7e9.webp"
-                                alt="Modern luxury house with swimming pool and outdoor kitchen at sunset, showcasing Cresttel's premium residential construction and design services"
-                                style="object-fit: cover;">
-                        </div>
+                    <div class="position-relative bg-dark-radial h-100 ms-3 larger-image">
+    <img id="unique-image-id" class="position-absolute w-200 h-100 mt-3 ms-n3"
+        src="img/wephome/ezgif-2-a4321ed7e9.webp"
+        alt="Modern luxury house with swimming pool and outdoor kitchen at sunset, showcasing Cresttel's premium residential construction and design services">
+</div>
+
                     </div>
                     <div class="col-lg-7" style="padding-left: 50px;"> <!-- Increased padding-left here -->
                         <h3 class="display-5 text-uppercase mb-4">We are <span class="fading">the Leader</span> in
@@ -434,57 +429,20 @@
 
 
     <!-- Copyright Start -->
-    <div class="container-fluid py-4" style="background: #000000;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom" href="#"><span
-                            style="color: rgb(255, 255, 255);">Cresttel</span></a>,
-                    <span style="color: #1591ea;">All Right Reserved</span>.
-                </div>
 
-                <div class="col-md-6 text-center text-md-end">
-
-                    <span style="color: #1591ea;">Distributed By</span>. <a class="border-bottom"
-                        href="https://nicheknights.com/"><span
-                            style="color: rgb(255, 255, 255);">Nicheknights</span></a>
-                </div>
-            </div>
-        </div>
-    </div>
+    @include('copyright')
+    
     <!-- Copyright End -->
 
 
 
     <!-- Back to Top -->
     <!-- Scroll to Top Button -->
-    <div id="scrollToTop">
-        <i class="fas fa-arrow-up"></i>
-    </div>
-   
+  
+    @include('scrolltotop')
     
 
-    <div id="expandable-bubble">
-        <div class="primary-bubble" onclick="toggleSocialIcons()">
-            <span class="flashing-text">Contact Us</span>
-        </div>
-        <div class="social-icons">
-
-            <a href="https://www.facebook.com/cresttelconstruction" target="_blank" class="icon facebook"
-                title="Facebook">
-                <img src="img/Home icons/3d-render-facebook-logo-icon-with-new-notification-isolated-on-transparent-background-free-png.png"
-                    alt="Facebook" />
-            </a>
-            <a href="https://www.instagram.com/cresttelconstruction/" target="_blank" class="icon instagram"
-                title="Instagram">
-                <img src="img/Home icons/instagram-logo-3d-illustration-free-png.png" alt="Instagram" />
-            </a>
-            <a href="https://www.linkedin.com/company/cresttelconstruction" target="_blank" class="icon linkedin"
-                title="LinkedIn">
-                <img src="img/Home icons/linkedin-3d-icon-free-png.png" alt="LinkedIn" />
-            </a>
-        </div>
-    </div>
+    @include('bubble')
    
 
 

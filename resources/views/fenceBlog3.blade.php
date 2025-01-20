@@ -111,7 +111,7 @@
 
 
 <!-- Page Header Start -->
-<div class="container-fluid s" style="background-color: #007bff;">
+<div class="container-fluid s bg-primary">
     <div class="container py-5">
         <h1 class="display-3 text-white mb-3 animated slideInDown">How to Build a Proper Fence: A Comprehensive Guide?
         </h1>
@@ -140,86 +140,81 @@
                             <img src="img/Fence/32.jpg" alt="Blog Image" class="img-fluid">
                         </div>
 
-                        <!-- Blog Content -->
-                        <div class="content mt-4">
-                            <p style="font-size: larger; color: #000000;">
-                                Installing a fence is a big investment for homeowners, offering security, privacy, and
-                                improved looks. Cresttel is here to help you with a new fence for your property. Learn
-                                how to construct a fence and explore different options.
-                            </p>
-                        </div><!-- End post content -->
-                        <div class="post-img">
-                            <img src="img/Fence/31.jpg" alt="" class="img-fluid">
-                        </div>
+                      <!-- Blog Content -->
+<div class="content mt-4">
+    <p class="fs-4 text-dark">
+        Installing a fence is a big investment for homeowners, offering security, privacy, and improved looks. 
+        Cresttel is here to help you with a new fence for your property. Learn how to construct a fence and explore different options.
+    </p>
+</div><!-- End post content -->
 
+<div class="post-img">
+    <img src="img/Fence/31.jpg" alt="" class="img-fluid">
+</div>
 
-                        <h3>Step 1: Assess Your Needs :</h3>
-                        <p style="font-size: larger; color: #000000;">
-                            Assess your needs and preferences before building a fence. Think about why the fence is
-                            being installed, whether it be for privacy, security, or to improve the look of the
-                            property. Knowing your goals will assist you in selecting the appropriate materials and
-                            design. </p>
-                        <h3>Step 2: Explore Your Options :</h3>
-                        <p style="font-size: larger; color: #000000;">
-                            There are many choices for your fence materials, such as:
-                        <ul>
-                            <li style="color:#000000;"><strong style="color:#000000; ">Vinyl :</strong> fences are
-                                low-maintenance, durable, and versatile with different styles and colors to choose from.
-                            </li>
-                            <li style="color:#000000;"><strong style="color:#000000; ">Wood :</strong>is a timeless
-                                choice that is beautiful and natural but needs regular upkeep.</li>
-                            <li style="color:#000000;"><strong style="color:#000000; ">Aluminum :</strong> and iron
-                                are strong and stylish choices for security, but they may come with a higher price tag.
-                            </li>
-                        </ul>
-                        <h3>Step 3: DIY or Hire a Professional?</h3>
-                        <p>After choosing the fence type, decide if you will build it yourself or hire professionals.
-                        </p>
-                        <h3>Do it yourself DIY:</h3>
-                        <div class="content">
-                            <p>
-                            <ul style="font-size: larger;color: #000000;">
-                                <li>Advantages: include saving money and feeling good about finishing the project.</li>
-                                <li>Downsides: The process may be complicated and lengthy. You will have to oversee
-                                    surveying, zoning restrictions, and correct installation methods.</li>
-                                </li>
-                            </ul>
-                            </p>
-                            <h3>2. Hire a Professional:</h3>
-                            <p style="font-size: larger; color: #000000;">
-                                Partnering up with Cresttel guarantees expert support every step of the way. Our team
-                                can design and install your fence to meet local regulations and last. </p>
+<h3>Step 1: Assess Your Needs</h3>
+<p class="fs-4 text-dark">
+    Assess your needs and preferences before building a fence. Think about why the fence is being installed, 
+    whether it be for privacy, security, or to improve the look of the property. Knowing your goals will assist you in selecting 
+    the appropriate materials and design.
+</p>
 
-                            <h3>Step 4: Understand Local Regulations:</h3>
-                            <p style="font-size: larger; color: #000000;">Before starting the installation, check with
-                                your local municipality regarding zoning laws and permit requirements. Cresttel can
-                                assist you in navigating these regulations, ensuring you comply with all necessary
-                                guidelines.</p>
+<h3>Step 2: Explore Your Options</h3>
+<p class="fs-4 text-dark">
+    There are many choices for your fence materials, such as:
+</p>
+<ul class="fs-4 text-dark">
+    <li><strong>Vinyl:</strong> fences are low-maintenance, durable, and versatile with different styles and colors to choose from.</li>
+    <li><strong>Wood:</strong> is a timeless choice that is beautiful and natural but needs regular upkeep.</li>
+    <li><strong>Aluminum:</strong> and iron are strong and stylish choices for security, but they may come with a higher price tag.</li>
+</ul>
 
-                            <h3>Step 5: Installation Process</h3>
-                            <p style="font-size: larger; color: #000000;">When you work with Cresttel, our skilled team
-                                will take care of every step of the installation process.</p>
-                            <h4>Site Preparation :</h4>
-                            <p style="font-size: larger; color: #000000;">evaluating its levelness and identifying any
-                                obstacles is essential.</p>
-                            <h4>Digging Post Holes :</h4>
-                            <p style="font-size: larger; color: #000000;">make sure to choose the right depth and
-                                spacing depending on the type of fence you have chosen.</p>
-                            <h3>Setting the fence :</h3>
-                            <p style="font-size: larger; color: #000000;">properly aligning and securing the materials
-                                properly.</p>
-                            <h3>Conclusion</h3>
-                            <p style="font-size: larger; color: #000000;">Building a proper fence requires careful
-                                planning, understanding your options, and choosing the right installation approach. At
-                                Cresttel, we pride ourselves on our expertise and commitment to quality. Contact
-                                Cresttel today to discuss your fencing project and discover how we can help you create
-                                the perfect solution for your needs.</p>
+<h3>Step 3: DIY or Hire a Professional?</h3>
+<p class="fs-4 text-dark">After choosing the fence type, decide if you will build it yourself or hire professionals.</p>
+
+<h3>Do it yourself (DIY):</h3>
+<ul class="fs-4 text-dark">
+    <li>Advantages: include saving money and feeling good about finishing the project.</li>
+    <li>Downsides: The process may be complicated and lengthy. You will have to oversee surveying, zoning restrictions, and correct installation methods.</li>
+</ul>
+
+<h3>2. Hire a Professional:</h3>
+<p class="fs-4 text-dark">
+    Partnering up with Cresttel guarantees expert support every step of the way. Our team can design and install your fence to meet 
+    local regulations and last.
+</p>
+
+<h3>Step 4: Understand Local Regulations:</h3>
+<p class="fs-4 text-dark">
+    Before starting the installation, check with your local municipality regarding zoning laws and permit requirements. Cresttel can assist you 
+    in navigating these regulations, ensuring you comply with all necessary guidelines.
+</p>
+
+<h3>Step 5: Installation Process</h3>
+<p class="fs-4 text-dark">
+    When you work with Cresttel, our skilled team will take care of every step of the installation process.
+</p>
+
+<h4>Site Preparation:</h4>
+<p class="fs-4 text-dark">Evaluating its levelness and identifying any obstacles is essential.</p>
+
+<h4>Digging Post Holes:</h4>
+<p class="fs-4 text-dark">Make sure to choose the right depth and spacing depending on the type of fence you have chosen.</p>
+
+<h3>Setting the Fence:</h3>
+<p class="fs-4 text-dark">Properly aligning and securing the materials properly.</p>
+
+<h3>Conclusion</h3>
+<p class="fs-4 text-dark">
+    Building a proper fence requires careful planning, understanding your options, and choosing the right installation approach. At Cresttel, 
+    we pride ourselves on our expertise and commitment to quality. Contact Cresttel today to discuss your fencing project and discover 
+    how we can help you create the perfect solution for your needs.
+</p>
 
 
                             <img src="img/Fence/35.jpg" class="img-fluid" alt="">
                             <a style="margin-left: 30%;margin-top: 10%;" href="{{ route('fence') }}"
-                                class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft"><span
-                                    style="color: rgb(255, 255, 255);">Visit Our Service Fence Page</span></a>
+                                class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft"><span>Visit Our Service Fence Page</span></a>
                         </div><!-- End post content -->
 
 
@@ -251,25 +246,10 @@
     <!-- Footer End -->
 
 
-    <!-- Copyright Start -->
-    <div class="container-fluid py-4" style="background: #000000;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom" href="#"><span
-                            style="color: rgb(255, 255, 255);">Cresttel</span></a>,
-                    <span style="color: #1591ea;">All Right Reserved</span>.
-                </div>
+     <!-- Copyright Start -->
 
-                <div class="col-md-6 text-center text-md-end">
-
-                    <span style="color: #1591ea;">Distributed By</span>. <a class="border-bottom"
-                        href="https://nicheknights.com/"><span
-                            style="color: rgb(255, 255, 255);">Nicheknights</span></a>
-                </div>
-            </div>
-        </div>
-    </div>
+    @include('copyright')
+    
     <!-- Copyright End -->
 
 

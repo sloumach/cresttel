@@ -108,7 +108,7 @@
 
 
 <!-- Page Header Start -->
-<div class="container-fluid s" style="background-color: #007bff;">
+<div class="container-fluid s bg-primary">
     <div class="container py-5">
         <h1 class="display-3 text-white mb-3 animated slideInDown">Best Accessory Dwelling Unit</h1>
         <nav aria-label="breadcrumb animated slideInDown">
@@ -140,57 +140,40 @@
                         </div>
 
                         <!-- Blog Content -->
-                        <div class="content mt-4">
-                            <p style="font-size: larger; color: #000000;">
-                                If you’re thinking about constructing an accessory dwelling unit (ADU) for your property
-                                There are several features worth integrating into the final structure. Here are a few
-                                key elements to consider adding. The team at Cresttel provides resources, expertise, and
-                                support to ensure you get the best ADU in California and its counties. you can learn
-                                more about our services here. <br>Accessory dwelling units (ADUs) are all unique
-                                structures, but they must adhere to specific guidelines to meet California's standards.
-                                While ADUs require certain essential features, you have a significant degree of design
-                                autonomy. Before embarking on the construction of an ADU in California, here are several
-                                factors to consider prior to committing to build the best accessory dwelling unit in
-                                California. </p>
-                            </p>
-                        </div><!-- End post content -->
-                        <div class="post-img">
-                            <img src="img/ADU_img/1.Maydan-Architects_Palo-Alto-ADU_Photography-by-Dave-Edwards.jpg"
-                                alt="" class="img-fluid">
-                        </div>
+<div class="content mt-4">
+    <p class="fs-4 text-black">
+        If you’re thinking about constructing an accessory dwelling unit (ADU) for your property, there are several features worth integrating into the final structure. Here are a few key elements to consider adding. The team at Cresttel provides resources, expertise, and support to ensure you get the best ADU in California and its counties. You can learn more about our services here. <br>Accessory dwelling units (ADUs) are all unique structures, but they must adhere to specific guidelines to meet California's standards. While ADUs require certain essential features, you have a significant degree of design autonomy. Before embarking on the construction of an ADU in California, here are several factors to consider prior to committing to build the best accessory dwelling unit in California.
+    </p>
+</div><!-- End post content -->
 
+<div class="post-img">
+    <img src="img/ADU_img/1.Maydan-Architects_Palo-Alto-ADU_Photography-by-Dave-Edwards.jpg" alt="" class="img-fluid">
+</div>
 
-                        <h3>What’s an ADU, Anyway?</h3>
-                        <div class="content">
-                            <p style="font-size: larger; color: #000000;">An ADU, or Accessory Dwelling Unit, is a
-                                separate living space constructed on the same property as an existing residential home.
-                                While they must have the necessary amenities for independent living, ADUs can serve
-                                various purposes, such as home offices, gyms, art studios, or recreational spaces, among
-                                others. Whether you intend to build an ADU for personal use, an alternative space, or as
-                                a rental unit, adding the right structure can significantly enhance your property's
-                                value.
-                                In California, ADUs must meet certain requirements, including a living area of at least
-                                70 square feet, a kitchen of no less than 50 square feet, and a bathroom spanning at
-                                least 30 square feet. The bathroom must be equipped with a toilet, sink, and either a
-                                shower or bathtub..
-                            </p>
-                            <h3>Additional ADU Features</h3>
-                            <p style="font-size: larger; color: #000000;">ADUs offer versatile living spaces with
-                                modern amenities. Equip them with smart kitchens, energy-efficient bathrooms, and bright
-                                living areas. Customize the units to suit your goals, needs, and lifestyle by adding
-                                desirable features. Popular options enhance comfort and appeal to potential renters,
-                                such as outdoor spaces, home offices, or additional bedrooms. Granite countertops</p>
-                            <ul style="font-size: larger;color: #000000;">
-                                <li>Skylights</li>
-                                <li>Laundry area</li>
-                                <li>Garden area</li>
-                                <li>Lighting control</li>
-                                <li>Remote access</li>
-                            </ul>
+<h3>What’s an ADU, Anyway?</h3>
+<div class="content">
+    <p class="fs-4 text-black">
+        An ADU, or Accessory Dwelling Unit, is a separate living space constructed on the same property as an existing residential home. While they must have the necessary amenities for independent living, ADUs can serve various purposes, such as home offices, gyms, art studios, or recreational spaces, among others. Whether you intend to build an ADU for personal use, an alternative space, or as a rental unit, adding the right structure can significantly enhance your property's value. 
+        In California, ADUs must meet certain requirements, including a living area of at least 70 square feet, a kitchen of no less than 50 square feet, and a bathroom spanning at least 30 square feet. The bathroom must be equipped with a toilet, sink, and either a shower or bathtub.
+    </p>
+
+    <h3>Additional ADU Features</h3>
+    <p class="fs-4 text-black">
+        ADUs offer versatile living spaces with modern amenities. Equip them with smart kitchens, energy-efficient bathrooms, and bright living areas. Customize the units to suit your goals, needs, and lifestyle by adding desirable features. Popular options enhance comfort and appeal to potential renters, such as outdoor spaces, home offices, or additional bedrooms. Granite countertops
+    </p>
+
+    <ul class="fs-4 text-black">
+        <li>Skylights</li>
+        <li>Laundry area</li>
+        <li>Garden area</li>
+        <li>Lighting control</li>
+        <li>Remote access</li>
+    </ul>
+</div>
+
 
                             <a style="margin-left: 30%;margin-top: 10%;" href="adu.blade.php"
-                                class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft"><span
-                                    style="color: rgb(255, 255, 255);">Visit Our Service ADU Page</span></a>
+                                class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft"><span>Visit Our Service ADU Page</span></a>
                         </div><!-- End post content -->
 
 
@@ -264,25 +247,10 @@
     <!-- Footer End -->
 
 
-    <!-- Copyright Start -->
-    <div class="container-fluid py-4" style="background: #000000;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom" href="#"><span
-                            style="color: rgb(255, 255, 255);">Cresttel</span></a>,
-                    <span style="color: #1591ea;">All Right Reserved</span>.
-                </div>
+     <!-- Copyright Start -->
 
-                <div class="col-md-6 text-center text-md-end">
-
-                    <span style="color: #1591ea;">Distributed By</span>. <a class="border-bottom"
-                        href="https://nicheknights.com/"><span
-                            style="color: rgb(255, 255, 255);">Nicheknights</span></a>
-                </div>
-            </div>
-        </div>
-    </div>
+    @include('copyright')
+    
     <!-- Copyright End -->
 
 

@@ -20,7 +20,7 @@
                 <div class="viewer-counter-container mx-auto d-flex align-items-center"
                     style=": margin-left: 5000px;">
                     <i class="bi bi-person-circle" style="font-size: 20px; color: #1591ea;"></i>
-                    <span id="viewerCount" style="font-size: 24px; margin-left: 8px; font-weight: bold;">100</span>
+                    <span id="viewerCount" style="font-size: 24px; margin-left: 8px; font-weight: bold; color: black;"></span>
                     <div class="green-indicator"
                         style="width: 10px; height: 10px; background-color: #28a745; border-radius: 50%; position: relative; top: -2px; margin-left: 5px; animation: pulse 1s infinite;">
                     </div>

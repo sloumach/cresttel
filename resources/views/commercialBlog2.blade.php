@@ -113,7 +113,7 @@
 
 
 <!-- Page Header Start -->
-<div class="container-fluid s" style="background-color: #007bff;">
+<div class="container-fluid s bg-primary">
     <div class="container py-5">
         <h1 class="display-3 text-white mb-3 animated slideInDown">The Importance of Regular Maintenance for Commercial
             Properties</h1>
@@ -147,53 +147,37 @@
                         </div>
 
                         <!-- Blog Content -->
-                        <div class="content mt-4">
-                            <p style="font-size: larger; color: #000000;">
-                                Regular maintenance is necessary to keep commercial properties safe and lasting long.
-                                This article will discuss why maintenance is important for businesses.</p>
-                            </p>
-                            <p></p>
-                        </div><!-- End post content -->
+<div class="content mt-4">
+    <p class="fs-4 text-black">
+        Regular maintenance is necessary to keep commercial properties safe and lasting long. This article will discuss why maintenance is important for businesses.
+    </p>
+</div><!-- End post content -->
 
+<h3>Preventive Maintenance :</h3>
+<div class="content">
+    <ul class="fs-4 text-black">
+        <li>Regular inspections and repairs can prevent big problems and make building systems last longer. Preventive maintenance saves businesses time and money by fixing small problems before they get worse. This proactive approach ensures all systems work efficiently and reliably, from HVAC to plumbing.</li>
+    </ul>
+    <h3>Safety Compliance :</h3>
+    <ul class="fs-4 text-black">
+        <li>It is important to ensure the property meets safety regulations to protect employees and customers. Regular maintenance involves checking fire alarms, emergency exits, and structural integrity to ensure that the property meets local and federal safety codes. Safety compliance not only prevents accidents but also fines and legal problems.</li>
+    </ul>
 
+    <h3>Cost Savings :</h3>
+    <ul class="fs-4 text-black">
+        <li>Regular maintenance can prevent costly emergency repairs and downtime. By investing in routine maintenance, businesses can avoid unexpected breakdowns and the associated costs. Well-maintained systems are less likely to fail, leading to uninterrupted operations and significant cost savings over time.</li>
+    </ul>
 
-                        <h3>Preventive Maintenance :</h3>
-                        <div class="content">
-                            <p>
-                            <ul style="font-size: larger;color: #000000;">
-                                <li>Regular inspections and repairs can prevent big problems and make building systems
-                                    last longer. Preventive maintenance saves businesses time and money by fixing small
-                                    problems before they get worse. This proactive approach ensures all systems work
-                                    efficiently and reliably, from HVAC to plumbing.</li>
-                            </ul>
-                            <h3>Safety Compliance :</h3>
-                            <ul style="font-size: larger;color: #000000;">
-                                <li>It is important to ensure the property meets safety regulations to protect employees
-                                    and customers. Regular maintenance involves checking fire alarms, emergency exits,
-                                    and structural integrity to ensure that the property meets local and federal safety
-                                    codes. Safety compliance not only prevents accidents but also fines and legal
-                                    problems.</li>
-                            </ul>
-                            </p>
+    <h3>Conclusion :</h3>
+    <p class="fs-4 text-black">
+        Regular maintenance is vital for the safety, efficiency, and value of commercial properties. We at Cresttel offer comprehensive maintenance services to keep your property in top condition. Trust in Cresttel to provide you with preventive maintenance, ensure safety compliance, and deliver cost savings, enhancing the longevity and functionality of your commercial property.
+    </p>
+</div>
 
-                            <h3>Cost Savings :</h3>
-                            <ul style="font-size: larger;color: #000000;">
-                                <li>Regular maintenance can prevent costly emergency repairs and downtime. By investing
-                                    in routine maintenance, businesses can avoid unexpected breakdowns and the
-                                    associated costs. Well-maintained systems are less likely to fail, leading to
-                                    uninterrupted operations and significant cost savings over time.</li>
-                            </ul>
-                            <h3>Conclusion :</h3>
-                            <p style="color: #000000;font-size: larger;">Regular maintenance is vital for the safety,
-                                efficiency, and value of commercial properties. we at Cresttel offer comprehensive
-                                maintenance services to keep your property in top condition. Trust in Cresttel to
-                                provide you with preventive maintenance, to ensure safety compliance, and deliver cost
-                                savings, enhancing the longevity and functionality of your commercial property.</p>
 
                             <img src="img/COmer/construction_electrical.jpg" class="img-fluid" alt="">
                             <a style="margin-left: 30%;margin-top: 10%;" href="{{ route('commercial') }}"
-                                class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft"><span
-                                    style="color: rgb(255, 255, 255);">Visit Our Service ADU Page</span></a>
+                                class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft"><span>Visit Our Service ADU Page</span></a>
                         </div><!-- End post content -->
 
 
@@ -259,25 +243,10 @@
     <!-- Footer End -->
 
 
-    <!-- Copyright Start -->
-    <div class="container-fluid py-4" style="background: #000000;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom" href="#"><span
-                            style="color: rgb(255, 255, 255);">Cresttel</span></a>,
-                    <span style="color: #1591ea;">All Right Reserved</span>.
-                </div>
+     <!-- Copyright Start -->
 
-                <div class="col-md-6 text-center text-md-end">
-
-                    <span style="color: #1591ea;">Distributed By</span>. <a class="border-bottom"
-                        href="https://nicheknights.com/"><span
-                            style="color: rgb(255, 255, 255);">Nicheknights</span></a>
-                </div>
-            </div>
-        </div>
-    </div>
+    @include('copyright')
+    
     <!-- Copyright End -->
 
 

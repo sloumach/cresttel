@@ -137,20 +137,20 @@
 
     <!-- Services Section -->
     <section id="services">
-        <h2 style="color: #1591ea;">Service</h2>
+    <h2 class="text-primary">Service</h2>
 
-        <p style="font-size: 200%;">Cresttel offers exceptional <strong style="color:#000000;">commercial construction
-                services</strong>, meticulously crafted to meet your business requirements. Our seasoned professionals
-            excel in delivering timely and efficient <strong style="color:#000000;">construction</strong> of <strong
-                style="color:#000000;">commercial properties</strong>, adhering to the highest quality standards. From
-            initial planning and conceptualization to final execution, we handle every aspect of commercial construction
-            with unwavering precision. Rely on Cresttel for dependable, punctual completion of your commercial <strong
-                style="color:#000000;">construction projects</strong>, propelling your business towards greater success.
-            Reach out to us today to explore our <strong style="color:#000000;">comprehensive commercial construction
-                solutions</strong> tailored to your needs.</p>
+    <p class="fs-1">
+        Cresttel offers exceptional <strong class="text-black">commercial construction services</strong>, meticulously 
+        crafted to meet your business requirements. Our seasoned professionals excel in delivering timely and efficient 
+        <strong class="text-black">construction</strong> of <strong class="text-black">commercial properties</strong>, 
+        adhering to the highest quality standards. From initial planning and conceptualization to final execution, we handle 
+        every aspect of commercial construction with unwavering precision. Rely on Cresttel for dependable, punctual completion 
+        of your commercial <strong class="text-black">construction projects</strong>, propelling your business towards greater 
+        success. Reach out to us today to explore our <strong class="text-black">comprehensive commercial construction solutions</strong> 
+        tailored to your needs.
+    </p>
+</section>
 
-
-    </section>
     <div class="slider">
         <div class="list">
             <div class="item">
@@ -363,25 +363,10 @@
     <!-- Footer End -->
 
 
-    <!-- Copyright Start -->
-    <div class="container-fluid py-4" style="background: #000000;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom" href="#"><span
-                            style="color: rgb(255, 255, 255);">Cresttel</span></a>,
-                    <span style="color: #1591ea;">All Right Reserved</span>.
-                </div>
+     <!-- Copyright Start -->
 
-                <div class="col-md-6 text-center text-md-end">
-
-                    <span style="color: #1591ea;">Distributed By</span>. <a class="border-bottom"
-                        href="https://nicheknights.com/"><span
-                            style="color: rgb(255, 255, 255);">Nicheknights</span></a>
-                </div>
-            </div>
-        </div>
-    </div>
+    @include('copyright')
+    
     <!-- Copyright End -->
 
 

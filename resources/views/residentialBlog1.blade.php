@@ -114,7 +114,7 @@
 
 
 <!-- Page Header Start -->
-<div class="container-fluid s" style="background-color: #007bff;">
+<div class="container-fluid s bg-primary">
     <div class="container py-5">
         <h1 class="display-3 text-white mb-3 animated slideInDown">The Importance of Regular Home Maintenance</h1>
         <nav aria-label="breadcrumb animated slideInDown">
@@ -141,69 +141,62 @@
                             <img src="img/Residential_img/flooring 13.jpg" alt="Blog Image" class="img-fluid">
                         </div>
 
-                        <!-- Blog Content -->
-                        <div class="content mt-4">
-                            <p style="font-size: larger; color: #000000;">
-                                Regular home maintenance is crucial for preserving the value of your property and
-                                ensuring a safe, comfortable living environment. Just like a car requires regular
-                                servicing to run efficiently, your home needs consistent upkeep to prevent minor issues
-                                from escalating into costly repairs. This article will discuss key aspects of home
-                                maintenance, such as roof inspections, plumbing checks, and HVAC servicing, along with a
-                                seasonal checklist to help homeowners stay on top of their maintenance tasks. </p>
-                            <p></p>
-                        </div><!-- End post content -->
-                        <div class="post-img">
-                            <img src="img/Residential_img/flooring 332.jpg" alt="" class="img-fluid">
-                        </div>
+                       <!-- Blog Content -->
+<div class="content mt-4">
+    <p class="fs-lg text-dark">
+        Regular home maintenance is crucial for preserving the value of your property and ensuring a safe, comfortable living environment. Just like a car requires regular servicing to run efficiently, your home needs consistent upkeep to prevent minor issues from escalating into costly repairs. This article will discuss key aspects of home maintenance, such as roof inspections, plumbing checks, and HVAC servicing, along with a seasonal checklist to help homeowners stay on top of their maintenance tasks.
+    </p>
+</div><!-- End post content -->
 
+<div class="post-img">
+    <img src="img/Residential_img/flooring 332.jpg" alt="Flooring Image" class="img-fluid">
+</div>
 
-                        <h3>Key Aspects of Home Maintenance :</h3>
-                        <div class="content">
-                            <p>
-                            <ul style="font-size: larger;color: #000000;">
+<h3 class="mt-4">Key Aspects of Home Maintenance :</h3>
+<div class="content">
+    <p class="fs-lg text-dark">
+        Regular maintenance in these key areas can help avoid major issues in the long run:
+    </p>
 
-                                <h4>Roof Inspections :</h4>
-                                <ul style="font-size: larger;color: #000000;">
-                                    <li>Regular roof inspections are crucial for identifying potential issues like
-                                        leaks, missing shingles, or structural damage, protecting homes from water
-                                        damage and enhancing curb appeal.</li>
-                                </ul>
-                                </p>
+    <h4>Roof Inspections :</h4>
+    <ul class="fs-lg text-dark">
+        <li>Regular roof inspections are crucial for identifying potential issues like leaks, missing shingles, or structural damage, protecting homes from water damage and enhancing curb appeal.</li>
+    </ul>
 
-                                <h4>Plumbing Checks :</h4>
-                                <ul style="font-size: larger;color: #000000;">
-                                    <li>Regular plumbing checks, including inspecting pipes, checking water pressure,
-                                        and ensuring fixtures are functioning correctly, can prevent significant water
-                                        damage and prolong the lifespan of a water heater.</li>
-                                </ul>
-                                <h4>HVAC Servicing :</h4>
-                                <ul style="font-size: larger;color: #000000;">
-                                    <li>Regular servicing of your HVAC system, including filter changes and professional
-                                        inspections, can enhance efficiency and extend its lifespan, ideally twice a
-                                        year.</li>
-                                </ul>
-                                <h4>Seasonal Maintenance Checklist :</h4>
-                                <p style="color: #000000;font-size: larger;">To help homeowners keep track of their
-                                    maintenance tasks, here’s a seasonal checklist:</p>
+    <h4>Plumbing Checks :</h4>
+    <ul class="fs-lg text-dark">
+        <li>Regular plumbing checks, including inspecting pipes, checking water pressure, and ensuring fixtures are functioning correctly, can prevent significant water damage and prolong the lifespan of a water heater.</li>
+    </ul>
 
-                                <h4>Spring :</h4>
-                                <ul style="font-size: larger;color: #000000;">
-                                    <li>Inspect and clean gutters and downspouts.</li>
-                                    <li>Check for any signs of roof damage after winter.</li>
-                                    <li>Service the HVAC system before the cooling season begins.</li>
-                                </ul>
-                                <h4>Summer :</h4>
-                                <ul style="font-size: larger;color: #000000;">
-                                    <li>Clean and service ceiling fans and air conditioning units.</li>
-                                    <li>Check windows and doors for any signs of wear or damage.</li>
-                                    <li>Maintain your lawn and garden.</li>
-                                </ul>
+    <h4>HVAC Servicing :</h4>
+    <ul class="fs-lg text-dark">
+        <li>Regular servicing of your HVAC system, including filter changes and professional inspections, can enhance efficiency and extend its lifespan, ideally twice a year.</li>
+    </ul>
+
+    <h4>Seasonal Maintenance Checklist :</h4>
+    <p class="fs-lg text-dark">
+        To help homeowners keep track of their maintenance tasks, here’s a seasonal checklist:
+    </p>
+
+    <h4>Spring :</h4>
+    <ul class="fs-lg text-dark">
+        <li>Inspect and clean gutters and downspouts.</li>
+        <li>Check for any signs of roof damage after winter.</li>
+        <li>Service the HVAC system before the cooling season begins.</li>
+    </ul>
+
+    <h4>Summer :</h4>
+    <ul class="fs-lg text-dark">
+        <li>Clean and service ceiling fans and air conditioning units.</li>
+        <li>Check windows and doors for any signs of wear or damage.</li>
+        <li>Maintain your lawn and garden.</li>
+    </ul>
+</div>
 
 
                                 <img src="img/Residential_img/flooring 4f43.jpg" class="img-fluid" alt="">
                                 <a style="margin-left: 30%;margin-top: 10%;" href="{{ route('residential') }}"
-                                    class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft"><span
-                                        style="color: rgb(255, 255, 255);">Visit Our Service Residential
+                                    class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft"><span>Visit Our Service Residential
                                         Page</span></a>
                         </div><!-- End post content -->
 
@@ -243,25 +236,10 @@
     <!-- Footer End -->
 
 
-    <!-- Copyright Start -->
-    <div class="container-fluid py-4" style="background: #000000;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom" href="#"><span
-                            style="color: rgb(255, 255, 255);">Cresttel</span></a>,
-                    <span style="color: #1591ea;">All Right Reserved</span>.
-                </div>
+     <!-- Copyright Start -->
 
-                <div class="col-md-6 text-center text-md-end">
-
-                    <span style="color: #1591ea;">Distributed By</span>. <a class="border-bottom"
-                        href="https://nicheknights.com/"><span
-                            style="color: rgb(255, 255, 255);">Nicheknights</span></a>
-                </div>
-            </div>
-        </div>
-    </div>
+    @include('copyright')
+    
     <!-- Copyright End -->
 
 

@@ -109,7 +109,7 @@
 
 
 <!-- Page Header Start -->
-<div class="container-fluid s" style="background-color: #007bff;">
+<div class="container-fluid s bg-primary">
     <div class="container py-5">
         <h1 class="display-3 text-white mb-3 animated slideInDown">Choosing the Perfect Fence for Your Home: A
             Comprehensive Guide</h1>
@@ -142,58 +142,61 @@
                             <img src="img/Fence/36.jpg" alt="Blog Image" class="img-fluid">
                         </div>
 
-                        <!-- Blog Content -->
-                        <div class="content mt-4">
-                            <p style="font-size: larger; color: #000000;">
-                                Fences serve multiple purposes, offering practical solutions and visual enhancements for
-                                your property. Beyond providing security and privacy, they elevate your home's curb
-                                appeal. Whether installing a new fence or replacing an existing one, comprehending the
-                                diverse functions is crucial for an informed decision. This article explores the various
-                                roles fences play and offers insights to help you choose the perfect option tailored to
-                                your requirements. </p>
-                            </p>
-                        </div><!-- End post content -->
+                       <!-- Blog Content -->
+<div class="content mt-4">
+    <p class="fs-4 text-dark">
+        Fences serve multiple purposes, offering practical solutions and visual enhancements for your property.
+        Beyond providing security and privacy, they elevate your home's curb appeal. Whether installing a new fence
+        or replacing an existing one, comprehending the diverse functions is crucial for an informed decision. This
+        article explores the various roles fences play and offers insights to help you choose the perfect option
+        tailored to your requirements.
+    </p>
+</div><!-- End post content -->
 
+<h3>1. Defining Your Property Lines</h3>
+<div class="content">
+    <p class="fs-4 text-dark">
+        A fence's primary purpose is to visibly mark the boundaries of your property. A sturdy and well-built fence
+        helps avoid conflicts with neighbors by clearly delineating where your land ends. When selecting a boundary fence,
+        opt for durable and visually distinct options that effectively demarcate your property lines, providing you
+        with peace of mind.
+    </p>
 
+    <h3>2. Enhancing Security</h3>
+    <p class="fs-4 text-dark">
+        Fences offer an extra layer of protection, discouraging unwanted visitors and safeguarding your property
+        from unauthorized entry. If security is a top priority, consider taller fences equipped with features like locked
+        gates and sturdy construction materials. Options like wrought iron, vinyl, or wood can provide long-lasting
+        durability and aesthetic appeal while bolstering the security of your residence.
+    </p>
 
-                        <h3>1. Defining Your Property Lines </h3>
-                        <div class="content">
-                            <p style="font-size: larger; color: #000000;">A fence's primary purpose is to visibly mark
-                                the boundaries of your property. A sturdy and well-built fence helps avoid conflicts
-                                with neighbors by clearly delineating where your land ends. When selecting a boundary
-                                fence, opt for durable and visually distinct options that effectively demarcate your
-                                property lines, providing you with peace of mind.
-                            </p>
-                            <h3>2. Enhancing Security</h3>
-                            <p style="font-size: larger; color: #000000;">Fences offer an extra layer of protection,
-                                discouraging unwanted visitors and safeguarding your property from unauthorized entry.
-                                If security is a top priority, consider taller fences equipped with features like locked
-                                gates and sturdy construction materials. Options like wrought iron, vinyl, or wood can
-                                provide long-lasting durability and aesthetic appeal while bolstering the security of
-                                your residence.
-                            </p>
-                            <h3>3. Safeguarding Pets and Children</h3>
-                            <p style="font-size: larger; color: #000000;">Fences provide a secure boundary for homes
-                                with pets or young kids, allowing them to enjoy the outdoors safely. When prioritizing
-                                safety, opt for fences with minimal openings to prevent small animals or children from
-                                wandering off. Self-closing gates and secure latches are also essential features to
-                                ensure maximum protection and peace of mind..</p>
-                            <h3>4. Providing Privacy</h3>
-                            <p style="font-size: larger; color: #000000;">Fences provide homeowners with a means to
-                                establish secluded outdoor spaces, enabling them to relish their yards without the
-                                intrusive gazes of neighbors. Privacy fences tend to be tall and opaque, offering
-                                minimal visibility. Materials like wood, composite, or vinyl are favored options,
-                                blending practicality with visual allure.</p>
-                            <h3>5. Boosting Curb Appeal</h3>
-                            <p style="font-size: larger; color: #000000;">Fences serve practical purposes, but they can
-                                also elevate your home's curb appeal. When choosing a fence, consider your property's
-                                architectural style and select a design that harmonizes </p>
+    <h3>3. Safeguarding Pets and Children</h3>
+    <p class="fs-4 text-dark">
+        Fences provide a secure boundary for homes with pets or young kids, allowing them to enjoy the outdoors safely.
+        When prioritizing safety, opt for fences with minimal openings to prevent small animals or children from
+        wandering off. Self-closing gates and secure latches are also essential features to ensure maximum protection
+        and peace of mind.
+    </p>
+
+    <h3>4. Providing Privacy</h3>
+    <p class="fs-4 text-dark">
+        Fences provide homeowners with a means to establish secluded outdoor spaces, enabling them to relish their yards
+        without the intrusive gazes of neighbors. Privacy fences tend to be tall and opaque, offering minimal visibility.
+        Materials like wood, composite, or vinyl are favored options, blending practicality with visual allure.
+    </p>
+
+    <h3>5. Boosting Curb Appeal</h3>
+    <p class="fs-4 text-dark">
+        Fences serve practical purposes, but they can also elevate your home's curb appeal. When choosing a fence, consider
+        your property's architectural style and select a design that harmonizes.
+    </p>
+</div>
+
 
 
                             <img src="img/Fence/30 - Copie.jpg  " class="img-fluid" alt="">
                             <a style="margin-left: 30%;margin-top: 10%;" href="{{ route('fence') }}"
-                                class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft"><span
-                                    style="color: rgb(255, 255, 255);">Visit Our Service Fence Page</span></a>
+                                class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft"><span>Visit Our Service Fence Page</span></a>
                         </div><!-- End post content -->
 
 
@@ -236,25 +239,10 @@
     <!-- Footer End -->
 
 
-    <!-- Copyright Start -->
-    <div class="container-fluid py-4" style="background: #000000;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom" href="#"><span
-                            style="color: rgb(255, 255, 255);">Cresttel</span></a>,
-                    <span style="color: #1591ea;">All Right Reserved</span>.
-                </div>
+     <!-- Copyright Start -->
 
-                <div class="col-md-6 text-center text-md-end">
-
-                    <span style="color: #1591ea;">Distributed By</span>. <a class="border-bottom"
-                        href="https://nicheknights.com/"><span
-                            style="color: rgb(255, 255, 255);">Nicheknights</span></a>
-                </div>
-            </div>
-        </div>
-    </div>
+    @include('copyright')
+    
     <!-- Copyright End -->
 
 

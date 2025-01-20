@@ -113,7 +113,7 @@
 
 
 <!-- Page Header Start -->
-<div class="container-fluid s" style="background-color: #007bff;">
+<div class="container-fluid s bg-primary">
     <div class="container py-5">
         <h1 class="display-3 text-white mb-3 animated slideInDown">What Are MDUs and Why Are They Important?</h1>
         <nav aria-label="breadcrumb animated slideInDown">
@@ -143,72 +143,51 @@
                                 class="img-fluid">
                         </div>
 
-                        <!-- Blog Content -->
-                        <div class="content mt-4">
-                            <p style="font-size: larger; color: #000000;">
-                                Multi-Dwelling Units (MDUs) are residential buildings designed to accommodate multiple
-                                families or individuals within a single structure. They are crucial for urban living in
-                                California due to their ability to maximize space and provide affordable housing
-                                options. MDUs encompass various housing types such as apartments, condominiums, and
-                                townhouses, all contributing to efficient urban development. </p>
-                            <p></p>
-                        </div><!-- End post content -->
+                       <!-- Blog Content -->
+<div class="content mt-4">
+    <p class="fs-4 text-dark">
+        Multi-Dwelling Units (MDUs) are residential buildings designed to accommodate multiple families or individuals within a single structure. 
+        They are crucial for urban living in California due to their ability to maximize space and provide affordable housing options. 
+        MDUs encompass various housing types such as apartments, condominiums, and townhouses, all contributing to efficient urban development.
+    </p>
+</div><!-- End post content -->
 
+<h3>Types of MDUs in California:</h3>
+<div class="content">
+    <ul class="fs-4 text-dark">
+        <li><strong>Apartments:</strong> Self-contained housing units within a larger building.</li>
+        <li><strong>Condominiums:</strong> Individually owned units within a shared building, with common areas maintained by an association.</li>
+        <li><strong>Townhouses:</strong> Multi-story homes sharing walls with neighboring units but having separate entrances.</li>
+    </ul>
+</div>
 
+<h3>Benefits of MDUs in California:</h3>
+<div class="content">
+    <ul class="fs-4 text-dark">
+        <li><strong>Efficient Land Use:</strong> MDUs optimize limited urban space, allowing for more housing units on a given plot compared to single-family homes.</li>
+        <li><strong>Community Living:</strong> They foster a sense of community through shared spaces and amenities.</li>
+        <li><strong>Affordability:</strong> MDUs often provide more affordable housing options, making urban living accessible to a broader population.</li>
+    </ul>
+</div>
 
-                        <h3>Types of MDUs in California :</h3>
-                        <div class="content">
-                            <p>
-                            <ul style="font-size: larger;color: #000000;">
-                                <li><strong style="color:#000000; ">Apartments :</strong> Self-contained housing units
-                                    within a larger building.</li>
-                                <li><strong style="color:#000000; ">Condominiums :</strong> Individually owned units
-                                    within a shared building, with common areas maintained by an association.</li>
-                                <p>
-                                    <li><strong style="color:#000000; ">Townhouses :</strong> Multi-story homes sharing
-                                        walls with neighboring units but having separate entrances.
-                                </p>
+<p><strong class="fs-4 text-dark">Role of MDUs in Addressing Housing Shortages in California:</strong></p>
+<p class="fs-4 text-dark">
+    MDUs help meet the growing demand for housing in urban areas by increasing the number of available units without the need for expansive new developments. 
+    This is especially important in California cities like Los Angeles, San Francisco, and San Diego, which face significant housing shortages.
+</p>
 
-                                </li>
-                            </ul>
-                            </p>
-                            <h3>Benefits of MDUs in California :</h3>
-                            <div class="content">
-                                <p>
-                                <ul style="font-size: larger;color: #000000;">
-                                    <li><strong style="color:#000000; ">Efficient Land Use : </strong> MDUs optimize
-                                        limited urban space, allowing for more housing units on a given plot compared to
-                                        single-family homes.</li>
-                                    <li><strong style="color:#000000; ">Community Living :</strong> They foster a sense
-                                        of community through shared spaces and amenities.</li>
-                                    <p>
-                                        <li><strong style="color:#000000; ">Affordability :</strong> MDUs often provide
-                                            more affordable housing options, making urban living accessible to a broader
-                                            population.
-                                    </p>
-                                    </li>
-                                </ul>
-                                </p>
-                                <p><strong style="color:#000000;font-size: larger; ">Role of MDUs in Addressing Housing
-                                        Shortages in California :</strong>
-                                <p style="color: #000000;">MDUs help meet the growing demand for housing in urban areas
-                                    by increasing the number of available units without the need for expansive new
-                                    developments. This is especially important in California cities like Los Angeles,
-                                    San Francisco, and San Diego, which face significant housing shortages.</p>
-                                <p><strong style="color:#000000;font-size: larger; ">Conclusion :</strong>
-                                <p style="color: #000000;">MDUs are vital in tackling urban housing challenges in
-                                    California by providing efficient, affordable, and community-oriented living
-                                    options. Contact the Cresttel team and let us transform your property with
-                                    innovative and sustainable multi-dwelling unit solutions.</p>
-
+<p><strong class="fs-4 text-dark">Conclusion:</strong></p>
+<p class="fs-4 text-dark">
+    MDUs are vital in tackling urban housing challenges in California by providing efficient, affordable, and community-oriented living options. 
+    Contact the Cresttel team and let us transform your property with innovative and sustainable multi-dwelling unit solutions.
+</p>
 
 
 
                                 <img src="img/MDU_img/9_GreveLibrary_PhotoPietroSavorelli3.jpg" class="img-fluid"
                                     alt="">
                                 <a style="margin-left: 30%;margin-top: 10%;" href="{{ route('mdu') }}"
-                                    class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft"><span
-                                        style="color: rgb(255, 255, 255);">Visit Our Service MDU Page</span></a>
+                                    class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft"><span>Visit Our Service MDU Page</span></a>
                             </div><!-- End post content -->
 
 
@@ -279,25 +258,10 @@
     <!-- Footer End -->
 
 
-    <!-- Copyright Start -->
-    <div class="container-fluid py-4" style="background: #000000;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom" href="#"><span
-                            style="color: rgb(255, 255, 255);">Cresttel</span></a>,
-                    <span style="color: #1591ea;">All Right Reserved</span>.
-                </div>
+     <!-- Copyright Start -->
 
-                <div class="col-md-6 text-center text-md-end">
-
-                    <span style="color: #1591ea;">Distributed By</span>. <a class="border-bottom"
-                        href="https://nicheknights.com/"><span
-                            style="color: rgb(255, 255, 255);">Nicheknights</span></a>
-                </div>
-            </div>
-        </div>
-    </div>
+    @include('copyright')
+    
     <!-- Copyright End -->
 
 

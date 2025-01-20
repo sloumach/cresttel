@@ -3,10 +3,10 @@
         <div class="row g-5">
             <div class="col-lg-3 col-md-6">
                 <h5 class="text-light mb-4">Address</h5>
-                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>1662 north magnolia Ave El Cajon, ca
-                    92020</p>
-                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>(+1) 619-430-4313</p>
-                <p class="mb-2"><i class="fa fa-envelope me-3"></i>cs@cresttel.net</p>
+                <p class="mb-2 text-white"><i class="fa fa-map-marker-alt me-3"></i>1662 north magnolia Ave El Cajon, ca 92020</p>
+<p class="mb-2 text-white"><i class="fa fa-phone-alt me-3"></i>(+1) 619-430-4313</p>
+<p class="mb-2 text-white"><i class="fa fa-envelope me-3"></i>cs@cresttel.net</p>
+
                 <div class="d-flex pt-2">
                     <a class="btn btn-square btn-facebook rounded-circle me-2"
                         href="https://www.facebook.com/cresttelconstruction" target="_blank">

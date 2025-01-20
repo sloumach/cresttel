@@ -126,23 +126,24 @@
             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                 <h4 class="section-title">About Us</h4>
                 <h1 class="display-5 mb-4">A Creative Construction Company For Your Dream Buildings</h1>
-                <p style="color: #1c1c1c;">At Cresttel, we don’t just build structures; we create environments that
+                <p>At Cresttel, we don’t just build structures; we create environments that
                     inspire, protect, and elevate the way people live and work. Our journey begins with a vision—a
                     commitment to delivering excellence in every project, no matter the scale or complexity. From
                     Accessory Dwelling Units (ADUs) to Multi-Dwelling Units (MDUs), from commercial properties to
                     residential developments, and even fencing solutions, we bring expertise and innovation to every
-                    venture we undertake.</p>
-                <div class="d-flex align-items-center mb-5">
-                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center border border-5 border-primary"
-                        style="width: 120px; height: 120px;">
-                        <h2 class="display-1 mb-n2" data-toggle="counter-up">25</h2>
-                    </div>
-                    <div class="ps-4">
-                        <h3>Years</h3>
-                        <h3>Working</h3>
-                        <h3 class="mb-0">Experience and + </h3>
-                    </div>
-                </div>
+                    <p>Venture we undertake.</p>
+
+                    <div class="d-flex align-items-center mb-5">
+    <div class="d-flex flex-shrink-0 align-items-center justify-content-center border border-5 border-primary">
+        <h2 class="display-1 mb-n2" data-toggle="counter-up">25</h2>
+    </div>
+    <div class="ps-4">
+        <h3 class="mb-1">Years</h3>
+        <h3 class="mb-1">Working</h3>
+        <h3 class="mb-0">Experience and +</h3>
+    </div>
+</div>
+
                 <a class="btn btn-primary py-3 px-5" href="{{ route('blogs') }}">Read More</a>
             </div>
         </div>
@@ -160,7 +161,7 @@
                         <img src="img2/design_4x.jpg.png" alt="Icon">
                     </div>
                     <h3 class="mb-3">Designing</h3>
-                    <p style="color: #1c1c1c;" class="mb-0">At Cresttel, we believe that the foundation of any
+                    <p  class="mb-0">At Cresttel, we believe that the foundation of any
                         successful construction project lies in meticulous planning and innovative design. Our team of
                         architects and engineers work collaboratively to create detailed plans and blueprints that align
                         with your vision. We focus on selecting the best materials and ensuring that our designs meet
@@ -174,7 +175,7 @@
                         <img src="img2/OIP.jpg.png" alt="Icon">
                     </div>
                     <h3 class="mb-3">Renovation Solutions</h3>
-                    <p style="color: #1c1c1c;" class="mb-0">Renovation is about breathing new life into existing
+                    <p  class="mb-0">Renovation is about breathing new life into existing
                         structures. Whether it's a minor cosmetic update or a major structural overhaul, Cresttel is
                         here to help. Our renovation process includes demolishing outdated elements, repairing or
                         replacing damaged components, and installing new features to enhance the functionality and
@@ -188,7 +189,7 @@
                         <img src="img2/maintenance-3d-icon-illustrations-png.png" alt="Icon">
                     </div>
                     <h3 class="mb-3">Maintenance</h3>
-                    <p style="color: #1c1c1c;" class="mb-0">Maintenance is crucial for the longevity and safety of
+                    <p class="mb-0">Maintenance is crucial for the longevity and safety of
                         any building. At Cresttel, we offer comprehensive maintenance services to keep your property in
                         top condition. Our team conducts regular inspections, performs necessary repairs, and services
                         essential systems such as plumbing, electrical, and HVAC. Effective maintenance prevents costly
@@ -205,90 +206,11 @@
 
 
 
-<section class="slider">
-    <div class="list">
-        <div class="item active">
-            <div class="image" style="--url: url('img/Project/Picture44.jpg')"></div>
-            <div class="content">
-                <h2 style="color: #ffffff;">Best Fence Services</h2>
+@include('projectslider')
+    
+  
 
-            </div>
-        </div>
-        <div class="item ">
-            <div class="image" style="--url: url('img/Project/Frameless_glass_balustrade_on_spiral_stairs.jpg')"></div>
-            <div class="content">
-                <h2 style="color: #ffffff;">Modern Stairs</h2>
 
-            </div>
-        </div>
-        <div class="item">
-            <div class="image" style="--url: url('img/Project/rf3.jpg')"></div>
-            <div class="content">
-                <h2 style="color: #ffffff;">Modern Living Solutions</h2>
-
-            </div>
-        </div>
-        <div class="item">
-            <div class="image" style="--url: url('img/Project/zse.jpg')"></div>
-            <div class="content">
-                <h2 style="color: #ffffff;">The best Renovation</h2>
-
-            </div>
-        </div>
-        <div class="item">
-            <div class="image" style="--url: url('img/Project/rfde.jpg')"></div>
-            <div class="content">
-                <h2 style="color: #ffffff;">Residential</h2>
-
-            </div>
-        </div>
-        <div class="item">
-            <div class="image" style="--url: url('img/Project/flooring.png')"></div>
-            <div class="content">
-                <h2 style="color: #ffffff;">Concrete</h2>
-
-            </div>
-        </div>
-        <div class="item">
-            <div class="image" style="--url: url('img/Project/solar-farm.jpg')"></div>
-            <div class="content">
-                <h2 style="color: #ffffff;">Solar Farm</h2>
-
-            </div>
-        </div>
-        <div class="item">
-            <div class="image" style="--url: url('img/Project/CBD-CONTRACTING-UNION-STREET.jpg')"></div>
-            <div class="content">
-                <h2 style="color: #ffffff;">Custom Design Solutions</h2>
-
-            </div>
-        </div>
-        <div class="item">
-            <div class="image" style="--url: url('img/Project/septic-tank1.jpg')"></div>
-            <div class="content">
-                <h2 style="color: #ffffff;">Septic tanks</h2>
-
-            </div>
-        </div>
-    </div>
-    <div class="arrows">
-        <button id="prev">
-            <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                width="24" height="24" fill="none" viewBox="0 0 24 24">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M5 12h14M5 12l4-4m-4 4 4 4" />
-            </svg>
-        </button>
-        <button id="next">
-            <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                width="24" height="24" fill="none" viewBox="0 0 24 24">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M19 12H5m14 0-4 4m4-4-4-4" />
-            </svg>
-        </button>
-    </div>
-</section>
-</main>
 
 <!-- Feature Start -->
 <div class="container-xxl py-5">
@@ -312,7 +234,7 @@
 </div>
 </div>
 <!-- Feature End -->
-<p style="text-align: center;color: #000000;font-size:170%;">Imagine your ADU designed not just as an addition but as
+<p class="p2">Imagine your ADU designed not just as an addition but as
     an extension of your lifestyle, blending efficiency with sustainability. Visualize MDUs crafted with meticulous
     attention to detail, balancing the demands of high-density living with thoughtful design that enhances both
     functionality and aesthetic value. Step into commercial spaces developed with businesses in mind—tailored to foster
@@ -331,188 +253,11 @@
 
 
 <!-- Project Start -->
-<div class="container-xxl project py-5">
-    <div class="container">
-        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-            <h4 class="section-title">Our Projects</h4>
-            <h5 style="font-size:150%;" class="display-5 mb-4">Visit Our Latest Projects And Our Innovative Works</h5>
-        </div>
-        <div class="row g-4 wow fadeInUp" data-wow-delay="0.3s">
-            <div class="col-lg-4">
-                <div class="nav nav-pills d-flex justify-content-between w-100 h-100 me-4">
-                    <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4 active"
-                        data-bs-toggle="pill" data-bs-target="#tab-pane-1" type="button">
-                        <h3 class="m-0">01. Modern Complex</h3>
-                    </button>
-                    <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill"
-                        data-bs-target="#tab-pane-2" type="button">
-                        <h3 class="m-0">02. Royal Hotel</h3>
-                    </button>
-                    <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill"
-                        data-bs-target="#tab-pane-3" type="button">
-                        <h3 class="m-0">03. Mexwel Buiding</h3>
-                    </button>
-                    <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-0" data-bs-toggle="pill"
-                        data-bs-target="#tab-pane-4" type="button">
-                        <h3 class="m-0">04. Shopping Complex</h3>
-                    </button>
-                </div>
-            </div>
-            <div class="col-lg-8">
-                <div class="tab-content w-100">
-                    <div class="tab-pane fade show active" id="tab-pane-1">
-                        <div class="row g-4">
-                            <div class="col-md-6" style="min-height: 350px;">
-                                <div class="position-relative h-100">
-                                    <img class="position-absolute img-fluid w-100 h-100" src="img2/project-1.jpg"
-                                        style="object-fit: cover;" alt="">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <h6 style="font-size:150%;" class="mb-3">25 Years Of Experience In Architecture
-                                    Industry</h6>
-                                <p class="mb-4">We believe in establishing strong relationships with our clients open
-                                    and consistent dialogue. Whether you have question, specific requirements, or
-                                    special request, we’re here to assist you. Feel free to contact us any time, and
-                                    let’s collaborate to turn your vision to reality</p>
-                                <div class="row gx-5 py-2">
-                                    <div class="col-sm-6 mb-2">
-                                        <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>Perfect
-                                            Planning</p>
-                                        <p class="fw-bold mb-2"><i
-                                                class="fa fa-check text-primary me-3"></i>Professional Workers</p>
-                                        <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>First
-                                            Working Process</p>
-                                    </div>
-                                    <div class="col-sm-6 mb-2">
-                                        <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>Expert
-                                            Coordination</p>
-                                        <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>Skilled
-                                            Technicians</p>
-                                        <p class="fw-bold mb-2"><i
-                                                class="fa fa-check text-primary me-3"></i>Innovative Solutions</p>
-                                    </div>
-                                </div>
-                                <a href="{{ route('blogs') }}" class="btn btn-primary py-3 px-5 mt-3">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="tab-pane-2">
-                        <div class="row g-4">
-                            <div class="col-md-6" style="min-height: 350px;">
-                                <div class="position-relative h-100">
-                                    <img class="position-absolute img-fluid w-100 h-100" src="img2/project-2.jpg"
-                                        style="object-fit: cover;" alt="">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <h2 style="font-size:150%;" class="mb-3">25 Years Of Experience In Architecture
-                                    Industry</h2>
-                                <p class="mb-4">We believe in establishing strong relationships with our clients open
-                                    and consistent dialogue. Whether you have question, specific requirements, or
-                                    special request, we’re here to assist you. Feel free to contact us any time, and
-                                    let’s collaborate to turn your vision to reality</p>
-                                <div class="row gx-5 py-2">
-                                    <div class="col-sm-6 mb-2">
-                                        <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>Perfect
-                                            Planning</p>
-                                        <p class="fw-bold mb-2"><i
-                                                class="fa fa-check text-primary me-3"></i>Professional Workers</p>
-                                        <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>First
-                                            Working Process</p>
-                                    </div>
-                                    <div class="col-sm-6 mb-2">
-                                        <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>Expert
-                                            Coordination</p>
-                                        <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>Skilled
-                                            Technicians</p>
-                                        <p class="fw-bold mb-2"><i
-                                                class="fa fa-check text-primary me-3"></i>Innovative Solutions</p>
-                                    </div>
-                                </div>
-                                <a href="{{ route('blogs') }}" class="btn btn-primary py-3 px-5 mt-3">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="tab-pane-3">
-                        <div class="row g-4">
-                            <div class="col-md-6" style="min-height: 350px;">
-                                <div class="position-relative h-100">
-                                    <img class="position-absolute img-fluid w-100 h-100" src="img2/project-3.jpg"
-                                        style="object-fit: cover;" alt="">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <h3 style="font-size:150%;" class="mb-3">25 Years Of Experience In Architecture
-                                    Industry</h3>
-                                <p class="mb-4">We believe in establishing strong relationships with our clients open
-                                    and consistent dialogue. Whether you have question, specific requirements, or
-                                    special request, we’re here to assist you. Feel free to contact us any time, and
-                                    let’s collaborate to turn your vision to reality</p>
-                                <div class="row gx-5 py-2">
-                                    <div class="col-sm-6 mb-2">
-                                        <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>Perfect
-                                            Planning</p>
-                                        <p class="fw-bold mb-2"><i
-                                                class="fa fa-check text-primary me-3"></i>Professional Workers</p>
-                                        <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>First
-                                            Working Process</p>
-                                    </div>
-                                    <div class="col-sm-6 mb-2">
-                                        <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>Expert
-                                            Coordination</p>
-                                        <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>Skilled
-                                            Technicians</p>
-                                        <p class="fw-bold mb-2"><i
-                                                class="fa fa-check text-primary me-3"></i>Innovative Solutions</p>
-                                    </div>
-                                </div>
-                                <a href="{{ route('blogs') }}" class="btn btn-primary py-3 px-5 mt-3">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="tab-pane-4">
-                        <div class="row g-4">
-                            <div class="col-md-6" style="min-height: 350px;">
-                                <div class="position-relative h-100">
-                                    <img class="position-absolute img-fluid w-100 h-100" src="img2/project-4.jpg"
-                                        style="object-fit: cover;" alt="">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <h5 style="font-size:150%;" class="mb-3">25 Years Of Experience In Architecture
-                                    Industry</h5>
-                                <p class="mb-4">We believe in establishing strong relationships with our clients open
-                                    and consistent dialogue. Whether you have question, specific requirements, or
-                                    special request, we’re here to assist you. Feel free to contact us any time, and
-                                    let’s collaborate to turn your vision to reality</p>
-                                <div class="row gx-5 py-2">
-                                    <div class="col-sm-6 mb-2">
-                                        <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>Perfect
-                                            Planning</p>
-                                        <p class="fw-bold mb-2"><i
-                                                class="fa fa-check text-primary me-3"></i>Professional Workers</p>
-                                        <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>First
-                                            Working Process</p>
-                                    </div>
-                                    <div class="col-sm-6 mb-2">
-                                        <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>Expert
-                                            Coordination</p>
-                                        <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>Skilled
-                                            Technicians</p>
-                                        <p class="fw-bold mb-2"><i
-                                                class="fa fa-check text-primary me-3"></i>Innovative Solutions</p>
-                                    </div>
-                                </div>
-                                <a href="{{ route('blogs') }}" class="btn btn-primary py-3 px-5 mt-3">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
+
+@include('projectflex')
+    
+   
 <!-- Project End -->
 
 </div>
@@ -526,24 +271,10 @@
 
 
 <!-- Copyright Start -->
-<div class="container-fluid py-4" style="background: #000000;">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                &copy; <a class="border-bottom" href="#"><span
-                        style="color: rgb(255, 255, 255);">Cresttel</span></a>,
-                <span style="color: #1591ea;">All Right Reserved</span>.
-            </div>
 
-            <div class="col-md-6 text-center text-md-end">
-
-                <span style="color: #1591ea;">Distributed By</span>. <a class="border-bottom"
-                    href="https://nicheknights.com/"><span style="color: rgb(255, 255, 255);">Nicheknights</span></a>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Copyright End -->
+ @include('copyright')
+    
+    <!-- Copyright End -->
 
 
 <!-- Back to Top -->
@@ -553,7 +284,7 @@
 </div>
 
   
-<
+
 
 <div id="expandable-bubble">
     <div class="primary-bubble" onclick="toggleSocialIcons()">
@@ -594,356 +325,3 @@
 <script src="{{ asset('js/project.js') }}"></script>
 
 </html>
-
-
-
-
-<script>
-    let items = document.querySelectorAll('.slider .list .item');
-    let prevBtn = document.getElementById('prev');
-    let nextBtn = document.getElementById('next');
-    let lastPosition = items.length - 1;
-    let firstPosition = 0;
-    let active = 0;
-    let autoChange;
-
-    // Function to navigate to the next slide
-    nextBtn.onclick = () => {
-        active = (active + 1) > lastPosition ? 0 : active + 1; // Loop back to first slide
-        setSlider();
-        resetAutoChange();
-    };
-
-    // Function to navigate to the previous slide
-    prevBtn.onclick = () => {
-        active = (active - 1) < firstPosition ? lastPosition : active - 1; // Loop back to last slide
-        setSlider();
-        resetAutoChange();
-    };
-
-    // Function to apply active class and update arrow visibility
-    const setSlider = () => {
-        let oldActive = document.querySelector('.slider .list .item.active');
-        if (oldActive) oldActive.classList.remove('active');
-        items[active].classList.add('active');
-        // Update arrow visibility
-        nextBtn.classList.remove('d-none');
-        prevBtn.classList.remove('d-none');
-    };
-
-    // Function to set auto-change timer
-    const startAutoChange = () => {
-        autoChange = setInterval(() => {
-            active = (active + 1) > lastPosition ? 0 : active + 1;
-            setSlider();
-        }, 5000); // Change every 5 seconds
-    };
-
-    // Reset auto-change timer on manual navigation
-    const resetAutoChange = () => {
-        clearInterval(autoChange);
-        startAutoChange();
-    };
-
-    // Set slider and auto-change on load
-    setSlider();
-    startAutoChange();
-
-    // Set diameter for circular images
-    const setDiameter = () => {
-        let slider = document.querySelector('.slider');
-        let widthSlider = slider.offsetWidth;
-        let heightSlider = slider.offsetHeight;
-        let diameter = Math.sqrt(Math.pow(widthSlider, 2) + Math.pow(heightSlider, 2));
-        document.documentElement.style.setProperty('--diameter', diameter + 'px');
-    };
-    setDiameter();
-    window.addEventListener('resize', () => {
-        setDiameter();
-    });
-</script>
-<style>
-    @import url('https://fonts.cdnfonts.com/css/bebas-neue');
-    @import url('https://fonts.cdnfonts.com/css/poppins');
-    /* 1200 x 780 */
-
-
-    * {
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-        list-style: none;
-    }
-
-    svg {
-        color: #fff;
-    }
-
-    :root {
-        --width-default: min(1200px, 90vw);
-        --diameter: 1432px;
-    }
-
-
-    .slider {
-        /* background-color: red; */
-        color: #eee;
-        width: 100vw;
-        height: 100vh;
-        position: relative;
-        overflow: hidden;
-        margin-top: -70px;
-    }
-
-    .slider .list .item {
-        position: absolute;
-        inset: 0 0 0 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transition: 1s;
-    }
-
-    .slider .list .item .content {
-        position: absolute;
-        top: 20%;
-        left: 50%;
-        transform: translateX(-50%);
-        width: max-content;
-        max-width: 100%;
-        text-align: center;
-        display: grid;
-        grid-template-columns: repeat(2, 400px);
-        text-align: left;
-        gap: 80px;
-        font-size: 1.2em;
-        text-transform: uppercase;
-        font-family: Poppins;
-        text-shadow: 0 0 80px #000;
-    }
-
-    .slider .list .item .content h2 {
-        font-size: 10em;
-        font-family: 'Bebas Neue', sans-serif;
-        line-height: 0.9em;
-        transform: translateY(-100%);
-        transition: transform 1s;
-        grid-row-start: 1;
-        grid-row-end: 3;
-    }
-
-    .slider .list .item .content p {}
-
-    .slider .list .item .content p:last-child {
-        display: flex;
-        justify-content: start;
-        align-items: end;
-        padding-bottom: 25px;
-    }
-
-    /* item default */
-    .slider .list .item .image {
-        flex-shrink: 0;
-        width: var(--diameter);
-        height: var(--diameter);
-        background-image: var(--url);
-        background-size: var(--diameter) var(--diameter);
-        background-position: center;
-        border-radius: 50%;
-        transform: rotate(-60deg);
-        position: relative;
-        transition: 1s;
-    }
-
-    .slider .list .item .image::before,
-    .slider .list .item .image::after {
-        position: absolute;
-        width: 70%;
-        height: 70%;
-        content: '';
-        border-radius: 50%;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%) rotate(-120deg);
-        background-image:
-            linear-gradient(to right, #0004, #0004),
-            var(--url);
-        background-size: var(--diameter) var(--diameter);
-        background-position: center;
-        transition: 1s;
-    }
-
-    .slider .list .item .image::after {
-        width: 30%;
-        height: 30%;
-        background-image: var(--url);
-        border: 3px solid #fff2;
-        transform: translate(-50%, -50%) rotate(-170deg);
-    }
-
-    /* default  */
-    .slider .list .item .image {
-        filter: blur(30px);
-    }
-
-    .slider .list .item {
-        pointer-events: none;
-        opacity: 0;
-    }
-
-    /* item active */
-    .slider .list .item.active {
-        pointer-events: auto;
-        opacity: 1;
-    }
-
-    .slider .item.active .image {
-        filter: blur(0px);
-        transform: rotate(0deg);
-    }
-
-    .slider .item.active .image::before,
-    .slider .item.active .image::after {
-        transform: translate(-50%, -50%) rotate(0deg);
-    }
-
-    .slider .list .item.active .content h2 {
-        transform: translateY(0);
-    }
-
-    /* item phía sau */
-    .slider .list .item.active~.item {
-        opacity: 0;
-    }
-
-    .slider .item.active~.item .image {
-        transform: rotate(60deg);
-    }
-
-    .slider .item.active~.item .image::before {
-        transform: translate(-50%, -50%) rotate(120deg);
-    }
-
-    .slider .item.active~.item .image::after {
-        transform: translate(-50%, -50%) rotate(170deg);
-    }
-
-    .slider .list .item.active~.item .content h2 {
-        transform: translateY(100%);
-    }
-
-    /* arrows */
-    /* Ensure arrows are visible */
-    .arrows {
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        bottom: 30px;
-        /* Default position for desktop */
-        width: var(--width-default);
-        display: flex;
-        justify-content: space-between;
-        z-index: 10;
-        /* Ensure arrows are above other elements */
-    }
-
-    .arrows button {
-        all: unset;
-        cursor: pointer;
-        opacity: 1;
-        /* Ensure visibility */
-        pointer-events: auto;
-        /* Ensure they are clickable */
-        border-radius: 50%;
-        /* Circular buttons */
-        width: 50px;
-        height: 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transition: background-color 0.3s ease, transform 0.3s ease;
-    }
-
-    .arrows button:hover {
-        transform: scale(1.1);
-        /* Slight zoom on hover */
-    }
-
-    .arrows button svg {
-        color: #000000;
-        /* White arrow icons */
-        width: 24px;
-        height: 24px;
-    }
-
-    /* Ensure arrows are visible and adjusted for mobile */
-    @media all and (max-width: 767px) {
-        .arrows {
-            bottom: 100px;
-            /* Move arrows higher on mobile */
-        }
-
-        .arrows button {
-            width: 40px;
-            /* Slightly smaller for mobile */
-            height: 300px;
-        }
-    }
-
-
-    .slider .list::after {
-        position: absolute;
-        content: '';
-        bottom: 0;
-        width: min(1000px, 100vw);
-        height: 70%;
-        left: 50%;
-        transform: translateX(-50%);
-        background-image: url(img/model.png);
-        background-size: cover;
-        background-position: top;
-        pointer-events: none;
-        animation: showModel 1s ease-in-out 1 forwards;
-    }
-
-    @keyframes showModel {
-        from {
-            transform: translateX(-50%) scale(1.3) translateY(88px);
-        }
-    }
-
-    /* Show arrows on mobile */
-    @media all and (max-width: 767px) {
-        .arrows button {
-            opacity: 1 !important;
-            pointer-events: auto !important;
-        }
-    }
-
-    @media all and (max-width: 1024px) {
-        .slider .list .item .content {
-            grid-template-columns: repeat(2, 300px);
-        }
-
-        .slider .list .item .content h2 {
-            font-size: 8em;
-        }
-    }
-
-    @media all and (max-width: 767px) {
-        .slider .list .item .content {
-            grid-template-columns: 80%;
-            justify-content: center;
-            gap: 20px;
-            top: 70px;
-        }
-
-        .slider .list .item .content h2 {
-            font-size: 4em;
-        }
-
-        .slider .list .item .content p {
-            font-size: small;
-        }
-    }
-</style>

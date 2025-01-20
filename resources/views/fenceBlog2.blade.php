@@ -110,7 +110,7 @@
 
 
 <!-- Page Header Start -->
-<div class="container-fluid s" style="background-color: #007bff;">
+<div class="container-fluid s bg-primary">
     <div class="container py-5">
         <h1 class="display-3 text-white mb-3 animated slideInDown">Top 5 Benefits of Building a Fence !</h1>
         <nav aria-label="breadcrumb animated slideInDown">
@@ -138,52 +138,56 @@
                             <img src="img/Fence/29.jpg" alt="Blog Image" class="img-fluid">
                         </div>
 
-                        <!-- Blog Content -->
-                        <div class="content mt-4">
-                            <p style="font-size: larger; color: #000000;">
-                                Building a fence is a valuable investment for homeowners, offering a blend of
-                                functionality and aesthetics. Whether your goal is to increase security, improve
-                                privacy, or enhance curb appeal, a well-chosen fence can deliver these benefits and
-                                more. Here are the top 5 benefits of building a fence on your property:
-                            </p>
-                            <h3>1. Enhanced Beauty</h3>
-                            <p style="font-size: larger; color: #000000;"> A well-constructed fence enhances the
-                                overall appearance of your home and garden. Whether practical or elegant, it creates a
-                                harmonious and attractive landscape, improving the curb appeal of your property.</p>
-                            <h3>2. Versatile Design Options </h3>
-                            <p style="font-size: larger; color: #000000;"> Fences come in various styles and materials,
-                                allowing you to match or complement your existing home. Options range from classic
-                                wooden picket fences to modern vinyl designs, catering to diverse aesthetic preferences
-                                and functional needs.Fences come in various styles and materials, allowing you to match
-                                or complement your existing home. Options range from classic wooden picket fences to
-                                modern vinyl designs, catering to diverse aesthetic preferences and functional needs.
-                            </p>
-                            <h3>3. Privacy and Security </h3>
-                            <p style="font-size: larger; color: #000000;"> A fence provides an additional layer of
-                                privacy and security, defining your property boundaries and deterring trespassers.
-                                Depending on its height and style, a fence can offer varying levels of seclusion and
-                                safety, making your outdoor space more secure.</p>
-                            <h3>4. Safety for Pets and Children </h3>
-                            <p style="font-size: larger; color: #000000;"> For families with pets or young children, a
-                                fence creates a safe, enclosed area where they can play and explore without the risk of
-                                wandering off. This added security offers peace of mind to homeowners.</p>
-                            <h3>5. Increased Property Value </h3>
-                            <p style="font-size: larger; color: #000000;"> A well-designed and installed fence can
-                                significantly boost your property's value. It enhances curb appeal, making your home
-                                more attractive to potential buyers, and adds functional value that prospective
-                                homeowners appreciate.</p>
+                       <!-- Blog Content -->
+<div class="content mt-4">
+    <p class="fs-4 text-dark">
+        Building a fence is a valuable investment for homeowners, offering a blend of functionality and aesthetics. 
+        Whether your goal is to increase security, improve privacy, or enhance curb appeal, a well-chosen fence can 
+        deliver these benefits and more. Here are the top 5 benefits of building a fence on your property:
+    </p>
 
-                            <h2 class="title">Choosing the Right Fence for Your Home!</h2>
-                            <p style="font-size: larger; color: #000000;">
-                                When selecting a fence, consider your specific needs, budget, and local regulations.
-                                Determine your primary reason for building a fence—whether for privacy, security, or
-                                aesthetic enhancement—and explore various materials and styles to find the best fit for
-                                your property. </p>
+    <h3>1. Enhanced Beauty</h3>
+    <p class="fs-4 text-dark">
+        A well-constructed fence enhances the overall appearance of your home and garden. Whether practical or elegant, 
+        it creates a harmonious and attractive landscape, improving the curb appeal of your property.
+    </p>
 
-                            <p style="font-size: larger; color: #000000;"> By carefully evaluating your options and
-                                considering the top benefits, you can choose a fence that meets both your functional
-                                requirements and aesthetic preferences, ensuring long-term satisfaction with your
-                                investment.</p>
+    <h3>2. Versatile Design Options</h3>
+    <p class="fs-4 text-dark">
+        Fences come in various styles and materials, allowing you to match or complement your existing home. Options range 
+        from classic wooden picket fences to modern vinyl designs, catering to diverse aesthetic preferences and functional needs.
+    </p>
+
+    <h3>3. Privacy and Security</h3>
+    <p class="fs-4 text-dark">
+        A fence provides an additional layer of privacy and security, defining your property boundaries and deterring trespassers. 
+        Depending on its height and style, a fence can offer varying levels of seclusion and safety, making your outdoor space more secure.
+    </p>
+
+    <h3>4. Safety for Pets and Children</h3>
+    <p class="fs-4 text-dark">
+        For families with pets or young children, a fence creates a safe, enclosed area where they can play and explore without the risk of wandering off. 
+        This added security offers peace of mind to homeowners.
+    </p>
+
+    <h3>5. Increased Property Value</h3>
+    <p class="fs-4 text-dark">
+        A well-designed and installed fence can significantly boost your property's value. It enhances curb appeal, making your home 
+        more attractive to potential buyers, and adds functional value that prospective homeowners appreciate.
+    </p>
+
+    <h2 class="title fs-3 text-dark">Choosing the Right Fence for Your Home!</h2>
+    <p class="fs-4 text-dark">
+        When selecting a fence, consider your specific needs, budget, and local regulations. Determine your primary reason for building 
+        a fence—whether for privacy, security, or aesthetic enhancement—and explore various materials and styles to find the best fit for 
+        your property.
+    </p>
+
+    <p class="fs-4 text-dark">
+        By carefully evaluating your options and considering the top benefits, you can choose a fence that meets both your functional 
+        requirements and aesthetic preferences, ensuring long-term satisfaction with your investment.
+    </p>
+</div>
 
                         </div><!-- End post content -->
                         <div class="post-img">
@@ -192,7 +196,7 @@
 
                         <a style="margin-left: 30%;margin-top: 10%;" href="{{ route('fence') }}"
                             class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft"><span
-                                style="color: rgb(255, 255, 255);">Visit Our Service Fence Page</span></a>
+                               >Visit Our Service Fence Page</span></a>
                 </div><!-- End post content -->
 
 
@@ -235,25 +239,10 @@
     <!-- Footer End -->
 
 
-    <!-- Copyright Start -->
-    <div class="container-fluid py-4" style="background: #000000;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom" href="#"><span
-                            style="color: rgb(255, 255, 255);">Cresttel</span></a>,
-                    <span style="color: #1591ea;">All Right Reserved</span>.
-                </div>
+     <!-- Copyright Start -->
 
-                <div class="col-md-6 text-center text-md-end">
-
-                    <span style="color: #1591ea;">Distributed By</span>. <a class="border-bottom"
-                        href="https://nicheknights.com/"><span
-                            style="color: rgb(255, 255, 255);">Nicheknights</span></a>
-                </div>
-            </div>
-        </div>
-    </div>
+    @include('copyright')
+    
     <!-- Copyright End -->
 
 

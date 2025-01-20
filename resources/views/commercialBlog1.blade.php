@@ -113,7 +113,7 @@
 
 
 <!-- Page Header Start -->
-<div class="container-fluid s" style="background-color: #007bff;">
+<div class="container-fluid s bg-primary">
     <div class="container py-5">
         <h1 class="display-3 text-white mb-3 animated slideInDown">The Benefits of Commercial Remodeling</h1>
         <nav aria-label="breadcrumb animated slideInDown">
@@ -145,55 +145,37 @@
                             <img src="img/COmer/IMG_0702.jpg" alt="Blog Image" class="img-fluid">
                         </div>
 
-                        <!-- Blog Content -->
-                        <div class="content mt-4">
-                            <p style="font-size: larger; color: #000000;">
-                                Commercial remodeling can update an old space to meet current standards and create a
-                                more functional and lively environment. This article will discuss how commercial
-                                remodeling can benefit businesses in reaching their goals.
-                            <p></p>
-                        </div><!-- End post content -->
+                       <!-- Blog Content -->
+<div class="content mt-4">
+    <p class="fs-4 text-black">
+        Commercial remodeling can update an old space to meet current standards and create a more functional and lively environment. This article will discuss how commercial remodeling can benefit businesses in reaching their goals.
+    </p>
+</div><!-- End post content -->
 
+<div class="content">
+    <ul class="fs-4 text-black">
+        <li><strong>Enhanced Aesthetics and Functionality:</strong>
+            <br> MDUs are increasingly integrating smart home features such as automated lighting, climate control, and security systems, enhancing convenience and efficiency for residents.
+        </li>
+        <li><strong>Increased Property Value:</strong>
+            <br>A well-executed remodel can boost the value of a commercial property, making it a smart investment for owners. Improving a building's appearance and functionality can attract better tenants and higher rent. This higher property value can make it easier to get funding for future projects.
+        </li>
+        <li><strong>Improved Energy Efficiency:</strong>
+            <br>Upgrading insulation, windows, and HVAC systems during a commercial remodel can save a lot of energy and lower operational costs. Energy-efficient buildings are good for the environment and save money by reducing utility bills, as well as qualifying for tax incentives and rebates.
+        </li>
+    </ul>
 
-
-
-                        <div class="content">
-                            <p>
-                            <ul style="font-size: larger;color: #000000;">
-                                <li><strong style="color:#000000; ">Enhanced Aesthetics and Functionality : </strong>
-                                    <br> MDUs are increasingly integrating smart home features such as automated
-                                    lighting, climate control, and security systems, enhancing convenience and
-                                    efficiency for residents.</li>
-                                <li><strong style="color:#000000; ">Increased Property Value :</strong> <br>A
-                                    well-executed remodel can boost the value of a commercial property, making it a
-                                    smart investment for owners. Improving a building's appearance and functionality can
-                                    attract better tenants and higher rent. This higher property value can make it
-                                    easier to get funding for future projects.</li>
-                                <p>
-                                    <li><strong style="color:#000000; ">Improved Energy Efficiency :</strong><br>
-                                        Upgrading insulation, windows, and HVAC systems during a commercial remodel can
-                                        save a lot of energy and lower operational costs. Energy-efficient buildings are
-                                        good for the environment and save money by reducing utility bills, as well as
-                                        qualifying for tax incentives and rebates.
-                                </p>
-                                </li>
-                            </ul>
-                            </p>
-                            <p style="color: #000000;font-size: larger;">Commercial remodeling offers numerous
-                                benefits, from aesthetic improvements to increased property value and energy efficiency.
-                                We at Cresttel have the expertise to handle all aspects of commercial remodeling,
-                                ensuring a seamless and successful project. Whether you are looking to update your
-                                office, retail space, or any other commercial property, Cresttel can help you achieve
-                                your remodeling goals with precision and professionalism. <br>Enhance your commercial
-                                space with Cresttel's comprehensive remodeling services and experience the
-                                transformation of your property. </p>
+    <p class="fs-4 text-black">
+        Commercial remodeling offers numerous benefits, from aesthetic improvements to increased property value and energy efficiency. We at Cresttel have the expertise to handle all aspects of commercial remodeling, ensuring a seamless and successful project. Whether you are looking to update your office, retail space, or any other commercial property, Cresttel can help you achieve your remodeling goals with precision and professionalism.
+        <br>Enhance your commercial space with Cresttel's comprehensive remodeling services and experience the transformation of your property.
+    </p>
+</div>
 
 
 
                             <img src="img/COmer/construction_electrical.jpg" class="img-fluid" alt="">
                             <a style="margin-left: 30%;margin-top: 10%;" href="{{ route('commercial') }}"
-                                class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft"><span
-                                    style="color: rgb(255, 255, 255);">Visit Our Service Commercial Page</span></a>
+                                class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft"><span>Visit Our Service Commercial Page</span></a>
                         </div><!-- End post content -->
 
 
@@ -265,25 +247,10 @@
     <!-- Footer End -->
 
 
-    <!-- Copyright Start -->
-    <div class="container-fluid py-4" style="background: #000000;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom" href="#"><span
-                            style="color: rgb(255, 255, 255);">Cresttel</span></a>,
-                    <span style="color: #1591ea;">All Right Reserved</span>.
-                </div>
+     <!-- Copyright Start -->
 
-                <div class="col-md-6 text-center text-md-end">
-
-                    <span style="color: #1591ea;">Distributed By</span>. <a class="border-bottom"
-                        href="https://nicheknights.com/"><span
-                            style="color: rgb(255, 255, 255);">Nicheknights</span></a>
-                </div>
-            </div>
-        </div>
-    </div>
+    @include('copyright')
+    
     <!-- Copyright End -->
 
 

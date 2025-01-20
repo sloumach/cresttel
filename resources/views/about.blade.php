@@ -108,23 +108,7 @@
 
 
     <!-- Page Header Start -->
-    <div class="container-fluid s"
-        style="background-image: url('img/plan\ de\ maison.jpg');
-           background-repeat: no-repeat;
-           background-size: cover;
-           background-position: center;">
-        <div class="container py-5">
-            <h1 class="display-3 text-white mb-3 animated slideInDown" style="color: #1591ea;">About Us - Cresttel,
-                Leading Construction Company in San Diego</h1>
-            <nav aria-label="breadcrumb animated slideInDown">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
-
-                    <li class="breadcrumb-item text-white active" aria-current="page">About</li>
-                </ol>
-            </nav>
-        </div>
-    </div>
+    @include('aboutheader')
     <!-- Page Header End -->
 
     <!-- Image Slider Start -->
@@ -199,7 +183,7 @@
                     <div class="back photo-desc">
                         <h3></h3>
                         <p></p>
-                        <a style="color: #f7f7f7;" href="service.html" class="button"><b><br><br><br> MORE</a></b>
+                        <a href="service.html" class="button"><b><br><br><br> MORE</a></b>
                     </div>
                     <img class="left" src="img/Cube.png" alt="">
                     <img class="right" src="img/Cube.png" alt="">
@@ -341,7 +325,7 @@
                     <div class="p-lg-5 pe-lg-0">
 
                         <h4 class="display-5 mb-4">About Us</h4>
-                        <p class="mb-4 pb-2" style="font-size: larger;color: #333333;">“At Cresttel, we are dedicated
+                        <p class="mb-4 pb-2" >“At Cresttel, we are dedicated
                             to turning your construction dreams into reality. With a commitment to quality craftsmanship
                             and timely delivery, our team of experts works closely with you to ensure every detail of
                             your project is executed to perfection. Whether you’re looking to build a new home, renovate
@@ -371,25 +355,10 @@
     <!-- Footer End -->
 
 
-    <!-- Copyright Start -->
-    <div class="container-fluid py-4" style="background: #000000;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom" href="#"><span
-                            style="color: rgb(255, 255, 255);">Cresttel</span></a>,
-                    <span style="color: #1591ea;">All Right Reserved</span>.
-                </div>
+     <!-- Copyright Start -->
 
-                <div class="col-md-6 text-center text-md-end">
-
-                    <span style="color: #1591ea;">Distributed By</span>. <a class="border-bottom"
-                        href="https://nicheknights.com/"><span
-                            style="color: rgb(255, 255, 255);">Nicheknights</span></a>
-                </div>
-            </div>
-        </div>
-    </div>
+    @include('copyright')
+    
     <!-- Copyright End -->
 
     <!-- Scroll to Top Button -->

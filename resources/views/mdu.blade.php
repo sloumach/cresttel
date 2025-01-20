@@ -132,20 +132,20 @@
 
     <!-- Services Section -->
     <section id="services">
-        <h2 style="color: #1591ea;">Service</h2>
+    <h2 class="text-primary">Service</h2>
 
-        <p style="font-size: 200%;">Cresttel we specialize in building <strong style="color:#000000;">multi-dwelling
-                units (MDUs)</strong> such as apartments, condominiums, and townhouses. With a team of seasoned
-            professionals, we offer <strong style="color:#000000;">comprehensive construction services</strong>
-            tailored to the specific requirements of <strong style="color:#000000;">MDUs</strong>. Our expertise
-            encompasses all aspects of commercial construction, from initial design and meticulous planning to seamless
-            execution and impeccable finishing touches. At Cresttel, we prioritize delivering exceptional quality and
-            reliable solutions that elevate living spaces and ensure satisfaction for our clients. Reach out to us today
-            to explore how our <strong style="color:#000000;">MDU construction services</strong> can bring your vision
-            to life.</p>
+    <p class="fs-1">
+        Cresttel we specialize in building <strong class="text-black">multi-dwelling units (MDUs)</strong> such as 
+        apartments, condominiums, and townhouses. With a team of seasoned professionals, we offer 
+        <strong class="text-black">comprehensive construction services</strong> tailored to the specific requirements 
+        of <strong class="text-black">MDUs</strong>. Our expertise encompasses all aspects of commercial construction, 
+        from initial design and meticulous planning to seamless execution and impeccable finishing touches. At Cresttel, 
+        we prioritize delivering exceptional quality and reliable solutions that elevate living spaces and ensure 
+        satisfaction for our clients. Reach out to us today to explore how our 
+        <strong class="text-black">MDU construction services</strong> can bring your vision to life.
+    </p>
+</section>
 
-
-    </section>
     <div class="slider">
         <div class="list">
             <div class="item">
@@ -372,25 +372,10 @@
     <!-- Footer End -->
 
 
-    <!-- Copyright Start -->
-    <div class="container-fluid py-4" style="background: #000000;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom" href="#"><span
-                            style="color: rgb(255, 255, 255);">Cresttel</span></a>,
-                    <span style="color: #1591ea;">All Right Reserved</span>.
-                </div>
+     <!-- Copyright Start -->
 
-                <div class="col-md-6 text-center text-md-end">
-
-                    <span style="color: #1591ea;">Distributed By</span>. <a class="border-bottom"
-                        href="https://nicheknights.com/"><span
-                            style="color: rgb(255, 255, 255);">Nicheknights</span></a>
-                </div>
-            </div>
-        </div>
-    </div>
+    @include('copyright')
+    
     <!-- Copyright End -->
 
 

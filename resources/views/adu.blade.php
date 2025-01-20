@@ -130,22 +130,20 @@
 
         <!-- Services Section -->
         <section id="services">
-            <h2 style="color: #1591ea;">Service</h2>
+    <h2 class="text-primary">Service</h2>
 
-            <p style="font-size: 200%;">Cresttel specializes in constructing customized <strong
-                    style="color:#000000;">Accessory Dwelling Units (ADUs)</strong> to meet your unique requirements.
-                Our skilled professionals meticulously oversee every stage of <strong style="color:#000000;">residential
-                    construction</strong>, from conceptual design to final finishes, ensuring your expectations are
-                exceeded. As seasoned <strong style="color:#000000;">building contractors</strong>, we expertly handle
-                all aspects of <strong style="color:#000000;">home remodeling</strong>, <strong
-                    style="color:#000000;">renovations</strong>, and <strong style="color:#000000;">ADU
-                    installations</strong> with utmost precision and care. Rely on Cresttel for dependable <strong
-                    style="color:#000000;">construction services</strong> that enhance your living space and increase
-                your property's value. Get in touch with us now to explore our comprehensive <strong
-                    style="color:#000000;">ADU</strong> solutions.</p>
+    <p class="fs-1">
+        Cresttel specializes in constructing customized <strong class="text-black">Accessory Dwelling Units (ADUs)</strong> 
+        to meet your unique requirements. Our skilled professionals meticulously oversee every stage of 
+        <strong class="text-black">residential construction</strong>, from conceptual design to final finishes, ensuring 
+        your expectations are exceeded. As seasoned <strong class="text-black">building contractors</strong>, we expertly 
+        handle all aspects of <strong class="text-black">home remodeling</strong>, <strong class="text-black">renovations</strong>, 
+        and <strong class="text-black">ADU installations</strong> with utmost precision and care. Rely on Cresttel for dependable 
+        <strong class="text-black">construction services</strong> that enhance your living space and increase your property's value. 
+        Get in touch with us now to explore our comprehensive <strong class="text-black">ADU</strong> solutions.
+    </p>
+</section>
 
-
-        </section>
         <div class="slider">
             <div class="list">
                 <div class="item">
@@ -397,25 +395,10 @@
 
 
         <!-- Copyright Start -->
-        <div class="container-fluid py-4" style="background: #000000;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="#"><span
-                                style="color: rgb(255, 255, 255);">Cresttel</span></a>,
-                        <span style="color: #1591ea;">All Right Reserved</span>.
-                    </div>
 
-                    <div class="col-md-6 text-center text-md-end">
-
-                        <span style="color: #1591ea;">Distributed By</span>. <a class="border-bottom"
-                            href="https://nicheknights.com/"><span
-                                style="color: rgb(255, 255, 255);">Nicheknights</span></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Copyright End -->
+    @include('copyright')
+    
+    <!-- Copyright End -->
 
 
         <!-- Back to Top -->

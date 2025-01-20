@@ -105,18 +105,7 @@
 
 
 <!-- Page Header Start -->
-<div class="container-fluid s" style="background-color: #007bff;">
-    <div class="container py-5">
-        <h1 class="display-3 text-white mb-3 animated slideInDown">Expert Construction and Remodeling Services in San
-            Diego</h1>
-        <nav aria-label="breadcrumb animated slideInDown">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
-                <li class="breadcrumb-item text-white active" aria-current="page">Services</li>
-            </ol>
-        </nav>
-    </div>
-</div>
+@include('serviceheader')
 <!-- Page Header End -->
 
 <!-- Service End -->
@@ -253,25 +242,11 @@
 <!-- Footer End -->
 
 
-<!-- Copyright Start -->
-<div class="container-fluid py-4" style="background: #000000;">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                &copy; <a class="border-bottom" href="#"><span
-                        style="color: rgb(255, 255, 255);">Cresttel</span></a>,
-                <span style="color: #1591ea;">All Right Reserved</span>.
-            </div>
+ <!-- Copyright Start -->
 
-            <div class="col-md-6 text-center text-md-end">
-
-                <span style="color: #1591ea;">Distributed By</span>. <a class="border-bottom"
-                    href="https://nicheknights.com/"><span style="color: rgb(255, 255, 255);">Nicheknights</span></a>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Copyright End -->
+ @include('copyright')
+    
+    <!-- Copyright End -->
 
 
 <!-- Back to Top -->

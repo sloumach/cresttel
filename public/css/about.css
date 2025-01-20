@@ -1,3 +1,11 @@
+a{
+    color: white;
+}
+p{
+   font-size: 200%;
+   color: #000000;
+} 
+ 
  /* Responsive styles for smaller screens */
  @media (max-width: 768px) {
 

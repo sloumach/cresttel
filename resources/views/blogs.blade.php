@@ -168,7 +168,7 @@
                         <div class="title">
                             <span>read our blog</span>
                         </div>
-                        <h2 class="section-title">latest<span style="color: #0783e9;"> ADU</span> blog</h2>
+                        <h2 class="section-title">latest<span> ADU</span> blog</h2>
                     </div>
                 </div>
 
@@ -259,7 +259,7 @@
                         <div class="title">
                             <span>read our blog</span>
                         </div>
-                        <h2 class="section-title">latest <span style="color: #0783e9;"> MDU</span> blog</h2>
+                        <h2 class="section-title">latest <span> MDU</span> blog</h2>
                     </div>
                 </div>
 
@@ -352,7 +352,7 @@
                         <div class="title">
                             <span>read our blog</span>
                         </div>
-                        <h2 class="section-title">latest <span style="color: #0783e9;"> Fence</span> blog</h2>
+                        <h2 class="section-title">latest <span> Fence</span> blog</h2>
                     </div>
                 </div>
 
@@ -443,7 +443,7 @@
                         <div class="title">
                             <span>read our blog</span>
                         </div>
-                        <h2 class="section-title">latest<span style="color: #0783e9;"> Commercial</span> blog</h2>
+                        <h2 class="section-title">latest<span> Commercial</span> blog</h2>
                     </div>
                 </div>
 
@@ -534,7 +534,7 @@
                         <div class="title">
                             <span>read our blog</span>
                         </div>
-                        <h2 class="section-title">latest<span style="color: #0783e9;"> Residential</span> blog</h2>
+                        <h2 class="section-title">latest<span> Residential</span> blog</h2>
                     </div>
                 </div>
 
@@ -718,21 +718,9 @@
 
 
     <!-- Copyright Start -->
-    <div style="background: #000000; color: white; width: 100%; margin: 0; padding: 0;">
-        <div class="container py-2">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom" href="#" style="color: white;">Cresttel</a>,
-                    <span style="color: #1591ea;">All Right Reserved</span>.
-                </div>
-                <div class="col-md-6 text-center text-md-end">
-                    <span style="color: #1591ea;">Distributed By</span>
-                    <a class="border-bottom" href="contact.html" style="color: white;">Nicheknights</a>
 
-                </div>
-            </div>
-        </div>
-    </div>
+    @include('copyright')
+    
     <!-- Copyright End -->
    
 

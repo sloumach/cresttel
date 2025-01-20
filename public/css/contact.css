@@ -1,4 +1,18 @@
- /* Ensure the page is responsive and prevents horizontal scrolling */
+p{
+    color: black;
+}
+
+span{
+    color: #007bff;
+}
+
+.description ul li {
+    color: #0783e9;
+    /* Set the text color to #0783e9 */
+}
+
+
+/* Ensure the page is responsive and prevents horizontal scrolling */
 html, body {
     margin: 0;
     padding: 0;

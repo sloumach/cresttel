@@ -112,7 +112,7 @@
 
 
 <!-- Page Header Start -->
-<div class="container-fluid s" style="background-color: #007bff;">
+<div class="container-fluid s bg-primary">
     <div class="container py-5">
         <h1 class="display-3 text-white mb-3 animated slideInDown">The Future of MDUs: Innovations and Emerging Trends
         </h1>
@@ -143,65 +143,40 @@
                         </div>
 
                         <!-- Blog Content -->
-                        <div class="content mt-4">
-                            <p style="font-size: larger; color: #000000;">
-                                The future of Multi-Dwelling Units (MDUs) is being shaped by new trends that are
-                                transforming the housing industry. As urban living continues to evolve, MDUs are leading
-                                the way with innovative solutions that cater to modern lifestyles. Here are some of the
-                                latest innovations and emerging trends in the world of MDUs </p>
-                            <p></p>
-                        </div><!-- End post content -->
+<div class="content mt-4">
+    <p class="fs-4 text-dark">
+        The future of Multi-Dwelling Units (MDUs) is being shaped by new trends that are transforming the housing industry. 
+        As urban living continues to evolve, MDUs are leading the way with innovative solutions that cater to modern lifestyles. 
+        Here are some of the latest innovations and emerging trends in the world of MDUs.
+    </p>
+</div><!-- End post content -->
 
+<div class="content">
+    <h3>Innovations in MDUs:</h3>
+    <div class="content">
+        <ul class="fs-4 text-dark">
+            <li><strong>Smart Home Technology:</strong> MDUs are increasingly integrating smart home features such as automated lighting, climate control, and security systems, enhancing convenience and efficiency for residents.</li>
+            <li><strong>Modular Construction:</strong> Prefabricated and modular construction methods are becoming popular, allowing for faster, cost-effective, and sustainable building processes.</li>
+            <li><strong>Biophilic Design:</strong> Incorporating nature-inspired elements into MDU design, such as green walls, natural light, and outdoor spaces, to improve residents' well-being and connection with the environment.</li>
+        </ul>
+    </div>
+    
+    <h3>Emerging Trends:</h3>
+    <div class="content">
+        <ul class="fs-4 text-dark">
+            <li><strong>Co-Living Spaces:</strong> Co-living developments are gaining traction, offering shared living spaces with private bedrooms and communal areas, fostering community and affordability in urban settings.</li>
+            <li><strong>Mixed-Use Developments:</strong> Combining residential, commercial, and recreational spaces within a single development, these MDUs create vibrant, self-sufficient communities where residents can live, work, and play.</li>
+            <li><strong>Wellness-Focused Amenities:</strong> MDUs are increasingly incorporating wellness amenities such as fitness centers, yoga studios, and spa facilities, catering to the growing demand for health and wellness-oriented living spaces.</li>
+        </ul>
+    </div>
+    
+    <br><br>
+    <p class="fs-4 text-dark">
+        Innovations and emerging trends in MDUs hold the potential to transform urban living, making it more efficient, sustainable, and community-oriented. 
+        Stay updated with Cresttel’s innovative MDU projects and services to explore how these advancements can enhance your living experience and meet future housing needs.
+    </p>
+</div>
 
-
-
-                        <div class="content">
-                            <h3>Innovations in MDUs :</h3>
-                            <div class="content">
-                                <p>
-                                <ul style="font-size: larger;color: #000000;">
-                                    <li><strong style="color:#000000; ">Smart Home Technology : </strong> MDUs are
-                                        increasingly integrating smart home features such as automated lighting, climate
-                                        control, and security systems, enhancing convenience and efficiency for
-                                        residents.</li>
-                                    <li><strong style="color:#000000; ">Modular Construction :</strong> : Prefabricated
-                                        and modular construction methods are becoming popular, allowing for faster,
-                                        cost-effective, and sustainable building processes.</li>
-                                    <p>
-                                        <li><strong style="color:#000000; ">• Biophilic Design :</strong> Multi-story
-                                            homes sharing walls with neighboring units but having separate entrances.
-                                    </p>
-
-                                    </li>
-                                </ul>
-                                </p>
-                                <h3>Emerging Trends :</h3>
-                                <div class="content">
-                                    <p>
-                                    <ul style="font-size: larger;color: #000000;">
-                                        <li><strong style="color:#000000; ">Co-Living Spaces : </strong> Co-living
-                                            developments are gaining traction, offering shared living spaces with
-                                            private bedrooms and communal areas, fostering community and affordability
-                                            in urban settings.</li>
-                                        <li><strong style="color:#000000; ">Mixed-Use Developments :</strong> Combining
-                                            residential, commercial, and recreational spaces within a single
-                                            development, these MDUs create vibrant, self-sufficient communities where
-                                            residents can live, work, and play.</li>
-                                        <p>
-                                            <li><strong style="color:#000000; ">Wellness-Focused Amenities
-                                                    :</strong>MDUs are increasingly incorporating wellness amenities
-                                                such as fitness centers, yoga studios, and spa facilities, catering to
-                                                the growing demand for health and wellness-oriented living spaces.
-                                        </p>
-                                        </li>
-                                    </ul>
-                                    </p>
-                                    <br><br>
-                                    <p style="color: #000000;font-size: larger;">Innovations and emerging trends in
-                                        MDUs hold the potential to transform urban living, making it more efficient,
-                                        sustainable, and community-oriented. Stay updated with Cresttel’s innovative MDU
-                                        projects and services to explore how these advancements can enhance your living
-                                        experience and meet future housing needs.</p>
 
 
 
@@ -211,8 +186,7 @@
                                     <img src="img/MDU_img/Library_PhotoPietroSavorelli1.jpg" class="img-fluid"
                                         alt="">
                                     <a style="margin-left: 30%;margin-top: 10%;" href="{{ route('mdu') }}"
-                                        class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft"><span
-                                            style="color: rgb(255, 255, 255);">Visit Our Service MDU Page</span></a>
+                                        class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft"><span>Visit Our Service MDU Page</span></a>
                                 </div><!-- End post content -->
 
 
@@ -283,25 +257,10 @@
     <!-- Footer End -->
 
 
-    <!-- Copyright Start -->
-    <div class="container-fluid py-4" style="background: #000000;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom" href="#"><span
-                            style="color: rgb(255, 255, 255);">Cresttel</span></a>,
-                    <span style="color: #1591ea;">All Right Reserved</span>.
-                </div>
+     <!-- Copyright Start -->
 
-                <div class="col-md-6 text-center text-md-end">
-
-                    <span style="color: #1591ea;">Distributed By</span>. <a class="border-bottom"
-                        href="https://nicheknights.com/"><span
-                            style="color: rgb(255, 255, 255);">Nicheknights</span></a>
-                </div>
-            </div>
-        </div>
-    </div>
+    @include('copyright')
+    
     <!-- Copyright End -->
 
 

@@ -44,7 +44,7 @@
 
 </head>
 
-<body style="background-color: #ffffff;">
+<body>
 
  <!-- Navbar Start -->
  @include('navbar')
@@ -129,8 +129,8 @@
 
     <!-- Quote Start -->
     <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
-        <div style="background-color: #343536;" class="container quote px-lg-0">
-            <div class="row g-0 mx-lg-0">
+    <div class="container quote px-lg-0 bg-dark">
+    <div class="row g-0 mx-lg-0">
                 <div class="col-lg-6 ps-lg-0" style="min-height: 400px;">
                     <div class="position-relative h-100">
                         <img class="position-absolute img-fluid w-100 h-100" src="img/quote.jpg"
@@ -139,15 +139,15 @@
                 </div>
                 <div class="col-lg-6 quote-text py-5 wow fadeIn" data-wow-delay="0.5s">
                     <div class="p-lg-5 pe-lg-0">
-                        <h2 class="display-5 mb-5"><span style="color: #ffffff;">Get in Touch with us for Residential
+                        <h2 class="display-5 mb-5"><span>Get in Touch with us for Residential
                                 & Commercial Construction Services </span></h2>
-                        <p style="font-size: 130%;text-align: center;" class="mb-4 pb-2">
-                            We believe in establishing strong relationships with our clients open and consistent
-                            dialogue. Whether you
-                            have question, specific requirements, or special request, we’re here to assist you. Feel
-                            free to contact us
-                            any time, and let’s collaborate to turn your vision to reality
-                        </p>
+                                <p class="mb-4 pb-2 fs-5 text-center text-white">
+    We believe in establishing strong relationships with our clients open and consistent
+    dialogue. Whether you have question, specific requirements, or special request, we’re here to assist you. Feel
+    free to contact us any time, and let’s collaborate to turn your vision to reality.
+</p>
+
+
                         @include('contactform')
                     </div>
                 </div>
@@ -175,19 +175,14 @@
                     <div class="section-header">
                         <div class="title">
                         </div>
-                        <h2 class="section-title">With <span style="color: #007bff;">Cresttel</span> turning your
+                        <h2 class="section-title">With <span>Cresttel</span> turning your
                             vision into reality </h2>
                     </div>
                 </div>
 
             </div>
 
-            <style>
-                .description ul li {
-                    color: #0783e9;
-                    /* Set the text color to #0783e9 */
-                }
-            </style>
+           
 
             <div class="row">
                 <div class="col-md-6">
@@ -197,17 +192,17 @@
                 </div>
                 <div class="col-md-6 description text-lead">
                     <p><strong></strong></p>
-                    <p style="color: #000000;">Quality Craftsmanship: We believe in delivering nothing but the best.
+                    <p>Quality Craftsmanship: We believe in delivering nothing but the best.
                         Our skilled professionals are dedicated to ensuring that every detail of your project meets the
                         highest standards.</p>
-                    <p style="color: #000000;">Timely Delivery: We understand the importance of deadlines. Our
+                    <p>Timely Delivery: We understand the importance of deadlines. Our
                         efficient project management ensures that your construction is completed on time, every time.
                     </p>
-                    <p style="color: #000000;">Personalized Service: Whether you're building a new home, renovating an
+                    <p >Personalized Service: Whether you're building a new home, renovating an
                         existing space, or embarking on a commercial project, we tailor our services to meet your unique
                         needs.</p>
-                    <p style="color: #000000;"><strong>Our Process</strong></p>
-                    <p style="color: #000000;">From the initial consultation to the final touches, we work hand-in-hand
+                    <p><strong>Our Process</strong></p>
+                    <p>From the initial consultation to the final touches, we work hand-in-hand
                         with you to bring your vision to life. Our comprehensive approach includes:</p>
                     <ul>
                         <li>Consultation: Understanding your vision and requirements.</li>
@@ -216,8 +211,8 @@
                         <li>Construction: Meticulous execution by our skilled craftsmen.</li>
                         <li>Final Touches: Ensuring every detail is perfect.</li>
                     </ul>
-                    <p style="color: #000000;"><strong>Get Started Today</strong></p>
-                    <p style="color: #000000;">Ready to turn your construction dreams into reality? Contact us today
+                    <p><strong>Get Started Today</strong></p>
+                    <p>Ready to turn your construction dreams into reality? Contact us today
                         for a personalized quote and start building your future with Cresttel. Let's create something
                         extraordinary together!</p>
                 </div>
@@ -233,29 +228,15 @@
     <!-- Footer End -->
 
 
-    <!-- Copyright Start -->
-    <div class="container-fluid py-4" style="background: #000000;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom" href="#"><span
-                            style="color: rgb(255, 255, 255);">Cresttel</span></a>,
-                    <span style="color: #1591ea;">All Right Reserved</span>.
-                </div>
+     <!-- Copyright Start -->
 
-                <div class="col-md-6 text-center text-md-end">
-
-                    <span style="color: #1591ea;">Distributed By</span>. <a class="border-bottom"
-                        href="https://nicheknights.com/"><span
-                            style="color: rgb(255, 255, 255);">Nicheknights</span></a>
-                </div>
-            </div>
-        </div>
-    </div>
+    @include('copyright')
+    
     <!-- Copyright End -->
 
     <!-- Back to Top -->
-   
+    @include('backtotop')
+    @include('bubble')
 
     <div id="expandable-bubble">
         <div class="primary-bubble" onclick="toggleSocialIcons()">

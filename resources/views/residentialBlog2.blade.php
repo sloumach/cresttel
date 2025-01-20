@@ -112,7 +112,7 @@
 
 
 <!-- Page Header Start -->
-<div class="container-fluid s" style="background-color: #007bff;">
+<div class="container-fluid s bg-primary">
     <div class="container py-5">
         <h1 class="display-3 text-white mb-3 animated slideInDown">Top 5 Home Renovation Trends for 2024</h1>
         <nav aria-label="breadcrumb animated slideInDown">
@@ -141,61 +141,46 @@
                         </div>
 
                         <!-- Blog Content -->
-                        <div class="content mt-4">
-                            <p style="font-size: larger; color: #000000;">
-                                Home renovation trends in 2024 reflect lifestyle, technology, and sustainability
-                                changes, with homeowners seeking functional, beautiful, and environmentally friendly
-                                spaces.Here are the top 5 home renovation trends for 2024 and how Cresttel can help
-                                homeowners achieve these updates :</p>
-                            </p>
-                            <p></p>
-                        </div><!-- End post content -->
+<div class="content mt-4">
+    <p class="fs-lg text-dark">
+        Home renovation trends in 2024 reflect lifestyle, technology, and sustainability changes, with homeowners seeking functional, beautiful, and environmentally friendly spaces. Here are the top 5 home renovation trends for 2024 and how Cresttel can help homeowners achieve these updates:
+    </p>
+</div><!-- End post content -->
 
+<h3 class="mt-4">1. Open Floor Plans</h3>
+<p class="fs-lg text-dark">
+    In 2024, open floor plans are gaining popularity due to their ability to create space and fluidity, allowing seamless transitions between kitchen, living, and dining areas. Cresttel offers remodeling services to maximize open spaces while maintaining structural integrity.
+</p>
 
-                        <h3>1. Open Floor Plans</h3>
-                        <p style="font-size: larger; color: #000000;">
-                            In 2024, open floor plans are gaining popularity due to their ability to create space and
-                            fluidity, allowing seamless transitions between kitchen, living, and dining areas. Cresttel
-                            offers remodeling services to maximize open spaces while maintaining structural integrity.
-                        </p>
-                        <h3>2. Sustainable Materials</h3>
-                        <p style="font-size: larger; color: #000000;">
-                            Homeowners are adopting sustainable materials in renovations, such as reclaimed wood, bamboo
-                            flooring, and recycled glass countertops, to reduce carbon footprint and enhance home
-                            character. Cresttel can guide you in selecting sustainable materials that fit your design
-                            vision while promoting environmental responsibility. </p>
-                        <h3>3. Smart Home Technology</h3>
-                        <p style="font-size: larger; color: #000000;">
-                            Smart home technology, including programmable thermostats, smart lighting, and security
-                            systems, is revolutionizing our lives, prompting homeowners to prioritize renovations in
-                            2024.Cresttel can help integrate these technologies into your renovation plans, ensuring
-                            that your home is equipped for modern living and energy efficiency. </p>
-                        <h3>4. Outdoor Living Spaces</h3>
-                        <p style="font-size: larger; color: #000000;">
-                            Outdoor living spaces are becoming integral parts of homes, enhancing aesthetics and
-                            functionality through renovations like decks, patios, and outdoor kitchens.Cresttel can
-                            assist in designing and constructing outdoor spaces that meet your needs and complement your
-                            home’s overall style. </p>
-                        <h3>5. Multi-Functional Spaces</h3>
-                        <p style="font-size: larger; color: #000000;">
-                            Homeowners are constructing multi-functional spaces, adapting to remote work and lifestyle
-                            changes, aiming to create rooms that can easily transition from office to guest or workout
-                            area.Cresttel can help you optimize your existing spaces or create new ones that cater to
-                            your evolving lifestyle, ensuring that every square foot of your home is utilized
-                            effectively. </p>
+<h3 class="mt-4">2. Sustainable Materials</h3>
+<p class="fs-lg text-dark">
+    Homeowners are adopting sustainable materials in renovations, such as reclaimed wood, bamboo flooring, and recycled glass countertops, to reduce carbon footprint and enhance home character. Cresttel can guide you in selecting sustainable materials that fit your design vision while promoting environmental responsibility.
+</p>
 
-                        <h3>Conclusions</h3>
-                        <p style="font-size: larger; color: #000000;">
-                            Staying updated on 2024 home renovation trends can enhance functionality and aesthetics,
-                            including open floor plans, sustainable materials, smart home technology, outdoor living
-                            spaces, and multi-functional designs. Contact Cresttel and our team will assist you every
-                            step to renovate your project and achieve your dream home.
-                        </p>
+<h3 class="mt-4">3. Smart Home Technology</h3>
+<p class="fs-lg text-dark">
+    Smart home technology, including programmable thermostats, smart lighting, and security systems, is revolutionizing our lives, prompting homeowners to prioritize renovations in 2024. Cresttel can help integrate these technologies into your renovation plans, ensuring that your home is equipped for modern living and energy efficiency.
+</p>
+
+<h3 class="mt-4">4. Outdoor Living Spaces</h3>
+<p class="fs-lg text-dark">
+    Outdoor living spaces are becoming integral parts of homes, enhancing aesthetics and functionality through renovations like decks, patios, and outdoor kitchens. Cresttel can assist in designing and constructing outdoor spaces that meet your needs and complement your home’s overall style.
+</p>
+
+<h3 class="mt-4">5. Multi-Functional Spaces</h3>
+<p class="fs-lg text-dark">
+    Homeowners are constructing multi-functional spaces, adapting to remote work and lifestyle changes, aiming to create rooms that can easily transition from office to guest or workout area. Cresttel can help you optimize your existing spaces or create new ones that cater to your evolving lifestyle, ensuring that every square foot of your home is utilized effectively.
+</p>
+
+<h3 class="mt-4">Conclusions</h3>
+<p class="fs-lg text-dark">
+    Staying updated on 2024 home renovation trends can enhance functionality and aesthetics, including open floor plans, sustainable materials, smart home technology, outdoor living spaces, and multi-functional designs. Contact Cresttel and our team will assist you every step to renovate your project and achieve your dream home.
+</p>
+
 
                         <img src="img/Residential_img/flooring 4343.jpg" class="img-fluid" alt="">
                         <a style="margin-left: 30%;margin-top: 10%;" href="{{ route('residential') }}"
-                            class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft"><span
-                                style="color: rgb(255, 255, 255);">Visit Our Service Residential Page</span></a>
+                            class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft"><span>Visit Our Service Residential Page</span></a>
                 </div><!-- End post content -->
 
 
@@ -233,25 +218,10 @@
     <!-- Footer End -->
 
 
-    <!-- Copyright Start -->
-    <div class="container-fluid py-4" style="background: #000000;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom" href="#"><span
-                            style="color: rgb(255, 255, 255);">Cresttel</span></a>,
-                    <span style="color: #1591ea;">All Right Reserved</span>.
-                </div>
+     <!-- Copyright Start -->
 
-                <div class="col-md-6 text-center text-md-end">
-
-                    <span style="color: #1591ea;">Distributed By</span>. <a class="border-bottom"
-                        href="https://nicheknights.com/"><span
-                            style="color: rgb(255, 255, 255);">Nicheknights</span></a>
-                </div>
-            </div>
-        </div>
-    </div>
+    @include('copyright')
+    
     <!-- Copyright End -->
 
 

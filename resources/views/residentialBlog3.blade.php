@@ -112,7 +112,7 @@
 
 
 <!-- Page Header Start -->
-<div class="container-fluid s" style="background-color: #007bff;">
+<div class="container-fluid s bg-primary">
     <div class="container py-5">
         <h1 class="display-3 text-white mb-3 animated slideInDown">How to Choose the Right Flooring for Your Home?</h1>
         <nav aria-label="breadcrumb animated slideInDown">
@@ -141,106 +141,73 @@
                         </div>
 
                         <!-- Blog Content -->
-                        <div class="content mt-4">
-                            <p style="font-size: larger; color: #000000;">
-                                Choosing the right flooring for your home is a critical decision that can significantly
-                                impact both the aesthetic appeal and functionality of your space. With various flooring
-                                options available, such as hardwood, laminate, tile, and carpet, it's essential to
-                                understand the characteristics and suitability of each material for different rooms and
-                                lifestyles. This article will provide insights into these flooring types and help you
-                                make an informed choice for your home. </p>
-                            </p>
-                        </div><!-- End post content -->
+<div class="content mt-4">
+    <p class="fs-lg text-dark">
+        Choosing the right flooring for your home is a critical decision that can significantly impact both the aesthetic appeal and functionality of your space. With various flooring options available, such as hardwood, laminate, tile, and carpet, it's essential to understand the characteristics and suitability of each material for different rooms and lifestyles. This article will provide insights into these flooring types and help you make an informed choice for your home.
+    </p>
+</div><!-- End post content -->
 
-                        <h3>Key Types of Flooring Materials :</h3>
-                        <div class="content">
-                            <h5>Hardwood Flooring :</h5>
-                            <ul style="font-size: larger;color: #000000;">
-                                <li>Hardwood flooring is a timeless and durable option for living rooms, dining areas,
-                                    and bedrooms, adding warmth and elegance. It's not recommended for moisture-prone
-                                    areas like bathrooms or basements. Its natural variations in color and grain enhance
-                                    home aesthetics.
-                                    Laminate Flooring
-                                </li>
-                            </ul>
-                            </p>
-                            <h5>Laminate Flooring :</h5>
-                            <ul style="font-size: larger;color: #000000;">
-                                <li>Laminate flooring is a cost-effective, versatile option that mimics hardwood, tile,
-                                    or stone's appearance. It's suitable for kitchens, family rooms, and children's
-                                    rooms. However, it's not as durable as hardwood and may be moisture-sensitive, so
-                                    avoid in bathrooms or laundry rooms.</li>
-                            </ul>
-                            </p>
-                            <h5>Tile Flooring :</h5>
-                            <ul style="font-size: larger;color: #000000;">
-                                <li>Tile flooring is durable, water-resistant, and suitable for moisture-prone areas
-                                    like bathrooms, kitchens, and entryways. Available in styles, colors, and materials,
-                                    it offers limitless design possibilities. However, it may not be suitable for living
-                                    spaces or bedrooms.</li>
-                            </ul>
-                            </p>
-                            <h5>Carpet :</h5>
-                            <ul style="font-size: larger;color: #000000;">
-                                <li>Carpet offers a cozy, warm feel, ideal for bedrooms and living areas, with excellent
-                                    sound absorption and insulation. However, it requires regular cleaning due to dust
-                                    and allergen trapping, and may not be suitable for high-traffic areas or
-                                    pet-friendly homes.</li>
-                            </ul>
-                            </p>
+<h3 class="mt-4">Key Types of Flooring Materials :</h3>
+<div class="content">
+    <h5 class="mt-3">Hardwood Flooring :</h5>
+    <ul class="fs-lg text-dark">
+        <li>Hardwood flooring is a timeless and durable option for living rooms, dining areas, and bedrooms, adding warmth and elegance. It's not recommended for moisture-prone areas like bathrooms or basements. Its natural variations in color and grain enhance home aesthetics.</li>
+    </ul>
 
+    <h5 class="mt-3">Laminate Flooring :</h5>
+    <ul class="fs-lg text-dark">
+        <li>Laminate flooring is a cost-effective, versatile option that mimics hardwood, tile, or stone's appearance. It's suitable for kitchens, family rooms, and children's rooms. However, it's not as durable as hardwood and may be moisture-sensitive, so avoid in bathrooms or laundry rooms.</li>
+    </ul>
 
-                            <h3>Factors to Consider :</h3>
-                            <p style="font-size: larger; color: #000000;">When choosing the right flooring for your
-                                home, consider the following factors:</p>
+    <h5 class="mt-3">Tile Flooring :</h5>
+    <ul class="fs-lg text-dark">
+        <li>Tile flooring is durable, water-resistant, and suitable for moisture-prone areas like bathrooms, kitchens, and entryways. Available in styles, colors, and materials, it offers limitless design possibilities. However, it may not be suitable for living spaces or bedrooms.</li>
+    </ul>
 
-                            <h5>1. Lifestyle Needs :</h5>
-                            <div class="content">
-                                <p>
-                                <ul style="font-size: larger;color: #000000;">
-                                    <li>Evaluate your family's lifestyle and daily activities. If you have children or
-                                        pets, durable and easy-to-clean options like laminate or tile might be best.
-                                    </li>
-                                </ul>
-                                <h5>2. Room Functionality :</h5>
+    <h5 class="mt-3">Carpet :</h5>
+    <ul class="fs-lg text-dark">
+        <li>Carpet offers a cozy, warm feel, ideal for bedrooms and living areas, with excellent sound absorption and insulation. However, it requires regular cleaning due to dust and allergen trapping, and may not be suitable for high-traffic areas or pet-friendly homes.</li>
+    </ul>
+</div>
 
-                                <ul style="font-size: larger;color: #000000;">
-                                    <li>Consider the function of each room. For wet areas like bathrooms, tile is the
-                                        most suitable choice, while hardwood can enhance the warmth of living spaces.
-                                    </li>
-                                </ul>
-                                <h5>3. Budget :</h5>
-                                <ul style="font-size: larger;color: #000000;">
-                                    <li>Set a budget that includes not just the cost of the flooring itself but also
-                                        installation and maintenance. Laminate and carpet are often more budget-friendly
-                                        options compared to hardwood and tile.</li>
-                                </ul>
-                                <h5>4. Aesthetic Preferences :</h5>
-                                <ul style="font-size: larger;color: #000000;">
-                                    <li>Think about the overall style you want to achieve. Choose flooring that
-                                        complements your home's design and color scheme.</li>
-                                </ul>
-                                <h5>5. Maintenance Requirements :</h5>
-                                <ul style="font-size: larger;color: #000000;">
-                                    <li>Assess how much time and effort you are willing to spend on maintenance.
-                                        Hardwood and carpet require more upkeep than tile and laminate.</li>
-                                </ul>
-                                </p>
-                                <h3>Conclusion :</h3>
-                                <p style="font-size: larger; color: #000000;">In conclusion, Selecting the right
-                                    flooring for your home is crucial for its aesthetic and functionality. Consider
-                                    hardwood, laminate, tile, and carpet materials, lifestyle needs, and room
-                                    functionality to make an informed decision. At Cresttel our team can assist you in
-                                    remodeling your home, ensuring you choose a solution that not only beautifies your
-                                    space but also fits your lifestyle and budget. Trust us to help you create a home
-                                    that reflects your style and stands the test of time.
+<h3 class="mt-4">Factors to Consider :</h3>
+<p class="fs-lg text-dark">When choosing the right flooring for your home, consider the following factors:</p>
 
-                                </p>
+<h5 class="mt-3">1. Lifestyle Needs :</h5>
+<div class="content">
+    <ul class="fs-lg text-dark">
+        <li>Evaluate your family's lifestyle and daily activities. If you have children or pets, durable and easy-to-clean options like laminate or tile might be best.</li>
+    </ul>
+</div>
+
+<h5 class="mt-3">2. Room Functionality :</h5>
+<ul class="fs-lg text-dark">
+    <li>Consider the function of each room. For wet areas like bathrooms, tile is the most suitable choice, while hardwood can enhance the warmth of living spaces.</li>
+</ul>
+
+<h5 class="mt-3">3. Budget :</h5>
+<ul class="fs-lg text-dark">
+    <li>Set a budget that includes not just the cost of the flooring itself but also installation and maintenance. Laminate and carpet are often more budget-friendly options compared to hardwood and tile.</li>
+</ul>
+
+<h5 class="mt-3">4. Aesthetic Preferences :</h5>
+<ul class="fs-lg text-dark">
+    <li>Think about the overall style you want to achieve. Choose flooring that complements your home's design and color scheme.</li>
+</ul>
+
+<h5 class="mt-3">5. Maintenance Requirements :</h5>
+<ul class="fs-lg text-dark">
+    <li>Assess how much time and effort you are willing to spend on maintenance. Hardwood and carpet require more upkeep than tile and laminate.</li>
+</ul>
+
+<h3 class="mt-4">Conclusion :</h3>
+<p class="fs-lg text-dark">
+    In conclusion, selecting the right flooring for your home is crucial for its aesthetic and functionality. Consider hardwood, laminate, tile, and carpet materials, lifestyle needs, and room functionality to make an informed decision. At Cresttel, our team can assist you in remodeling your home, ensuring you choose a solution that not only beautifies your space but also fits your lifestyle and budget. Trust us to help you create a home that reflects your style and stands the test of time.
+</p>
 
                                 <img src="img/Residential_img/flooring212.jpg" class="img-fluid" alt="">
                                 <a style="margin-left: 30%;margin-top: 10%;" href="{{ route('adu') }}"
-                                    class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft"><span
-                                        style="color: rgb(255, 255, 255);">Visit Our Service ADU Page</span></a>
+                                    class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft"><span>Visit Our Service ADU Page</span></a>
                             </div><!-- End post content -->
 
 
@@ -276,25 +243,10 @@
     <!-- Footer End -->
 
 
-    <!-- Copyright Start -->
-    <div class="container-fluid py-4" style="background: #000000;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom" href="#"><span
-                            style="color: rgb(255, 255, 255);">Cresttel</span></a>,
-                    <span style="color: #1591ea;">All Right Reserved</span>.
-                </div>
+     <!-- Copyright Start -->
 
-                <div class="col-md-6 text-center text-md-end">
-
-                    <span style="color: #1591ea;">Distributed By</span>. <a class="border-bottom"
-                        href="https://nicheknights.com/"><span
-                            style="color: rgb(255, 255, 255);">Nicheknights</span></a>
-                </div>
-            </div>
-        </div>
-    </div>
+    @include('copyright')
+    
     <!-- Copyright End -->
 
 

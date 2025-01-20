@@ -128,21 +128,20 @@
 
         <!-- Services Section -->
         <section id="services">
-            <h2 style="color: #1591ea;">Service</h2>
+    <h2 class="text-primary">Service</h2>
 
-            <p style="font-size: 200%;">At Cresttel, we take pride in our expertise in <strong
-                    style="color:#000000;">residential construction</strong>, crafting <strong
-                    style="color:#000000;">homes</strong> that embody your unique vision. Our skilled team specializes
-                in <strong style="color:#000000;">custom home building</strong>, <strong style="color:#000000;">home
-                    remodeling</strong>, and <strong style="color:#000000;">renovation</strong> projects, meticulously
-                attending to every detail to ensure your complete satisfaction. With years of experience as <strong
-                    style="color:#000000;">building contractors</strong>, we offer top-quality construction services,
-                from initial design conceptualization to final execution, delivering exceptional craftsmanship and
-                reliable solutions. Entrust Cresttel with your residential construction needs. Contact us today to start
-                building your dream home.</p>
+    <p class="fs-1">
+        At Cresttel, we take pride in our expertise in <strong class="text-black">residential construction</strong>, 
+        crafting <strong class="text-black">homes</strong> that embody your unique vision. Our skilled team specializes 
+        in <strong class="text-black">custom home building</strong>, <strong class="text-black">home remodeling</strong>, 
+        and <strong class="text-black">renovation</strong> projects, meticulously attending to every detail to ensure your 
+        complete satisfaction. With years of experience as <strong class="text-black">building contractors</strong>, we offer 
+        top-quality construction services, from initial design conceptualization to final execution, delivering exceptional 
+        craftsmanship and reliable solutions. Entrust Cresttel with your residential construction needs. Contact us today to 
+        start building your dream home.
+    </p>
+</section>
 
-
-        </section>
         <div class="slider">
             <div class="list">
                 <div class="item">
@@ -371,25 +370,10 @@
 
 
         <!-- Copyright Start -->
-        <div class="container-fluid py-4" style="background: #000000;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="#"><span
-                                style="color: rgb(255, 255, 255);">Cresttel</span></a>,
-                        <span style="color: #1591ea;">All Right Reserved</span>.
-                    </div>
 
-                    <div class="col-md-6 text-center text-md-end">
-
-                        <span style="color: #1591ea;">Distributed By</span>. <a class="border-bottom"
-                            href="https://nicheknights.com/"><span
-                                style="color: rgb(255, 255, 255);">Nicheknights</span></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Copyright End -->
+    @include('copyright')
+    
+    <!-- Copyright End -->
 
 
         <!-- Back to Top -->

@@ -110,7 +110,7 @@
 
 
 <!-- Page Header Start -->
-<div class="container-fluid s" style="background-color: #007bff;">
+<div class="container-fluid s bg-primary">
     <div class="container py-5">
         <h1 class="display-3 text-white mb-3 animated slideInDown">Understanding the Different Types of Multi-Dwelling
             Units: Which One Is Right for You?</h1>
@@ -140,65 +140,41 @@
                             <img src="img/MDU_img/Library_PhotoPietroSavorelli.jpg" alt="Blog Image"
                                 class="img-fluid">
                         </div>
+<!-- Blog Content -->
+<div class="content mt-4">
+    <p class="fs-4 text-dark">
+        In California, Multi-Dwelling Units (MDUs) are residential buildings designed to accommodate multiple families or individuals within a single structure. With the state’s growing population and increasing urbanization, MDUs are essential in providing efficient housing solutions in crowded cities like Los Angeles, San Francisco, and San Diego. Understanding the various types of MDUs available will help you determine which option best suits your needs.
+    </p>
+</div><!-- End post content -->
 
-                        <!-- Blog Content -->
-                        <div class="content mt-4">
-                            <p style="font-size: larger; color: #000000;">
-                                In California, Multi-Dwelling Units (MDUs) are residential buildings designed to
-                                accommodate multiple families or individuals within a single structure. With the state’s
-                                growing population and increasing urbanization, MDUs are essential in providing
-                                efficient housing solutions in crowded cities like Los Angeles, San Francisco, and San
-                                Diego. Understanding the various types of MDUs available will help you determine which
-                                option best suits your needs.</p>
-                            </p>
-                            <p></p>
-                        </div><!-- End post content -->
-                        <div class="post-img">
-                            <img src="img/MDU_img/Library4_PhotoPietroSavorelli.jpg" alt=""
-                                class="img-fluid">
-                        </div>
+<div class="post-img">
+    <img src="img/MDU_img/Library4_PhotoPietroSavorelli.jpg" alt="MDU Image" class="img-fluid">
+</div>
 
+<h3>Overview of MDU Types:</h3>
+<div class="content">
+    <ul class="fs-4 text-dark">
+        <li><strong>Apartments:</strong> Apartments are self-contained housing units within a larger building. They typically offer amenities such as shared laundry facilities, gyms, and recreational areas. Apartments are often rented, making them a flexible option for those seeking temporary housing.</li>
+        <li><strong>Condominiums:</strong> Condominiums, or condos, are individually owned units within a shared building. Owners usually pay a monthly fee for the maintenance of common areas. Condos often provide a sense of community while allowing for homeownership in urban settings.</li>
+        <li><strong>Townhouses:</strong> Townhouses are multi-story homes that share walls with neighboring units but have separate entrances. They offer a balance between single-family homes and apartments, providing more space and privacy while still being part of a community.</li>
+    </ul>
+</div>
 
-                        <h3>Overview of MDU Types :</h3>
-                        <div class="content">
-                            <p>
-                            <ul style="font-size: larger;color: #000000;">
-                                <li><strong style="color:#000000; ">1. Apartments : </strong> Apartments are
-                                    self-contained housing units within a larger building. They typically offer
-                                    amenities such as shared laundry facilities, gyms, and recreational areas.
-                                    Apartments are often rented, making them a flexible option for those seeking
-                                    temporary housing.</li>
-                                <li><strong style="color:#000000; ">2. Condominiums :</strong>Condominiums, or condos,
-                                    are individually owned units within a shared building. Owners usually pay a monthly
-                                    fee for the maintenance of common areas. Condos often provide a sense of community
-                                    while allowing for homeownership in urban settings.</li>
-                                <p>
-                                    <li><strong style="color:#000000; ">3. Townhouses :</strong> Townhouses are
-                                        multi-story homes that share walls with neighboring units but have separate
-                                        entrances. They offer a balance between single-family homes and apartments,
-                                        providing more space and privacy while still being part of a community.!
-                                </p>
-                                <h3>Role of MDUs in Solving Housing Shortages :</h3>
-                                <p style="font-size: larger; color: #000000;">
-                                    MDUs play a crucial role in addressing housing shortages in California’s urban
-                                    areas. With rising housing costs and a growing population, increasing the number of
-                                    available units through MDUs can help meet the demand for affordable housing. By
-                                    maximizing land use without the need for expansive new developments, MDUs contribute
-                                    significantly to alleviating the housing crisis in cities like Los Angeles and San
-                                    Diego.</p>
-                                </p>
-                                <h3>Conclusion :</h3>
-                                <p>Understanding the different types of Multi-Dwelling Units (MDUs) is crucial for
-                                    navigating urban housing options. At Cresttel our team can help you explore the best
-                                    options for your needs to ensure your projects meet the highest standards of quality
-                                    and design.</p>
+<h3>Role of MDUs in Solving Housing Shortages:</h3>
+<p class="fs-4 text-dark">
+    MDUs play a crucial role in addressing housing shortages in California’s urban areas. With rising housing costs and a growing population, increasing the number of available units through MDUs can help meet the demand for affordable housing. By maximizing land use without the need for expansive new developments, MDUs contribute significantly to alleviating the housing crisis in cities like Los Angeles and San Diego.
+</p>
+
+<h3>Conclusion:</h3>
+<p class="fs-4 text-dark">
+    Understanding the different types of Multi-Dwelling Units (MDUs) is crucial for navigating urban housing options. At Cresttel, our team can help you explore the best options for your needs to ensure your projects meet the highest standards of quality and design.
+</p>
 
 
                                 <img src="img/MDU_img/Library_PhotoPietroSavorelli2.jpg" class="img-fluid"
                                     alt="">
                                 <a style="margin-left: 30%;margin-top: 10%;" href="{{ route('mdu') }}"
-                                    class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft"><span
-                                        style="color: rgb(255, 255, 255);">Visit Our Service MDU Page</span></a>
+                                    class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft"><span>Visit Our Service MDU Page</span></a>
                         </div>
                         <!-- End post content -->
 
@@ -268,25 +244,10 @@
     <!-- Footer End -->
 
 
-    <!-- Copyright Start -->
-    <div class="container-fluid py-4" style="background: #000000;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom" href="#"><span
-                            style="color: rgb(255, 255, 255);">Cresttel</span></a>,
-                    <span style="color: #1591ea;">All Right Reserved</span>.
-                </div>
+     <!-- Copyright Start -->
 
-                <div class="col-md-6 text-center text-md-end">
-
-                    <span style="color: #1591ea;">Distributed By</span>. <a class="border-bottom"
-                        href="https://nicheknights.com/"><span
-                            style="color: rgb(255, 255, 255);">Nicheknights</span></a>
-                </div>
-            </div>
-        </div>
-    </div>
+    @include('copyright')
+    
     <!-- Copyright End -->
 
 

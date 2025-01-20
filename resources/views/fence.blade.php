@@ -133,22 +133,21 @@
 
     <!-- Services Section -->
     <section id="services">
-        <h2 style="color: #1591ea;">Service</h2>
+    <h2 class="text-primary">Service</h2>
 
-        <p style="font-size: 200%;">Building and maintaining <strong style="color:#000000;">fence</strong> is crucial,
-            At Cresttel we focus on offering exceptional <strong style="color:#000000;">fence installation</strong> and
-            repair services tailored for both <strong style="color:#000000;">residential</strong> and <strong
-                style="color:#000000;">commercial properties</strong>. Our skilled <strong
-                style="color:#000000;">contractors</strong> prioritize delivering robust and visually appealing <strong
-                style="color:#000000;">fencing solutions</strong> that bolster security while enhancing your property's
-            aesthetic appeal. From new installations to repairs on existing <strong
-                style="color:#000000;">fences</strong> to ensure it stays in top shape, we meticulously execute every
-            project, ensuring your complete satisfaction. Rely on Cresttel's professionalism and expertise to meet all
-            your <strong style="color:#000000;">fencing requirements</strong>. Get in touch with us now to explore our
-            <strong style="color:#000000;">comprehensive range of fencing services</strong>.</p>
-
-
-    </section>
+    <p class="fs-1">
+        Building and maintaining <strong class="text-black">fence</strong> is crucial,
+        At Cresttel we focus on offering exceptional <strong class="text-black">fence installation</strong> and
+        repair services tailored for both <strong class="text-black">residential</strong> and 
+        <strong class="text-black">commercial properties</strong>. Our skilled <strong class="text-black">contractors</strong> 
+        prioritize delivering robust and visually appealing <strong class="text-black">fencing solutions</strong> that bolster 
+        security while enhancing your property's aesthetic appeal. From new installations to repairs on existing 
+        <strong class="text-black">fences</strong> to ensure it stays in top shape, we meticulously execute every project, 
+        ensuring your complete satisfaction. Rely on Cresttel's professionalism and expertise to meet all your 
+        <strong class="text-black">fencing requirements</strong>. Get in touch with us now to explore our 
+        <strong class="text-black">comprehensive range of fencing services</strong>.
+    </p>
+</section>
 
     <div class="slider">
         <div class="list">
@@ -373,25 +372,10 @@
     <!-- Footer End -->
 
 
-    <!-- Copyright Start -->
-    <div class="container-fluid py-4" style="background: #000000;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom" href="#"><span
-                            style="color: rgb(255, 255, 255);">Cresttel</span></a>,
-                    <span style="color: #1591ea;">All Right Reserved</span>.
-                </div>
+     <!-- Copyright Start -->
 
-                <div class="col-md-6 text-center text-md-end">
-
-                    <span style="color: #1591ea;">Distributed By</span>. <a class="border-bottom"
-                        href="https://nicheknights.com/"><span
-                            style="color: rgb(255, 255, 255);">Nicheknights</span></a>
-                </div>
-            </div>
-        </div>
-    </div>
+    @include('copyright')
+    
     <!-- Copyright End -->
 
 

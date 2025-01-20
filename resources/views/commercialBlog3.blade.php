@@ -112,7 +112,7 @@
 
 
 <!-- Page Header Start -->
-<div class="container-fluid s" style="background-color: #007bff;">
+<div class="container-fluid s bg-primary">
     <div class="container py-5">
         <h1 class="display-3 text-white mb-3 animated slideInDown">Choosing the Right Contractor for Commercial
             Renovations</h1>
@@ -145,64 +145,47 @@
                             <img src="img/COmer/inside store.jpg" alt="Blog Image" class="img-fluid">
                         </div>
 
-                        <!-- Blog Content -->
-                        <div class="content mt-4">
-                            <p style="font-size: larger; color: #000000;">
-                                Selecting the right contractor is crucial for the success of any commercial renovation
-                                project. This article will explain the process of choosing a reliable contractor for
-                                your business and share with you the expertise and qualification of the team at
-                                Cresttel. </p>
-                            </p>
-                        </div><!-- End post content -->
-                        <div class="post-img">
-                            <img src="img/COmer/att store.jpg" alt="" class="img-fluid">
-                        </div>
+                       <!-- Blog Content -->
+<div class="content mt-4">
+    <p class="fs-4 text-black">
+        Selecting the right contractor is crucial for the success of any commercial renovation project. This article will explain the process of choosing a reliable contractor for your business and share with you the expertise and qualifications of the team at Cresttel.
+    </p>
+</div><!-- End post content -->
 
+<div class="post-img">
+    <img src="img/COmer/att store.jpg" alt="" class="img-fluid">
+</div>
 
-                        <h3>Experience :</h3>
-                        <div class="content">
-                            <p>
-                            <ul style="font-size: larger;color: #000000;">
-                                <li>Look for contractors with a proven experience in commercial renovations. Experienced
-                                    contractors bring expertise and insights that can impact the quality and efficiency
-                                    of the renovation process.</li>
-                            </ul>
-                            <h3>References and Reviews :</h3>
-                            <ul style="font-size: larger;color: #000000;">
-                                <li>Research the contractor's reputation by checking references and reading reviews.
-                                    Good feedback from past clients shows that the work is reliable and high quality.
-                                </li>
-                            </ul>
-                            </p>
+<h3>Experience :</h3>
+<div class="content">
+    <ul class="fs-4 text-black">
+        <li>Look for contractors with proven experience in commercial renovations. Experienced contractors bring expertise and insights that can impact the quality and efficiency of the renovation process.</li>
+    </ul>
 
-                            <h3>Licensing and Insurance :</h3>
-                            <ul style="font-size: larger;color: #000000;">
-                                <li>Make sure the contractor is licensed and insured to avoid any potential risks.
-                                    Having the proper license shows following industry rules, and insurance offers
-                                    financial protection for accidents or damages.</li>
-                            </ul>
-                            <h3>Project Management :</h3>
-                            <ul style="font-size: larger;color: #000000;">
-                                <li>Evaluate the contractor's project management abilities in meeting deadlines and
-                                    budgets. Good project management will keep the renovation on schedule and budget,
-                                    avoiding disruptions to your business.</li>
-                            </ul>
-                            <h3>Examples</h3>
-                            <ul style="font-size: larger; color: #000000;">
-                                <li><strong style="color: #000000;">Inexperienced Contractor Example :</strong> A
-                                    business that chose an inexperienced contractor faced significant delays and budget
-                                    overruns. The lack of proper project management and expertise resulted in costly
-                                    mistakes and extended downtime.</li>
-                                <li><strong style="color: #000000;">Cresttel Success Story :</strong> A company
-                                    partnered with <strong style="color: #000000;">Cresttel</strong> for their
-                                    renovation and experienced a smooth, on-time project completion. Cresttel's
-                                    extensive experience and professional approach ensured that the renovation was
-                                    completed efficiently, with minimal disruption to the business.</li>
-                            </ul>
+    <h3>References and Reviews :</h3>
+    <ul class="fs-4 text-black">
+        <li>Research the contractor's reputation by checking references and reading reviews. Good feedback from past clients shows that the work is reliable and high quality.</li>
+    </ul>
+
+    <h3>Licensing and Insurance :</h3>
+    <ul class="fs-4 text-black">
+        <li>Make sure the contractor is licensed and insured to avoid any potential risks. Having the proper license shows following industry rules, and insurance offers financial protection for accidents or damages.</li>
+    </ul>
+
+    <h3>Project Management :</h3>
+    <ul class="fs-4 text-black">
+        <li>Evaluate the contractor's project management abilities in meeting deadlines and budgets. Good project management will keep the renovation on schedule and budget, avoiding disruptions to your business.</li>
+    </ul>
+
+    <h3>Examples</h3>
+    <ul class="fs-4 text-black">
+        <li><strong class="text-black">Inexperienced Contractor Example :</strong> A business that chose an inexperienced contractor faced significant delays and budget overruns. The lack of proper project management and expertise resulted in costly mistakes and extended downtime.</li>
+        <li><strong class="text-black">Cresttel Success Story :</strong> A company partnered with <strong class="text-black">Cresttel</strong> for their renovation and experienced a smooth, on-time project completion. Cresttel's extensive experience and professional approach ensured that the renovation was completed efficiently, with minimal disruption to the business.</li>
+    </ul>
+</div>
 
                             <a style="margin-left: 30%;margin-top: 10%;" href="commercial.blade.php"
-                                class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft"><span
-                                    style="color: rgb(255, 255, 255);">Visit Our Service Commercial Page</span></a>
+                                class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft"><span>Visit Our Service Commercial Page</span></a>
                         </div><!-- End post content -->
 
 
@@ -267,25 +250,10 @@
     <!-- Footer End -->
 
 
-    <!-- Copyright Start -->
-    <div class="container-fluid py-4" style="background: #000000;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom" href="#"><span
-                            style="color: rgb(255, 255, 255);">Cresttel</span></a>,
-                    <span style="color: #1591ea;">All Right Reserved</span>.
-                </div>
+     <!-- Copyright Start -->
 
-                <div class="col-md-6 text-center text-md-end">
-
-                    <span style="color: #1591ea;">Distributed By</span>. <a class="border-bottom"
-                        href="https://nicheknights.com/"><span
-                            style="color: rgb(255, 255, 255);">Nicheknights</span></a>
-                </div>
-            </div>
-        </div>
-    </div>
+    @include('copyright')
+    
     <!-- Copyright End -->
 
 
