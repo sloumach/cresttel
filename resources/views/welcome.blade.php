@@ -257,7 +257,7 @@
                                     and commercial properties
 
                                 </p>
-                                <a href="{{ route('projet') }}"
+                                <a href="{{ route('project') }}"
                                     class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft"><span
                                         style="color: rgb(255, 255, 255);">View Projects</span></a>
 
