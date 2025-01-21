@@ -588,7 +588,7 @@
                             customer satisfaction, making it a priority to complete every project on schedule and within
                             the agreed budget. Cresttel offers innovative solutions and meticulous attention to detail,
                             making us a standout choice for those seeking excellent construction services. Explore how
-                            our Nicheknightss can transform your space with their expert craftsmanship and
+                            our team at cresttel can transform your space with their expert craftsmanship and
                             professionalism.</p>
                         <div class="row gx-5 py-2">
                             <div class="col-sm-6 mb-2">
