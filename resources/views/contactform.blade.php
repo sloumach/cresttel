@@ -2,21 +2,18 @@
     @csrf
     <div class="row g-3">
     <div class="col-12 col-sm-6">
-        <input type="text" name="name" class="form-control border-0 text-dark"
-            placeholder="Your Name" style="height: 55px;" required>
-    </div>
-    <div class="col-12 col-sm-6">
-        <input type="email" name="email" class="form-control border-0 text-dark"
-            placeholder="Your Email" style="height: 55px;" required>
-    </div>
-    <div class="col-12 col-sm-6">
-        <input type="text" name="mobile" class="form-control border-0 text-dark"
-            placeholder="Your Mobile" style="height: 55px;" required>
-    </div>
-    <div class="col-12 col-sm-6">
-        <select name="service" class="form-select border-0 text-dark" style="height: 55px;"
-            required>
-            <option selected disabled>Select A Service</option>
+    <input type="text" name="name" class="form-control border-0 text-dark input-height" placeholder="Your Name" required>
+</div>
+<div class="col-12 col-sm-6">
+    <input type="email" name="email" class="form-control border-0 text-dark input-height" placeholder="Your Email" required>
+</div>
+<div class="col-12 col-sm-6">
+    <input type="text" name="mobile" class="form-control border-0 text-dark input-height" placeholder="Your Mobile" required>
+</div>
+<div class="col-12 col-sm-6">
+    <select name="service" class="form-select border-0 text-dark input-height" required>
+        <option value="" disabled selected>Select Service</option>
+       
             <option value="Fence">Fence</option>
             <option value="Commercial">Commercial</option>
             <option value="Residential">Residential</option>

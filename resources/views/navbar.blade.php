@@ -1,6 +1,8 @@
+<link href="css/nav.css" rel="stylesheet">
+
 <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5">
     <a href="{{ route('welcome') }}" class="navbar-brand d-flex align-items-center">
-        <h2 class="m-0" style="color: #1591ea;">Cresttel</h2>
+    <h2 class="m-0 text-primary">Cresttel</h2>
 
     </a>
     <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -17,14 +19,13 @@
 
             <div class="nav-item dropdown">
                 <!-- Centered Viewer Counter -->
-                <div class="viewer-counter-container mx-auto d-flex align-items-center"
-                    style=": margin-left: 5000px;">
-                    <i class="bi bi-person-circle" style="font-size: 20px; color: #1591ea;"></i>
-                    <span id="viewerCount" style="font-size: 24px; margin-left: 8px; font-weight: bold; color: black;"></span>
-                    <div class="green-indicator"
-                        style="width: 10px; height: 10px; background-color: #28a745; border-radius: 50%; position: relative; top: -2px; margin-left: 5px; animation: pulse 1s infinite;">
-                    </div>
-                    <p style="font-size: 14px; color: #000; margin-left: 12px; margin-bottom: 0;"><B>Viewers Now</p>
+                <div class="viewer-counter-container mx-auto d-flex align-items-center">
+    <i class="bi bi-person-circle text-primary fs-4"></i>
+    <span id="viewerCount" class="fs-4 fw-bold text-dark ms-2"></span>
+    <div class="green-indicator bg-success rounded-circle"></div>
+    <p class="fs-6 text-dark ms-3 mb-0"><strong>Viewers Now</strong></p>
+</div>
+
                     </B>
                 </div>
             </div>

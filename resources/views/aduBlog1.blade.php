@@ -55,7 +55,7 @@
     <!-- Spinner Start -->
     <div id="spinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+<div class="spinner-border text-primary custom-spinner" role="status"></div>
             <span class="sr-only">Loading...</span>
         </div>
     </div>
@@ -199,9 +199,15 @@
 
 
                             <img src="img/ADU_img/Detached.jpg" class="img-fluid" alt="">
-                            <a style="margin-left: 30%;margin-top: 10%;" href="adu.blade.php"
-                                class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft"><span
-                                   >Visit Our Service ADU Page</span></a>
+                           
+                           
+                            <a href="{{ route('adu') }}" 
+   class="btn btn-primary rounded-pill py-2 px-4 me-3 animated slideInLeft mt-5 ms-3">
+    <span>Visit Our Service ADU Page</span>
+                            </a>
+                           
+                         
+
                         </div><!-- End post content -->
 
 

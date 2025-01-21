@@ -58,7 +58,7 @@
     <!-- Spinner Start -->
     <div id="spinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+<div class="spinner-border text-primary custom-spinner" role="status"></div>
             <span class="sr-only">Loading...</span>
         </div>
     </div>
@@ -123,8 +123,10 @@
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-12 col-lg-8 text-center">
-                                <h1 class="display-3 text-white animated slideInDown mb-4" style="font-size:480%;">We
-                                    Build Homes That Last</h1>
+                            <h1 class="display-3 text-white animated slideInDown mb-4 fs-1">
+    We Build Homes That Last
+</h1>
+
                                 <p class="fs-5 text-white mb-4 pb-2">Expert construction services <br> for residential
                                     and commercial properties
 
@@ -181,147 +183,215 @@
 
    
 
-    <!-- Service Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center">
-                <h5 class="display-5 mb-5"><span><br><br>Our Services</span>
-            </div>
-            <!-- Increase gutter spacing between columns with g-4 -->
-            <div class="row g-4 justify-content-center">
-                <div class="col-md-6 col-lg-2 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="service-item border h-100 p-3">
-                        <div class="btn-square bg-light rounded-circle mb-3 image-hover"
-                            style="width: 70px; height: 70px;">
-                            <a href="adu.blade.php">
-                                <img class="img-fluid" src="img/wephome/ezgif-2-117d8ed6c3.webp" alt="Icon"
-                                    style="width: 70px; height: 70px;">
-                            </a>
-                        </div>
-                        <h5 class="mb-2">ADU</h5>
-                        <p class="mb-3">"Innovative ADU Design & Construction for Extra Space"</p>
-                        <div class="text-start">
-                            <a href="{{ route('adu') }}" class="custom-btn">More</a>
-                        </div>
+  <!-- Service Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center">
+            <h5 class="display-5 mb-5"><span><br><br>Our Services</span></h5>
+        </div>
+        <div class="row g-4 justify-content-center">
+            <!-- Service Item 1 -->
+            <div class="col-md-6 col-lg-2 wow fadeIn" data-wow-delay="0.1s">
+                <div class="service-item border h-100 p-3">
+                    <div class="btn-square bg-light rounded-circle mb-3 image-hover custom-size">
+                        <a href="{{ route('adu') }}">
+                            <img class="img-fluid rounded-circle" src="img/wephome/ezgif-2-117d8ed6c3.webp" alt="Icon">
+                        </a>
                     </div>
-                </div>
-                <div class="col-md-6 col-lg-2 wow fadeIn" data-wow-delay="0.3s">
-                    <div class="service-item border h-100 p-3">
-                        <div class="btn-square bg-light rounded-circle mb-3 image-hover"
-                            style="width: 70px; height: 70px;">
-                            <a href="mdu.blade.php">
-                                <img class="img-fluid" src="img/wephome/ezgif-5-23356bdb13.webp" alt="Icon"
-                                    style="width: 70px; height: 70px;">
-                            </a>
-                        </div>
-                        <h5 class="mb-2">MDU</h5>
-                        <p class="mb-3">"Efficient MDU Development for Modern Living Solutions"</p>
-                        <div class="text-start">
-                            <a href="{{ route('mdu') }}" class="custom-btn">More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-2 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="service-item border h-100 p-3">
-                        <div class="btn-square bg-light rounded-circle mb-3 image-hover"
-                            style="width: 70px; height: 70px;">
-                            <a href="residential.blade.php">
-                                <img class="img-fluid" src="img/wephome/ezgif-5-613f01933b.webp" alt="Icon"
-                                    style="width: 70px; height: 70px;">
-                            </a>
-                        </div>
-                        <h5 class="mb-2">Residential</h5>
-                        <p class="mb-3">"Residential Building & Remodeling Experts"</p>
-                        <div class="text-start">
-                            <a href="{{ route('residential') }}" class="custom-btn">More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-2 wow fadeIn" data-wow-delay="0.7s">
-                    <div class="service-item border h-100 p-3">
-                        <div class="btn-square bg-light rounded-circle mb-3 image-hover"
-                            style="width: 70px; height: 70px;">
-                            <a href="commercial.blade.php">
-                                <img class="img-fluid" src="img/Home icons/Commercial.webp" alt="Icon"
-                                    style="width: 70px; height: 70px;">
-                            </a>
-                        </div>
-                        <h5 class="mb-2">Commercial</h5>
-                        <p class="mb-3">"Commercial Construction & Renovation Services"</p>
-                        <div class="text-start">
-                            <a href="{{ route('commercial') }}" class="custom-btn">More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-2 wow fadeIn" data-wow-delay="0.9s">
-                    <div class="service-item border h-100 p-3">
-                        <div class="btn-square bg-light rounded-circle mb-3 image-hover"
-                            style="width: 70px; height: 70px;">
-                            <a href="fence.blade.php">
-                                <img class="img-fluid" src="img/Home icons/fence-6148694-5024979.png" alt="Icon"
-                                    style="width: 70px; height: 70px;">
-                            </a>
-                        </div>
-                        <h5 class="mb-2">Fence</h5>
-                        <p class="mb-3">"Reliable Fence Installation & Custom Design Solutions"</p>
-                        <div class="text-start">
-                            <a href="{{ route('fence') }}" class="custom-btn">More</a>
-                        </div>
+                    <h5 class="mb-2">ADU</h5>
+                    <p class="mb-3">"Innovative ADU Design & Construction for Extra Space"</p>
+                    <div class="d-flex justify-content-start align-items-center">
+                        <a href="{{ route('adu') }}" class="custom-btn">More</a>
                     </div>
                 </div>
             </div>
+            <!-- Service Item 2 -->
+            <div class="col-md-6 col-lg-2 wow fadeIn" data-wow-delay="0.3s">
+                <div class="service-item border h-100 p-3">
+                    <div class="btn-square bg-light rounded-circle mb-3 image-hover custom-size">
+                        <a href="{{ route('mdu') }}">
+                            <img class="img-fluid rounded-circle" src="img/wephome/ezgif-5-23356bdb13.webp" alt="Icon">
+                        </a>
+                    </div>
+                    <h5 class="mb-2">MDU</h5>
+                    <p class="mb-3">"Efficient MDU Development for Modern Living Solutions"</p>
+                    <div class="d-flex justify-content-start align-items-center">
+                        <a href="{{ route('mdu') }}" class="custom-btn">More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Service Item 3 -->
+            <div class="col-md-6 col-lg-2 wow fadeIn" data-wow-delay="0.5s">
+                <div class="service-item border h-100 p-3">
+                    <div class="btn-square bg-light rounded-circle mb-3 image-hover custom-size">
+                        <a href="{{ route('residential') }}">
+                            <img class="img-fluid rounded-circle" src="img/wephome/ezgif-5-613f01933b.webp" alt="Icon">
+                        </a>
+                    </div>
+                    <h5 class="mb-2">Residential</h5>
+                    <p class="mb-3">"Residential Building & Remodeling Experts"</p>
+                    <div class="d-flex justify-content-start align-items-center">
+                        <a href="{{ route('residential') }}" class="custom-btn">More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Service Item 4 -->
+            <div class="col-md-6 col-lg-2 wow fadeIn" data-wow-delay="0.7s">
+                <div class="service-item border h-100 p-3">
+                    <div class="btn-square bg-light rounded-circle mb-3 image-hover custom-size">
+                        <a href="{{ route('commercial') }}">
+                            <img class="img-fluid rounded-circle" src="img/Home icons/Commercial.webp" alt="Icon">
+                        </a>
+                    </div>
+                    <h5 class="mb-2">Commercial</h5>
+                    <p class="mb-3">"Commercial Construction & Renovation Services"</p>
+                    <div class="d-flex justify-content-start align-items-center">
+                        <a href="{{ route('commercial') }}" class="custom-btn">More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Service Item 5 -->
+            <div class="col-md-6 col-lg-2 wow fadeIn" data-wow-delay="0.9s">
+                <div class="service-item border h-100 p-3">
+                    <div class="btn-square bg-light rounded-circle mb-3 image-hover custom-size">
+                        <a href="{{ route('fence') }}">
+                            <img class="img-fluid rounded-circle" src="img/Home icons/fence-6148694-5024979.png" alt="Icon">
+                        </a>
+                    </div>
+                    <h5 class="mb-2">Fence</h5>
+                    <p class="mb-3">"Reliable Fence Installation & Custom Design Solutions"</p>
+                    <div class="d-flex justify-content-start align-items-center">
+                        <a href="{{ route('fence') }}" class="custom-btn">More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Service End -->
 
-            <!-- Service End -->
 
+<div class="stock-ticker">
+        <ul>
+            <li>
+                <span class="company">We are the best construction company</span>
+                <span class="price">🚧</span>
+                <span class="change">🏗️</span>
+            </li>
+            <li>
+                <span class="company">We are the best in San Diego</span>
+                <span class="price">🌆</span>
+                <span class="change">✨</span>
+            </li>
+            <li>
+                <span class="company">Quality services at affordable prices</span>
+                <span class="price">💰</span>
+                <span class="change">✅</span>
+            </li>
+            <li>
+                <span class="company">Experienced professionals</span>
+                <span class="price">👷</span>
+                <span class="change">🛠️</span>
+            </li>
+            <li>
+                <span class="company">Your satisfaction is our priority</span>
+                <span class="price">😊</span>
+                <span class="change">🏆</span>
+            </li>
+            <li>
+                <span class="company">Building dreams, one brick at a time</span>
+                <span class="price">🏠</span>
+                <span class="change">🌟</span>
+            </li>
+            <li>
+                <span class="company">Innovative solutions for every project</span>
+                <span class="price">💡</span>
+                <span class="change">🚀</span>
+            </li>
+            <li>
+                <span class="company">Let's make it happen together</span>
+                <span class="price">🤝</span>
+                <span class="change">❤️</span>
+            </li>
+        </ul>
+
+        <ul>
+            <li>
+                <span class="company">We are the best construction company</span>
+                <span class="price">🚧</span>
+                <span class="change">🏗️</span>
+            </li>
+            <li>
+                <span class="company">We are the best in San Diego</span>
+                <span class="price">🌆</span>
+                <span class="change">✨</span>
+            </li>
+            <li>
+                <span class="company">Quality services at affordable prices</span>
+                <span class="price">💰</span>
+                <span class="change">✅</span>
+            </li>
+            <li>
+                <span class="company">Experienced professionals</span>
+                <span class="price">👷</span>
+                <span class="change">🛠️</span>
+            </li>
+            <li>
+                <span class="company">Your satisfaction is our priority</span>
+                <span class="price">😊</span>
+                <span class="change">🏆</span>
+            </li>
+            <li>
+                <span class="company">Building dreams, one brick at a time</span>
+                <span class="price">🏠</span>
+                <span class="change">🌟</span>
+            </li>
+            <li>
+                <span class="company">Innovative solutions for every project</span>
+                <span class="price">💡</span>
+                <span class="change">🚀</span>
+            </li>
+            <li>
+                <span class="company">Let's make it happen together</span>
+                <span class="price">🤝</span>
+                <span class="change">❤️</span>
+            </li>
+        </ul>
+    </div>
 
 
             <!-- About Start -->
-            <div class="container-fluid py-6 px-5">
-                <div class="row g-5">
-                    <div class="col-lg-5 pb-5" style="min-height: 500px;">
-                    <div class="position-relative bg-dark-radial h-100 ms-3 larger-image">
-    <img id="unique-image-id" class="position-absolute w-200 h-100 mt-3 ms-n3"
-        src="img/wephome/ezgif-2-a4321ed7e9.webp"
-        alt="Modern luxury house with swimming pool and outdoor kitchen at sunset, showcasing Cresttel's premium residential construction and design services">
-</div>
-
-                    </div>
-                    <div class="col-lg-7" style="padding-left: 50px;"> <!-- Increased padding-left here -->
-                        <h3 class="display-5 text-uppercase mb-4">We are <span class="fading">the Leader</span> in
-                            Construction Industry!</h3>
-                        <h4 class="text-uppercase mb-3 text-body">About us</h4>
-                        <p>With over 20 years of experience, we pride ourselves in delivering top-notch services for
-                            both residential and commercial properties. With a wealth of experience under our belt, our
-                            skilled team of contractors specializes in custom home building, remodeling projects, and
-                            commercial construction endeavors. We are dedicated to achieving excellence and ensuring
-                            customer satisfaction, making it a priority to complete every project on schedule and within
-                            the agreed budget. Cresttel offers innovative solutions and meticulous attention to detail,
-                            making us a standout choice for those seeking excellent construction services. Explore how
-                            our Nicheknightss can transform your space with their expert craftsmanship and
-                            professionalism.</p>
-                        <div class="row gx-5 py-2">
-                            <div class="col-sm-6 mb-2">
-                                <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>Perfect Planning
-                                </p>
-                                <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>Professional
-                                    Workers</p>
-                                <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>First Working
-                                    Process</p>
-                            </div>
-                            <div class="col-sm-6 mb-2">
-                                <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>Expert
-                                    Coordination</p>
-                                <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>Skilled
-                                    Technicians</p>
-                                <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>Innovative
-                                    Solutions</p>
-                            </div>
-                        </div>
-
-                    </div>
+<div class="container-fluid py-6 px-5">
+    <div class="row g-5">
+        <div class="col-lg-5 pb-5 about-image">
+            <div class="position-relative bg-dark-radial h-100 ms-3 larger-image">
+                <img id="unique-image-id" 
+                     class="position-absolute img-custom" 
+                     src="img/wephome/ezgif-2-a4321ed7e9.webp"
+                     alt="Modern luxury house with swimming pool and outdoor kitchen at sunset, showcasing Cresttel's premium residential construction and design services">
+            </div>
+        </div>
+        <div class="col-lg-7 about-text">
+            <h3 class="display-5 text-uppercase mb-4">We are <span class="fading">the Leader</span> in Construction Industry!</h3>
+            <h4 class="text-uppercase mb-3 text-body">About us</h4>
+            <p>With over 20 years of experience, we pride ourselves in delivering top-notch services for both residential and commercial properties. With a wealth of experience under our belt, our skilled team of contractors specializes in custom home building, remodeling projects, and commercial construction endeavors. We are dedicated to achieving excellence and ensuring customer satisfaction, making it a priority to complete every project on schedule and within the agreed budget. Cresttel offers innovative solutions and meticulous attention to detail, making us a standout choice for those seeking excellent construction services. Explore how our Nicheknightss can transform your space with their expert craftsmanship and professionalism.</p>
+            <div class="row gx-5 py-2">
+                <div class="col-sm-6 mb-2">
+                    <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>Perfect Planning</p>
+                    <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>Professional Workers</p>
+                    <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>First Working Process</p>
+                </div>
+                <div class="col-sm-6 mb-2">
+                    <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>Expert Coordination</p>
+                    <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>Skilled Technicians</p>
+                    <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>Innovative Solutions</p>
                 </div>
             </div>
-            <!-- About End -->
+        </div>
+    </div>
+</div>
+<!-- About End -->
+
 
 
 
@@ -329,93 +399,7 @@
     </div>
 
 
-    <div class="stock-ticker">
-        <ul>
-            <li>
-                <span class="company">We are the best construction company</span>
-                <span class="price">🚧</span>
-                <span class="change">🏗️</span>
-            </li>
-            <li>
-                <span class="company">We are the best in San Diego</span>
-                <span class="price">🌆</span>
-                <span class="change">✨</span>
-            </li>
-            <li>
-                <span class="company">Quality services at affordable prices</span>
-                <span class="price">💰</span>
-                <span class="change">✅</span>
-            </li>
-            <li>
-                <span class="company">Experienced professionals</span>
-                <span class="price">👷</span>
-                <span class="change">🛠️</span>
-            </li>
-            <li>
-                <span class="company">Your satisfaction is our priority</span>
-                <span class="price">😊</span>
-                <span class="change">🏆</span>
-            </li>
-            <li>
-                <span class="company">Building dreams, one brick at a time</span>
-                <span class="price">🏠</span>
-                <span class="change">🌟</span>
-            </li>
-            <li>
-                <span class="company">Innovative solutions for every project</span>
-                <span class="price">💡</span>
-                <span class="change">🚀</span>
-            </li>
-            <li>
-                <span class="company">Let's make it happen together</span>
-                <span class="price">🤝</span>
-                <span class="change">❤️</span>
-            </li>
-        </ul>
-
-        <ul>
-            <li>
-                <span class="company">We are the best construction company</span>
-                <span class="price">🚧</span>
-                <span class="change">🏗️</span>
-            </li>
-            <li>
-                <span class="company">We are the best in San Diego</span>
-                <span class="price">🌆</span>
-                <span class="change">✨</span>
-            </li>
-            <li>
-                <span class="company">Quality services at affordable prices</span>
-                <span class="price">💰</span>
-                <span class="change">✅</span>
-            </li>
-            <li>
-                <span class="company">Experienced professionals</span>
-                <span class="price">👷</span>
-                <span class="change">🛠️</span>
-            </li>
-            <li>
-                <span class="company">Your satisfaction is our priority</span>
-                <span class="price">😊</span>
-                <span class="change">🏆</span>
-            </li>
-            <li>
-                <span class="company">Building dreams, one brick at a time</span>
-                <span class="price">🏠</span>
-                <span class="change">🌟</span>
-            </li>
-            <li>
-                <span class="company">Innovative solutions for every project</span>
-                <span class="price">💡</span>
-                <span class="change">🚀</span>
-            </li>
-            <li>
-                <span class="company">Let's make it happen together</span>
-                <span class="price">🤝</span>
-                <span class="change">❤️</span>
-            </li>
-        </ul>
-    </div>
+    
 
   
 

@@ -1,3 +1,56 @@
+/* About Section Styles */
+.about-image {
+    min-height: 500px;
+}
+
+.about-text {
+    padding-left: 50px;
+}
+
+.img-custom {
+    width: 200%;
+    height: 100%;
+    margin-top: 3rem;
+    margin-left: -3rem;
+}
+
+
+
+.custom-size {
+    width: 70px;
+    height: 70px;
+    padding-left: 1px;  /* Shift image a bit to the right */
+
+}
+
+.image-hover {
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-hover:hover {
+    transform: scale(1.1);
+}
+
+.custom-btn {
+    color: #007bff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.custom-btn:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.service-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+
+
 #unique-image-id {
     /* Custom styles for this specific image */
     object-fit: cover;

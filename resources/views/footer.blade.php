@@ -21,42 +21,8 @@
                         <i class="fab fa-youtube"></i>
                     </a>
                 </div>
-                <style>
-                    .btn-facebook {
-                        background-color: #1877f2;
-                        /* Facebook Blue */
-                        color: white;
-                        border: none;
-                    }
+                <link href="css/footer.css" rel="stylesheet">
 
-                    .btn-facebook:hover {
-                        background-color: #145dbf;
-                        color: white;
-                    }
-
-                    .btn-instagram {
-                        background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
-                        color: white;
-                        border: none;
-                    }
-
-                    .btn-instagram:hover {
-                        background: linear-gradient(45deg, #e6683c, #f09433);
-                        color: white;
-                    }
-
-                    .btn-youtube {
-                        background-color: #ff0000;
-                        /* YouTube Red */
-                        color: white;
-                        border: none;
-                    }
-
-                    .btn-youtube:hover {
-                        background-color: #cc0000;
-                        color: white;
-                    }
-                </style>
             </div>
             <div class="col-lg-3 col-md-6">
                 <h5 class="text-light mb-4">Services</h5>

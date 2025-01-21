@@ -1,0 +1,24 @@
+        
+           .dynamic-text {
+            font-size: 24px;
+            color: #333;
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            position: relative;
+            overflow: hidden;
+            font-size:300%;
+            font-weight: bold;
+            
+        }
+
+        .replacement {
+            display: inline-block;
+            transition: opacity 0.5s ease;
+            white-space: nowrap; /* Prevent wrapping */
+            color: #1591ea; /* Set the color for the changing words */
+            font-size:100%;
+            font-weight: bold;
+        }

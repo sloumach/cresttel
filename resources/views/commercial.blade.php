@@ -57,7 +57,7 @@
     <!-- Spinner Start -->
     <div id="spinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+<div class="spinner-border text-primary custom-spinner" role="status"></div>
             <span class="sr-only">Loading...</span>
         </div>
     </div>
@@ -217,7 +217,7 @@
     </section>
 
     <!-- Testimonials Section -->
-    <h2 style="text-align: center; margin: 60px 0 20px 0;">Our Clients Say!</h2> <!-- Increased margin-top -->
+<h2 class="text-center my-5 mt-5">Our Clients Say!</h2>
     <div class="line"></div> <!-- Line under the header -->
     <div class="testimonials">
         <div class="testimonial-container">

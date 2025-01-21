@@ -54,7 +54,7 @@
     <!-- Spinner Start -->
     <div id="spinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+<div class="spinner-border text-primary custom-spinner" role="status"></div>
             <span class="sr-only">Loading...</span>
         </div>
     </div>
@@ -131,10 +131,10 @@
     <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
     <div class="container quote px-lg-0 bg-dark">
     <div class="row g-0 mx-lg-0">
-                <div class="col-lg-6 ps-lg-0" style="min-height: 400px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/quote.jpg"
-                            style="object-fit: cover;; " alt="">
+    <div class="col-lg-6 ps-lg-0 min-height-400">
+    <div class="position-relative h-100">
+    <img class="position-absolute img-fluid w-100 h-100 object-cover" src="img/quote.jpg" alt="">
+
                     </div>
                 </div>
                 <div class="col-lg-6 quote-text py-5 wow fadeIn" data-wow-delay="0.5s">
@@ -161,7 +161,7 @@
     <div class="container-fluid px-0">
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3174.6043386906284!2d-116.95677548469295!3d32.8057198809606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9533e7ddf22cf%3A0x45967470da9a6de4!2s1662%20N%20Magnolia%20Ave%2C%20El%20Cajon%2C%20CA%2092020%2C%20USA!5e0!3m2!1sen!2sus!4v1697567425423!5m2!1sen!2sus"
-            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            width="100%" height="450"  allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade">
         </iframe>
     </div>
