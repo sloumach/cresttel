@@ -3,10 +3,10 @@
         <div class="row g-5">
             <div class="col-lg-3 col-md-6">
                 <h5 class="text-light mb-4">Address</h5>
-                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>1662 north magnolia Ave El Cajon, ca
-                    92020</p>
-                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>(+1) 619-430-4313</p>
-                <p class="mb-2"><i class="fa fa-envelope me-3"></i>cs@cresttel.net</p>
+                <p class="mb-2 text-white"><i class="fa fa-map-marker-alt me-3"></i>1662 north magnolia Ave El Cajon, ca 92020</p>
+<p class="mb-2 text-white"><i class="fa fa-phone-alt me-3"></i>(+1) 619-430-4313</p>
+<p class="mb-2 text-white"><i class="fa fa-envelope me-3"></i>cs@cresttel.net</p>
+
                 <div class="d-flex pt-2">
                     <a class="btn btn-square btn-facebook rounded-circle me-2"
                         href="https://www.facebook.com/cresttelconstruction" target="_blank">
@@ -21,42 +21,8 @@
                         <i class="fab fa-youtube"></i>
                     </a>
                 </div>
-                <style>
-                    .btn-facebook {
-                        background-color: #1877f2;
-                        /* Facebook Blue */
-                        color: white;
-                        border: none;
-                    }
+                <link href="css/footer.css" rel="stylesheet">
 
-                    .btn-facebook:hover {
-                        background-color: #145dbf;
-                        color: white;
-                    }
-
-                    .btn-instagram {
-                        background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
-                        color: white;
-                        border: none;
-                    }
-
-                    .btn-instagram:hover {
-                        background: linear-gradient(45deg, #e6683c, #f09433);
-                        color: white;
-                    }
-
-                    .btn-youtube {
-                        background-color: #ff0000;
-                        /* YouTube Red */
-                        color: white;
-                        border: none;
-                    }
-
-                    .btn-youtube:hover {
-                        background-color: #cc0000;
-                        color: white;
-                    }
-                </style>
             </div>
             <div class="col-lg-3 col-md-6">
                 <h5 class="text-light mb-4">Services</h5>

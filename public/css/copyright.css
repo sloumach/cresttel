@@ -1,0 +1,19 @@
+.container-fluid.py-4 {
+    background: #000000;
+}
+
+.container .row .col-md-6 a.border-bottom span {
+    color: rgb(255, 255, 255);
+}
+
+.container .row .col-md-6 span {
+    color: #1591ea;
+}
+
+.container .row .col-md-6.text-center.text-md-end span {
+    color: #1591ea;
+}
+
+.container .row .col-md-6.text-center.text-md-end a.border-bottom span {
+    color: rgb(255, 255, 255);
+}

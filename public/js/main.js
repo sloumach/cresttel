@@ -1,3 +1,30 @@
+
+// Function to generate an array of 50 random numbers
+function generateRandomNumbers(count, min, max) {
+    const numbers = [];
+    for (let i = 0; i < count; i++) {
+        // Generate a random number between min and max
+        numbers.push(Math.floor(Math.random() * (max - min + 1)) + min);
+    }
+    return numbers;
+}
+
+// Generate 50 random viewer numbers between 1 and 1000
+const viewerNumbers = generateRandomNumbers(50, 1, 1000);
+
+let currentIndex = 0;
+const viewerCountElement = document.getElementById('viewerCount');
+
+// Function to update the viewer count every second
+setInterval(() => {
+    // Move to the next index in the array, and if it reaches the end, start over
+    currentIndex = (currentIndex + 1) % viewerNumbers.length;
+
+    // Update the content of the viewerCountElement with the new number
+    viewerCountElement.textContent = viewerNumbers[currentIndex];
+}, 5000); // This will execute every 1000 milliseconds (1 second)
+
+
 $('.header-carousel').owlCarousel({
     loop: true,
     margin: 0,

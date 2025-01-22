@@ -36,79 +36,31 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/contact.css" rel="stylesheet">
+
     <link rel="icon" href="img/icon/Cresttel-icon.png" type="image/x-icon">
     <!-- or for PNG files -->
     <link rel="icon" href="img/icon/Cresttel-icon.png" type="image/png">
 
 </head>
 
-<body style="background-color: #ffffff;">
+<body>
+
+ <!-- Navbar Start -->
+ @include('navbar')
+    <!-- Navbar End -->
+
+
     <!-- Spinner Start -->
     <div id="spinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+<div class="spinner-border text-primary custom-spinner" role="status"></div>
             <span class="sr-only">Loading...</span>
         </div>
     </div>
     <!-- Spinner End -->
 
 
-    <!-- Topbar Start -->
-    <style>
-        .icon-container {
-            display: flex;
-            justify-content: space-around;
-            background-color: #1c1c1c;
-            /* Match your website's background */
-            padding: 20px;
-            flex-wrap: wrap;
-            /* Allow wrapping for smaller screens */
-        }
-
-        .icon-wrapper {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            color: #1591ea;
-            flex: 1;
-            /* Allow even spacing */
-            min-width: 250px;
-            /* Prevent collapsing too much on smaller screens */
-        }
-
-        .icon {
-            width: 24px;
-            height: 24px;
-            display: inline-block;
-        }
-
-        .text {
-            font-family: Arial, sans-serif;
-            color: #ffffff;
-            /* Adjust text color */
-            font-size: 14px;
-            /* Adjust text size for smaller screens */
-        }
-
-        /* Responsive styles for smaller screens */
-        @media (max-width: 768px) {
-            .icon-container {
-                flex-direction: column;
-                align-items: center;
-                /* Center items */
-            }
-
-            .icon-wrapper {
-                justify-content: center;
-                text-align: center;
-            }
-
-            .text {
-                font-size: 12px;
-                /* Slightly smaller text */
-            }
-        }
-    </style>
 
     <div class="icon-container">
         <!-- Location Icon -->
@@ -155,9 +107,7 @@
     <!-- Topbar End -->
 
 
-    <!-- Navbar Start -->
-    @include('navbar')
-    <!-- Navbar End -->
+   
 
 
 
@@ -179,25 +129,25 @@
 
     <!-- Quote Start -->
     <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
-        <div style="background-color: #343536;" class="container quote px-lg-0">
-            <div class="row g-0 mx-lg-0">
-                <div class="col-lg-6 ps-lg-0" style="min-height: 400px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/quote.jpg"
-                            style="object-fit: cover;; " alt="">
+    <div class="container quote px-lg-0 bg-dark">
+    <div class="row g-0 mx-lg-0">
+    <div class="col-lg-6 ps-lg-0 min-height-400">
+    <div class="position-relative h-100">
+    <img class="position-absolute img-fluid w-100 h-100 object-cover" src="img/quote.jpg" alt="">
+
                     </div>
                 </div>
                 <div class="col-lg-6 quote-text py-5 wow fadeIn" data-wow-delay="0.5s">
                     <div class="p-lg-5 pe-lg-0">
-                        <h2 class="display-5 mb-5"><span style="color: #ffffff;">Get in Touch with us for Residential
+                        <h2 class="display-5 mb-5"><span>Get in Touch with us for Residential
                                 & Commercial Construction Services </span></h2>
-                        <p style="font-size: 130%;text-align: center;" class="mb-4 pb-2">
-                            We believe in establishing strong relationships with our clients open and consistent
-                            dialogue. Whether you
-                            have question, specific requirements, or special request, we’re here to assist you. Feel
-                            free to contact us
-                            any time, and let’s collaborate to turn your vision to reality
-                        </p>
+                                <p class="mb-4 pb-2 fs-5 text-center text-white">
+    We believe in establishing strong relationships with our clients open and consistent
+    dialogue. Whether you have question, specific requirements, or special request, we’re here to assist you. Feel
+    free to contact us any time, and let’s collaborate to turn your vision to reality.
+</p>
+
+
                         @include('contactform')
                     </div>
                 </div>
@@ -211,7 +161,7 @@
     <div class="container-fluid px-0">
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3174.6043386906284!2d-116.95677548469295!3d32.8057198809606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9533e7ddf22cf%3A0x45967470da9a6de4!2s1662%20N%20Magnolia%20Ave%2C%20El%20Cajon%2C%20CA%2092020%2C%20USA!5e0!3m2!1sen!2sus!4v1697567425423!5m2!1sen!2sus"
-            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            width="100%" height="450"  allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade">
         </iframe>
     </div>
@@ -225,19 +175,14 @@
                     <div class="section-header">
                         <div class="title">
                         </div>
-                        <h2 class="section-title">With <span style="color: #007bff;">Cresttel</span> turning your
+                        <h2 class="section-title">With <span>Cresttel</span> turning your
                             vision into reality </h2>
                     </div>
                 </div>
 
             </div>
 
-            <style>
-                .description ul li {
-                    color: #0783e9;
-                    /* Set the text color to #0783e9 */
-                }
-            </style>
+           
 
             <div class="row">
                 <div class="col-md-6">
@@ -247,17 +192,17 @@
                 </div>
                 <div class="col-md-6 description text-lead">
                     <p><strong></strong></p>
-                    <p style="color: #000000;">Quality Craftsmanship: We believe in delivering nothing but the best.
+                    <p>Quality Craftsmanship: We believe in delivering nothing but the best.
                         Our skilled professionals are dedicated to ensuring that every detail of your project meets the
                         highest standards.</p>
-                    <p style="color: #000000;">Timely Delivery: We understand the importance of deadlines. Our
+                    <p>Timely Delivery: We understand the importance of deadlines. Our
                         efficient project management ensures that your construction is completed on time, every time.
                     </p>
-                    <p style="color: #000000;">Personalized Service: Whether you're building a new home, renovating an
+                    <p >Personalized Service: Whether you're building a new home, renovating an
                         existing space, or embarking on a commercial project, we tailor our services to meet your unique
                         needs.</p>
-                    <p style="color: #000000;"><strong>Our Process</strong></p>
-                    <p style="color: #000000;">From the initial consultation to the final touches, we work hand-in-hand
+                    <p><strong>Our Process</strong></p>
+                    <p>From the initial consultation to the final touches, we work hand-in-hand
                         with you to bring your vision to life. Our comprehensive approach includes:</p>
                     <ul>
                         <li>Consultation: Understanding your vision and requirements.</li>
@@ -266,8 +211,8 @@
                         <li>Construction: Meticulous execution by our skilled craftsmen.</li>
                         <li>Final Touches: Ensuring every detail is perfect.</li>
                     </ul>
-                    <p style="color: #000000;"><strong>Get Started Today</strong></p>
-                    <p style="color: #000000;">Ready to turn your construction dreams into reality? Contact us today
+                    <p><strong>Get Started Today</strong></p>
+                    <p>Ready to turn your construction dreams into reality? Contact us today
                         for a personalized quote and start building your future with Cresttel. Let's create something
                         extraordinary together!</p>
                 </div>
@@ -283,89 +228,15 @@
     <!-- Footer End -->
 
 
-    <!-- Copyright Start -->
-    <div class="container-fluid py-4" style="background: #000000;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom" href="#"><span
-                            style="color: rgb(255, 255, 255);">Cresttel</span></a>,
-                    <span style="color: #1591ea;">All Right Reserved</span>.
-                </div>
+     <!-- Copyright Start -->
 
-                <div class="col-md-6 text-center text-md-end">
-
-                    <span style="color: #1591ea;">Distributed By</span>. <a class="border-bottom"
-                        href="https://nicheknights.com/"><span
-                            style="color: rgb(255, 255, 255);">Nicheknights</span></a>
-                </div>
-            </div>
-        </div>
-    </div>
+    @include('copyright')
+    
     <!-- Copyright End -->
 
     <!-- Back to Top -->
-    <!-- Scroll to Top Button -->
-    <div id="scrollToTop">
-        <i class="fas fa-arrow-up"></i>
-    </div>
-    <style>
-        /* Scroll to Top Button Styles */
-        #scrollToTop {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            width: 50px;
-            height: 50px;
-            background-color: #007BFF;
-            /* Circle background color */
-            color: #fff;
-            /* Arrow color */
-            border-radius: 50%;
-            /* Makes it circular */
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            cursor: pointer;
-            opacity: 0;
-            visibility: hidden;
-            transition: opacity 0.3s ease, visibility 0.3s ease;
-            z-index: 1000;
-            /* Keeps it on top */
-        }
-
-        #scrollToTop i {
-            font-size: 20px;
-            /* Arrow size */
-        }
-
-        /* Show button when visible */
-        #scrollToTop.show {
-            opacity: 1;
-            visibility: visible;
-        }
-    </style>
-    <script>
-        // Show/Hide Scroll to Top Button
-        const scrollToTop = document.getElementById("scrollToTop");
-
-        window.addEventListener("scroll", () => {
-            if (window.scrollY > 200) {
-                scrollToTop.classList.add("show");
-            } else {
-                scrollToTop.classList.remove("show");
-            }
-        });
-
-        // Scroll to Top Functionality
-        scrollToTop.addEventListener("click", () => {
-            window.scrollTo({
-                top: 0,
-                behavior: "smooth",
-            });
-        });
-    </script>
+    @include('backtotop')
+    @include('bubble')
 
     <div id="expandable-bubble">
         <div class="primary-bubble" onclick="toggleSocialIcons()">
@@ -388,229 +259,14 @@
             </a>
         </div>
     </div>
-    <style>
-        .social-icons img {
-            width: 40px;
-            /* Adjust the size */
-            height: 40px;
-            margin: 10px;
-            /* Adjust spacing */
-        }
-    </style>
+  
 
 
 
 
-
-
-    <style>
-        /* Responsive styles for smaller screens */
-        @media (max-width: 768px) {
-
-            /* Adjust container positioning */
-            #expandable-bubble {
-                bottom: 10px;
-                /* Bring closer to the screen edge */
-                left: 10px;
-            }
-
-            /* Primary button adjustments */
-            .primary-bubble {
-                font-size: 12px;
-                /* Smaller text size */
-                padding: 8px 15px;
-                /* Smaller padding */
-                border-radius: 20px;
-                /* Slightly smaller rounded corners */
-                width: auto;
-                /* Allow the button to shrink if needed */
-                box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
-                /* Adjust shadow size */
-            }
-
-            /* Adjust flashing text size */
-            .flashing-text {
-                font-size: 12px;
-                /* Slightly smaller font */
-                letter-spacing: 0.8px;
-                /* Reduce spacing */
-            }
-
-            /* Social icons adjustments */
-            .social-icons .icon {
-                width: 40px;
-                /* Smaller icon size */
-                height: 40px;
-                font-size: 20px;
-                /* Adjust icon size */
-            }
-
-            .social-icons {
-                gap: 8px;
-                /* Reduce spacing between icons */
-            }
-        }
-
-        /* Ultra-small screens (e.g., phones in portrait mode) */
-        @media (max-width: 480px) {
-            #expandable-bubble {
-                bottom: 5px;
-                /* Further adjust position */
-                left: 5px;
-            }
-
-            .primary-bubble {
-                font-size: 10px;
-                /* Even smaller text */
-                padding: 6px 12px;
-                /* Tighter padding */
-            }
-
-            .social-icons .icon {
-                width: 35px;
-                /* Smaller icons */
-                height: 35px;
-                font-size: 18px;
-            }
-        }
-
-
-        /* Primary button styling */
-        .primary-bubble {
-            width: auto;
-            /* Adjust width to fit the text */
-            padding: 10px 20px;
-            /* Add padding for button look */
-            background: linear-gradient(45deg, #0077b5, #00bfff);
-            /* Gradient background */
-            color: white;
-            border: 2px solid white;
-            /* Add a white border */
-            border-radius: 25px;
-            /* Rounded edges */
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-            font-family: Arial, sans-serif;
-            font-size: 14px;
-            font-weight: bold;
-            text-align: center;
-            cursor: pointer;
-            transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
-        }
-
-        .primary-bubble:hover {
-            background: linear-gradient(45deg, #00bfff, #0077b5);
-            /* Reverse gradient on hover */
-            transform: translateY(-3px);
-            /* Slight lift on hover */
-            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
-            /* Deeper shadow on hover */
-        }
-
-        /* Flashing text (remains the same) */
-        .flashing-text {
-            animation: flash 1.5s infinite;
-            font-size: 14px;
-            font-weight: bold;
-            letter-spacing: 1px;
-            text-transform: uppercase;
-        }
-
-        /* Flashing text effect for "Contact Us" */
-        .flashing-text {
-            animation: flash 1.5s infinite;
-            font-size: 12px;
-            font-weight: bold;
-            letter-spacing: 1px;
-            text-transform: uppercase;
-        }
-
-        /* Keyframes for flashing animation */
-        @keyframes flash {
-
-            0%,
-            100% {
-                color: white;
-                text-shadow: 0 0 5px #0077b5, 0 0 10px #0077b5;
-            }
-
-            50% {
-                color: #f1f1f1;
-                text-shadow: 0 0 15px #00bfff, 0 0 30px #00bfff;
-            }
-        }
-
-        /* Container for the expandable bubble */
-        #expandable-bubble {
-            position: fixed;
-            bottom: 20px;
-            left: 20px;
-            z-index: 1000;
-            display: flex;
-            flex-direction: column-reverse;
-            /* Social icons will expand upwards */
-            align-items: center;
-            gap: 15px;
-        }
-
-
-
-        .primary-bubble:hover {
-            transform: scale(1.1);
-            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
-        }
-
-        /* Hidden social icons container */
-        .social-icons {
-            display: none;
-            /* Hidden initially */
-            flex-direction: column;
-            /* Expand upwards */
-            gap: 10px;
-        }
-
-        /* Social media icon styles */
-        .social-icons .icon {
-            width: 50px;
-            height: 50px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 50%;
-            color: #fff;
-            font-size: 24px;
-            text-decoration: none;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .social-icons .icon:hover {
-            transform: scale(1.1);
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-        }
-
-        .social-icons .whatsapp {
-            background-color: #25d366;
-        }
-
-        .social-icons .facebook {
-            background-color: #3b5998;
-        }
-
-        .social-icons .instagram {
-            background: radial-gradient(circle at 30% 30%, #fdf497, #fd5949, #d6249f, #285aeb);
-        }
-
-        .social-icons .linkedin {
-            background-color: #0077b5;
-        }
-    </style>
 
 </body>
-<script>
-    function toggleSocialIcons() {
-        const socialIcons = document.querySelector("#expandable-bubble .social-icons");
-        socialIcons.style.display = socialIcons.style.display === "flex" ? "none" : "flex";
-    }
-</script>
+
 
 <!-- JavaScript Libraries -->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -624,6 +280,8 @@
 <script src="{{ asset('lib/lightbox/js/lightbox.min.js') }}"></script>
 <script src="{{ asset('js/main.js') }}"></script>
 <script src="{{ asset('js/bublle.js') }}"></script>
+<script src="{{ asset('js/contact.js') }}"></script>
+
 
 
 </html>

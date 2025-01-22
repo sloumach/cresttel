@@ -1,0 +1,20 @@
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.green-indicator {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    top: -2px;
+    animation: pulse 1s infinite;
+    border-radius: 50%;
+}
