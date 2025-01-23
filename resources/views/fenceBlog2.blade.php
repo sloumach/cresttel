@@ -115,8 +115,8 @@
         <h1 class="display-3 text-white mb-3 animated slideInDown">Top 5 Benefits of Building a Fence !</h1>
         <nav aria-label="breadcrumb animated slideInDown">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
-                <li class="breadcrumb-item"><a class="text-white" href="Blogs.html">Blogs</a></li>
+                <li class="breadcrumb-item"><a class="text-white" href="{{ route('welcome') }}">Home</a></li>
+                <li class="breadcrumb-item"><a class="text-white" href="{{ route('blogs') }}">Blogs</a></li>
                 <li class="breadcrumb-item text-white active" aria-current="page">Fence_article_2</li>
             </ol>
         </nav>
@@ -141,50 +141,50 @@
                        <!-- Blog Content -->
 <div class="content mt-4">
     <p class="fs-4 text-dark">
-        Building a fence is a valuable investment for homeowners, offering a blend of functionality and aesthetics. 
-        Whether your goal is to increase security, improve privacy, or enhance curb appeal, a well-chosen fence can 
+        Building a fence is a valuable investment for homeowners, offering a blend of functionality and aesthetics.
+        Whether your goal is to increase security, improve privacy, or enhance curb appeal, a well-chosen fence can
         deliver these benefits and more. Here are the top 5 benefits of building a fence on your property:
     </p>
 
     <h3>1. Enhanced Beauty</h3>
     <p class="fs-4 text-dark">
-        A well-constructed fence enhances the overall appearance of your home and garden. Whether practical or elegant, 
+        A well-constructed fence enhances the overall appearance of your home and garden. Whether practical or elegant,
         it creates a harmonious and attractive landscape, improving the curb appeal of your property.
     </p>
 
     <h3>2. Versatile Design Options</h3>
     <p class="fs-4 text-dark">
-        Fences come in various styles and materials, allowing you to match or complement your existing home. Options range 
+        Fences come in various styles and materials, allowing you to match or complement your existing home. Options range
         from classic wooden picket fences to modern vinyl designs, catering to diverse aesthetic preferences and functional needs.
     </p>
 
     <h3>3. Privacy and Security</h3>
     <p class="fs-4 text-dark">
-        A fence provides an additional layer of privacy and security, defining your property boundaries and deterring trespassers. 
+        A fence provides an additional layer of privacy and security, defining your property boundaries and deterring trespassers.
         Depending on its height and style, a fence can offer varying levels of seclusion and safety, making your outdoor space more secure.
     </p>
 
     <h3>4. Safety for Pets and Children</h3>
     <p class="fs-4 text-dark">
-        For families with pets or young children, a fence creates a safe, enclosed area where they can play and explore without the risk of wandering off. 
+        For families with pets or young children, a fence creates a safe, enclosed area where they can play and explore without the risk of wandering off.
         This added security offers peace of mind to homeowners.
     </p>
 
     <h3>5. Increased Property Value</h3>
     <p class="fs-4 text-dark">
-        A well-designed and installed fence can significantly boost your property's value. It enhances curb appeal, making your home 
+        A well-designed and installed fence can significantly boost your property's value. It enhances curb appeal, making your home
         more attractive to potential buyers, and adds functional value that prospective homeowners appreciate.
     </p>
 
     <h2 class="title fs-3 text-dark">Choosing the Right Fence for Your Home!</h2>
     <p class="fs-4 text-dark">
-        When selecting a fence, consider your specific needs, budget, and local regulations. Determine your primary reason for building 
-        a fence—whether for privacy, security, or aesthetic enhancement—and explore various materials and styles to find the best fit for 
+        When selecting a fence, consider your specific needs, budget, and local regulations. Determine your primary reason for building
+        a fence—whether for privacy, security, or aesthetic enhancement—and explore various materials and styles to find the best fit for
         your property.
     </p>
 
     <p class="fs-4 text-dark">
-        By carefully evaluating your options and considering the top benefits, you can choose a fence that meets both your functional 
+        By carefully evaluating your options and considering the top benefits, you can choose a fence that meets both your functional
         requirements and aesthetic preferences, ensuring long-term satisfaction with your investment.
     </p>
 </div>
@@ -194,11 +194,11 @@
                             <img src="img/Fence/30 - Copie.jpg" alt="" class="img-fluid">
                         </div>
 
-                        <a href="{{ route('fence') }}" 
+                        <a href="{{ route('fence') }}"
    class="btn btn-primary rounded-pill py-2 px-4 me-3 animated slideInLeft mt-5 ms-3">
-   <span>Visit Our Service Fence Page</span> 
+   <span>Visit Our Service Fence Page</span>
                             </a>
-                           
+
 
 
 
@@ -235,7 +235,7 @@
         </div><!-- End row -->
         </div><!-- End container -->
     </section><!-- End Blog Details Section -->
-    
+
 
 
 
@@ -248,7 +248,7 @@
      <!-- Copyright Start -->
 
     @include('copyright')
-    
+
     <!-- Copyright End -->
 
 

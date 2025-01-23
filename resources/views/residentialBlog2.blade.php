@@ -117,8 +117,8 @@
         <h1 class="display-3 text-white mb-3 animated slideInDown">Top 5 Home Renovation Trends for 2024</h1>
         <nav aria-label="breadcrumb animated slideInDown">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
-                <li class="breadcrumb-item"><a class="text-white" href="Blogs.html">Blogs</a></li>
+                <li class="breadcrumb-item"><a class="text-white" href="{{ route('welcome') }}">Home</a></li>
+                <li class="breadcrumb-item"><a class="text-white" href="{{ route('blogs') }}">Blogs</a></li>
                 <li class="breadcrumb-item text-white active" aria-current="page">Residential_article_2</li>
             </ol>
         </nav>
@@ -179,7 +179,7 @@
 
 
                         <img src="img/Residential_img/flooring 4343.jpg" class="img-fluid" alt="">
-                        <a href="{{ route('residential') }}" 
+                        <a href="{{ route('residential') }}"
    class="btn btn-primary rounded-pill py-2 px-4 me-3 animated slideInLeft mt-5 ms-3">
     <span>Visit Our Service residential Page</span>
                             </a>
@@ -201,7 +201,7 @@
 
 
 
-             
+
             </div><!-- End sidebar search -->
 
 
@@ -210,7 +210,7 @@
         </div><!-- End row -->
         </div><!-- End container -->
     </section><!-- End Blog Details Section -->
-   
+
 
 
 
@@ -223,7 +223,7 @@
      <!-- Copyright Start -->
 
     @include('copyright')
-    
+
     <!-- Copyright End -->
 
 
@@ -255,12 +255,12 @@
             </a>
         </div>
     </div>
-  
 
 
 
 
-  
+
+
 
 </body>
     <!-- JavaScript Libraries -->

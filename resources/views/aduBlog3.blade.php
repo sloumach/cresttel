@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="canonical" href="https://cresttel.net/ADU%20article%203.html">
+    <link rel="canonical" href="{{ route('adublog3') }}">
     <meta charset="utf-8">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -113,8 +113,8 @@
         <h1 class="display-3 text-white mb-3 animated slideInDown">Best Accessory Dwelling Unit</h1>
         <nav aria-label="breadcrumb animated slideInDown">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
-                <li class="breadcrumb-item"><a class="text-white" href="Blogs.html">Blogs</a></li>
+                <li class="breadcrumb-item"><a class="text-white" href="{{ route('welcome') }}">Home</a></li>
+                <li class="breadcrumb-item"><a class="text-white" href="{{ route('blogs') }}">Blogs</a></li>
                 <li class="breadcrumb-item text-white active" aria-current="page">ADU_article_3</li>
             </ol>
         </nav>
@@ -153,7 +153,7 @@
 <h3>What’s an ADU, Anyway?</h3>
 <div class="content">
     <p class="fs-4 text-black">
-        An ADU, or Accessory Dwelling Unit, is a separate living space constructed on the same property as an existing residential home. While they must have the necessary amenities for independent living, ADUs can serve various purposes, such as home offices, gyms, art studios, or recreational spaces, among others. Whether you intend to build an ADU for personal use, an alternative space, or as a rental unit, adding the right structure can significantly enhance your property's value. 
+        An ADU, or Accessory Dwelling Unit, is a separate living space constructed on the same property as an existing residential home. While they must have the necessary amenities for independent living, ADUs can serve various purposes, such as home offices, gyms, art studios, or recreational spaces, among others. Whether you intend to build an ADU for personal use, an alternative space, or as a rental unit, adding the right structure can significantly enhance your property's value.
         In California, ADUs must meet certain requirements, including a living area of at least 70 square feet, a kitchen of no less than 50 square feet, and a bathroom spanning at least 30 square feet. The bathroom must be equipped with a toilet, sink, and either a shower or bathtub.
     </p>
 
@@ -172,7 +172,7 @@
 </div>
 
 
-                            <a href="{{ route('adu') }}" 
+                            <a href="{{ route('adu') }}"
    class="btn btn-primary rounded-pill py-2 px-4 me-3 animated slideInLeft mt-5 ms-3">
     <span>Visit Our Service ADU Page</span>
                             </a>
@@ -240,8 +240,8 @@
             </div><!-- End row -->
         </div><!-- End container -->
     </section><!-- End Blog Details Section -->
-   
-    
+
+
 
 
 
@@ -253,7 +253,7 @@
      <!-- Copyright Start -->
 
     @include('copyright')
-    
+
     <!-- Copyright End -->
 
 
@@ -286,7 +286,7 @@
             </a>
         </div>
     </div>
- 
+
 
 
 

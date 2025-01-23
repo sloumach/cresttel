@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="canonical" href="https://cresttel.net/ADU%20article%202.html">
+    <link rel="canonical" href="{{ route('adublog2') }}">
 
     <meta charset="utf-8">
     <meta charset="UTF-8">
@@ -62,7 +62,7 @@
     <!-- Spinner End -->
 
 
-   
+
     <div class="icon-container">
         <!-- Location Icon -->
         <div class="icon-wrapper">
@@ -119,8 +119,8 @@
         </h1>
         <nav aria-label="breadcrumb animated slideInDown">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
-                <li class="breadcrumb-item"><a class="text-white" href="Blogs.html">Blogs</a></li>
+                <li class="breadcrumb-item"><a class="text-white" href="{{ route('welcome') }}">Home</a></li>
+                <li class="breadcrumb-item"><a class="text-white" href="{{ route('blogs') }}">Blogs</a></li>
                 <li class="breadcrumb-item text-white active" aria-current="page">ADU_article_2</li>
             </ol>
         </nav>
@@ -189,7 +189,7 @@
 
 
                             <img src="img/ADU_img/adu ar3.jpg" class="img-fluid" alt="">
-                            <a href="{{ route('adu') }}" 
+                            <a href="{{ route('adu') }}"
    class="btn btn-primary rounded-pill py-2 px-4 me-3 animated slideInLeft mt-5 ms-3">
     <span>Visit Our Service ADU Page</span>
                             </a>
@@ -257,8 +257,8 @@
             </div><!-- End row -->
         </div><!-- End container -->
     </section><!-- End Blog Details Section -->
-    
-  
+
+
 
 
 
@@ -271,7 +271,7 @@
      <!-- Copyright Start -->
 
     @include('copyright')
-    
+
     <!-- Copyright End -->
 
 

@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="canonical" href="https://cresttel.net/BLOGS.html">
+    <link rel="canonical" href="{{ route('blogs') }}">
     <meta charset="utf-8">
     <title>Cresttel Blog | San Diego Construction News, Tips & Insights </title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -69,7 +69,7 @@
     <!-- Spinner End -->
 
 
-    
+
 
     <div class="icon-container">
         <!-- Location Icon -->
@@ -614,8 +614,8 @@
 
         </div>
     </section>
-    
-   
+
+
 
 
     <section id="contact" class="scrollspy-section bg-dark padding-large">
@@ -676,11 +676,11 @@
         </div>
     </section>
 
-    
+
 
     </div>
     </div>
-   
+
     <script src="jsblog/jquery-1.11.0.min.js"></script>
     <script src="jsblog/ui-easing.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
@@ -695,8 +695,8 @@
     <div id="scrollToTop">
         <i class="fas fa-arrow-up"></i>
     </div>
-    
-   
+
+
 
 
     <!-- Floating Bubble -->
@@ -710,8 +710,8 @@
         </div>
         <div class="bubble-icon">☰</div>
     </div>
-   
-    
+
+
     <!-- Footer Start -->
     @include('footer')
     <!-- Footer End -->
@@ -720,17 +720,17 @@
     <!-- Copyright Start -->
 
     @include('copyright')
-    
+
     <!-- Copyright End -->
-   
+
 
     <!-- Back to Top -->
     <!-- Scroll to Top Button -->
     <div id="scrollToTop">
         <i class="fas fa-arrow-up"></i>
     </div>
-   
-    
+
+
     <div id="expandable-bubble">
         <div class="primary-bubble" onclick="toggleSocialIcons()">
             <span class="flashing-text">Contact Us</span>
@@ -752,7 +752,7 @@
             </a>
         </div>
     </div>
-   
+
 
 
 

@@ -117,8 +117,8 @@
         </h1>
         <nav aria-label="breadcrumb animated slideInDown">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
-                <li class="breadcrumb-item"><a class="text-white" href="Blogs.html">Blogs</a></li>
+                <li class="breadcrumb-item"><a class="text-white" href="{{ route('welcome') }}">Home</a></li>
+                <li class="breadcrumb-item"><a class="text-white" href="{{ route('blogs') }}">Blogs</a></li>
                 <li class="breadcrumb-item text-white active" aria-current="page">Fence_article_3</li>
             </ol>
         </nav>
@@ -143,7 +143,7 @@
                       <!-- Blog Content -->
 <div class="content mt-4">
     <p class="fs-4 text-dark">
-        Installing a fence is a big investment for homeowners, offering security, privacy, and improved looks. 
+        Installing a fence is a big investment for homeowners, offering security, privacy, and improved looks.
         Cresttel is here to help you with a new fence for your property. Learn how to construct a fence and explore different options.
     </p>
 </div><!-- End post content -->
@@ -154,8 +154,8 @@
 
 <h3>Step 1: Assess Your Needs</h3>
 <p class="fs-4 text-dark">
-    Assess your needs and preferences before building a fence. Think about why the fence is being installed, 
-    whether it be for privacy, security, or to improve the look of the property. Knowing your goals will assist you in selecting 
+    Assess your needs and preferences before building a fence. Think about why the fence is being installed,
+    whether it be for privacy, security, or to improve the look of the property. Knowing your goals will assist you in selecting
     the appropriate materials and design.
 </p>
 
@@ -180,13 +180,13 @@
 
 <h3>2. Hire a Professional:</h3>
 <p class="fs-4 text-dark">
-    Partnering up with Cresttel guarantees expert support every step of the way. Our team can design and install your fence to meet 
+    Partnering up with Cresttel guarantees expert support every step of the way. Our team can design and install your fence to meet
     local regulations and last.
 </p>
 
 <h3>Step 4: Understand Local Regulations:</h3>
 <p class="fs-4 text-dark">
-    Before starting the installation, check with your local municipality regarding zoning laws and permit requirements. Cresttel can assist you 
+    Before starting the installation, check with your local municipality regarding zoning laws and permit requirements. Cresttel can assist you
     in navigating these regulations, ensuring you comply with all necessary guidelines.
 </p>
 
@@ -206,18 +206,18 @@
 
 <h3>Conclusion</h3>
 <p class="fs-4 text-dark">
-    Building a proper fence requires careful planning, understanding your options, and choosing the right installation approach. At Cresttel, 
-    we pride ourselves on our expertise and commitment to quality. Contact Cresttel today to discuss your fencing project and discover 
+    Building a proper fence requires careful planning, understanding your options, and choosing the right installation approach. At Cresttel,
+    we pride ourselves on our expertise and commitment to quality. Contact Cresttel today to discuss your fencing project and discover
     how we can help you create the perfect solution for your needs.
 </p>
 
 
                             <img src="img/Fence/35.jpg" class="img-fluid" alt="">
-                            <a href="{{ route('fence') }}" 
+                            <a href="{{ route('fence') }}"
    class="btn btn-primary rounded-pill py-2 px-4 me-3 animated slideInLeft mt-5 ms-3">
-   <span>Visit Our Service Fence Page</span> 
+   <span>Visit Our Service Fence Page</span>
                             </a>
-                           
+
 
                         </div><!-- End post content -->
 
@@ -240,7 +240,7 @@
                 </div><!-- End row -->
             </div><!-- End container -->
     </section><!-- End Blog Details Section -->
-   
+
 
 
 
@@ -253,7 +253,7 @@
      <!-- Copyright Start -->
 
     @include('copyright')
-    
+
     <!-- Copyright End -->
 
 
@@ -262,7 +262,7 @@
     <div id="scrollToTop">
         <i class="fas fa-arrow-up"></i>
     </div>
- 
+
 
     <div id="expandable-bubble">
         <div class="primary-bubble" onclick="toggleSocialIcons()">
@@ -285,7 +285,7 @@
             </a>
         </div>
     </div>
-  </body> 
+  </body>
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>

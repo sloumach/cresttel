@@ -61,7 +61,7 @@
     <!-- Spinner End -->
 
 
-   
+
     <div class="icon-container">
         <!-- Location Icon -->
         <div class="icon-wrapper">
@@ -118,8 +118,8 @@
         <h1 class="display-3 text-white mb-3 animated slideInDown">What Are MDUs and Why Are They Important?</h1>
         <nav aria-label="breadcrumb animated slideInDown">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
-                <li class="breadcrumb-item"><a class="text-white" href="Blogs.html">Blogs</a></li>
+                <li class="breadcrumb-item"><a class="text-white" href="{{ route('welcome') }}">Home</a></li>
+                <li class="breadcrumb-item"><a class="text-white" href="{{ route('blogs') }}">Blogs</a></li>
                 <li class="breadcrumb-item text-white active" aria-current="page">MDU article 1</li>
             </ol>
         </nav>
@@ -146,8 +146,8 @@
                        <!-- Blog Content -->
 <div class="content mt-4">
     <p class="fs-4 text-dark">
-        Multi-Dwelling Units (MDUs) are residential buildings designed to accommodate multiple families or individuals within a single structure. 
-        They are crucial for urban living in California due to their ability to maximize space and provide affordable housing options. 
+        Multi-Dwelling Units (MDUs) are residential buildings designed to accommodate multiple families or individuals within a single structure.
+        They are crucial for urban living in California due to their ability to maximize space and provide affordable housing options.
         MDUs encompass various housing types such as apartments, condominiums, and townhouses, all contributing to efficient urban development.
     </p>
 </div><!-- End post content -->
@@ -172,13 +172,13 @@
 
 <p><strong class="fs-4 text-dark">Role of MDUs in Addressing Housing Shortages in California:</strong></p>
 <p class="fs-4 text-dark">
-    MDUs help meet the growing demand for housing in urban areas by increasing the number of available units without the need for expansive new developments. 
+    MDUs help meet the growing demand for housing in urban areas by increasing the number of available units without the need for expansive new developments.
     This is especially important in California cities like Los Angeles, San Francisco, and San Diego, which face significant housing shortages.
 </p>
 
 <p><strong class="fs-4 text-dark">Conclusion:</strong></p>
 <p class="fs-4 text-dark">
-    MDUs are vital in tackling urban housing challenges in California by providing efficient, affordable, and community-oriented living options. 
+    MDUs are vital in tackling urban housing challenges in California by providing efficient, affordable, and community-oriented living options.
     Contact the Cresttel team and let us transform your property with innovative and sustainable multi-dwelling unit solutions.
 </p>
 
@@ -186,11 +186,11 @@
 
                                 <img src="img/MDU_img/9_GreveLibrary_PhotoPietroSavorelli3.jpg" class="img-fluid"
                                     alt="">
-                                    <a href="{{ route('mdu') }}" 
+                                    <a href="{{ route('mdu') }}"
    class="btn btn-primary rounded-pill py-2 px-4 me-3 animated slideInLeft mt-5 ms-3">
-   <span>Visit Our Service MDU Page</span> 
+   <span>Visit Our Service MDU Page</span>
                             </a>
-                           
+
 
                             </div><!-- End post content -->
 
@@ -251,8 +251,8 @@
             </div><!-- End row -->
         </div><!-- End container -->
     </section><!-- End Blog Details Section -->
-    
-    
+
+
 
 
 
@@ -265,7 +265,7 @@
      <!-- Copyright Start -->
 
     @include('copyright')
-    
+
     <!-- Copyright End -->
 
 
@@ -274,7 +274,7 @@
     <div id="scrollToTop">
         <i class="fas fa-arrow-up"></i>
     </div>
- 
+
 
     <div id="expandable-bubble">
         <div class="primary-bubble" onclick="toggleSocialIcons()">
