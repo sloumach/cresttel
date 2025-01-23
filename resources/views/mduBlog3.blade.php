@@ -116,8 +116,8 @@
             Units: Which One Is Right for You?</h1>
         <nav aria-label="breadcrumb animated slideInDown">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
-                <li class="breadcrumb-item"><a class="text-white" href="Blogs.html">Blogs</a></li>
+                <li class="breadcrumb-item"><a class="text-white" href="{{ route('welcome') }}">Home</a></li>
+                <li class="breadcrumb-item"><a class="text-white" href="{{ route('blogs') }}">Blogs</a></li>
                 <li class="breadcrumb-item text-white active" aria-current="page">MDU_article_3</li>
             </ol>
         </nav>
@@ -173,9 +173,9 @@
 
                                 <img src="img/MDU_img/Library_PhotoPietroSavorelli2.jpg" class="img-fluid"
                                     alt="">
-                                    <a href="{{ route('mdu') }}" 
+                                    <a href="{{ route('mdu') }}"
    class="btn btn-primary rounded-pill py-2 px-4 me-3 animated slideInLeft mt-5 ms-3">
-   <span>Visit Our Service MDU Page</span> 
+   <span>Visit Our Service MDU Page</span>
                             </a>
 
                         </div>
@@ -237,7 +237,7 @@
             </div><!-- End row -->
         </div><!-- End container -->
     </section><!-- End Blog Details Section -->
-    
+
 
 
 
@@ -250,7 +250,7 @@
      <!-- Copyright Start -->
 
     @include('copyright')
-    
+
     <!-- Copyright End -->
 
 

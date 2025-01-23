@@ -61,7 +61,7 @@
     <!-- Spinner End -->
 
 
-   
+
     <div class="icon-container">
         <!-- Location Icon -->
         <div class="icon-wrapper">
@@ -118,8 +118,8 @@
         </h1>
         <nav aria-label="breadcrumb animated slideInDown">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
-                <li class="breadcrumb-item"><a class="text-white" href="Blogs.html">Blogs</a></li>
+                <li class="breadcrumb-item"><a class="text-white" href="{{ route('welcome') }}">Home</a></li>
+                <li class="breadcrumb-item"><a class="text-white" href="{{ route('blogs') }}">Blogs</a></li>
                 <li class="breadcrumb-item text-white active" aria-current="page">MDU_article_2</li>
             </ol>
         </nav>
@@ -145,8 +145,8 @@
                         <!-- Blog Content -->
 <div class="content mt-4">
     <p class="fs-4 text-dark">
-        The future of Multi-Dwelling Units (MDUs) is being shaped by new trends that are transforming the housing industry. 
-        As urban living continues to evolve, MDUs are leading the way with innovative solutions that cater to modern lifestyles. 
+        The future of Multi-Dwelling Units (MDUs) is being shaped by new trends that are transforming the housing industry.
+        As urban living continues to evolve, MDUs are leading the way with innovative solutions that cater to modern lifestyles.
         Here are some of the latest innovations and emerging trends in the world of MDUs.
     </p>
 </div><!-- End post content -->
@@ -160,7 +160,7 @@
             <li><strong>Biophilic Design:</strong> Incorporating nature-inspired elements into MDU design, such as green walls, natural light, and outdoor spaces, to improve residents' well-being and connection with the environment.</li>
         </ul>
     </div>
-    
+
     <h3>Emerging Trends:</h3>
     <div class="content">
         <ul class="fs-4 text-dark">
@@ -169,10 +169,10 @@
             <li><strong>Wellness-Focused Amenities:</strong> MDUs are increasingly incorporating wellness amenities such as fitness centers, yoga studios, and spa facilities, catering to the growing demand for health and wellness-oriented living spaces.</li>
         </ul>
     </div>
-    
+
     <br><br>
     <p class="fs-4 text-dark">
-        Innovations and emerging trends in MDUs hold the potential to transform urban living, making it more efficient, sustainable, and community-oriented. 
+        Innovations and emerging trends in MDUs hold the potential to transform urban living, making it more efficient, sustainable, and community-oriented.
         Stay updated with Cresttel’s innovative MDU projects and services to explore how these advancements can enhance your living experience and meet future housing needs.
     </p>
 </div>
@@ -185,9 +185,9 @@
 
                                     <img src="img/MDU_img/Library_PhotoPietroSavorelli1.jpg" class="img-fluid"
                                         alt="">
-                                        <a href="{{ route('mdu') }}" 
+                                        <a href="{{ route('mdu') }}"
    class="btn btn-primary rounded-pill py-2 px-4 me-3 animated slideInLeft mt-5 ms-3">
-   <span>Visit Our Service MDU Page</span> 
+   <span>Visit Our Service MDU Page</span>
                             </a>
 
                                 </div><!-- End post content -->
@@ -249,8 +249,8 @@
             </div><!-- End row -->
         </div><!-- End container -->
     </section><!-- End Blog Details Section -->
-    
-    
+
+
 
 
 
@@ -263,7 +263,7 @@
      <!-- Copyright Start -->
 
     @include('copyright')
-    
+
     <!-- Copyright End -->
 
 
@@ -272,7 +272,7 @@
     <div id="scrollToTop">
         <i class="fas fa-arrow-up"></i>
     </div>
-   
+
 
 
     <div id="expandable-bubble">

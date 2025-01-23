@@ -4,7 +4,7 @@
             Diego</h1>
         <nav aria-label="breadcrumb animated slideInDown">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
+                <li class="breadcrumb-item"><a class="text-white" href="{{ route('welcome') }}">Home</a></li>
                 <li class="breadcrumb-item text-white active" aria-current="page">Services</li>
             </ol>
         </nav>

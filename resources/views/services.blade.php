@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="canonical" href="https://cresttel.net/service.html">
+    <link rel="canonical" href="https://cresttel.net/{{ route('service') }}">
     <meta charset="utf-8">
     <title>Expert Construction Services for Homes & Businesses | Cresttel </title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">

@@ -115,8 +115,8 @@
             Comprehensive Guide</h1>
         <nav aria-label="breadcrumb animated slideInDown">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
-                <li class="breadcrumb-item"><a class="text-white" href="Blogs.html">Blogs</a></li>
+                <li class="breadcrumb-item"><a class="text-white" href="{{ route('welcome') }}">Home</a></li>
+                <li class="breadcrumb-item"><a class="text-white" href="{{ route('blogs') }}">Blogs</a></li>
                 <li class="breadcrumb-item text-white active" aria-current="page">Fence_article_1</li>
             </ol>
         </nav>
@@ -195,11 +195,11 @@
 
 
                             <img src="img/Fence/30 - Copie.jpg  " class="img-fluid" alt="">
-                            <a href="{{ route('fence') }}" 
+                            <a href="{{ route('fence') }}"
    class="btn btn-primary rounded-pill py-2 px-4 me-3 animated slideInLeft mt-5 ms-3">
-   <span>Visit Our Service Fence Page</span> 
+   <span>Visit Our Service Fence Page</span>
                             </a>
-                           
+
 
                         </div><!-- End post content -->
 
@@ -223,7 +223,7 @@
 
 
 
-                    
+
                 </div><!-- End sidebar search -->
 
 
@@ -232,8 +232,8 @@
         </div><!-- End row -->
         </div><!-- End container -->
     </section><!-- End Blog Details Section -->
-    
-  
+
+
 
 
 
@@ -246,7 +246,7 @@
      <!-- Copyright Start -->
 
     @include('copyright')
-    
+
     <!-- Copyright End -->
 
 
@@ -255,7 +255,7 @@
     <div id="scrollToTop">
         <i class="fas fa-arrow-up"></i>
     </div>
- 
+
 
     <div id="expandable-bubble">
         <div class="primary-bubble" onclick="toggleSocialIcons()">
@@ -278,7 +278,7 @@
             </a>
         </div>
     </div>
-    
+
 </body>
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -291,7 +291,7 @@
     <script src="{{ asset('lib/isotope/isotope.pkgd.min.js') }}"></script>
     <script src="{{ asset('lib/lightbox/js/lightbox.min.js') }}"></script>
     <script src="{{ asset('js/main.js') }}"></script>
-    <script src="{{ asset('js/bublle.js') }}"></script> 
+    <script src="{{ asset('js/bublle.js') }}"></script>
     <script src="{{ asset('js/blogsPages.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 

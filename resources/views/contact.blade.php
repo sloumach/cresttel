@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="canonical" href="https://cresttel.net/contact.html">
+    <link rel="canonical" href="{{ route('contact') }}">
 
     <meta charset="utf-8">
     <Title>Contact Us | Cresttel Construction Company</Title>
@@ -118,7 +118,7 @@
                 commercial construction project</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" href="{{ route('welcome') }}">Home</a></li>
                     <li class="breadcrumb-item text-white active" aria-current="page">Contact</li>
                 </ol>
             </nav>

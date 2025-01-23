@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="canonical" href="https://cresttel.net/ADU%20article%201.html">
+    <link rel="canonical" href="{{ route('adublog1') }}">
     <meta charset="utf-8">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -51,7 +51,7 @@
 <!-- Navbar Start -->
 @include('navbar')
 <!-- Navbar End -->
- 
+
     <!-- Spinner Start -->
     <div id="spinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
@@ -62,7 +62,7 @@
     <!-- Spinner End -->
 
 
-    
+
 
     <div class="icon-container">
         <!-- Location Icon -->
@@ -120,8 +120,8 @@
             Property</h1>
         <nav aria-label="breadcrumb animated slideInDown">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
-                <li class="breadcrumb-item"><a class="text-white" href="Blogs.html">Blogs</a></li>
+                <li class="breadcrumb-item"><a class="text-white" href="{{ route('welcome') }}">Home</a></li>
+                <li class="breadcrumb-item"><a class="text-white" href="{{ route('blogs') }}">Blogs</a></li>
                 <li class="breadcrumb-item text-white active" aria-current="page">ADU_article_1</li>
             </ol>
         </nav>
@@ -149,9 +149,9 @@
                         <!-- Blog Content -->
                         <div class="content mt-4">
                         <p class="fs-4 text-black">
-    If you think constructing an accessory dwelling is too costly, you should take the long-term value such a strategy could add. 
-    Accessory dwelling units (ADUs) can enhance the quality of your life in numerous ways. You could generate extra income by leasing to 
-    a tenant and add considerable value to the rest of your property. While the construction of an ADU might seem like a huge undertaking, 
+    If you think constructing an accessory dwelling is too costly, you should take the long-term value such a strategy could add.
+    Accessory dwelling units (ADUs) can enhance the quality of your life in numerous ways. You could generate extra income by leasing to
+    a tenant and add considerable value to the rest of your property. While the construction of an ADU might seem like a huge undertaking,
     it may be one of the most lucrative investments you’ll ever make in your life.
 </p>
 
@@ -181,13 +181,13 @@
 
                                 <li>
                                 <p>
-    Add valuable workspace. Are you thinking of starting a business? A workspace or office is a fabulous use of an ADU. 
-    It adds value to your property while facilitating an entrepreneurial effort. Cresttel helps California homeowners 
-    construct beautiful, efficient accessory dwelling units on diverse properties. If you have a property in 
-    <strong class="text-black text-decoration-underline">San Diego</strong>, 
-    <strong class="text-black text-decoration-underline">Los Angeles</strong>, or in any 
-    <strong class="text-black text-decoration-underline">city in California</strong>, 
-    contact us today 
+    Add valuable workspace. Are you thinking of starting a business? A workspace or office is a fabulous use of an ADU.
+    It adds value to your property while facilitating an entrepreneurial effort. Cresttel helps California homeowners
+    construct beautiful, efficient accessory dwelling units on diverse properties. If you have a property in
+    <strong class="text-black text-decoration-underline">San Diego</strong>,
+    <strong class="text-black text-decoration-underline">Los Angeles</strong>, or in any
+    <strong class="text-black text-decoration-underline">city in California</strong>,
+    contact us today
     <strong class="text-black text-decoration-underline">for a consultation</strong>.
 </p>
 
@@ -199,14 +199,14 @@
 
 
                             <img src="img/ADU_img/Detached.jpg" class="img-fluid" alt="">
-                           
-                           
-                            <a href="{{ route('adu') }}" 
+
+
+                            <a href="{{ route('adu') }}"
    class="btn btn-primary rounded-pill py-2 px-4 me-3 animated slideInLeft mt-5 ms-3">
     <span>Visit Our Service ADU Page</span>
                             </a>
-                           
-                         
+
+
 
                         </div><!-- End post content -->
 
@@ -271,8 +271,8 @@
             </div><!-- End row -->
         </div><!-- End container -->
     </section><!-- End Blog Details Section -->
-    
-    
+
+
 
 
 
@@ -285,7 +285,7 @@
      <!-- Copyright Start -->
 
     @include('copyright')
-    
+
     <!-- Copyright End -->
 
 
@@ -294,8 +294,8 @@
     <div id="scrollToTop">
         <i class="fas fa-arrow-up"></i>
     </div>
-  
-   
+
+
     <div id="expandable-bubble">
         <div class="primary-bubble" onclick="toggleSocialIcons()">
             <span class="flashing-text">Contact Us</span>
@@ -317,7 +317,7 @@
             </a>
         </div>
     </div>
-   
+
 
 </body>
     <!-- JavaScript Libraries -->
