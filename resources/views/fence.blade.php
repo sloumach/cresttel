@@ -4,7 +4,7 @@
 <head>
     <link rel="canonical" href="https://cresttel.net/fence.blade.php">
     <meta charset="utf-8">
-    <title>Fence Installation & Repair services in San Diego</title>
+    <title>Fence Services | Expert Fence Installation & Repair</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="fence service" name="keywords">
     <meta content="san diego fence company" name="keywords">
@@ -14,7 +14,7 @@
     <meta content="fence repairs" name="keywords">
     <meta content="fencing services" name="keywords">
     <meta
-        content="Cresttel is a trusted fence company in San Diego, offering durable, stylish fencing solutions for homes and businesses. Contact us for a free consultation."
+        content="Experience Cresttel's fence services with expert installations or repairs. Our team delivers excellent fencing services for residential or commercial properties."
         name="description">
 
     <!-- Favicon -->
@@ -51,22 +51,22 @@
 </head>
 
 <body>
-<!-- Navbar Start -->
-@include('navbar')
-<!-- Navbar End -->
+    <!-- Navbar Start -->
+    @include('navbar')
+    <!-- Navbar End -->
 
 
     <!-- Spinner Start -->
     <div id="spinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-<div class="spinner-border text-primary custom-spinner" role="status"></div>
-            <span class="sr-only">Loading...</span>
-        </div>
+        <div class="spinner-border text-primary custom-spinner" role="status"></div>
+        <span class="sr-only">Loading...</span>
+    </div>
     </div>
     <!-- Spinner End -->
 
 
-   
+
     <div class="icon-container">
         <!-- Location Icon -->
         <div class="icon-wrapper">
@@ -110,44 +110,44 @@
     </div>
 
 
-<!-- Topbar End -->
+    <!-- Topbar End -->
 
 
 
 
-<!-- Page Header Start -->
-<div class="container-fluid page-header py-5">
-    <div class="container py-5">
-        <h1 class="display-3 text-white mb-3 animated slideInDown">Reliable fence installations & repairs provided with
-            experts </h1>
-        <nav aria-label="breadcrumb animated slideInDown">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
-                <li class="breadcrumb-item"><a class="text-white" href="service.html">Service</a></li>
-                <li class="breadcrumb-item text-white active" aria-current="page">Fence</li>
-            </ol>
-        </nav>
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header py-5">
+        <div class="container py-5">
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Reliable Fence Installations & Repairs by Expert
+            </h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" href="service.html">Service</a></li>
+                    <li class="breadcrumb-item text-white active" aria-current="page">Fence</li>
+                </ol>
+            </nav>
+        </div>
     </div>
-</div>
 
 
     <!-- Services Section -->
     <section id="services">
-    <h2 class="text-primary">Service</h2>
+        <h2 class="text-primary">Service</h2>
 
-    <p class="fs-1">
-        Building and maintaining <strong class="text-black">fence</strong> is crucial,
-        At Cresttel we focus on offering exceptional <strong class="text-black">fence installation</strong> and
-        repair services tailored for both <strong class="text-black">residential</strong> and 
-        <strong class="text-black">commercial properties</strong>. Our skilled <strong class="text-black">contractors</strong> 
-        prioritize delivering robust and visually appealing <strong class="text-black">fencing solutions</strong> that bolster 
-        security while enhancing your property's aesthetic appeal. From new installations to repairs on existing 
-        <strong class="text-black">fences</strong> to ensure it stays in top shape, we meticulously execute every project, 
-        ensuring your complete satisfaction. Rely on Cresttel's professionalism and expertise to meet all your 
-        <strong class="text-black">fencing requirements</strong>. Get in touch with us now to explore our 
-        <strong class="text-black">comprehensive range of fencing services</strong>.
-    </p>
-</section>
+        <p class="fs-1">
+            At Cresttel, we specialize in delivering top-notch fence installation services and fence repair services
+            tailored to your needs. Whether you're looking for a new fence to boost security and curb appeal or need
+            reliable repairs to restore your existing structure, our skilled fence contractors near you are here to
+            help.
+
+            With a focus on quality and customer satisfaction, we handle everything from chain-link and wooden fences to
+            custom designs. Moreover, our expertise extends to residential and commercial projects, ensuring every fence
+            enhances both functionality and style.
+
+            Don't wait—explore our exceptional fence services near you today!
+        </p>
+    </section>
 
     <div class="slider">
         <div class="list">
@@ -187,7 +187,7 @@
         </div>
         <div class="buttons">
             <button id="prev">
-                <</button>
+                << /button>
                     <button id="next">></button>
         </div>
         <ul class="dots">
@@ -198,7 +198,7 @@
             <li></li>
         </ul>
     </div>
-   
+
     <!-- Why Choose Us Section -->
     <section id="why-us">
         <h2>Why Choose Us</h2>
@@ -223,7 +223,7 @@
     </section>
 
     <!-- Testimonials Section -->
-<h2 class="text-center my-5 mt-5">Our Clients Say!</h2>
+    <h2 class="text-center my-5 mt-5">Our Clients Say!</h2>
     <div class="line"></div> <!-- Line under the header -->
     <div class="testimonials">
         <div class="testimonial-container">
@@ -372,10 +372,10 @@
     <!-- Footer End -->
 
 
-     <!-- Copyright Start -->
+    <!-- Copyright Start -->
 
     @include('copyright')
-    
+
     <!-- Copyright End -->
 
 
@@ -384,7 +384,7 @@
     <div id="scrollToTop">
         <i class="fas fa-arrow-up"></i>
     </div>
-    
+
     <div id="expandable-bubble">
         <div class="primary-bubble" onclick="toggleSocialIcons()">
             <span class="flashing-text">Contact Us</span>
@@ -406,28 +406,28 @@
             </a>
         </div>
     </div>
-    
 
 
 
 
 
-    
+
+
 
 </body>
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="{{ asset('lib/wow/wow.min.js') }}"></script>
-    <script src="{{ asset('lib/easing/easing.min.js') }}"></script>
-    <script src="{{ asset('lib/waypoints/waypoints.min.js') }}"></script>
-    <script src="{{ asset('lib/counterup/counterup.min.js') }}"></script>
-    <script src="{{ asset('lib/owlcarousel/owl.carousel.min.js') }}"></script>
-    <script src="{{ asset('lib/isotope/isotope.pkgd.min.js') }}"></script>
-    <script src="{{ asset('lib/lightbox/js/lightbox.min.js') }}"></script>
-    <script src="{{ asset('js/main.js') }}"></script>
-    <script src="{{ asset('js/bublle.js') }}"></script>
-    <script src="{{ asset('js/oneService.js') }}"></script>
+<!-- JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="{{ asset('lib/wow/wow.min.js') }}"></script>
+<script src="{{ asset('lib/easing/easing.min.js') }}"></script>
+<script src="{{ asset('lib/waypoints/waypoints.min.js') }}"></script>
+<script src="{{ asset('lib/counterup/counterup.min.js') }}"></script>
+<script src="{{ asset('lib/owlcarousel/owl.carousel.min.js') }}"></script>
+<script src="{{ asset('lib/isotope/isotope.pkgd.min.js') }}"></script>
+<script src="{{ asset('lib/lightbox/js/lightbox.min.js') }}"></script>
+<script src="{{ asset('js/main.js') }}"></script>
+<script src="{{ asset('js/bublle.js') }}"></script>
+<script src="{{ asset('js/oneService.js') }}"></script>
 
 
 

@@ -5,11 +5,11 @@
     <link rel="canonical" href="https://cresttel.net/contact.html">
 
     <meta charset="utf-8">
-    <title>Contact Cresttel in San Diego | Start Your Project Today</title>
+    <Title>Contact Us | Cresttel Construction Company</Title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta
-        content="Looking for construction services in San Diego? Contact Cresttel for professional guidance and a free consultation. We’re here to bring your vision to life."
+        content="Get in touch with our construction company for expert solutions tailored to your needs. Fill out our contact form or locate your nearest office to start your next project today."
         name="description">
 
     <!-- Favicon -->
@@ -46,17 +46,17 @@
 
 <body>
 
- <!-- Navbar Start -->
- @include('navbar')
+    <!-- Navbar Start -->
+    @include('navbar')
     <!-- Navbar End -->
 
 
     <!-- Spinner Start -->
     <div id="spinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-<div class="spinner-border text-primary custom-spinner" role="status"></div>
-            <span class="sr-only">Loading...</span>
-        </div>
+        <div class="spinner-border text-primary custom-spinner" role="status"></div>
+        <span class="sr-only">Loading...</span>
+    </div>
     </div>
     <!-- Spinner End -->
 
@@ -107,15 +107,15 @@
     <!-- Topbar End -->
 
 
-   
+
 
 
 
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-5">
         <div class="container py-5">
-            <h1 class="display-3 text-white mb-3 animated slideInDown">Get in Touch with us for Residential & Commercial
-                Construction Services </h1>
+            <h1 class="display-3 text-white mb-3 animated slideInDown">contact us to start on your residential or
+                commercial construction project</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
@@ -129,11 +129,12 @@
 
     <!-- Quote Start -->
     <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
-    <div class="container quote px-lg-0 bg-dark">
-    <div class="row g-0 mx-lg-0">
-    <div class="col-lg-6 ps-lg-0 min-height-400">
-    <div class="position-relative h-100">
-    <img class="position-absolute img-fluid w-100 h-100 object-cover" src="img/quote.jpg" alt="">
+        <div class="container quote px-lg-0 bg-dark">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-6 ps-lg-0 min-height-400">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100 object-cover" src="img/quote.jpg"
+                            alt="">
 
                     </div>
                 </div>
@@ -141,11 +142,12 @@
                     <div class="p-lg-5 pe-lg-0">
                         <h2 class="display-5 mb-5"><span>Get in Touch with us for Residential
                                 & Commercial Construction Services </span></h2>
-                                <p class="mb-4 pb-2 fs-5 text-center text-white">
-    We believe in establishing strong relationships with our clients open and consistent
-    dialogue. Whether you have question, specific requirements, or special request, we’re here to assist you. Feel
-    free to contact us any time, and let’s collaborate to turn your vision to reality.
-</p>
+                        <p class="mb-4 pb-2 fs-5 text-center text-white">
+                            When it comes to construction and remodeling services, we understand that your vision
+                            deserves the highest level of craftsmanship and professionalism. At our construction
+                            company, we’re committed to turning your dream spaces into reality, blending expertise with
+                            a customer-focused approach.
+                        </p>
 
 
                         @include('contactform')
@@ -161,8 +163,7 @@
     <div class="container-fluid px-0">
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3174.6043386906284!2d-116.95677548469295!3d32.8057198809606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9533e7ddf22cf%3A0x45967470da9a6de4!2s1662%20N%20Magnolia%20Ave%2C%20El%20Cajon%2C%20CA%2092020%2C%20USA!5e0!3m2!1sen!2sus!4v1697567425423!5m2!1sen!2sus"
-            width="100%" height="450"  allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade">
+            width="100%" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
         </iframe>
     </div>
     <!-- Map End -->
@@ -182,7 +183,7 @@
 
             </div>
 
-           
+
 
             <div class="row">
                 <div class="col-md-6">
@@ -191,30 +192,23 @@
                     </figure>
                 </div>
                 <div class="col-md-6 description text-lead">
-                    <p><strong></strong></p>
-                    <p>Quality Craftsmanship: We believe in delivering nothing but the best.
-                        Our skilled professionals are dedicated to ensuring that every detail of your project meets the
-                        highest standards.</p>
-                    <p>Timely Delivery: We understand the importance of deadlines. Our
-                        efficient project management ensures that your construction is completed on time, every time.
-                    </p>
-                    <p >Personalized Service: Whether you're building a new home, renovating an
-                        existing space, or embarking on a commercial project, we tailor our services to meet your unique
-                        needs.</p>
-                    <p><strong>Our Process</strong></p>
-                    <p>From the initial consultation to the final touches, we work hand-in-hand
-                        with you to bring your vision to life. Our comprehensive approach includes:</p>
+                    <p><strong>Why Choose Our Construction Company?</strong></p>
                     <ul>
-                        <li>Consultation: Understanding your vision and requirements.</li>
-                        <li>Feasibility Study: Evaluating the practicality of your project.</li>
-                        <li>Design & Permitting: Creating detailed plans and securing necessary approvals.</li>
-                        <li>Construction: Meticulous execution by our skilled craftsmen.</li>
-                        <li>Final Touches: Ensuring every detail is perfect.</li>
+                        <li>Unmatched Expertise: Whether you're searching for a local construction company or a team for
+                            residential and commercial construction, our experience speaks for itself.</li>
+                        <li>Tailored Solutions: From new builds to intricate renovations, we provide services customized
+                            to your unique needs.</li>
+                        <li> Timely Execution: Deadlines matter, and our efficient project management ensures your
+                            project stays on track.</li>
                     </ul>
-                    <p><strong>Get Started Today</strong></p>
-                    <p>Ready to turn your construction dreams into reality? Contact us today
-                        for a personalized quote and start building your future with Cresttel. Let's create something
-                        extraordinary together!</p>
+
+                    <p><strong>Our Comprehensive Process</strong></p>
+                    <ul>
+                        <li>Consultation: We listen to your ideas and goals.</li>
+                        <li>Planning & Design: Detailed designs meet practical solutions.</li>
+                        <li>Construction Phase: Skilled professionals bring your project to life.</li>
+                        <li>Final Touches: Every detail is inspected to exceed your expectations</li>
+                    </ul>
                 </div>
             </div>
 
@@ -228,10 +222,10 @@
     <!-- Footer End -->
 
 
-     <!-- Copyright Start -->
+    <!-- Copyright Start -->
 
     @include('copyright')
-    
+
     <!-- Copyright End -->
 
     <!-- Back to Top -->
@@ -259,7 +253,7 @@
             </a>
         </div>
     </div>
-  
+
 
 
 
