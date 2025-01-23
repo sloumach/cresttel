@@ -4,13 +4,13 @@
 <head>
     <link rel="canonical" href="https://cresttel.net/about.html">
     <meta charset="utf-8">
-    <title>About Us - San Diego's Construction Company</title>
+    <title>About Us | Cresttel - Expert Construction & Remodeling</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Construction and renovation company" name="keywords">
     <meta content="Construction company san diego" name="description">
 
     <meta name="description"
-        content="Discover Cresttel, a top construction company in San Diego, committed to quality craftsmanship, reliability, and exceptional service. Learn more about us.">
+        content="Cresttel: Trusted experts in residential and commercial remodeling, and fence installation. Quality craftsmanship and reliable service for your next project.">
 
 
     <!-- Favicon -->
@@ -54,9 +54,9 @@
     <!-- Spinner Start -->
     <div id="spinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-<div class="spinner-border text-primary custom-spinner" role="status"></div>
-            <span class="sr-only">Loading...</span>
-        </div>
+        <div class="spinner-border text-primary custom-spinner" role="status"></div>
+        <span class="sr-only">Loading...</span>
+    </div>
     </div>
     <!-- Spinner End -->
 
@@ -125,8 +125,8 @@
                     <img class="front" src="img/consult.png" alt="">
                     <div class="back photo-desc">
                         <h3>1. Consultation</h3>
-                        <p> Our team of experts will meet with you to discuss your vision, requirements, and goals for
-                            the project, ensuring we understand your needs and preferences.</p>
+                        <p> Our team meets with you to discuss your vision, goals, and requirements, ensuring your
+                            residential or commercial project aligns with your expectations.</p>
 
                     </div>
                     <img class="left" src="img/turned to webp/ezgif-1-3b2c4e5537.webp" alt="">
@@ -139,8 +139,8 @@
                     <img class="front" src="img/2. Feasibili.png" alt="">
                     <div class="back photo-desc">
                         <h3>2.Feasibility</h3>
-                        <p> We perform a detailed feasibility study to evaluate your project's practicality, covering
-                            site analysis, cost estimates, and potential challenges.</p>
+                        <p> We conduct site analysis, cost estimation, and identify potential challenges, helping you
+                            plan effectively and ensure project feasibility.</p>
                     </div>
                     <img class="left" src="img/turned to webp/ezgif-6-9f66ba3211.webp" alt="">
                     <img class="right" src="img/ADU_img/Adu - Photos & Ideas (1)(1).jpg" alt="">
@@ -152,8 +152,8 @@
                     <img class="front" src="img/cube fancing.png" alt="">
                     <div class="back photo-desc">
                         <h3>3. Financing</h3>
-                        <p> We help you secure financing, offering budget planning and funding strategy guidance to
-                            ensure your project's financial viability.</p>
+                        <p> Our experts assist with budget planning and funding strategies, streamlining the process for
+                            your dream home or commercial project.</p>
 
                     </div>
                     <img class="left" src="img/Home-Loan.png" alt="">
@@ -168,8 +168,8 @@
                     <img class="front" src="img/4. Design & Permitting.png" alt="">
                     <div class="back photo-desc">
                         <h3>4. Design & Permitting</h3>
-                        <p>Our architects and engineers create detailed plans, while our specialists handle the
-                            permitting process to secure construction approvals.</p>
+                        <p>Our architects craft detailed blueprints while securing necessary approvals. Whether
+                            remodeling your home or starting commercial construction, we handle every detail.</p>
 
                     </div>
                     <img class="left" src="img/plans-to-permits-1.jpg" alt="">
@@ -195,8 +195,8 @@
                     <img class="front" src="img/5. Interior Design & Specifications.png" alt="">
                     <div class="back photo-desc">
                         <h3>5. Interior Design & Specifications</h3>
-                        <p>Description: We provide interior design services, assisting with the selection of materials,
-                            finishes, and furnishings to match your vision and enhance your project's aesthetic.</p>
+                        <p>From selecting materials to furnishings, we create functional, aesthetically pleasing spaces
+                            tailored to your style.</p>
 
                     </div>
                     <img class="left" src="img/45.jpg" alt="">
@@ -216,8 +216,8 @@
                 <img class="front" src="img/6. Permit & Contract.png" alt="">
                 <div class="back photo-desc">
                     <h3>6. Permit & Contract</h3>
-                    <p>We finalize permits and contracts, ensuring compliance with local regulations and establishing
-                        the legal framework for the project.</p>
+                    <p>We finalize all permits and contracts, ensuring compliance with local regulations for smooth
+                        execution.</p>
 
                 </div>
                 <img class="left" src="img/OIP2.jpg" alt="">
@@ -229,8 +229,8 @@
                 <img class="front" src="img/7. Fabricate.png" alt="">
                 <div class="back photo-desc">
                     <h3>7. Fabricate</h3>
-                    <p>Description: Our skilled craftsmen meticulously fabricate project components to the highest
-                        quality and precision standards.</p>
+                    <p>Our skilled craftsmen bring your vision to life with meticulous attention to detail, delivering
+                        top-quality results.</p>
 
                 </div>
                 <img class="left" src="img/OIP3.jpg" alt="">
@@ -242,8 +242,8 @@
                 <img class="front" src="img/8. DeliveR.png" alt="">
                 <div class="back photo-desc">
                     <h3>8. Deliver</h3>
-                    <p>Description: We coordinate the delivery and installation of all elements, ensuring timely and
-                        efficient project completion, ready for occupancy or use.</p>
+                    <p>We ensure on-time delivery and installation, guaranteeing satisfaction with move-in-ready homes
+                        or fully functional commercial spaces.</p>
 
                 </div>
                 <img class="left" src="img/ff.jpg" alt="">
@@ -256,7 +256,7 @@
     </div>
     </div>
     <!-- Image Slider End -->
-   
+
 
     <!-- Video Section Start -->
     <div class="video-section">
@@ -315,23 +315,20 @@
     <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
         <div class="container about px-lg-0">
             <div class="row g-0 mx-lg-0">
-            <div class="col-lg-6 ps-lg-0 min-height-400">
-            <div class="position-relative h-100">
-                    <img class="position-absolute img-fluid w-100 h-100 object-cover" src="img/IMG_5389-1.jpg" alt="">
+                <div class="col-lg-6 ps-lg-0 min-height-400">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100 object-cover" src="img/IMG_5389-1.jpg"
+                            alt="">
 
                     </div>
                 </div>
                 <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
                     <div class="p-lg-5 pe-lg-0">
 
-                        <h4 class="display-5 mb-4">About Us</h4>
-                        <p class="mb-4 pb-2" >“At Cresttel, we are dedicated
-                            to turning your construction dreams into reality. With a commitment to quality craftsmanship
-                            and timely delivery, our team of experts works closely with you to ensure every detail of
-                            your project is executed to perfection. Whether you’re looking to build a new home, renovate
-                            an existing space, or undertake a commercial project, we bring your vision to life with
-                            precision and care. Contact us today to get a personalized quote and start building your
-                            future with us.”</p>
+                        <h4 class="display-5 mb-4">Why Choose Cresttel?</h4>
+                        <p class="mb-4 pb-2">“Cresttel offers innovative, reliable construction solutions combining
+                            expertise, affordability, and customer satisfaction. From residential remodeling to custom
+                            home building and commercial construction, we deliver results you can trust.”</p>
                         <div class="row g-4 mb-4 pb-3">
                             <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
                                 <div class="d-flex align-items-center">
@@ -342,7 +339,8 @@
                                 </div>
                             </div>
                         </div>
-                        <a href="{{ route('service') }}" class="btn btn-primary rounded-pill py-3 px-5">Explore More</a>
+                        <a href="{{ route('service') }}" class="btn btn-primary rounded-pill py-3 px-5">Explore
+                            More</a>
                     </div>
                 </div>
             </div>
@@ -355,18 +353,18 @@
     <!-- Footer End -->
 
 
-     <!-- Copyright Start -->
+    <!-- Copyright Start -->
 
     @include('copyright')
-    
+
     <!-- Copyright End -->
 
     <!-- Scroll to Top Button -->
     <div id="scrollToTop">
         <i class="fas fa-arrow-up"></i>
     </div>
-   
-    
+
+
 
     <div id="expandable-bubble">
         <div class="primary-bubble" onclick="toggleSocialIcons()">
@@ -389,7 +387,7 @@
             </a>
         </div>
     </div>
-  
+
 </body>
 
 <!-- JavaScript Libraries -->
@@ -405,4 +403,5 @@
 <script src="{{ asset('js/main.js') }}"></script>
 <script src="{{ asset('js/bublle.js') }}"></script>
 <script src="{{ asset('js/about.js') }}"></script>
+
 </html>

@@ -4,14 +4,14 @@
 <head>
     <link rel="canonical" href="https://cresttel.net/mdu.blade.php">
     <meta charset="utf-8">
-    <title>San Diego MDU Multi Dwelling Unit Construction | Cresttel</title>
+    <title>MDU Construction Services | Multi-Dwelling Unit Experts</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="MDU" name="keywords">
     <meta content="Multi dwelling unit" name="keywords">
     <meta content="Mdu construction services " name="keywords">
 
     <meta
-        content="Cresttel specializes in MDU (Multi Dwelling Unit) projects in San Diego. Rely on us for expert design and construction to meet your multi-unit needs."
+        content="Expert MDU construction services tailored for multi-dwelling units. From fiber and low-voltage wiring to energy-efficient solutions, we deliver excellent results."
         name="description">
 
     <!-- Favicon -->
@@ -48,21 +48,21 @@
 </head>
 
 <body>
-<!-- Navbar Start -->
-@include('navbar')
-<!-- Navbar End -->
+    <!-- Navbar Start -->
+    @include('navbar')
+    <!-- Navbar End -->
 
     <!-- Spinner Start -->
     <div id="spinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-<div class="spinner-border text-primary custom-spinner" role="status"></div>
-            <span class="sr-only">Loading...</span>
-        </div>
+        <div class="spinner-border text-primary custom-spinner" role="status"></div>
+        <span class="sr-only">Loading...</span>
+    </div>
     </div>
     <!-- Spinner End -->
 
 
- 
+
 
     <div class="icon-container">
         <!-- Location Icon -->
@@ -107,44 +107,42 @@
     </div>
 
 
-<!-- Topbar End -->
+    <!-- Topbar End -->
 
 
 
 
 
-<!-- Page Header Start -->
-<div class="container-fluid page-header py-5">
-    <div class="container py-5">
-        <h1 class="display-3 text-white mb-3 animated slideInDown">High quality Multi-Dwelling Units ( MDU )
-            Construction services </h1>
-        <nav aria-label="breadcrumb animated slideInDown">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
-                <li class="breadcrumb-item"><a class="text-white" href="service.html">Service</a></li>
-                <li class="breadcrumb-item text-white active" aria-current="page">MDU</li>
-            </ol>
-        </nav>
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header py-5">
+        <div class="container py-5">
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Expert Multi-Dwelling Unit (MDU) Construction
+                services </h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" href="service.html">Service</a></li>
+                    <li class="breadcrumb-item text-white active" aria-current="page">MDU</li>
+                </ol>
+            </nav>
+        </div>
     </div>
-</div>
 
 
 
     <!-- Services Section -->
     <section id="services">
-    <h2 class="text-primary">Service</h2>
+        <h2 class="text-primary">Service</h2>
 
-    <p class="fs-1">
-        Cresttel we specialize in building <strong class="text-black">multi-dwelling units (MDUs)</strong> such as 
-        apartments, condominiums, and townhouses. With a team of seasoned professionals, we offer 
-        <strong class="text-black">comprehensive construction services</strong> tailored to the specific requirements 
-        of <strong class="text-black">MDUs</strong>. Our expertise encompasses all aspects of commercial construction, 
-        from initial design and meticulous planning to seamless execution and impeccable finishing touches. At Cresttel, 
-        we prioritize delivering exceptional quality and reliable solutions that elevate living spaces and ensure 
-        satisfaction for our clients. Reach out to us today to explore how our 
-        <strong class="text-black">MDU construction services</strong> can bring your vision to life.
-    </p>
-</section>
+        <p class="fs-1">
+            At Cresttel, we specialize in constructing multi-dwelling units (MDUs), including apartments, condominiums,
+            and townhouses. Our experienced team provides complete MDU construction services, managing every stage with
+            precision—from detailed planning and innovative design to flawless execution and high-quality finishes.
+            We are dedicated to creating functional and visually appealing multi-unit housing that elevates community
+            living. With a commitment to excellence, Cresttel offers reliable solutions tailored to meet your unique
+            needs. Contact us today to bring your MDU construction vision to life!
+        </p>
+    </section>
 
     <div class="slider">
         <div class="list">
@@ -177,7 +175,7 @@
         </div>
         <div class="buttons">
             <button id="prev">
-                <</button>
+                << /button>
                     <button id="next">></button>
         </div>
         <ul class="dots">
@@ -188,7 +186,7 @@
             <li></li>
         </ul>
     </div>
- 
+
     <!-- Why Choose Us Section -->
     <section id="why-us">
         <h2>Why Choose Us</h2>
@@ -213,7 +211,7 @@
     </section>
 
     <!-- Testimonials Section -->
-<h2 class="text-center my-5 mt-5">Our Clients Say!</h2>
+    <h2 class="text-center my-5 mt-5">Our Clients Say!</h2>
     <div class="line"></div> <!-- Line under the header -->
     <div class="testimonials">
         <div class="testimonial-container">
@@ -372,10 +370,10 @@
     <!-- Footer End -->
 
 
-     <!-- Copyright Start -->
+    <!-- Copyright Start -->
 
     @include('copyright')
-    
+
     <!-- Copyright End -->
 
 
@@ -384,7 +382,7 @@
     <div id="scrollToTop">
         <i class="fas fa-arrow-up"></i>
     </div>
-    
+
 
     <div id="expandable-bubble">
         <div class="primary-bubble" onclick="toggleSocialIcons()">
@@ -407,7 +405,7 @@
             </a>
         </div>
     </div>
-   
+
 
 
 
@@ -418,18 +416,18 @@
 
 </body>
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="{{ asset('lib/wow/wow.min.js') }}"></script>
-    <script src="{{ asset('lib/easing/easing.min.js') }}"></script>
-    <script src="{{ asset('lib/waypoints/waypoints.min.js') }}"></script>
-    <script src="{{ asset('lib/counterup/counterup.min.js') }}"></script>
-    <script src="{{ asset('lib/owlcarousel/owl.carousel.min.js') }}"></script>
-    <script src="{{ asset('lib/isotope/isotope.pkgd.min.js') }}"></script>
-    <script src="{{ asset('lib/lightbox/js/lightbox.min.js') }}"></script>
-    <script src="{{ asset('js/main.js') }}"></script>
-    <script src="{{ asset('js/bublle.js') }}"></script>
-    <script src="{{ asset('js/oneService.js') }}"></script>
+<!-- JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="{{ asset('lib/wow/wow.min.js') }}"></script>
+<script src="{{ asset('lib/easing/easing.min.js') }}"></script>
+<script src="{{ asset('lib/waypoints/waypoints.min.js') }}"></script>
+<script src="{{ asset('lib/counterup/counterup.min.js') }}"></script>
+<script src="{{ asset('lib/owlcarousel/owl.carousel.min.js') }}"></script>
+<script src="{{ asset('lib/isotope/isotope.pkgd.min.js') }}"></script>
+<script src="{{ asset('lib/lightbox/js/lightbox.min.js') }}"></script>
+<script src="{{ asset('js/main.js') }}"></script>
+<script src="{{ asset('js/bublle.js') }}"></script>
+<script src="{{ asset('js/oneService.js') }}"></script>
 
 </html>

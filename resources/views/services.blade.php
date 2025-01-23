@@ -4,11 +4,11 @@
 <head>
     <link rel="canonical" href="https://cresttel.net/service.html">
     <meta charset="utf-8">
-    <title>Construction and remodeling services</title>
+    <title>Expert Construction Services for Homes & Businesses | Cresttel </title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="remodeling services san diego & construction services san diego" name="keywords">
     <meta
-        content="Cresttel offers expert construction and remodeling services in San Diego. Trust us to bring your vision to life with quality craftsmanship and reliability."
+        content="Transform your space with Cresttel's expert residential and commercial construction services. From planning to completion, we deliver excellence at every step."
         name="description">
 
     <!-- Favicon -->
@@ -45,20 +45,20 @@
 
 <body>
     <!-- Navbar Start -->
-@include('navbar')
-<!-- Navbar End -->
+    @include('navbar')
+    <!-- Navbar End -->
 
     <!-- Spinner Start -->
     <div id="spinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-<div class="spinner-border text-primary custom-spinner" role="status"></div>
-            <span class="sr-only">Loading...</span>
-        </div>
+        <div class="spinner-border text-primary custom-spinner" role="status"></div>
+        <span class="sr-only">Loading...</span>
+    </div>
     </div>
     <!-- Spinner End -->
 
 
-   
+
     <div class="icon-container">
         <!-- Location Icon -->
         <div class="icon-wrapper">
@@ -104,185 +104,187 @@
 
 
 
-<!-- Page Header Start -->
-@include('serviceheader')
-<!-- Page Header End -->
+    <!-- Page Header Start -->
+    @include('serviceheader')
+    <!-- Page Header End -->
 
-<!-- Service End -->
-
-
-</main>
+    <!-- Service End -->
 
 
-<!-- slider -->
+    </main>
 
-<div class="slider">
-    <!-- List Items -->
-    <div class="list">
-        <div class="item active">
-            <img src="img/service img/31.jpg"
-                alt="Wooden garden fence with vibrant flowers and lush green lawn under a clear blue sky - Cresttel Fencing Services">
-            <div class="content">
-                <p>Service</p>
-                <h2>Fence</h2>
-                <p>
-                    Enhance your property's security and aesthetics with Cresttel's professional fence installation
-                    services. We offer a wide range of fencing options, including wood, vinyl, and metal, tailored to
-                    your specific requirements.
-                </p>
-                <button class="link-button"><a href="{{ route('fence') }}" >Learn More</a></button>
+
+    <!-- slider -->
+
+    <div class="slider">
+        <!-- List Items -->
+        <div class="list">
+            <div class="item active">
+                <img src="img/service img/31.jpg"
+                    alt="Wooden garden fence with vibrant flowers and lush green lawn under a clear blue sky - Cresttel Fencing Services">
+                <div class="content">
+                    <p>Service</p>
+                    <h2>Fence</h2>
+                    <p>
+                        Enhance your property's security and curb appeal with our fencing services. From fence
+                        installation to fence repairs, our experienced team provides reliable solutions for both
+                        residential and commercial properties.
+                    </p>
+                    <button class="link-button"><a href="{{ route('fence') }}">Learn More</a></button>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/ADU_img/blog-2.jpg"
+                    alt="Modern backyard office with sleek exterior design, wooden accents, large windows, and landscaped garden - Cresttel construction and renovation services.">
+                <div class="content">
+                    <p>Service</p>
+                    <h2>Accessory Dwelling Units (ADUs)</h2>
+                    <p>
+                        Maximize your property's value with our ADU construction services. Perfect for homeowners
+                        seeking additional living space or rental opportunities, we provide top-tier ADU construction
+                        blending style and utility.
+                    </p>
+                    <button class="link-button"><a href="{{ route('adu') }}">Learn More</a></button>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/service img/ser com.jpg"
+                    alt="Modern commercial building with American flag at sunset, featuring sleek design and parking accessibility - Cresttel Commercial Services">
+                <div class="content">
+                    <p>Service</p>
+                    <h2>Commercial Construction Services</h2>
+                    <p>
+                        Take your business to the next level with our commercial construction services. From office
+                        buildings to retail spaces and industrial facilities, we deliver tailored solutions that blend
+                        functionality with design. Our commercial building construction services cater to businesses of
+                        all sizes, offering unmatched craftsmanship to bring your vision to life.
+                    </p>
+                    <button class="link-button"><a href="{{ route('commercial') }}">Learn More</a></button>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/service img/ser mdu.jpg"
+                    alt="Modern building exterior with sleek design, stone facade, and geometric architecture under clear blue sky - Cresttel Services">
+                <div class="content">
+                    <p>Service</p>
+                    <h2>Multi-Dwelling Units (MDUs)</h2>
+                    <p>
+                        Our MDU construction services are tailored for developers and investors, offering seamless
+                        solutions for apartments, condos, and townhouses. With attention to detail, we ensure that every
+                        project meets your expectations.
+                    </p>
+                    <button class="link-button"><a href="{{ route('mdu') }}">Learn More</a></button>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="img/service img/rs.jpg"
+                    alt="Elegant modern luxury home with lush landscaping, grand entrance, and beautiful exterior - Cresttel residential construction and renovation services.">
+                <div class="content">
+                    <p>Service</p>
+                    <h2>Residential Construction Services</h2>
+                    <p>
+                        Bring your dream home into reality with our residential construction services. Whether it’s a
+                        custom new build or a home renovation, we specialize in creating spaces that reflect your style
+                        and meet your needs. Searching for " home remodeling services "? then leave it to us for high
+                        quality results tailored to your desires.
+                    </p>
+                    <button class="link-button"><a href="{{ route('residential') }}">Learn More</a></button>
+                </div>
             </div>
         </div>
-        <div class="item">
-            <img src="img/ADU_img/blog-2.jpg"
-                alt="Modern backyard office with sleek exterior design, wooden accents, large windows, and landscaped garden - Cresttel construction and renovation services.">
-            <div class="content">
-                <p>Service</p>
-                <h2>ADU</h2>
-                <p>
-                    Unlock the potential of your property with Cresttel's ADU (Accessory Dwelling Unit) construction
-                    services. Our expert team specializes in creating custom-built ADUs that blend seamlessly with your
-                    existing property.
-                </p>
-                <button class="link-button"><a href="{{ route('adu') }}" >Learn More</a></button>
-            </div>
+        <!-- Arrows -->
+        <div class="arrows">
+            <button id="prev">
+                < </button>
+                    <button id="next">></button>
         </div>
-        <div class="item">
-            <img src="img/service img/ser com.jpg"
-                alt="Modern commercial building with American flag at sunset, featuring sleek design and parking accessibility - Cresttel Commercial Services">
-            <div class="content">
-                <p>Service</p>
-                <h2>Commercial</h2>
-                <p>
-                    Cresttel specializes in commercial construction services that cater to businesses of all sizes. Our
-                    team delivers efficient and high-quality construction solutions for office buildings, retail spaces,
-                    and industrial facilities.
-                </p>
-                <button class="link-button"><a href="{{ route('commercial') }}" >Learn More</a></button>
+        <!-- Thumbnail -->
+        <div class="thumbnail">
+            <div class="item active">
+                <img src="img/service img/31.jpg">
+                <div class="content">
+                    Fence
+                </div>
             </div>
-        </div>
-        <div class="item">
-            <img src="img/service img/ser mdu.jpg"
-                alt="Modern building exterior with sleek design, stone facade, and geometric architecture under clear blue sky - Cresttel Services">
-            <div class="content">
-                <p>Service</p>
-                <h2>MDU</h2>
-                <p>
-                    Cresttel provides top-tier MDU construction services for property developers and investors. Our
-                    expert team ensures quality and efficiency in building apartments, condominiums, and townhouses,
-                    meeting all your construction needs.
-                </p>
-                <button class="link-button"><a href="{{ route('mdu') }}" >Learn More</a></button>
+            <div class="item">
+                <img src="img/ADU_img/blog-2.jpg">
+                <div class="content">
+                    ADU
+                </div>
             </div>
-        </div>
-
-        <div class="item">
-            <img src="img/service img/rs.jpg"
-                alt="Elegant modern luxury home with lush landscaping, grand entrance, and beautiful exterior - Cresttel residential construction and renovation services.">
-            <div class="content">
-                <p>Service</p>
-                <h2>Residential</h2>
-                <p>
-                    Transform your dream home into reality with Cresttel's residential construction services. From new
-                    builds to renovations, our skilled team provides exceptional craftsmanship and personalized service
-                    to create homes that reflect your style and needs.
-                </p>
-                <button class="link-button"><a href="{{ route('residential') }}" >Learn More</a></button>
+            <div class="item">
+                <img src="img/service img/ser com.jpg">
+                <div class="content">
+                    Commercial
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/service img/ser mdu.jpg">
+                <div class="content">
+                    MDU
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/service img/rs.jpg">
+                <div class="content">
+                    Residential
+                </div>
             </div>
         </div>
     </div>
-    <!-- Arrows -->
-    <div class="arrows">
-        <button id="prev">
-           < </button>
-                <button id="next">></button>
-    </div>
-    <!-- Thumbnail -->
-    <div class="thumbnail">
-        <div class="item active">
-            <img src="img/service img/31.jpg">
-            <div class="content">
-                Fence
-            </div>
-        </div>
-        <div class="item">
-            <img src="img/ADU_img/blog-2.jpg">
-            <div class="content">
-                ADU
-            </div>
-        </div>
-        <div class="item">
-            <img src="img/service img/ser com.jpg">
-            <div class="content">
-                Commercial
-            </div>
-        </div>
-        <div class="item">
-            <img src="img/service img/ser mdu.jpg">
-            <div class="content">
-                MDU
-            </div>
-        </div>
-        <div class="item">
-            <img src="img/service img/rs.jpg">
-            <div class="content">
-                Residential
-            </div>
-        </div>
-    </div>
-</div>
 
 
 
 
 
 
-<!-- Footer Start -->
-@include('footer')
-<!-- Footer End -->
+    <!-- Footer Start -->
+    @include('footer')
+    <!-- Footer End -->
 
 
- <!-- Copyright Start -->
+    <!-- Copyright Start -->
 
- @include('copyright')
-    
+    @include('copyright')
+
     <!-- Copyright End -->
 
 
-<!-- Back to Top -->
-<!-- Scroll to Top Button -->
-<div id="scrollToTop">
-    <i class="fas fa-arrow-up"></i>
-</div>
-
-
-
-
-<div id="expandable-bubble">
-    <div class="primary-bubble" onclick="toggleSocialIcons()">
-        <span class="flashing-text">Contact Us</span>
+    <!-- Back to Top -->
+    <!-- Scroll to Top Button -->
+    <div id="scrollToTop">
+        <i class="fas fa-arrow-up"></i>
     </div>
-    <div class="social-icons">
 
-        <a href="https://www.facebook.com/cresttelconstruction" target="_blank" class="icon facebook"
-            title="Facebook">
-            <img src="img/Home icons/3d-render-facebook-logo-icon-with-new-notification-isolated-on-transparent-background-free-png.png"
-                alt="Facebook" />
-        </a>
-        <a href="https://www.instagram.com/cresttelconstruction/" target="_blank" class="icon instagram"
-            title="Instagram">
-            <img src="img/Home icons/instagram-logo-3d-illustration-free-png.png" alt="Instagram" />
-        </a>
-        <a href="https://www.linkedin.com/company/cresttelconstruction" target="_blank" class="icon linkedin"
-            title="LinkedIn">
-            <img src="img/Home icons/linkedin-3d-icon-free-png.png" alt="LinkedIn" />
-        </a>
+
+
+
+    <div id="expandable-bubble">
+        <div class="primary-bubble" onclick="toggleSocialIcons()">
+            <span class="flashing-text">Contact Us</span>
+        </div>
+        <div class="social-icons">
+
+            <a href="https://www.facebook.com/cresttelconstruction" target="_blank" class="icon facebook"
+                title="Facebook">
+                <img src="img/Home icons/3d-render-facebook-logo-icon-with-new-notification-isolated-on-transparent-background-free-png.png"
+                    alt="Facebook" />
+            </a>
+            <a href="https://www.instagram.com/cresttelconstruction/" target="_blank" class="icon instagram"
+                title="Instagram">
+                <img src="img/Home icons/instagram-logo-3d-illustration-free-png.png" alt="Instagram" />
+            </a>
+            <a href="https://www.linkedin.com/company/cresttelconstruction" target="_blank" class="icon linkedin"
+                title="LinkedIn">
+                <img src="img/Home icons/linkedin-3d-icon-free-png.png" alt="LinkedIn" />
+            </a>
+        </div>
     </div>
-</div>
 
 
 
-    
+
 
 </body>
 

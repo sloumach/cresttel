@@ -4,15 +4,16 @@
 <head>
     <link rel="canonical" href="https://cresttel.net/commercial.blade.php">
     <meta charset="utf-8">
-    <title>Commercial Construction Services in San Diego | Cresttel</title>
+    <title>Commercial Construction Services | Expert Contractors</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="commercial construction" name="keywords">
     <meta content="commercial building" name="keywords">
     <meta content="commercial construction company" name="keywords">
     <meta content="commercial construction services" name="keywords">
-
+    <meta name="keywords"
+        content="commercial construction services, design-build solutions, general contracting, project management, construction management" />
     <meta name="description"
-        content="Cresttel provides expert commercial construction in San Diego. From design to completion, trust us for reliable, high-quality solutions for your business.">
+        content="Discover top-tier commercial construction services with tailored design-build solutions, general contracting, and project management for your business needs.">
 
 
 
@@ -50,21 +51,21 @@
 </head>
 
 <body>
-<!-- Navbar Start -->
-@include('navbar')
-<!-- Navbar End -->
+    <!-- Navbar Start -->
+    @include('navbar')
+    <!-- Navbar End -->
 
     <!-- Spinner Start -->
     <div id="spinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-<div class="spinner-border text-primary custom-spinner" role="status"></div>
-            <span class="sr-only">Loading...</span>
-        </div>
+        <div class="spinner-border text-primary custom-spinner" role="status"></div>
+        <span class="sr-only">Loading...</span>
+    </div>
     </div>
     <!-- Spinner End -->
 
 
-    
+
     <div class="icon-container">
         <!-- Location Icon -->
         <div class="icon-wrapper">
@@ -108,48 +109,48 @@
     </div>
 
 
-<!-- Topbar End -->
+    <!-- Topbar End -->
 
 
 
 
 
-<!-- Page Header Start -->
-<div class="container-fluid page-header py-5">
-    <div class="container py-5">
-        <h1 class="display-3 text-white mb-3 animated slideInDown">Your trusted contractor for commercial construction
-            services delivered on time </h1>
-        <nav aria-label="breadcrumb animated slideInDown">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
-                <li class="breadcrumb-item"><a class="text-white" href="service.html">Service</a></li>
-                <li class="breadcrumb-item text-white active" aria-current="page">Commercial</li>
-            </ol>
-        </nav>
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header py-5">
+        <div class="container py-5">
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Your Trusted Contractor for Commercial
+                Construction Services </h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" href="service.html">Service</a></li>
+                    <li class="breadcrumb-item text-white active" aria-current="page">Commercial</li>
+                </ol>
+            </nav>
+        </div>
     </div>
-</div>
-<!-- Page Header End -->
+    <!-- Page Header End -->
 
 
 
 
-  
+
 
     <!-- Services Section -->
     <section id="services">
-    <h2 class="text-primary">Service</h2>
+        <h2 class="text-primary">Service</h2>
 
-    <p class="fs-1">
-        Cresttel offers exceptional <strong class="text-black">commercial construction services</strong>, meticulously 
-        crafted to meet your business requirements. Our seasoned professionals excel in delivering timely and efficient 
-        <strong class="text-black">construction</strong> of <strong class="text-black">commercial properties</strong>, 
-        adhering to the highest quality standards. From initial planning and conceptualization to final execution, we handle 
-        every aspect of commercial construction with unwavering precision. Rely on Cresttel for dependable, punctual completion 
-        of your commercial <strong class="text-black">construction projects</strong>, propelling your business towards greater 
-        success. Reach out to us today to explore our <strong class="text-black">comprehensive commercial construction solutions</strong> 
-        tailored to your needs.
-    </p>
-</section>
+        <p class="fs-1">
+            Looking for reliable commercial construction services tailored to your business needs? Our expert team
+            specializes in delivering top-tier commercial building construction services, ensuring your projects are
+            completed on time and with precision.
+            We handle everything from initial planning to final execution, providing seamless solutions for commercial
+            remodeling and renovations. Whether it’s a commercial kitchen remodel or comprehensive commercial building
+            renovation, our experienced commercial contractors near you guarantee exceptional results.
+            Contact us today to discuss your project and experience unparalleled commercial construction service. Let's
+            take your business to the a level your competitors can never reach.
+        </p>
+    </section>
 
     <div class="slider">
         <div class="list">
@@ -181,7 +182,7 @@
         </div>
         <div class="buttons">
             <button id="prev">
-                <</button>
+                << /button>
                     <button id="next">></button>
         </div>
         <ul class="dots">
@@ -192,7 +193,7 @@
             <li></li>
         </ul>
     </div>
-    
+
     <!-- Why Choose Us Section -->
     <section id="why-us">
         <h2>Why Choose Us</h2>
@@ -217,7 +218,7 @@
     </section>
 
     <!-- Testimonials Section -->
-<h2 class="text-center my-5 mt-5">Our Clients Say!</h2>
+    <h2 class="text-center my-5 mt-5">Our Clients Say!</h2>
     <div class="line"></div> <!-- Line under the header -->
     <div class="testimonials">
         <div class="testimonial-container">
@@ -274,7 +275,8 @@
 
                             <hr>
 
-                            <a href="{{ route('commercialblog1') }}" class="readmore stretched-link"><span></span></i></a>
+                            <a href="{{ route('commercialblog1') }}"
+                                class="readmore stretched-link"><span></span></i></a>
 
                         </div>
 
@@ -304,7 +306,8 @@
                                 Regular maintenance is necessary to keep commercial properties safe and lasting long.
                                 This article will discuss why maintenance is important for businesses.
                             </p>
-                            <a href="{{ route('commercialblog2') }}" class="readmore stretched-link"><span></span></i></a>
+                            <a href="{{ route('commercialblog2') }}"
+                                class="readmore stretched-link"><span></span></i></a>
                             <hr>
 
 
@@ -338,7 +341,8 @@
                                 your business and share with you the expertise and qualification of the team at
                                 Cresttel.
                             </p>
-                            <a href="{{ route('commercialblog3') }}" class="readmore stretched-link"><span></span></i></a>
+                            <a href="{{ route('commercialblog3') }}"
+                                class="readmore stretched-link"><span></span></i></a>
                             <hr>
                         </div>
 
@@ -352,7 +356,7 @@
 
 
 
-    
+
 
 
 
@@ -363,10 +367,10 @@
     <!-- Footer End -->
 
 
-     <!-- Copyright Start -->
+    <!-- Copyright Start -->
 
     @include('copyright')
-    
+
     <!-- Copyright End -->
 
 
@@ -375,7 +379,7 @@
     <div id="scrollToTop">
         <i class="fas fa-arrow-up"></i>
     </div>
-   
+
 
     <div id="expandable-bubble">
         <div class="primary-bubble" onclick="toggleSocialIcons()">
@@ -398,21 +402,21 @@
             </a>
         </div>
     </div>
-   
-   </body>
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="{{ asset('lib/wow/wow.min.js') }}"></script>
-    <script src="{{ asset('lib/easing/easing.min.js') }}"></script>
-    <script src="{{ asset('lib/waypoints/waypoints.min.js') }}"></script>
-    <script src="{{ asset('lib/counterup/counterup.min.js') }}"></script>
-    <script src="{{ asset('lib/owlcarousel/owl.carousel.min.js') }}"></script>
-    <script src="{{ asset('lib/isotope/isotope.pkgd.min.js') }}"></script>
-    <script src="{{ asset('lib/lightbox/js/lightbox.min.js') }}"></script>
-    <script src="{{ asset('js/main.js') }}"></script>
-    <script src="{{ asset('js/bublle.js') }}"></script>
-    <script src="{{ asset('js/oneService.js') }}"></script>
+
+</body>
+<!-- JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="{{ asset('lib/wow/wow.min.js') }}"></script>
+<script src="{{ asset('lib/easing/easing.min.js') }}"></script>
+<script src="{{ asset('lib/waypoints/waypoints.min.js') }}"></script>
+<script src="{{ asset('lib/counterup/counterup.min.js') }}"></script>
+<script src="{{ asset('lib/owlcarousel/owl.carousel.min.js') }}"></script>
+<script src="{{ asset('lib/isotope/isotope.pkgd.min.js') }}"></script>
+<script src="{{ asset('lib/lightbox/js/lightbox.min.js') }}"></script>
+<script src="{{ asset('js/main.js') }}"></script>
+<script src="{{ asset('js/bublle.js') }}"></script>
+<script src="{{ asset('js/oneService.js') }}"></script>
 
 
 

@@ -4,13 +4,15 @@
 <head>
     <link rel="canonical" href="https://cresttel.net/adu.blade.php">
     <meta charset="utf-8">
-    <title>Accessory Dwelling Units Service in San Diego | Cresttel</title>
+    <title> Expert ADU Construction services in San Diego | Cresttel </title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content=accessory dwelling unit"" name="keywords">
     <meta content="accessory dwelling unit for sale " name="keywords">
     <meta content="adu installation" name="keywords">
     <meta content="residential construction" name="keywords">
-    <meta content="Accessory Dwelling Units Service in San Diego | Cresttel" name="description">
+    <meta
+        content="Transform your property with expert ADU solutions. From custom designs to precision construction, we create accessory dwelling units tailored to your needs."
+        name="description">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -46,21 +48,21 @@
 </head>
 
 <body>
- <!-- Navbar Start -->
- @include('navbar')
+    <!-- Navbar Start -->
+    @include('navbar')
     <!-- Navbar End -->
 
     <!-- Spinner Start -->
     <div id="spinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-<div class="spinner-border text-primary custom-spinner" role="status"></div>
-            <span class="sr-only">Loading...</span>
-        </div>
+        <div class="spinner-border text-primary custom-spinner" role="status"></div>
+        <span class="sr-only">Loading...</span>
+    </div>
     </div>
     <!-- Spinner End -->
 
 
-   
+
     <div class="icon-container">
         <!-- Location Icon -->
         <div class="icon-wrapper">
@@ -106,14 +108,14 @@
     <!-- Topbar End -->
 
 
-   
+
 
 
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-5">
         <div class="container py-5">
-            <h1 class="display-3 text-white mb-3 animated slideInDown">San Diego ADU Accessory Dwelling Unit Experts |
-                Cresttel</h1>
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Accessory Dwelling Unit Construction & Design
+            </h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
@@ -124,329 +126,326 @@
         </div>
     </div>
     <!-- Page Header End -->
-    
 
 
 
-        <!-- Services Section -->
-        <section id="services">
-    <h2 class="text-primary">Service</h2>
 
-    <p class="fs-1">
-        Cresttel specializes in constructing customized <strong class="text-black">Accessory Dwelling Units (ADUs)</strong> 
-        to meet your unique requirements. Our skilled professionals meticulously oversee every stage of 
-        <strong class="text-black">residential construction</strong>, from conceptual design to final finishes, ensuring 
-        your expectations are exceeded. As seasoned <strong class="text-black">building contractors</strong>, we expertly 
-        handle all aspects of <strong class="text-black">home remodeling</strong>, <strong class="text-black">renovations</strong>, 
-        and <strong class="text-black">ADU installations</strong> with utmost precision and care. Rely on Cresttel for dependable 
-        <strong class="text-black">construction services</strong> that enhance your living space and increase your property's value. 
-        Get in touch with us now to explore our comprehensive <strong class="text-black">ADU</strong> solutions.
-    </p>
-</section>
+    <!-- Services Section -->
+    <section id="services">
+        <h2 class="text-primary">Service</h2>
 
-        <div class="slider">
-            <div class="list">
-                <div class="item">
-                    <img src="img/ADU_img/1-Bed ADU House Plan with Cathedral Ceilings - 593 Sq Ft.jpg" alt="">
-                </div>
-                <div class="item">
-                    <img src="img/ADU_img/1.Maydan-Architects_Palo-Alto-ADU_Photography-by-Dave-Edwards.jpg"
-                        alt="">
-                </div>
-                <div class="item">
-                    <img src="img/ADU_img/20200903_094940-1200x900.jpg" alt="">
-                </div>
-                <div class="item">
-                    <img src="img/ADU_img/4adcc7fd5377527c9901dbdba02bfa48.jpg" alt="">
-                </div>
-                <div class="item">
-                    <img src="img/ADU_img/750 sq_ ft.jpg" alt="">
-                </div>
-                <div class="item">
-                    <img src="img/ADU_img/Adu - Photos & Ideas (1)(1).jpg" alt="">
-                </div>
-                <div class="item">
-                    <img src="img/ADU_img/Adu - Photos & Ideas.jpg" alt="">
-                </div>
-                <div class="item">
-                    <img src="img/ADU_img/adu ar 2.jpg" alt="">
-                </div>
-                <div class="item">
-                    <img src="img/ADU_img/adu ar3.jpg" alt="">
-                </div>
-                <div class="item">
-                    <img src="img/ADU_img/blog-2.jpg" alt="">
-                </div>
-                <div class="item">
-                    <img src="img/ADU_img/Detached.jpg" alt="">
-                </div>
-                <div class="item">
-                    <img src="img/ADU_img/how-much-does-it-cost-to-build-an-adu.jpg" alt="">
-                </div>
-                <div class="item">
-                    <img src="img/ADU_img/Miller-renovation-remodel-example.jpg" alt="">
-                </div>
+        <p class="fs-1">
+            Cresttel brings your vision to life with expertly crafted Accessory Dwelling Units (ADUs) tailored to your
+            lifestyle. From innovative ADU home designs to seamless ADU construction, we ensure every detail is executed
+            with precision. Our experienced accessory dwelling unit contractors handle everything from planning to
+            completion, making the process stress-free and efficient. Whether you're in need of a modern prefab ADU or
+            custom accessory dwelling unit designs, Cresttel delivers exceptional results. Contact us today for
+            professional ADU construction near you and transform your space with unmatched quality.
+        </p>
+    </section>
+
+    <div class="slider">
+        <div class="list">
+            <div class="item">
+                <img src="img/ADU_img/1-Bed ADU House Plan with Cathedral Ceilings - 593 Sq Ft.jpg" alt="">
             </div>
-            <div class="buttons">
-                <button id="prev">
-                    <</button>
-                        <button id="next">></button>
+            <div class="item">
+                <img src="img/ADU_img/1.Maydan-Architects_Palo-Alto-ADU_Photography-by-Dave-Edwards.jpg" alt="">
             </div>
-            <ul class="dots">
-                <li class="active"></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </div>
-        
-
-        <!-- Why Choose Us Section -->
-        <section id="why-us">
-            <h2>Why Choose Us</h2>
-            <ul>
-                <li>
-                    <h4>Experienced Professionals</h4>
-                    <p>Our team consists of seasoned experts with years of experience in their respective fields.</p>
-                </li>
-                <li>
-                    <h4>Quality Services</h4>
-                    <p>We prioritize quality in every project, ensuring that our services exceed your expectations.</p>
-                </li>
-                <li>
-                    <h4>Affordable Prices</h4>
-                    <p>We offer competitive pricing without compromising on the quality of our services.</p>
-                </li>
-                <li>
-                    <h4>Customer Support</h4>
-                    <p>Our dedicated support team is always available to assist you with any inquiries or issues.</p>
-                </li>
-            </ul>
-        </section>
-
-        <!-- Testimonials Section -->
-        <h2 class="text-center my-5 mt-5">Our Clients Say!</h2>
-        <div class="line"></div> <!-- Line under the header -->
-        <div class="testimonials">
-            <div class="testimonial-container">
-                <div class="testimonial">
-                    <p class="quote">"This service has changed my life! 10/10 would recommend!"</p>
-                    <h5 class="author">Mark</h5>
-                </div>
-                <div class="testimonial">
-                    <p class="quote">"The team was professional and delivered the project ahead of time."</p>
-                    <h5 class="author">Mia</h5>
-                </div>
-                <div class="testimonial">
-                    <p class="quote">"Amazing experience! The quality exceeded my expectations."</p>
-                    <h5 class="author">Liam</h5>
-                </div>
+            <div class="item">
+                <img src="img/ADU_img/20200903_094940-1200x900.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="img/ADU_img/4adcc7fd5377527c9901dbdba02bfa48.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="img/ADU_img/750 sq_ ft.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="img/ADU_img/Adu - Photos & Ideas (1)(1).jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="img/ADU_img/Adu - Photos & Ideas.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="img/ADU_img/adu ar 2.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="img/ADU_img/adu ar3.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="img/ADU_img/blog-2.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="img/ADU_img/Detached.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="img/ADU_img/how-much-does-it-cost-to-build-an-adu.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="img/ADU_img/Miller-renovation-remodel-example.jpg" alt="">
             </div>
         </div>
+        <div class="buttons">
+            <button id="prev">
+                << /button>
+                    <button id="next">></button>
+        </div>
+        <ul class="dots">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
 
-        <!-- Get in Touch Section -->
-        <section id="contact">
-            <h2>Get in Touch</h2>
-            @include('contactform')
-        </section>
 
-        <!-- Blog Section -->
-        <section id="blog" class="blog">
-            <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <!-- Why Choose Us Section -->
+    <section id="why-us">
+        <h2>Why Choose Us</h2>
+        <ul>
+            <li>
+                <h4>Experienced Professionals</h4>
+                <p>Our team consists of seasoned experts with years of experience in their respective fields.</p>
+            </li>
+            <li>
+                <h4>Quality Services</h4>
+                <p>We prioritize quality in every project, ensuring that our services exceed your expectations.</p>
+            </li>
+            <li>
+                <h4>Affordable Prices</h4>
+                <p>We offer competitive pricing without compromising on the quality of our services.</p>
+            </li>
+            <li>
+                <h4>Customer Support</h4>
+                <p>Our dedicated support team is always available to assist you with any inquiries or issues.</p>
+            </li>
+        </ul>
+    </section>
 
-                <div class="row gy-4 posts-list">
-
-                    <div class="col-xl-4 col-md-6">
-                        <div class="post-item position-relative h-100">
-
-                            <div class="post-img position-relative overflow-hidden">
-                                <img src="img/ADU_img/Detached.jpg" class="img-fluid" alt="">
-
-                            </div>
-
-                            <div class="post-content d-flex flex-column">
-                                <h3 class="post-title">How an Accessory Dwelling Unit Can Add Value to Your Property
-                                </h3>
-
-                                <div class="meta d-flex align-items-center">
-                                    <div class="d-flex align-items-center">
-                                    </div>
-                                    <div class="d-flex align-items-center">
-                                        <i class="bi bi-folder2"></i> <span class="ps-2">ADU</span>
-                                    </div>
-                                </div>
-
-                                <p>
-                                    Building an accessory dwelling unit is a great strategy for both increasing the
-                                    value of your residential property and generating additional income. Here are the
-                                    ways an accessory dwelling unit can enrich your life. At Cresttel our team
-                                    specializes in accessory dwelling unit construction in In California and surrounding
-                                    areas .
-                                </p>
-
-                                <hr>
-
-                                <a href="{{ route('adublog1') }}" class="readmore stretched-link"><span></span></i></a>
-
-                            </div>
-
-                        </div>
-                    </div><!-- End post list item -->
-
-                    <div class="col-xl-4 col-md-6">
-                        <div class="post-item position-relative h-100">
-
-                            <div class="post-img position-relative overflow-hidden">
-                                <img src="img/ADU_img/Miller-renovation-remodel-example.jpg" class="img-fluid"
-                                    alt="">
-
-                            </div>
-
-                            <div class="post-content d-flex flex-column">
-
-                                <h3 class="post-title">Top 5 Benefits of Building an ADU on Your Property !</h3>
-
-                                <div class="meta d-flex align-items-center">
-                                    <div class="d-flex align-items-center">
-
-                                    </div>
-
-                                    <div class="d-flex align-items-center">
-                                        <i class="bi bi-folder2"></i> <span class="ps-2">ADU</span>
-                                    </div>
-                                </div>
-
-                                <p>
-                                    Accessory Dwelling Units (ADUs) are separate living quarters on the same property as
-                                    a main residence. Their popularity among homeowners continues to rise due to the
-                                    numerous advantages they offer. Here are the top five reasons to consider
-                                    constructing an ADU on your land.
-                                </p>
-
-                                <hr>
-
-                                <a href="{{ route('adublog2') }}" class="readmore stretched-link"></a>
-
-                            </div>
-
-                        </div>
-                    </div><!-- End post list item -->
-
-                    <div class="col-xl-4 col-md-6">
-                        <div class="post-item position-relative h-100">
-
-                            <div class="post-img position-relative overflow-hidden">
-                                <img src="img/ADU_img/4adcc7fd5377527c9901dbdba02bfa48.jpg" class="img-fluid"
-                                    alt="">
-
-                            </div>
-
-                            <div class="post-content d-flex flex-column">
-
-                                <h3 class="post-title">Best Accessory Dwelling Unit - ADU Features to Consider </h3>
-
-                                <div class="meta d-flex align-items-center">
-                                    <div class="d-flex align-items-center">
-
-                                    </div>
-
-                                    <div class="d-flex align-items-center">
-                                        <i class="bi bi-folder2"></i> <span class="ps-2">ADU</span>
-                                    </div>
-                                </div>
-
-                                <p>
-                                    If you’re thinking about constructing an accessory dwelling unit (ADU) for your
-                                    property There are several features worth integrating into the final structure. Here
-                                    are a few key elements to consider adding. The team at Cresttel provides resources,
-                                    expertise, and support to ensure you get the best ADU in California and its
-                                    counties. you can learn more about our services here.
-                                </p>
-
-                                <hr>
-
-                                <a href="{{ route('adublog3') }}" class="readmore stretched-link"></a>
-
-                            </div>
-
-                        </div>
-                    </div><!-- End post list item -->
-                </div>
-
+    <!-- Testimonials Section -->
+    <h2 class="text-center my-5 mt-5">Our Clients Say!</h2>
+    <div class="line"></div> <!-- Line under the header -->
+    <div class="testimonials">
+        <div class="testimonial-container">
+            <div class="testimonial">
+                <p class="quote">"This service has changed my life! 10/10 would recommend!"</p>
+                <h5 class="author">Mark</h5>
             </div>
-        </section>
+            <div class="testimonial">
+                <p class="quote">"The team was professional and delivered the project ahead of time."</p>
+                <h5 class="author">Mia</h5>
+            </div>
+            <div class="testimonial">
+                <p class="quote">"Amazing experience! The quality exceeded my expectations."</p>
+                <h5 class="author">Liam</h5>
+            </div>
+        </div>
+    </div>
+
+    <!-- Get in Touch Section -->
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        @include('contactform')
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="row gy-4 posts-list">
+
+                <div class="col-xl-4 col-md-6">
+                    <div class="post-item position-relative h-100">
+
+                        <div class="post-img position-relative overflow-hidden">
+                            <img src="img/ADU_img/Detached.jpg" class="img-fluid" alt="">
+
+                        </div>
+
+                        <div class="post-content d-flex flex-column">
+                            <h3 class="post-title">How an Accessory Dwelling Unit Can Add Value to Your Property
+                            </h3>
+
+                            <div class="meta d-flex align-items-center">
+                                <div class="d-flex align-items-center">
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-folder2"></i> <span class="ps-2">ADU</span>
+                                </div>
+                            </div>
+
+                            <p>
+                                Building an accessory dwelling unit is a great strategy for both increasing the
+                                value of your residential property and generating additional income. Here are the
+                                ways an accessory dwelling unit can enrich your life. At Cresttel our team
+                                specializes in accessory dwelling unit construction in In California and surrounding
+                                areas .
+                            </p>
+
+                            <hr>
+
+                            <a href="{{ route('adublog1') }}" class="readmore stretched-link"><span></span></i></a>
+
+                        </div>
+
+                    </div>
+                </div><!-- End post list item -->
+
+                <div class="col-xl-4 col-md-6">
+                    <div class="post-item position-relative h-100">
+
+                        <div class="post-img position-relative overflow-hidden">
+                            <img src="img/ADU_img/Miller-renovation-remodel-example.jpg" class="img-fluid"
+                                alt="">
+
+                        </div>
+
+                        <div class="post-content d-flex flex-column">
+
+                            <h3 class="post-title">Top 5 Benefits of Building an ADU on Your Property !</h3>
+
+                            <div class="meta d-flex align-items-center">
+                                <div class="d-flex align-items-center">
+
+                                </div>
+
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-folder2"></i> <span class="ps-2">ADU</span>
+                                </div>
+                            </div>
+
+                            <p>
+                                Accessory Dwelling Units (ADUs) are separate living quarters on the same property as
+                                a main residence. Their popularity among homeowners continues to rise due to the
+                                numerous advantages they offer. Here are the top five reasons to consider
+                                constructing an ADU on your land.
+                            </p>
+
+                            <hr>
+
+                            <a href="{{ route('adublog2') }}" class="readmore stretched-link"></a>
+
+                        </div>
+
+                    </div>
+                </div><!-- End post list item -->
+
+                <div class="col-xl-4 col-md-6">
+                    <div class="post-item position-relative h-100">
+
+                        <div class="post-img position-relative overflow-hidden">
+                            <img src="img/ADU_img/4adcc7fd5377527c9901dbdba02bfa48.jpg" class="img-fluid"
+                                alt="">
+
+                        </div>
+
+                        <div class="post-content d-flex flex-column">
+
+                            <h3 class="post-title">Best Accessory Dwelling Unit - ADU Features to Consider </h3>
+
+                            <div class="meta d-flex align-items-center">
+                                <div class="d-flex align-items-center">
+
+                                </div>
+
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-folder2"></i> <span class="ps-2">ADU</span>
+                                </div>
+                            </div>
+
+                            <p>
+                                If you’re thinking about constructing an accessory dwelling unit (ADU) for your
+                                property There are several features worth integrating into the final structure. Here
+                                are a few key elements to consider adding. The team at Cresttel provides resources,
+                                expertise, and support to ensure you get the best ADU in California and its
+                                counties. you can learn more about our services here.
+                            </p>
+
+                            <hr>
+
+                            <a href="{{ route('adublog3') }}" class="readmore stretched-link"></a>
+
+                        </div>
+
+                    </div>
+                </div><!-- End post list item -->
+            </div>
+
+        </div>
+    </section>
 
 
 
 
-       
-
-
-        <!-- Footer -->
-
-       
 
 
 
-        <!-- Footer Start -->
-        @include('footer')
-        <!-- Footer End -->
+    <!-- Footer -->
 
 
-        <!-- Copyright Start -->
+
+
+
+    <!-- Footer Start -->
+    @include('footer')
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
 
     @include('copyright')
-    
+
     <!-- Copyright End -->
 
 
-        <!-- Back to Top -->
-        <!-- Scroll to Top Button -->
-        <div id="scrollToTop">
-            <i class="fas fa-arrow-up"></i>
-        </div>
-        
-       
+    <!-- Back to Top -->
+    <!-- Scroll to Top Button -->
+    <div id="scrollToTop">
+        <i class="fas fa-arrow-up"></i>
+    </div>
 
-        <div id="expandable-bubble">
-            <div class="primary-bubble" onclick="toggleSocialIcons()">
-                <span class="flashing-text">Contact Us</span>
-            </div>
-            <div class="social-icons">
 
-                <a href="https://www.facebook.com/cresttelconstruction" target="_blank" class="icon facebook"
-                    title="Facebook">
-                    <img src="img/Home icons/3d-render-facebook-logo-icon-with-new-notification-isolated-on-transparent-background-free-png.png"
-                        alt="Facebook" />
-                </a>
-                <a href="https://www.instagram.com/cresttelconstruction/" target="_blank" class="icon instagram"
-                    title="Instagram">
-                    <img src="img/Home icons/instagram-logo-3d-illustration-free-png.png" alt="Instagram" />
-                </a>
-                <a href="https://www.linkedin.com/company/cresttelconstruction" target="_blank" class="icon linkedin"
-                    title="LinkedIn">
-                    <img src="img/Home icons/linkedin-3d-icon-free-png.png" alt="LinkedIn" />
-                </a>
-            </div>
+
+    <div id="expandable-bubble">
+        <div class="primary-bubble" onclick="toggleSocialIcons()">
+            <span class="flashing-text">Contact Us</span>
         </div>
- 
-      
+        <div class="social-icons">
+
+            <a href="https://www.facebook.com/cresttelconstruction" target="_blank" class="icon facebook"
+                title="Facebook">
+                <img src="img/Home icons/3d-render-facebook-logo-icon-with-new-notification-isolated-on-transparent-background-free-png.png"
+                    alt="Facebook" />
+            </a>
+            <a href="https://www.instagram.com/cresttelconstruction/" target="_blank" class="icon instagram"
+                title="Instagram">
+                <img src="img/Home icons/instagram-logo-3d-illustration-free-png.png" alt="Instagram" />
+            </a>
+            <a href="https://www.linkedin.com/company/cresttelconstruction" target="_blank" class="icon linkedin"
+                title="LinkedIn">
+                <img src="img/Home icons/linkedin-3d-icon-free-png.png" alt="LinkedIn" />
+            </a>
+        </div>
+    </div>
+
+
 </body>
-        <!-- JavaScript Libraries -->
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="{{ asset('lib/wow/wow.min.js') }}"></script>
-        <script src="{{ asset('lib/easing/easing.min.js') }}"></script>
-        <script src="{{ asset('lib/waypoints/waypoints.min.js') }}"></script>
-        <script src="{{ asset('lib/counterup/counterup.min.js') }}"></script>
-        <script src="{{ asset('lib/owlcarousel/owl.carousel.min.js') }}"></script>
-        <script src="{{ asset('lib/isotope/isotope.pkgd.min.js') }}"></script>
-        <script src="{{ asset('lib/lightbox/js/lightbox.min.js') }}"></script>
-        <script src="{{ asset('js/main.js') }}"></script>
-        <script src="{{ asset('js/bublle.js') }}"></script>
-        <script src="{{ asset('js/oneService.js') }}"></script>
+<!-- JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="{{ asset('lib/wow/wow.min.js') }}"></script>
+<script src="{{ asset('lib/easing/easing.min.js') }}"></script>
+<script src="{{ asset('lib/waypoints/waypoints.min.js') }}"></script>
+<script src="{{ asset('lib/counterup/counterup.min.js') }}"></script>
+<script src="{{ asset('lib/owlcarousel/owl.carousel.min.js') }}"></script>
+<script src="{{ asset('lib/isotope/isotope.pkgd.min.js') }}"></script>
+<script src="{{ asset('lib/lightbox/js/lightbox.min.js') }}"></script>
+<script src="{{ asset('js/main.js') }}"></script>
+<script src="{{ asset('js/bublle.js') }}"></script>
+<script src="{{ asset('js/oneService.js') }}"></script>
 
-    
+
 
 </html>
