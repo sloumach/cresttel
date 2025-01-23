@@ -131,18 +131,17 @@
     <section id="services">
         <h2 class="text-primary">Service</h2>
 
-        <p class="fs-1">
-            At Cresttel, we specialize in residential construction, turning your dream home into reality with precision
-            and care. Our services encompass everything from home remodeling to complete renovation services, ensuring
-            every project aligns with your vision and lifestyle.
-            Whether you're searching for residential construction or in need of Home renovation, our skilled team
-            delivers top-tier construction services tailored to your needs. From house construction to Kitchen
-            renovation or bath remodeling, we take pride in offering reliable, high-quality solutions that stand the
-            test of time.
-            With Cresttel, your journey toward a beautiful home is seamless. Start building your future with us
-            today—contact your trusted residential construction company to bring your vision to life!
-
-        </p>
+        <p class="fs-3">
+    At Cresttel, we specialize in residential construction, turning your dream home into reality with precision
+    and care. Our services encompass everything from home remodeling to complete renovation services, ensuring
+    every project aligns with your vision and lifestyle.
+    Whether you're searching for residential construction or in need of Home renovation, our skilled team
+    delivers top-tier construction services tailored to your needs. From house construction to Kitchen
+    renovation or bath remodeling, we take pride in offering reliable, high-quality solutions that stand the
+    test of time.
+    With Cresttel, your journey toward a beautiful home is seamless. Start building your future with us
+    today—contact your trusted residential construction company to bring your vision to life!
+</p>
     </section>
 
     <div class="slider">
@@ -175,7 +174,7 @@
         </div>
         <div class="buttons">
             <button id="prev">
-                << /button>
+                <</button>
                     <button id="next">></button>
         </div>
         <ul class="dots">
@@ -210,25 +209,7 @@
         </ul>
     </section>
 
-    <!-- Testimonials Section -->
-    <h2 class="text-center my-5 mt-5">Our Clients Say!</h2>
-    <div class="line"></div> <!-- Line under the header -->
-    <div class="testimonials">
-        <div class="testimonial-container">
-            <div class="testimonial">
-                <p class="quote">"This service has changed my life! 10/10 would recommend!"</p>
-                <h5 class="author">Mark</h5>
-            </div>
-            <div class="testimonial">
-                <p class="quote">"The team was professional and delivered the project ahead of time."</p>
-                <h5 class="author">Mia</h5>
-            </div>
-            <div class="testimonial">
-                <p class="quote">"Amazing experience! The quality exceeded my expectations."</p>
-                <h5 class="author">Liam</h5>
-            </div>
-        </div>
-    </div>
+    
 
     <!-- Contact Section -->
     <section id="contact">

@@ -134,7 +134,7 @@
     <section id="services">
         <h2 class="text-primary">Service</h2>
 
-        <p class="fs-1">
+        <p class="fs-3">
             At Cresttel, we specialize in constructing multi-dwelling units (MDUs), including apartments, condominiums,
             and townhouses. Our experienced team provides complete MDU construction services, managing every stage with
             precision—from detailed planning and innovative design to flawless execution and high-quality finishes.
@@ -210,25 +210,7 @@
         </ul>
     </section>
 
-    <!-- Testimonials Section -->
-    <h2 class="text-center my-5 mt-5">Our Clients Say!</h2>
-    <div class="line"></div> <!-- Line under the header -->
-    <div class="testimonials">
-        <div class="testimonial-container">
-            <div class="testimonial">
-                <p class="quote">"This service has changed my life! 10/10 would recommend!"</p>
-                <h5 class="author">Mark</h5>
-            </div>
-            <div class="testimonial">
-                <p class="quote">"The team was professional and delivered the project ahead of time."</p>
-                <h5 class="author">Mia</h5>
-            </div>
-            <div class="testimonial">
-                <p class="quote">"Amazing experience! The quality exceeded my expectations."</p>
-                <h5 class="author">Liam</h5>
-            </div>
-        </div>
-    </div>
+     
 
     <!-- Contact Section -->
     <section id="contact">

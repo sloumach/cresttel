@@ -1,3 +1,63 @@
+
+    .hero-section {
+        background: linear-gradient(rgba(22, 22, 22, .7), rgba(22, 22, 22, .7)), url(https://i.pinimg.com/originals/d0/59/9a/d0599ab57ea81b6bb6746ea1bd697233.jpg) center center no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-align: center;
+    }
+    
+    .hero-section p {
+        font-size: 1.5rem;
+        margin-top: 20px;
+    }
+    .cta-button {
+        margin-top: 30px;
+    }
+    .feature-cards {
+        padding: 80px 0;
+    }
+    .feature-card {
+        text-align: center;
+        padding: 20px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+    .feature-card:hover {
+        transform: translateY(-10px);
+    }
+    .feature-card img {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 20px;
+    }
+    .feature-card h3 {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .feature-card p {
+        font-size: 1rem;
+        color: #666;
+    }
+    /* Add this to your custom CSS */
+.carousel-item {
+transition: opacity 0.5s ease-in-out; /* Smooth fade effect */
+}
+.carousel-item.active {
+opacity: 1;
+}
+.carousel-item:not(.active) {
+opacity: 0;
+}
+
+
+
 /* About Section Styles */
 .about-image {
     min-height: 500px;

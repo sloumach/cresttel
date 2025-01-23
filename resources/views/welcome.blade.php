@@ -45,7 +45,7 @@
     <link rel="icon" href="img/icon/Cresttel-icon.png" type="image/x-icon">
     <!-- or for PNG files -->
     <link rel="icon" href="img/icon/Cresttel-icon.png" type="image/png">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
 
@@ -149,7 +149,7 @@
                                 <p class="fs-5 text-white mb-4 pb-2">Providing comprehensive commercial construction
                                     services with high quality craftsmanship tailored for your business success in San
                                     Diego.</p>
-                                <a href="project.blade.php"
+                                <a href="{{ route('project') }}"
                                     class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft"><span>View
                                         Projects</span></a>
 
@@ -167,7 +167,7 @@
                                 <h3 class="display-3 text-white animated slideInDown mb-4">Renovation & Remodling</h3>
                                 <p class="fs-5 fw-medium text-white mb-4 pb-2">Home renovation or remodeling services
                                     provided with expert results.</p>
-                                <a href="project.blade.php"
+                                <a href="{{ route('project') }}"
                                     class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft"><span>View
                                         Projects</span></a>
 
@@ -182,7 +182,96 @@
     @include('dynamictext')
 
 
+   
+   
+   
+   
 
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <h1>Welcome to Our Unique Company</h1>
+            <p>Discover the extraordinary and make your dreams come true with our innovative solutions.</p>
+            <a href="#features" class="btn btn-primary btn-lg cta-button">Explore More</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="feature-cards">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <img src="https://via.placeholder.com/80" alt="Feature 1">
+                        <h3>Innovative Solutions</h3>
+                        <p>We provide cutting-edge solutions tailored to your needs, ensuring success in every project.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <img src="https://via.placeholder.com/80" alt="Feature 2">
+                        <h3>Expert Team</h3>
+                        <p>Our team of experts is dedicated to delivering high-quality results with a personal touch.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <img src="https://via.placeholder.com/80" alt="Feature 3">
+                        <h3>Customer Satisfaction</h3>
+                        <p>We prioritize your satisfaction, ensuring a seamless experience from start to finish.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <section class="testimonials-section bg-light py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">What Our Clients Say</h2>
+        <!-- Carousel with faster transition -->
+        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-inner">
+                <!-- Testimonial 1 -->
+                <div class="carousel-item active">
+                    <div class="testimonial text-center">
+                        <p>"This company transformed our business! Their solutions are top-notch and their team is incredibly professional."</p>
+                        <h5>John Doe</h5>
+                        <p>CEO, Company XYZ</p>
+                    </div>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="carousel-item">
+                    <div class="testimonial text-center">
+                        <p>"I couldn't be happier with the results. They delivered beyond our expectations!"</p>
+                        <h5>Jane Smith</h5>
+                        <p>Founder, Startup ABC</p>
+                    </div>
+                </div>
+                <!-- Testimonial 3 -->
+                <div class="carousel-item">
+                    <div class="testimonial text-center">
+                        <p>"Their attention to detail and customer focus is unmatched. Highly recommended!"</p>
+                        <h5>Mike Johnson</h5>
+                        <p>Marketing Specialist</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Carousel Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</section>
+
+    
 
     <!-- Service Start -->
     <div class="container-xxl py-5">
@@ -417,6 +506,21 @@
     </div>
 
 
+    <section class="about-section py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Text Content on the Left -->
+            <div class="col-md-6 order-md-1">
+                <h2>TEXT</h2>
+                <p>TEXT</p>
+            </div>
+            <!-- Image on the Right -->
+            <div class="col-md-6 order-md-2">
+                <img src="https://hanthelconsulting.com/wp-content/uploads/2023/06/modern-construction.png" alt="About Us" class="img-fluid rounded">
+            </div>
+        </div>
+    </div>
+</section>
 
 
 
@@ -452,6 +556,7 @@
 
 </body>
 <!-- JavaScript Libraries -->
+ 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
 <script src="{{ asset('lib/wow/wow.min.js') }}"></script>
@@ -464,5 +569,8 @@
 <script src="{{ asset('js/main.js') }}"></script>
 <script src="{{ asset('js/bublle.js') }}"></script>
 <script src="{{ asset('js/home.js') }}"></script>
+<!-- Bootstrap JS and dependencies -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 
 </html>

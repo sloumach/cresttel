@@ -140,7 +140,7 @@
     <section id="services">
         <h2 class="text-primary">Service</h2>
 
-        <p class="fs-1">
+        <p class="fs-3">
             Looking for reliable commercial construction services tailored to your business needs? Our expert team
             specializes in delivering top-tier commercial building construction services, ensuring your projects are
             completed on time and with precision.
@@ -217,25 +217,7 @@
         </ul>
     </section>
 
-    <!-- Testimonials Section -->
-    <h2 class="text-center my-5 mt-5">Our Clients Say!</h2>
-    <div class="line"></div> <!-- Line under the header -->
-    <div class="testimonials">
-        <div class="testimonial-container">
-            <div class="testimonial">
-                <p class="quote">"This service has changed my life! 10/10 would recommend!"</p>
-                <h5 class="author">Mark</h5>
-            </div>
-            <div class="testimonial">
-                <p class="quote">"The team was professional and delivered the project ahead of time."</p>
-                <h5 class="author">Mia</h5>
-            </div>
-            <div class="testimonial">
-                <p class="quote">"Amazing experience! The quality exceeded my expectations."</p>
-                <h5 class="author">Liam</h5>
-            </div>
-        </div>
-    </div>
+     
 
     <!-- Contact Section -->
     <section id="contact">

@@ -124,7 +124,7 @@
                     alt="Wooden garden fence with vibrant flowers and lush green lawn under a clear blue sky - Cresttel Fencing Services">
                 <div class="content">
                     <p>Service</p>
-                    <h2>Fence</h2>
+                    <h3>Fence</h3>
                     <p>
                         Enhance your property's security and curb appeal with our fencing services. From fence
                         installation to fence repairs, our experienced team provides reliable solutions for both
@@ -138,7 +138,7 @@
                     alt="Modern backyard office with sleek exterior design, wooden accents, large windows, and landscaped garden - Cresttel construction and renovation services.">
                 <div class="content">
                     <p>Service</p>
-                    <h2>Accessory Dwelling Units (ADUs)</h2>
+                    <h3>Accessory Dwelling Units (ADUs)</h3>
                     <p>
                         Maximize your property's value with our ADU construction services. Perfect for homeowners
                         seeking additional living space or rental opportunities, we provide top-tier ADU construction
@@ -152,7 +152,7 @@
                     alt="Modern commercial building with American flag at sunset, featuring sleek design and parking accessibility - Cresttel Commercial Services">
                 <div class="content">
                     <p>Service</p>
-                    <h2>Commercial Construction Services</h2>
+                    <h3>Commercial Construction Services</h3>
                     <p>
                         Take your business to the next level with our commercial construction services. From office
                         buildings to retail spaces and industrial facilities, we deliver tailored solutions that blend
@@ -167,7 +167,7 @@
                     alt="Modern building exterior with sleek design, stone facade, and geometric architecture under clear blue sky - Cresttel Services">
                 <div class="content">
                     <p>Service</p>
-                    <h2>Multi-Dwelling Units (MDUs)</h2>
+                    <h3>Multi-Dwelling Units (MDUs)</h3>
                     <p>
                         Our MDU construction services are tailored for developers and investors, offering seamless
                         solutions for apartments, condos, and townhouses. With attention to detail, we ensure that every
@@ -182,7 +182,7 @@
                     alt="Elegant modern luxury home with lush landscaping, grand entrance, and beautiful exterior - Cresttel residential construction and renovation services.">
                 <div class="content">
                     <p>Service</p>
-                    <h2>Residential Construction Services</h2>
+                    <h3>Residential Construction Services</h3>
                     <p>
                         Bring your dream home into reality with our residential construction services. Whether it’s a
                         custom new build or a home renovation, we specialize in creating spaces that reflect your style
