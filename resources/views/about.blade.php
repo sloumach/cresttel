@@ -183,7 +183,7 @@
                     <div class="back photo-desc">
                         <h3></h3>
                         <p></p>
-                        <a href="{{ route('services') }}" class="button"><b><br><br><br> MORE</a></b>
+                        <a href="{{ route('service') }}" class="button"><b><br><br><br> MORE</a></b>
                     </div>
                     <img class="left" src="img/Cube.png" alt="">
                     <img class="right" src="img/Cube.png" alt="">
