@@ -152,42 +152,42 @@
     <div class="slider">
         <div class="list">
             <div class="item">
-                <img src="img/Fence/26.jpg" alt="">
+                <img src="img/Fence/26.webp" alt="">
             </div>
             <div class="item">
-                <img src="img/Fence/27.jpg" alt="">
+                <img src="img/Fence/27.webp" alt="">
             </div>
             <div class="item">
-                <img src="img/Fence/28.jpg" alt="">
+                <img src="img/Fence/28.webp" alt="">
             </div>
             <div class="item">
-                <img src="img/Fence/29.jpg" alt="">
+                <img src="img/Fence/29.webp" alt="">
             </div>
             <div class="item">
-                <img src="img/Fence/30 - Copie.jpg" alt="">
+                <img src="img/Fence/30 - Copie.webp" alt="">
             </div>
             <div class="item">
-                <img src="img/Fence/31.jpg" alt="">
+                <img src="img/Fence/31.webp" alt="">
             </div>
             <div class="item">
-                <img src="img/Fence/32.jpg" alt="">
+                <img src="img/Fence/32.webp" alt="">
             </div>
             <div class="item">
-                <img src="img/Fence/33.jpg" alt="">
+                <img src="img/Fence/33.webp" alt="">
             </div>
             <div class="item">
-                <img src="img/Fence/34.jpg" alt="">
+                <img src="img/Fence/34.webp" alt="">
             </div>
             <div class="item">
-                <img src="img/Fence/35.jpg" alt="">
+                <img src="img/Fence/35.webp" alt="">
             </div>
             <div class="item">
-                <img src="img/Fence/36.jpg" alt="">
+                <img src="img/Fence/36.webp" alt="">
             </div>
         </div>
         <div class="buttons">
             <button id="prev">
-                << /button>
+                <</button>
                     <button id="next">></button>
         </div>
         <ul class="dots">

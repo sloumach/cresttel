@@ -147,48 +147,48 @@
     <div class="slider">
         <div class="list">
             <div class="item">
-                <img src="img/ADU_img/1-Bed ADU House Plan with Cathedral Ceilings - 593 Sq Ft.jpg" alt="">
+                <img src="img/ADU_img/1-Bed ADU House Plan with Cathedral Ceilings - 593 Sq Ft.webp" alt="">
             </div>
             <div class="item">
-                <img src="img/ADU_img/1.Maydan-Architects_Palo-Alto-ADU_Photography-by-Dave-Edwards.jpg" alt="">
+                <img src="img/ADU_img/1.Maydan-Architects_Palo-Alto-ADU_Photography-by-Dave-Edwards.webp" alt="">
             </div>
             <div class="item">
-                <img src="img/ADU_img/20200903_094940-1200x900.jpg" alt="">
+                <img src="img/ADU_img/20200903_094940-1200x900.webp" alt="">
             </div>
             <div class="item">
-                <img src="img/ADU_img/4adcc7fd5377527c9901dbdba02bfa48.jpg" alt="">
+                <img src="img/ADU_img/4adcc7fd5377527c9901dbdba02bfa48.webp" alt="">
             </div>
             <div class="item">
-                <img src="img/ADU_img/750 sq_ ft.jpg" alt="">
+                <img src="img/ADU_img/750 sq_ ft.webp" alt="">
             </div>
             <div class="item">
-                <img src="img/ADU_img/Adu - Photos & Ideas (1)(1).jpg" alt="">
+                <img src="img/ADU_img/Adu - Photos & Ideas (1)(1).webp" alt="">
             </div>
             <div class="item">
-                <img src="img/ADU_img/Adu - Photos & Ideas.jpg" alt="">
+                <img src="img/ADU_img/Adu - Photos & Ideas.webp" alt="">
             </div>
             <div class="item">
-                <img src="img/ADU_img/adu ar 2.jpg" alt="">
+                <img src="img/ADU_img/adu ar 2.webp" alt="">
             </div>
             <div class="item">
-                <img src="img/ADU_img/adu ar3.jpg" alt="">
+                <img src="img/ADU_img/adu ar3.webp" alt="">
             </div>
             <div class="item">
-                <img src="img/ADU_img/blog-2.jpg" alt="">
+                <img src="img/ADU_img/blog-2.webp" alt="">
             </div>
             <div class="item">
-                <img src="img/ADU_img/Detached.jpg" alt="">
+                <img src="img/ADU_img/Detached.webp" alt="">
             </div>
             <div class="item">
-                <img src="img/ADU_img/how-much-does-it-cost-to-build-an-adu.jpg" alt="">
+                <img src="img/ADU_img/how-much-does-it-cost-to-build-an-adu.webp" alt="">
             </div>
             <div class="item">
-                <img src="img/ADU_img/Miller-renovation-remodel-example.jpg" alt="">
+                <img src="img/ADU_img/Miller-renovation-remodel-example.webp" alt="">
             </div>
         </div>
         <div class="buttons">
             <button id="prev">
-                << /button>
+                <</button>
                     <button id="next">></button>
         </div>
         <ul class="dots">

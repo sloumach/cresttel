@@ -147,28 +147,28 @@
     <div class="slider">
         <div class="list">
             <div class="item">
-                <img src="img/Residential_img/flooring 13.jpg" alt="">
+                <img src="img/Residential_img/flooring 13.webp" alt="">
             </div>
             <div class="item">
-                <img src="img/Residential_img/flooring 15.jpg" alt="">
+                <img src="img/Residential_img/flooring 15.webp" alt="">
             </div>
             <div class="item">
-                <img src="img/Residential_img/flooring 20.jpg" alt="">
+                <img src="img/Residential_img/flooring 20.webp" alt="">
             </div>
             <div class="item">
-                <img src="img/Residential_img/flooring 332.jpg" alt="">
+                <img src="img/Residential_img/flooring 332.webp" alt="">
             </div>
             <div class="item">
-                <img src="img/Residential_img/flooring 4343.jpg" alt="">
+                <img src="img/Residential_img/flooring 4343.webp" alt="">
             </div>
             <div class="item">
-                <img src="img/Residential_img/flooring 4f43.jpg" alt="">
+                <img src="img/Residential_img/flooring 4f43.webp" alt="">
             </div>
             <div class="item">
-                <img src="img/Residential_img/flooring10.jpg" alt="">
+                <img src="img/Residential_img/flooring10.webp" alt="">
             </div>
             <div class="item">
-                <img src="img/Residential_img/flooring212.jpg" alt="">
+                <img src="img/Residential_img/flooring212.webp" alt="">
             </div>
 
         </div>

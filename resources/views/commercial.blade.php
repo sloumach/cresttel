@@ -155,34 +155,34 @@
     <div class="slider">
         <div class="list">
             <div class="item">
-                <img src="img/COmer/12vgc.jpg" alt="">
+                <img src="img/COmer/12vgc.webp" alt="">
             </div>
             <div class="item">
-                <img src="img/COmer/att store.jpg" alt="">
+                <img src="img/COmer/att store.webp" alt="">
             </div>
             <div class="item">
-                <img src="img/COmer/construction_electrical.jpg" alt="">
+                <img src="img/COmer/construction_electrical.webp" alt="">
             </div>
             <div class="item">
-                <img src="img/COmer/ed3.jpg" alt="">
+                <img src="img/COmer/ed3.webp" alt="">
             </div>
             <div class="item">
-                <img src="img/COmer/fadfe.jpg" alt="">
+                <img src="img/COmer/fadfe.webp" alt="">
             </div>
             <div class="item">
-                <img src="img/COmer/IMG_0702.jpg" alt="">
+                <img src="img/COmer/IMG_0702.webp" alt="">
             </div>
             <div class="item">
-                <img src="img/COmer/IMG_0818.jpg" alt="">
+                <img src="img/COmer/IMG_0818.webp" alt="">
             </div>
             <div class="item">
-                <img src="img/COmer/inside store.jpg" alt="">
+                <img src="img/COmer/inside store.webp" alt="">
             </div>
 
         </div>
         <div class="buttons">
             <button id="prev">
-                << /button>
+                <</button>
                     <button id="next">></button>
         </div>
         <ul class="dots">

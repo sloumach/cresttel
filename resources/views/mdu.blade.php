@@ -147,35 +147,35 @@
     <div class="slider">
         <div class="list">
             <div class="item">
-                <img src="img/MDU_img/1a26323a27dce08a4b6eb284309f43dd.jpg" alt="">
+                <img src="img/MDU_img/1a26323a27dce08a4b6eb284309f43dd.webp" alt="">
             </div>
             <div class="item">
-                <img src="img/MDU_img/7e08c1c418c0dd4fec6c0de211313fd8.jpg" alt="">
+                <img src="img/MDU_img/7e08c1c418c0dd4fec6c0de211313fd8.webp" alt="">
             </div>
             <div class="item">
-                <img src="img/MDU_img/9_GreveLibrary_PhotoPietroSavorelli3.jpg" alt="">
+                <img src="img/MDU_img/9_GreveLibrary_PhotoPietroSavorelli3.webp" alt="">
             </div>
             <div class="item">
-                <img src="img/MDU_img/GreveLibrary_PhotoPietroSavorelli.jpg" alt="">
+                <img src="img/MDU_img/GreveLibrary_PhotoPietroSavorelli.webp" alt="">
             </div>
             <div class="item">
-                <img src="img/MDU_img/Library4_PhotoPietroSavorelli.jpg" alt="">
+                <img src="img/MDU_img/Library4_PhotoPietroSavorelli.webp" alt="">
             </div>
 
             <div class="item">
-                <img src="img/MDU_img/Library_PhotoPietroSavorelli1.jpg" alt="">
+                <img src="img/MDU_img/Library_PhotoPietroSavorelli1.webp" alt="">
             </div>
             <div class="item">
-                <img src="img/MDU_img/Library_PhotoPietroSavorelli2.jpg" alt="">
+                <img src="img/MDU_img/Library_PhotoPietroSavorelli2.webp" alt="">
             </div>
             <div class="item">
-                <img src="img/MDU_img/R.jpg" alt="">
+                <img src="img/MDU_img/R.webp" alt="">
             </div>
 
         </div>
         <div class="buttons">
             <button id="prev">
-                << /button>
+                <</button>
                     <button id="next">></button>
         </div>
         <ul class="dots">
