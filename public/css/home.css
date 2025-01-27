@@ -1,26 +1,136 @@
+   /* Glass Morphism Effect */
+   .glass-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+.glass-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Icon Box Styling */
+.icon-box {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+.icon-box:hover {
+    background: rgba(255, 255, 255, 0.4);
+    transform: scale(1.1);
+}
+
+/* Gradient Button */
+.btn-gradient {
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    text-align: center;
+    display: inline-block;
+}
+
+
+/* Section Title */
+.section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    background: linear-gradient(45deg,rgb(18, 87, 214), #2575fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.wow.fadeInUp {
+    animation: fadeInUp 0.6s ease-out;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .glass-card {
+        margin-bottom: 20px;
+    }
+}
+
+.hero-section {
+    background: linear-gradient(rgba(22, 22, 22, .7), rgba(22, 22, 22, .7)), url(https://i.pinimg.com/originals/d0/59/9a/d0599ab57ea81b6bb6746ea1bd697233.jpg) center center no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 20px; /* Add padding to ensure content doesn't touch the edges */
+}
+
+.hero-section h1 {
+    font-size: 2.5rem; /* Default font size for larger screens */
+}
+
+.hero-section p {
+    font-size: 1.2rem; /* Default font size for larger screens */
+    margin-top: 20px;
+    max-width: 800px; /* Limit the width of the paragraph for better readability */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2rem; /* Smaller font size for medium screens */
+    }
+
+    .hero-section p {
+        font-size: 1rem; /* Smaller font size for medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-section h1 {
+        font-size: 1.5rem; /* Even smaller font size for small screens */
+    }
+
+    .hero-section p {
+        font-size: 0.9rem; /* Even smaller font size for small screens */
+    }
 
     .hero-section {
-        background: linear-gradient(rgba(22, 22, 22, .7), rgba(22, 22, 22, .7)), url(https://i.pinimg.com/originals/d0/59/9a/d0599ab57ea81b6bb6746ea1bd697233.jpg) center center no-repeat;
-        background-size: cover;
-        background-position: center;
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: white;
-        text-align: center;
+        height: auto; /* Adjust height to fit content on small screens */
+        padding: 50px 20px; /* Add more padding to ensure content is not too close to the edges */
     }
-    
-    .hero-section p {
-        font-size: 1.5rem;
-        margin-top: 20px;
-    }
+}
     .cta-button {
         margin-top: 30px;
     }
     .feature-cards {
-        padding: 80px 0;
+        padding: 40px 0; /* Reduced padding */
+        background-color: #f8f9fa; /* Optional: Add a light background for better visibility */
     }
+    
     .feature-card {
         text-align: center;
         padding: 20px;
@@ -28,22 +138,29 @@
         border-radius: 10px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         transition: transform 0.3s ease;
+        background: white; /* Ensure the card has a white background */
     }
+    
     .feature-card:hover {
-        transform: translateY(-10px);
+        transform: translateY(-10px); /* Your hover effect */
     }
-    .feature-card img {
-        width: 80px;
-        height: 80px;
-        margin-bottom: 20px;
-    }
-    .feature-card h3 {
-        font-size: 1.5rem;
+    
+    .feature-card h2 {
+        font-size: 2rem;
         font-weight: bold;
+        margin-bottom: 15px; /* Reduced margin-bottom */
     }
+    
+    .feature-card h3.display-4 {
+        font-size: 3.5rem; /* Large font size for numbers */
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    
     .feature-card p {
         font-size: 1rem;
         color: #666;
+        margin-bottom: 0;
     }
     /* Add this to your custom CSS */
 .carousel-item {

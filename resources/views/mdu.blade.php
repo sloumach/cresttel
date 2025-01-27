@@ -118,13 +118,7 @@
         <div class="container py-5">
             <h1 class="display-3 text-white mb-3 animated slideInDown">Expert Multi-Dwelling Unit (MDU) Construction
                 services </h1>
-            <nav aria-label="breadcrumb animated slideInDown">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a class="text-white" href="{{ route('welcome') }}">Home</a></li>
-                    <li class="breadcrumb-item"><a class="text-white" href="{{ route('service') }}">Service</a></li>
-                    <li class="breadcrumb-item text-white active" aria-current="page">MDU</li>
-                </ol>
-            </nav>
+           
         </div>
     </div>
 
@@ -134,7 +128,7 @@
     <section id="services">
         <h2 class="text-primary">Service</h2>
 
-        <p class="fs-3">
+        <p class="fs-5">
             At Cresttel, we specialize in constructing multi-dwelling units (MDUs), including apartments, condominiums,
             and townhouses. Our experienced team provides complete MDU construction services, managing every stage with
             precision—from detailed planning and innovative design to flawless execution and high-quality finishes.
@@ -144,48 +138,105 @@
         </p>
     </section>
 
-    <div class="slider">
-        <div class="list">
-            <div class="item">
-                <img src="img/MDU_img/1a26323a27dce08a4b6eb284309f43dd.webp" alt="">
-            </div>
-            <div class="item">
-                <img src="img/MDU_img/7e08c1c418c0dd4fec6c0de211313fd8.webp" alt="">
-            </div>
-            <div class="item">
-                <img src="img/MDU_img/9_GreveLibrary_PhotoPietroSavorelli3.webp" alt="">
-            </div>
-            <div class="item">
-                <img src="img/MDU_img/GreveLibrary_PhotoPietroSavorelli.webp" alt="">
-            </div>
-            <div class="item">
-                <img src="img/MDU_img/Library4_PhotoPietroSavorelli.webp" alt="">
-            </div>
 
-            <div class="item">
-                <img src="img/MDU_img/Library_PhotoPietroSavorelli1.webp" alt="">
-            </div>
-            <div class="item">
-                <img src="img/MDU_img/Library_PhotoPietroSavorelli2.webp" alt="">
-            </div>
-            <div class="item">
-                <img src="img/MDU_img/R.webp" alt="">
-            </div>
 
+
+
+
+    <!-- Slider Container -->
+    <div class="slider-container" id="slider-container-1">
+        <!-- Slider -->
+        <div class="slider" id="slider-1">
+            <!-- Slide 1 -->
+            <div class="slide active">
+                <div class="image-container">
+                    <img src="img/MDU_img/1a26323a27dce08a4b6eb284309f43dd.webp" alt="Image 1">
+                </div>
+                <div class="text-content">
+                    <h2>Title 1</h2>
+                    <p>text</p>
+                </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="slide">
+                <div class="image-container">
+                    <img src="img/MDU_img/7e08c1c418c0dd4fec6c0de211313fd8.webp" alt="Image 2">
+                </div>
+                <div class="text-content">
+                    <h2>Title 2</h2>
+                    <p>text</p>
+                </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="slide">
+                <div class="image-container">
+                    <img src="img/MDU_img/9_GreveLibrary_PhotoPietroSavorelli3.webp" alt="Image 3">
+                </div>
+                <div class="text-content">
+                    <h2>Title 3</h2>
+                    <p>text</p>
+                </div>
+            </div>
+            <!-- Slide 4 -->
+            <div class="slide">
+                <div class="image-container">
+                    <img src="img/MDU_img/GreveLibrary_PhotoPietroSavorelli.webp" alt="Image 4">
+                </div>
+                <div class="text-content">
+                    <h2>Title 4</h2>
+                    <p>text</p>
+                </div>
+            </div>
+            <!-- Slide 5 -->
+            <div class="slide">
+                <div class="image-container">
+                    <img src="img/MDU_img/Library4_PhotoPietroSavorelli.webp" alt="Image 5">
+                </div>
+                <div class="text-content">
+                    <h2>Title 5</h2>
+                    <p>text</p>
+                </div>
+            </div>
+            <!-- Slide 6 -->
+            <div class="slide">
+                <div class="image-container">
+                    <img src="img/MDU_img/Library_PhotoPietroSavorelli1.webp" alt="Image 6">
+                </div>
+                <div class="text-content">
+                    <h2>Title 6</h2>
+                    <p>text</p>
+                </div>
+            </div>
+            <!-- Slide 7 -->
+            <div class="slide">
+                <div class="image-container">
+                    <img src="img/MDU_img/Library_PhotoPietroSavorelli2.webp" alt="Image 7">
+                </div>
+                <div class="text-content">
+                    <h2>Title 7</h2>
+                    <p>text</p>
+                </div>
+            </div>
+            <!-- Slide 8 -->
+            <div class="slide">
+                <div class="image-container">
+                    <img src="img/MDU_img/R.webp" alt="Image 8">
+                </div>
+                <div class="text-content">
+                    <h2>Title 8</h2>
+                    <p>text</p>
+                </div>
+            </div>
         </div>
-        <div class="buttons">
-            <button id="prev">
-                <</button>
-                    <button id="next">></button>
+        <!-- Navigation Buttons -->
+        <div class="navigation">
+            <button class="prev" data-slider="slider-container-1">&#10094;</button>
+            <button class="next" data-slider="slider-container-1">&#10095;</button>
         </div>
-        <ul class="dots">
-            <li class="active"></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
     </div>
+
+  
+   
 
     <!-- Why Choose Us Section -->
     <section id="why-us">
@@ -212,11 +263,7 @@
 
      
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Get in Touch</h2>
-        @include('contactform')
-    </section>
+    
     <!-- Blog Section -->
     <section id="blog" class="blog">
         <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -227,7 +274,7 @@
                     <div class="post-item position-relative h-100">
 
                         <div class="post-img position-relative overflow-hidden">
-                            <img src="img/MDU_img/Library_PhotoPietroSavorelli2.jpg" class="img-fluid"
+                            <img src="img/MDU_img/Library_PhotoPietroSavorelli2.webp" class="img-fluid"
                                 alt="">
 
                         </div>
@@ -264,7 +311,7 @@
                     <div class="post-item position-relative h-100">
 
                         <div class="post-img position-relative overflow-hidden">
-                            <img src="img/MDU_img/Library_PhotoPietroSavorelli.jpg" class="img-fluid" alt="">
+                            <img src="img/MDU_img/Library_PhotoPietroSavorelli.webp" class="img-fluid" alt="">
                         </div>
 
                         <div class="post-content d-flex flex-column">
@@ -300,7 +347,7 @@
                     <div class="post-item position-relative h-100">
 
                         <div class="post-img position-relative overflow-hidden">
-                            <img src="img/MDU_img/R.jpg" class="img-fluid" alt="">
+                            <img src="img/MDU_img/R.webp" class="img-fluid" alt="">
                         </div>
 
                         <div class="post-content d-flex flex-column">

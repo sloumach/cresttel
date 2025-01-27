@@ -166,12 +166,12 @@
     </div>
     </div>
     <!-- Quote End -->
-   <!-- Map Start -->
+  <!-- Map Start -->
 <div class="container-fluid px-0">
-    <div class="map-container" style="position: relative; overflow: hidden; padding-top: 30%;"> <!-- Adjust padding-top for aspect ratio -->
+    <div class="map-container" style="position: relative; overflow: hidden; padding-top: 20%; width: 95%;"> <!-- Adjust padding-top to reduce height -->
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3174.6043386906284!2d-116.95677548469295!3d32.8057198809606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9533e7ddf22cf%3A0x45967470da9a6de4!2s1662%20N%20Magnolia%20Ave%2C%20El%20Cajon%2C%20CA%2092020%2C%20USA!5e0!3m2!1sen!2sus!4v1697567425423!5m2!1sen!2sus"
-            style="position: absolute; top: 50%; left: 50%; width: 50%; height: 50%; transform: translate(-50%, -50%); border: 0;"
+            style="position: absolute; top: 0; left: 5%; width: 100%; height: 100%; border: 0;"
             allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
         </iframe>
     </div>

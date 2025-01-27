@@ -120,13 +120,7 @@
         <div class="container py-5">
             <h1 class="display-3 text-white mb-3 animated slideInDown">Your Trusted Contractor for Commercial
                 Construction Services </h1>
-            <nav aria-label="breadcrumb animated slideInDown">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a class="text-white" href="{{ route('welcome') }}">Home</a></li>
-                    <li class="breadcrumb-item"><a class="text-white" href="{{ route('service') }}">Service</a></li>
-                    <li class="breadcrumb-item text-white active" aria-current="page">Commercial</li>
-                </ol>
-            </nav>
+            
         </div>
     </div>
     <!-- Page Header End -->
@@ -140,7 +134,7 @@
     <section id="services">
         <h2 class="text-primary">Service</h2>
 
-        <p class="fs-3">
+        <p class="fs-5">
             Looking for reliable commercial construction services tailored to your business needs? Our expert team
             specializes in delivering top-tier commercial building construction services, ensuring your projects are
             completed on time and with precision.
@@ -152,47 +146,104 @@
         </p>
     </section>
 
-    <div class="slider">
-        <div class="list">
-            <div class="item">
-                <img src="img/COmer/12vgc.webp" alt="">
-            </div>
-            <div class="item">
-                <img src="img/COmer/att store.webp" alt="">
-            </div>
-            <div class="item">
-                <img src="img/COmer/construction_electrical.webp" alt="">
-            </div>
-            <div class="item">
-                <img src="img/COmer/ed3.webp" alt="">
-            </div>
-            <div class="item">
-                <img src="img/COmer/fadfe.webp" alt="">
-            </div>
-            <div class="item">
-                <img src="img/COmer/IMG_0702.webp" alt="">
-            </div>
-            <div class="item">
-                <img src="img/COmer/IMG_0818.webp" alt="">
-            </div>
-            <div class="item">
-                <img src="img/COmer/inside store.webp" alt="">
-            </div>
+    
 
+
+    <!-- Slider Container -->
+    <div class="slider-container" id="slider-container-1">
+        <!-- Slider -->
+        <div class="slider" id="slider-1">
+            <!-- Slide 1 -->
+            <div class="slide active">
+                <div class="image-container">
+                    <img src="img/newphotos/commercial/Chick-f-la-Food-Court-1.jpg" alt="12vgc">
+                </div>
+                <div class="text-content">
+                    <h2>Title 1</h2>
+                    <p>text</p>
+                </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="slide">
+                <div class="image-container">
+                    <img src="img/newphotos/commercial/Chick-f-la-Food-Court-4.jpg" alt="ATT Store">
+                </div>
+                <div class="text-content">
+                    <h2>Title 2</h2>
+                    <p>text</p>
+                </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="slide">
+                <div class="image-container">
+                    <img src="img/newphotos/commercial/Panda_Jacksonville_001 (1).jpg" alt="Construction Electrical">
+                </div>
+                <div class="text-content">
+                    <h2>Title 3</h2>
+                    <p>text</p>
+                </div>
+            </div>
+            <!-- Slide 4 -->
+            <div class="slide">
+                <div class="image-container">
+                    <img src="img/newphotos/commercial/Panera_Lewisville002 (2).jpg" alt="ED3">
+                </div>
+                <div class="text-content">
+                    <h2>Title 4</h2>
+                    <p>text</p>
+                </div>
+            </div>
+            <!-- Slide 5 -->
+            <div class="slide">
+                <div class="image-container">
+                    <img src="img/newphotos/commercial/received_1146069000561897.jpeg" alt="Fadfe">
+                </div>
+                <div class="text-content">
+                    <h2>Title 5</h2>
+                    <p>text</p>
+                </div>
+            </div>
+            <!-- Slide 6 -->
+            <div class="slide">
+                <div class="image-container">
+                    <img src="img/newphotos/commercial/received_1780802519346379.jpeg" alt="IMG 0702">
+                </div>
+                <div class="text-content">
+                    <h2>Title 6</h2>
+                    <p>text</p>
+                </div>
+            </div>
+            <!-- Slide 7 -->
+            <div class="slide">
+                <div class="image-container">
+                    <img src="img/newphotos/commercial/received_598618929786591.jpeg" alt="IMG 0818">
+                </div>
+                <div class="text-content">
+                    <h2>Title 7</h2>
+                    <p>text</p>
+                </div>
+            </div>
+            <!-- Slide 8 -->
+            <div class="slide">
+                <div class="image-container">
+                    <img src="img/COmer/inside-store.webp" alt="Inside Store">
+                </div>
+                <div class="text-content">
+                    <h2>Title 8</h2>
+                    <p>text</p>
+                </div>
+            </div>
         </div>
-        <div class="buttons">
-            <button id="prev">
-                <</button>
-                    <button id="next">></button>
+        <!-- Navigation Buttons -->
+        <div class="navigation">
+            <button class="prev" data-slider="slider-container-1">&#10094;</button>
+            <button class="next" data-slider="slider-container-1">&#10095;</button>
         </div>
-        <ul class="dots">
-            <li class="active"></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
     </div>
+
+
+
+
 
     <!-- Why Choose Us Section -->
     <section id="why-us">
@@ -219,11 +270,7 @@
 
      
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Get in Touch</h2>
-        @include('contactform')
-    </section>
+   
     <!-- Blog Section -->
     <section id="blog" class="blog">
         <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -234,7 +281,7 @@
                     <div class="post-item position-relative h-100">
 
                         <div class="post-img position-relative overflow-hidden">
-                            <img src="img/COmer///att store.jpg" class="img-fluid" alt="">
+                            <img src="img/COmer/att-store.webp" class="img-fluid" alt="">
 
                         </div>
 
@@ -269,7 +316,7 @@
                     <div class="post-item position-relative h-100">
 
                         <div class="post-img position-relative overflow-hidden">
-                            <img src="img/COmer/12vgc.jpg" class="img-fluid" alt="">
+                            <img src="img/COmer/12vgc.webp" class="img-fluid" alt="">
                         </div>
 
                         <div class="post-content d-flex flex-column">
@@ -302,7 +349,7 @@
                     <div class="post-item position-relative h-100">
 
                         <div class="post-img position-relative overflow-hidden">
-                            <img src="img/COmer/fadfe.jpg" class="img-fluid" alt="">
+                            <img src="img/COmer/fadfe.webp" class="img-fluid" alt="">
                         </div>
 
                         <div class="post-content d-flex flex-column">

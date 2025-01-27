@@ -117,13 +117,7 @@
     <div class="container py-5">
         <h1 class="display-3 text-white mb-3 animated slideInDown">Top 5 Benefits of Building an ADU on Your Property
         </h1>
-        <nav aria-label="breadcrumb animated slideInDown">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a class="text-white" href="{{ route('welcome') }}">Home</a></li>
-                <li class="breadcrumb-item"><a class="text-white" href="{{ route('blogs') }}">Blogs</a></li>
-                <li class="breadcrumb-item text-white active" aria-current="page">ADU_article_2</li>
-            </ol>
-        </nav>
+        
     </div>
 </div>
 <!-- Page Header End -->
@@ -143,7 +137,7 @@
                     <article class="blog-post">
                         <!-- Blog Image -->
                         <div class="post-img">
-                            <img src="img/ADU_img/adu ar 2.jpg" alt="Blog Image" class="img-fluid">
+                            <img src="img/ADU_img/adu ar 2.webp" alt="Blog Image" class="img-fluid">
                         </div>
 
                         <!-- Blog Content -->
@@ -189,10 +183,11 @@
 
 
                             <img src="img/ADU_img/adu ar3.jpg" class="img-fluid" alt="">
+                          
                             <a href="{{ route('adu') }}"
-   class="btn btn-primary rounded-pill py-2 px-4 me-3 animated slideInLeft mt-5 ms-3">
+   class="btn btn-primary btn-sm rounded-pill py-2 px-4 me-3 animated slideInLeft mt-5 ms-3">
     <span>Visit Our Service ADU Page</span>
-                            </a>
+</a>
 
                         </div><!-- End post content -->
 

@@ -120,13 +120,7 @@
         <div class="container py-5">
             <h1 class="display-3 text-white mb-3 animated slideInDown">Reliable Fence Installations & Repairs by Expert
             </h1>
-            <nav aria-label="breadcrumb animated slideInDown">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a class="text-white" href="{{ route('welcome') }}">Home</a></li>
-                    <li class="breadcrumb-item"><a class="text-white" href="{{ route('service') }}">Service</a></li>
-                    <li class="breadcrumb-item text-white active" aria-current="page">Fence</li>
-                </ol>
-            </nav>
+           
         </div>
     </div>
 
@@ -135,7 +129,7 @@
     <section id="services">
         <h2 class="text-primary">Service</h2>
 
-        <p class="fs-3">
+        <p class="fs-5">
             At Cresttel, we specialize in delivering top-notch fence installation services and fence repair services
             tailored to your needs. Whether you're looking for a new fence to boost security and curb appeal or need
             reliable repairs to restore your existing structure, our skilled fence contractors near you are here to
@@ -149,55 +143,130 @@
         </p>
     </section>
 
-    <div class="slider">
-        <div class="list">
-            <div class="item">
-                <img src="img/Fence/26.webp" alt="">
+   
+
+<!-- Slider Container -->
+<div class="slider-container" id="slider-container-1">
+    <!-- Slider -->
+    <div class="slider" id="slider-1">
+        <!-- Slide 1 -->
+        <div class="slide active">
+            <div class="image-container">
+                <img src="img/Fence/26.webp" alt="Fence 26">
             </div>
-            <div class="item">
-                <img src="img/Fence/27.webp" alt="">
-            </div>
-            <div class="item">
-                <img src="img/Fence/28.webp" alt="">
-            </div>
-            <div class="item">
-                <img src="img/Fence/29.webp" alt="">
-            </div>
-            <div class="item">
-                <img src="img/Fence/30 - Copie.webp" alt="">
-            </div>
-            <div class="item">
-                <img src="img/Fence/31.webp" alt="">
-            </div>
-            <div class="item">
-                <img src="img/Fence/32.webp" alt="">
-            </div>
-            <div class="item">
-                <img src="img/Fence/33.webp" alt="">
-            </div>
-            <div class="item">
-                <img src="img/Fence/34.webp" alt="">
-            </div>
-            <div class="item">
-                <img src="img/Fence/35.webp" alt="">
-            </div>
-            <div class="item">
-                <img src="img/Fence/36.webp" alt="">
+            <div class="text-content">
+                <h2>Title 1</h2>
+                <p>text</p>
             </div>
         </div>
-        <div class="buttons">
-            <button id="prev">
-                <</button>
-                    <button id="next">></button>
+        <!-- Slide 2 -->
+        <div class="slide">
+            <div class="image-container">
+                <img src="img/Fence/27.webp" alt="Fence 27">
+            </div>
+            <div class="text-content">
+                <h2>Title 2</h2>
+                <p>text</p>
+            </div>
         </div>
-        <ul class="dots">
-            <li class="active"></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
+        <!-- Slide 3 -->
+        <div class="slide">
+            <div class="image-container">
+                <img src="img/Fence/28.webp" alt="Fence 28">
+            </div>
+            <div class="text-content">
+                <h2>Title 3</h2>
+                <p>text</p>
+            </div>
+        </div>
+        <!-- Slide 4 -->
+        <div class="slide">
+            <div class="image-container">
+                <img src="img/Fence/29.webp" alt="Fence 29">
+            </div>
+            <div class="text-content">
+                <h2>Title 4</h2>
+                <p>text</p>
+            </div>
+        </div>
+        <!-- Slide 5 -->
+        <div class="slide">
+            <div class="image-container">
+                <img src="img/Fence/30 - Copie.webp" alt="Fence 30">
+            </div>
+            <div class="text-content">
+                <h2>Title 5</h2>
+                <p>text</p>
+            </div>
+        </div>
+        <!-- Slide 6 -->
+        <div class="slide">
+            <div class="image-container">
+                <img src="img/Fence/31.webp" alt="Fence 31">
+            </div>
+            <div class="text-content">
+                <h2>Title 6</h2>
+                <p>text</p>
+            </div>
+        </div>
+        <!-- Slide 7 -->
+        <div class="slide">
+            <div class="image-container">
+                <img src="img/Fence/32.webp" alt="Fence 32">
+            </div>
+            <div class="text-content">
+                <h2>Title 7</h2>
+                <p>text</p>
+            </div>
+        </div>
+        <!-- Slide 8 -->
+        <div class="slide">
+            <div class="image-container">
+                <img src="img/Fence/33.webp" alt="Fence 33">
+            </div>
+            <div class="text-content">
+                <h2>Title 8</h2>
+                <p>text</p>
+            </div>
+        </div>
+        <!-- Slide 9 -->
+        <div class="slide">
+            <div class="image-container">
+                <img src="img/Fence/34.webp" alt="Fence 34">
+            </div>
+            <div class="text-content">
+                <h2>Title 9</h2>
+                <p>text</p>
+            </div>
+        </div>
+        <!-- Slide 10 -->
+        <div class="slide">
+            <div class="image-container">
+                <img src="img/Fence/35.webp" alt="Fence 35">
+            </div>
+            <div class="text-content">
+                <h2>Title 10</h2>
+                <p>text</p>
+            </div>
+        </div>
+        <!-- Slide 11 -->
+        <div class="slide">
+            <div class="image-container">
+                <img src="img/Fence/36.webp" alt="Fence 36">
+            </div>
+            <div class="text-content">
+                <h2>Title 11</h2>
+                <p>text</p>
+            </div>
+        </div>
     </div>
+    <!-- Navigation Buttons -->
+    <div class="navigation">
+        <button class="prev" data-slider="slider-container-1">&#10094;</button>
+        <button class="next" data-slider="slider-container-1">&#10095;</button>
+    </div>
+</div>
+
 
     <!-- Why Choose Us Section -->
     <section id="why-us">
@@ -224,11 +293,7 @@
 
      
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Get in Touch</h2>
-        @include('contactform')
-    </section>
+  
     <!-- Blog Section -->
     <section id="blog" class="blog">
         <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -239,7 +304,7 @@
                     <div class="post-item position-relative h-100">
 
                         <div class="post-img position-relative overflow-hidden">
-                            <img src="img/Fence/32.jpg" class="img-fluid" alt="">
+                            <img src="img/Fence/32.webp" class="img-fluid" alt="">
 
                         </div>
 
@@ -276,7 +341,7 @@
                     <div class="post-item position-relative h-100">
 
                         <div class="post-img position-relative overflow-hidden">
-                            <img src="img/Fence/26.jpg" class="img-fluid" alt="">
+                            <img src="img/Fence/26.webp" class="img-fluid" alt="">
                         </div>
 
                         <div class="post-content d-flex flex-column">
@@ -313,7 +378,7 @@
                     <div class="post-item position-relative h-100">
 
                         <div class="post-img position-relative overflow-hidden">
-                            <img src="img/Fence/28.jpg" class="img-fluid" alt="">
+                            <img src="img/Fence/28.webp" class="img-fluid" alt="">
                         </div>
 
                         <div class="post-content d-flex flex-column">

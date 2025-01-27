@@ -4,9 +4,9 @@
 <head>
     <link rel="canonical" href="https://cresttel.net/project.blade.php">
     <meta charset="utf-8">
-    <title>
+    
         <title>Construction Company Projects | Quality Builds | Cresttel</title>
-    </title>
+    
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta
@@ -117,44 +117,6 @@
 
 <!-- Bootstrap CSS -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-<!-- Custom CSS -->
-<style>
-    /* Unique class names to avoid conflicts */
-    .cresttel-hero-section {
-        display: flex;
-        align-items: center;
-        background-color: #f8f9fa;
-        padding: 50px 0;
-    }
-    .cresttel-hero-content {
-        padding-left: 50px;
-    }
-    .cresttel-carousel .carousel-item img {
-        width: 100%;
-        height: 400px; /* Adjust height as needed */
-        object-fit: cover;
-    }
-    /* Custom styles for carousel controls */
-    .cresttel-carousel .carousel-control-prev,
-    .cresttel-carousel .carousel-control-next {
-        background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-        width: 40px; /* Width of the control */
-        height: 40px; /* Height of the control */
-        border-radius: 50%; /* Make it circular */
-        top: 50%; /* Center vertically */
-        transform: translateY(-50%); /* Center vertically */
-    }
-    .cresttel-carousel .carousel-control-prev {
-        left: 10px; /* Position from the left */
-    }
-    .cresttel-carousel .carousel-control-next {
-        right: 10px; /* Position from the right */
-    }
-    .cresttel-carousel .carousel-control-prev-icon,
-    .cresttel-carousel .carousel-control-next-icon {
-        filter: invert(1); /* Make the arrows white */
-    }
-</style>
 
 <!-- Hero Section with Slideshow -->
 <section class="cresttel-hero-section">
@@ -166,27 +128,27 @@
                     <div class="carousel-inner">
                         <!-- Slide 1 -->
                         <div class="carousel-item active">
-                            <img src="https://i.pinimg.com/originals/d0/59/9a/d0599ab57ea81b6bb6746ea1bd697233.jpg" alt="Slide 1">
+                            <img src="img/newphotos/residential/received_1352407176110917.jpeg" alt="Slide 1">
                         </div>
                         <!-- Slide 2 -->
                         <div class="carousel-item">
-                            <img src="https://th.bing.com/th/id/OIP.UIvpQ-Ns84KB9Q8cSoHyyAHaLH?w=640&h=960&rs=1&pid=ImgDetMain" alt="Slide 2">
+                            <img src="img/newphotos/residential/received_8939254502861696.jpeg" alt="Slide 2">
                         </div>
                         <!-- Slide 3 -->
                         <div class="carousel-item">
-                            <img src="https://via.placeholder.com/800x400" alt="Slide 3">
+                            <img src="img/newphotos/adu/adu.jpg" alt="Slide 3">
                         </div>
                         <!-- Slide 4 -->
                         <div class="carousel-item">
-                            <img src="https://via.placeholder.com/800x400" alt="Slide 4">
+                            <img src="img/newphotos/mdu/Library_PhotoPietroSavorelli1 (2).jpg" alt="Slide 4">
                         </div>
                         <!-- Slide 5 -->
                         <div class="carousel-item">
-                            <img src="https://via.placeholder.com/800x400" alt="Slide 5">
+                            <img src="img/newphotos/fence/received_601254496133002 (1).jpeg" alt="Slide 5">
                         </div>
                         <!-- Slide 6 -->
                         <div class="carousel-item">
-                            <img src="https://via.placeholder.com/800x400" alt="Slide 6">
+                            <img src="img/newphotos/commercial/Chick-f-la-Food-Court-4.jpg" alt="Slide 6">
                         </div>
                     </div>
                     <!-- Carousel Controls -->

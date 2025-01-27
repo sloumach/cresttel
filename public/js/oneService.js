@@ -1,3 +1,36 @@
+// Function to handle slider navigation
+function setupSlider(containerId) {
+    const container = document.getElementById(containerId);
+    const slides = container.querySelectorAll('.slide');
+    const prevButton = container.querySelector('.prev');
+    const nextButton = container.querySelector('.next');
+
+    let currentIndex = 0;
+
+    function showSlide(index) {
+        slides.forEach((slide, i) => {
+            slide.classList.toggle('active', i === index);
+        });
+    }
+
+    prevButton.addEventListener('click', () => {
+        currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+        showSlide(currentIndex);
+    });
+
+    nextButton.addEventListener('click', () => {
+        currentIndex = (currentIndex + 1) % slides.length;
+        showSlide(currentIndex);
+    });
+
+    // Initialize the first slide
+    showSlide(currentIndex);
+}
+
+// Set up the slider
+setupSlider('slider-container-1');
+
+
 let slider = document.querySelector('.slider .list');
 let items = document.querySelectorAll('.slider .list .item');
 let next = document.getElementById('next');

@@ -116,13 +116,7 @@
         <div class="container py-5">
             <h1 class="display-3 text-white mb-3 animated slideInDown">Accessory Dwelling Unit Construction & Design
             </h1>
-            <nav aria-label="breadcrumb animated slideInDown">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a class="text-white" href="{{ route('welcome') }}">Home</a></li>
-                    <li class="breadcrumb-item"><a class="text-white" href="{{ route('services') }}">Service</a></li>
-                    <li class="breadcrumb-item text-white active" aria-current="page">ADU</li>
-                </ol>
-            </nav>
+            
         </div>
     </div>
     <!-- Page Header End -->
@@ -134,7 +128,7 @@
     <section id="services">
         <h2 class="text-primary">Service</h2>
 
-        <p class="fs-3">
+        <p class="fs-5">
             Cresttel brings your vision to life with expertly crafted Accessory Dwelling Units (ADUs) tailored to your
             lifestyle. From innovative ADU home designs to seamless ADU construction, we ensure every detail is executed
             with precision. Our experienced accessory dwelling unit contractors handle everything from planning to
@@ -144,62 +138,148 @@
         </p>
     </section>
 
-    <div class="slider">
-        <div class="list">
-            <div class="item">
-                <img src="img/ADU_img/1-Bed ADU House Plan with Cathedral Ceilings - 593 Sq Ft.webp" alt="">
+   
+<!-- Slider Container -->
+<div class="slider-container" id="slider-container-1">
+    <!-- Slider -->
+    <div class="slider" id="slider-1">
+        <!-- Slide 1 -->
+        <div class="slide active">
+            <div class="image-container">
+                <img src="img/newphotos/adu/adu.jpg" alt="1-Bed ADU House Plan">
             </div>
-            <div class="item">
-                <img src="img/ADU_img/1.Maydan-Architects_Palo-Alto-ADU_Photography-by-Dave-Edwards.webp" alt="">
-            </div>
-            <div class="item">
-                <img src="img/ADU_img/20200903_094940-1200x900.webp" alt="">
-            </div>
-            <div class="item">
-                <img src="img/ADU_img/4adcc7fd5377527c9901dbdba02bfa48.webp" alt="">
-            </div>
-            <div class="item">
-                <img src="img/ADU_img/750 sq_ ft.webp" alt="">
-            </div>
-            <div class="item">
-                <img src="img/ADU_img/Adu - Photos & Ideas (1)(1).webp" alt="">
-            </div>
-            <div class="item">
-                <img src="img/ADU_img/Adu - Photos & Ideas.webp" alt="">
-            </div>
-            <div class="item">
-                <img src="img/ADU_img/adu ar 2.webp" alt="">
-            </div>
-            <div class="item">
-                <img src="img/ADU_img/adu ar3.webp" alt="">
-            </div>
-            <div class="item">
-                <img src="img/ADU_img/blog-2.webp" alt="">
-            </div>
-            <div class="item">
-                <img src="img/ADU_img/Detached.webp" alt="">
-            </div>
-            <div class="item">
-                <img src="img/ADU_img/how-much-does-it-cost-to-build-an-adu.webp" alt="">
-            </div>
-            <div class="item">
-                <img src="img/ADU_img/Miller-renovation-remodel-example.webp" alt="">
+            <div class="text-content">
+                <h2>Title 1</h2>
+                <p>text</p>
             </div>
         </div>
-        <div class="buttons">
-            <button id="prev">
-                <</button>
-                    <button id="next">></button>
+        <!-- Slide 2 -->
+        <div class="slide">
+            <div class="image-container">
+                <img src="img/ADU_img/1.Maydan-Architects_Palo-Alto-ADU_Photography-by-Dave-Edwards.webp" alt="Maydan Architects ADU">
+            </div>
+            <div class="text-content">
+                <h2>Title 2</h2>
+                <p>text</p>
+            </div>
         </div>
-        <ul class="dots">
-            <li class="active"></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
+        <!-- Slide 3 -->
+        <div class="slide">
+            <div class="image-container">
+                <img src="img/ADU_img/20200903_094940-1200x900.webp" alt="ADU Image">
+            </div>
+            <div class="text-content">
+                <h2>Title 3</h2>
+                <p>text</p>
+            </div>
+        </div>
+        <!-- Slide 4 -->
+        <div class="slide">
+            <div class="image-container">
+                <img src="img/newphotos/adu/Tailored Excellence_ Site-Built or Prefab ADUs with Nestadu 🌟.jpg" alt="ADU Design">
+            </div>
+            <div class="text-content">
+                <h2>Title 4</h2>
+                <p>text</p>
+            </div>
+        </div>
+        <!-- Slide 5 -->
+        <div class="slide">
+            <div class="image-container">
+                <img src="img/newphotos/adu/modern-adu-tiny-home-acessory-dwelling-unit copy.webp" alt="750 Sq Ft ADU">
+            </div>
+            <div class="text-content">
+                <h2>Title 5</h2>
+                <p>text</p>
+            </div>
+        </div>
+        <!-- Slide 6 -->
+        <div class="slide">
+            <div class="image-container">
+                <img src="img/ADU_img/Adu - Photos & Ideas (1)(1).webp" alt="ADU Photos & Ideas 1">
+            </div>
+            <div class="text-content">
+                <h2>Title 6</h2>
+                <p>text</p>
+            </div>
+        </div>
+        <!-- Slide 7 -->
+        <div class="slide">
+            <div class="image-container">
+                <img src="img/ADU_img/Adu - Photos & Ideas.webp" alt="ADU Photos & Ideas 2">
+            </div>
+            <div class="text-content">
+                <h2>Title 7</h2>
+                <p>text</p>
+            </div>
+        </div>
+        <!-- Slide 8 -->
+        <div class="slide">
+            <div class="image-container">
+                <img src="img/ADU_img/adu ar 2.webp" alt="ADU AR 2">
+            </div>
+            <div class="text-content">
+                <h2>Title 8</h2>
+                <p>text</p>
+            </div>
+        </div>
+        <!-- Slide 9 -->
+        <div class="slide">
+            <div class="image-container">
+                <img src="img/ADU_img/adu ar3.webp" alt="ADU AR 3">
+            </div>
+            <div class="text-content">
+                <h2>Title 9</h2>
+                <p>text</p>
+            </div>
+        </div>
+        <!-- Slide 10 -->
+        <div class="slide">
+            <div class="image-container">
+                <img src="img/ADU_img/blog-2.webp" alt="Blog 2">
+            </div>
+            <div class="text-content">
+                <h2>Title 10</h2>
+                <p>text</p>
+            </div>
+        </div>
+        <!-- Slide 11 -->
+        <div class="slide">
+            <div class="image-container">
+                <img src="img/ADU_img/Detached.webp" alt="Detached ADU">
+            </div>
+            <div class="text-content">
+                <h2>Title 11</h2>
+                <p>text</p>
+            </div>
+        </div>
+        <!-- Slide 12 -->
+        <div class="slide">
+            <div class="image-container">
+                <img src="img/ADU_img/how-much-does-it-cost-to-build-an-adu.webp" alt="ADU Cost">
+            </div>
+            <div class="text-content">
+                <h2>Title 12</h2>
+                <p>text</p>
+            </div>
+        </div>
+        <!-- Slide 13 -->
+        <div class="slide">
+            <div class="image-container">
+                <img src="img/ADU_img/Miller-renovation-remodel-example.webp" alt="Miller Renovation">
+            </div>
+            <div class="text-content">
+                <h2>Title 13</h2>
+                <p>text</p>
+            </div>
+        </div>
     </div>
-
+    <!-- Navigation Buttons -->
+    <div class="navigation">
+        <button class="prev" data-slider="slider-container-1">&#10094;</button>
+        <button class="next" data-slider="slider-container-1">&#10095;</button>
+    </div>
+</div>
 
     <!-- Why Choose Us Section -->
     <section id="why-us">
@@ -226,11 +306,7 @@
 
      
 
-    <!-- Get in Touch Section -->
-    <section id="contact">
-        <h2>Get in Touch</h2>
-        @include('contactform')
-    </section>
+    
 
     <!-- Blog Section -->
     <section id="blog" class="blog">
@@ -242,7 +318,7 @@
                     <div class="post-item position-relative h-100">
 
                         <div class="post-img position-relative overflow-hidden">
-                            <img src="img/ADU_img/Detached.jpg" class="img-fluid" alt="">
+                            <img src="img/ADU_img/Detached.webp" class="img-fluid" alt="">
 
                         </div>
 
@@ -279,7 +355,7 @@
                     <div class="post-item position-relative h-100">
 
                         <div class="post-img position-relative overflow-hidden">
-                            <img src="img/ADU_img/Miller-renovation-remodel-example.jpg" class="img-fluid"
+                            <img src="img/ADU_img/Miller-renovation-remodel-example.webp" class="img-fluid"
                                 alt="">
 
                         </div>
@@ -318,7 +394,7 @@
                     <div class="post-item position-relative h-100">
 
                         <div class="post-img position-relative overflow-hidden">
-                            <img src="img/ADU_img/4adcc7fd5377527c9901dbdba02bfa48.jpg" class="img-fluid"
+                            <img src="img/ADU_img/4adcc7fd5377527c9901dbdba02bfa48.webp" class="img-fluid"
                                 alt="">
 
                         </div>
