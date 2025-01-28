@@ -150,7 +150,7 @@
             </div>
             <div class="text-content">
                 <h2>Modern house design</h2>
-                <p>A Stunning ADU construction project Completed by Cresttel Construction</p>
+                <p>A Stunning ADU construction project <br> Completed by Cresttel Construction</p>
             </div>
         </div>
         <!-- Slide 2 -->
@@ -160,7 +160,7 @@
             </div>
             <div class="text-content">
                 <h2>Seamless Modern Living</h2>
-                <p>A Sophisticated ADU finished project Crafted by the Cresttel Construction team</p>
+                <p>A Sophisticated ADU finished project Crafted <br> by the Cresttel Construction team</p>
             </div>
         </div>
         <!-- Slide 3 -->
@@ -170,7 +170,7 @@
             </div>
             <div class="text-content">
                 <h2>Charming and Functional</h2>
-                <p>A Custom Cottage-Style ADU construction project finished by Cresttel Construction team</p>
+                <p>A Custom Cottage-Style ADU construction project <br> finished by Cresttel Construction team</p>
             </div>
         </div>
         <!-- Slide 4 -->
@@ -190,7 +190,7 @@
             </div>
             <div class="text-content">
                 <h2>Contemporary Comfort design </h2>
-                <p>A Modern Backyard ADU design constructed by Cresttel Construction team</p>
+                <p>A Modern Backyard ADU design constructed <br> by Cresttel Construction team</p>
             </div>
         </div>
         <!-- Slide 6 -->
@@ -200,7 +200,7 @@
             </div>
             <div class="text-content">
                 <h2>Modern Backyard ADU Transformation</h2>
-                <p>Work Combining A Blend of Functionality and Style by Cresttel Construction team </p>
+                <p>Work Combining A Blend of Functionality <br> and Style by Cresttel Construction team </p>
             </div>
         </div>
         <!-- Slide 7 -->
@@ -210,69 +210,11 @@
             </div>
             <div class="text-content">
                 <h2>Elegant ADU Creation</h2>
-                <p>A Spacious and Modern Living Solution constructed by Cresttel Construction team </p>
+                <p>A Spacious and Modern Living Solution <br>constructed by Cresttel Construction team </p>
             </div>
         </div>
-        <!-- Slide 8 -->
-        <div class="slide">
-            <div class="image-container">
-                <img src="img/ADU_img/adu ar 2.webp" alt="ADU AR 2">
-            </div>
-            <div class="text-content">
-                <h2>Title 8</h2>
-                <p>text</p>
-            </div>
-        </div>
-        <!-- Slide 9 -->
-        <div class="slide">
-            <div class="image-container">
-                <img src="img/ADU_img/adu ar3.webp" alt="ADU AR 3">
-            </div>
-            <div class="text-content">
-                <h2>Title 9</h2>
-                <p>text</p>
-            </div>
-        </div>
-        <!-- Slide 10 -->
-        <div class="slide">
-            <div class="image-container">
-                <img src="img/ADU_img/blog-2.webp" alt="Blog 2">
-            </div>
-            <div class="text-content">
-                <h2>Title 10</h2>
-                <p>text</p>
-            </div>
-        </div>
-        <!-- Slide 11 -->
-        <div class="slide">
-            <div class="image-container">
-                <img src="img/ADU_img/Detached.webp" alt="Detached ADU">
-            </div>
-            <div class="text-content">
-                <h2>Title 11</h2>
-                <p>text</p>
-            </div>
-        </div>
-        <!-- Slide 12 -->
-        <div class="slide">
-            <div class="image-container">
-                <img src="img/ADU_img/how-much-does-it-cost-to-build-an-adu.webp" alt="ADU Cost">
-            </div>
-            <div class="text-content">
-                <h2>Title 12</h2>
-                <p>text</p>
-            </div>
-        </div>
-        <!-- Slide 13 -->
-        <div class="slide">
-            <div class="image-container">
-                <img src="img/ADU_img/Miller-renovation-remodel-example.webp" alt="Miller Renovation">
-            </div>
-            <div class="text-content">
-                <h2>Title 13</h2>
-                <p>text</p>
-            </div>
-        </div>
+       
+        
     </div>
     <!-- Navigation Buttons -->
     <div class="navigation">

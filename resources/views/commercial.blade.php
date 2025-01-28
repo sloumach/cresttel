@@ -160,7 +160,7 @@
                 </div>
                 <div class="text-content">
                     <h2>Modern Food Court Buildout </h2>
-                    <p>A Functional and Stylish Commercial Redesign Space for Chick-fil-A by Cresttel Construction team for commercial remodeling project </p>
+                    <p>A Functional and Stylish Commercial Redesign Space <br>for Chick-fil-A by Cresttel <br>Construction team for commercial remodeling project </p>
                 </div>
             </div>
             <!-- Slide 2 -->
@@ -170,7 +170,7 @@
                 </div>
                 <div class="text-content">
                     <h2>Efficient Commercial Kitchen Remodel</h2>
-                    <p>kitchen remodling project by Cresttel Construction company Optimized for High-Performance Operations</p>
+                    <p>kitchen remodling project by Cresttel Construction <br>company Optimized <br>for High-Performance Operations</p>
                 </div>
             </div>
             <!-- Slide 3 -->
@@ -179,8 +179,8 @@
                     <img src="img/newphotos/commercial/Panda_Jacksonville_001 (1).jpg" alt="Construction Electrical">
                 </div>
                 <div class="text-content">
-                    <h2>Contemporary Panda Express Buildout</h2>
-                    <p>A Bold and Inviting Commercial Space by Cresttel Construction team</p>
+                    <h2>Contemporary Panda <br>Express Buildout</h2>
+                    <p>A Bold and Inviting Commercial Space <br>by Cresttel Construction team</p>
                 </div>
             </div>
             <!-- Slide 4 -->
@@ -200,7 +200,7 @@
                 </div>
                 <div class="text-content">
                     <h2>Vibrant Subway Remodel project</h2>
-                    <p>A Fresh and Modern redisgn for subway commercial building by Cresttel Construction team providing the perfect Dining Experience </p>
+                    <p>A Fresh and Modern redisgn for subway commercial building <br> by Cresttel Construction <br>team providing the perfect Dining Experience </p>
                 </div>
             </div>
             <!-- Slide 6 -->
@@ -209,30 +209,12 @@
                     <img src="img/newphotos/commercial/received_1780802519346379.jpeg" alt="IMG 0702">
                 </div>
                 <div class="text-content">
-                    <h2>Modern Subway Exterior Remodel by Cresttel Construction: Inviting Design with a Fresh Look</h2>
-                    <p>Inviting Design with a Fresh Look a Remodel project finished by Cresttel Construction team </p>
+                    <h2>Modern Subway Exterior Remodel </h2>
+                    <p>Inviting Design with a Fresh Look a Remodel <br> project finished by Cresttel Construction team </p>
                 </div>
             </div>
-            <!-- Slide 7 -->
-            <div class="slide">
-                <div class="image-container">
-                    <img src="img/newphotos/commercial/received_598618929786591.jpeg" alt="IMG 0818">
-                </div>
-                <div class="text-content">
-                    <h2>Title 7</h2>
-                    <p>text</p>
-                </div>
-            </div>
-            <!-- Slide 8 -->
-            <div class="slide">
-                <div class="image-container">
-                    <img src="img/COmer/inside-store.webp" alt="Inside Store">
-                </div>
-                <div class="text-content">
-                    <h2>Title 8</h2>
-                    <p>text</p>
-                </div>
-            </div>
+           
+           
         </div>
         <!-- Navigation Buttons -->
         <div class="navigation">

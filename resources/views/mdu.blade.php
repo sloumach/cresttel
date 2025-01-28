@@ -147,16 +147,7 @@
     <div class="slider-container" id="slider-container-1">
         <!-- Slider -->
         <div class="slider" id="slider-1">
-            <!-- Slide 1 -->
-            <div class="slide active">
-                <div class="image-container">
-                    <img src="img/MDU_img/1a26323a27dce08a4b6eb284309f43dd.webp" alt="Image 1">
-                </div>
-                <div class="text-content">
-                    <h2>Title 1</h2>
-                    <p>text</p>
-                </div>
-            </div>
+           
             <!-- Slide 2 -->
             <div class="slide">
                 <div class="image-container">
@@ -164,7 +155,7 @@
                 </div>
                 <div class="text-content">
                     <h2>Modern Multi-Dwelling Unit project </h2>
-                    <p>Innovative Design and Urban Functionality Construction by Cresttel team </p>
+                    <p>Innovative Design and Urban Functionality <br>Construction by Cresttel team </p>
                 </div>
             </div>
             <!-- Slide 3 -->
@@ -174,19 +165,10 @@
                 </div>
                 <div class="text-content">
                     <h2>Contemporary Multi-Dwelling Unit </h2>
-                    <p> A modern construction with the focus on Modern Architecture and Functionality</p>
+                    <p> A modern construction with the focus on Modern <br>Architecture and Functionality</p>
                 </div>
             </div>
-            <!-- Slide 4 -->
-            <div class="slide">
-                <div class="image-container">
-                    <img src="img/MDU_img/GreveLibrary_PhotoPietroSavorelli.webp" alt="Image 4">
-                </div>
-                <div class="text-content">
-                    <h2>Title 4</h2>
-                    <p>text</p>
-                </div>
-            </div>
+           
             <!-- Slide 5 -->
             <div class="slide">
                 <div class="image-container">
@@ -194,7 +176,7 @@
                 </div>
                 <div class="text-content">
                     <h2>Dynamic Multi-Dwelling Unit project<</h2>
-                    <p>construction project by Cresttel Construction team with the focus on Fusion of Form and Function</p>
+                    <p>construction project by Cresttel Construction team <br>with the focus on Fusion of Form and Function</p>
                 </div>
             </div>
             <!-- Slide 6 -->
@@ -204,7 +186,7 @@
                 </div>
                 <div class="text-content">
                     <h2>Striking Multi-Dwelling Unit design </h2>
-                    <p>A Modern Architectural Landmark by Cresttel Construction company</p>
+                    <p>A Modern Architectural Landmark <br> by Cresttel Construction company</p>
                 </div>
             </div>
             <!-- Slide 7 -->
@@ -214,19 +196,10 @@
                 </div>
                 <div class="text-content">
                     <h2>Illuminated Multi-Dwelling Unit project </h2>
-                    <p> A Modern design for a MDU construction project by the cresttel construction team</p>
+                    <p> A Modern design for a MDU construction project <br> by the cresttel construction team</p>
                 </div>
             </div>
-            <!-- Slide 8 -->
-            <div class="slide">
-                <div class="image-container">
-                    <img src="img/MDU_img/R.webp" alt="Image 8">
-                </div>
-                <div class="text-content">
-                    <h2>Title 8</h2>
-                    <p>text</p>
-                </div>
-            </div>
+            
         </div>
         <!-- Navigation Buttons -->
         <div class="navigation">

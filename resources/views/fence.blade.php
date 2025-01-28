@@ -156,7 +156,7 @@
             </div>
             <div class="text-content">
                 <h2>Durable and Modern Metal Fence</h2>
-                <p>A Secure and Stylish Boundary metal fence Installation by Cresttel team</p>
+                <p>A Secure and Stylish Boundary metal fence <br>Installation by Cresttel team</p>
             </div>
         </div>
         <!-- Slide 2 -->
@@ -166,7 +166,7 @@
             </div>
             <div class="text-content">
                 <h2>Elegant Sliding Fence</h2>
-                <p>Modern fence Installation project by Cresttel team Combining Privacy and Modern Design </p>
+                <p>Modern fence Installation project by Cresttel team <br>Combining Privacy and Modern Design </p>
             </div>
         </div>
         <!-- Slide 3 -->
@@ -176,7 +176,7 @@
             </div>
             <div class="text-content">
                 <h2>Stylish Wood-Panel Fence</h2>
-                <p> wood fence Installation project by Cresttel team for A Blend of Modern Aesthetics and Durability</p>
+                <p> wood fence Installation project <br> by Cresttel team for A Blend of Modern Aesthetics and Durability</p>
             </div>
         </div>
         <!-- Slide 4 -->
@@ -186,7 +186,7 @@
             </div>
             <div class="text-content">
                 <h2>Grand Iron Gate</h2>
-                <p>iron fence Installation project by Cresttel team for a Timeless Elegance and Security</p>
+                <p>iron fence Installation project by Cresttel team <br>for a Timeless Elegance and Security</p>
             </div>
         </div>
         <!-- Slide 5 -->
@@ -196,7 +196,7 @@
             </div>
             <div class="text-content">
                 <h2>Elegant Black Metal Fence</h2>
-                <p> Another metal fence Installation by Cresttel team for A Perfect Blend of Security and Style</p>
+                <p> Another metal fence Installation by Cresttel team <br>for A Perfect Blend of Security and Style</p>
             </div>
         </div>
         <!-- Slide 6 -->
@@ -206,19 +206,10 @@
             </div>
             <div class="text-content">
                 <h2>Metal Fence Repair </h2>
-                <p>Professional fence repair by Cresttel Construction team Restoring Strength and Elegance </p>
+                <p>Professional fence repair by Cresttel Construction team <br>Restoring Strength and Elegance </p>
             </div>
         </div>
-        <!-- Slide 7 -->
-        <div class="slide">
-            <div class="image-container">
-                <img src="img/Fence/32.webp" alt="Fence 32">
-            </div>
-            <div class="text-content">
-                <h2>Title 7</h2>
-                <p>text</p>
-            </div>
-        </div>
+        
         <!-- Slide 8 -->
         <div class="slide">
             <div class="image-container">
@@ -249,16 +240,7 @@
                 <p>text</p>
             </div>
         </div>
-        <!-- Slide 11 -->
-        <div class="slide">
-            <div class="image-container">
-                <img src="img/Fence/36.webp" alt="Fence 36">
-            </div>
-            <div class="text-content">
-                <h2>Title 11</h2>
-                <p>text</p>
-            </div>
-        </div>
+       
     </div>
     <!-- Navigation Buttons -->
     <div class="navigation">
