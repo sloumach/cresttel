@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="canonical" href="{{ route('contact') }}">
+
 
     <meta charset="utf-8">
     <Title>Contact Us | Cresttel Construction Company</Title>
@@ -141,7 +141,7 @@
                 <div class="col-lg-6 ps-lg-0 min-height-400">
                     <div class="position-relative h-100">
                         <img class="position-absolute img-fluid w-100 h-100 object-cover" src="img/quote.jpg"
-                            alt="">
+                            alt="Residential construction with modern features, sleek architecture and outdoor living spaces.">
 
                     </div>
                 </div>

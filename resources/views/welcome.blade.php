@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="canonical" href="{{ route('welcome') }}">
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -116,7 +116,7 @@
     <div class="container-fluid p-0 pb-5">
         <div class="owl-carousel header-carousel position-relative">
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/wephome/ezgif-2-fd9d395e0a.webp" alt="">
+                <img class="img-fluid" src="img/wephome/ezgif-2-fd9d395e0a.webp" alt="Modern residential construction by a local construction company, showcasing innovative design and renovation services.">
                 <div class="carousel-inner">
                     <div class="container">
                         <div class="row justify-content-center">
@@ -139,7 +139,7 @@
                 </div>
             </div>
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/wephome/ezgif-5-7e1dbe95f2.webp" alt="">
+                <img class="img-fluid" src="img/wephome/ezgif-5-7e1dbe95f2.webp" alt="Modern residential construction by a local construction company featuring a pool and stylish design elements.">
                 <div class="carousel-inner">
                     <div class="container">
                         <div class="row justify-content-center">
@@ -159,7 +159,7 @@
                 </div>
             </div>
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/wephome/ezgif-2-51e1d28112.webp" alt="">
+                <img class="img-fluid" src="img/wephome/ezgif-2-51e1d28112.webp" alt="residential construction by a construction company, featuring a pool & open living spaces, perfect for renovation services.">
                 <div class="carousel-inner">
                     <div class="container">
                         <div class="row justify-content-center">
@@ -182,7 +182,7 @@
     @include('dynamictext')
 
 
-   
+
    <!-- Service Start -->
 <div class="container-xxl py-5">
     <div class="container">
@@ -270,9 +270,9 @@
     </div>
 </div>
 <!-- Service End -->
- 
-   
-   
+
+
+
 
 <!-- Hero Section -->
 <section class="hero-section">
@@ -313,7 +313,7 @@
     </div>
 </section>
 
-   
+
     <section class="testimonials-section bg-light py-5">
     <div class="container">
         <h2 class="text-center mb-5">What Our Clients Say</h2>
@@ -358,7 +358,7 @@
     </div>
 </section>
 
-    
+
 <div class="stock-ticker">
         <ul>
             <li>
@@ -526,7 +526,7 @@
 
 </body>
 <!-- JavaScript Libraries -->
- 
+
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
 <script src="{{ asset('lib/wow/wow.min.js') }}"></script>

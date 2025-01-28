@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="canonical" href="https://cresttel.net/residential.blade.php">
+
     <meta charset="utf-8">
     <title>Residential Construction Services | Expert Building Solutions</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -114,7 +114,7 @@
             <h1 class="display-3 text-white mb-3 animated slideInDown">Expert Residential Construction Services & Home
                 Remodeling Solutions
                 remodeling services</h1>
-           
+
         </div>
     </div>
     <!-- Page Header End -->
@@ -140,8 +140,8 @@
 
 
 
- 
- 
+
+
     <!-- Slider Container -->
     <div class="slider-container" id="slider-container-1">
         <!-- Slider -->
@@ -234,13 +234,13 @@
         </div>
     </div>
 
-   
- 
-  
+
+
+
 
  <script></script>
 
-  
+
     <!-- Why Choose Us Section -->
     <section id="why-us">
         <h2>Why Choose Us</h2>
@@ -264,7 +264,7 @@
         </ul>
     </section>
 
-    
+
 
     <!-- Blog Section -->
     <section id="blog" class="blog">

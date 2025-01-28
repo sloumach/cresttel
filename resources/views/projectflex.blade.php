@@ -33,7 +33,7 @@
                         <div class="row g-4">
                             <div class="col-md-6" >
                                 <div class="position-relative h-100">
-                                <img class="position-absolute img-fluid w-100 h-100 object-cover" src="img2/project-1.jpg" alt="">
+                                <img class="position-absolute img-fluid w-100 h-100 object-cover" src="img2/project-1.jpg" alt="Interior home renovation design for kitchens with sleek and functional layouts.">
 
                                 </div>
                             </div>
@@ -70,7 +70,7 @@
                         <div class="row g-4">
                             <div class="col-md-6" >
                                 <div class="position-relative h-100">
-                                <img class="position-absolute img-fluid w-100 h-100 object-cover" src="img2/project-2.jpg" alt="">
+                                <img class="position-absolute img-fluid w-100 h-100 object-cover" src="img2/project-2.jpg" alt="well-designed residential home dining space with elegant chairs.">
 
                                 </div>
                             </div>
@@ -107,7 +107,7 @@
                         <div class="row g-4">
                             <div class="col-md-6">
                                 <div class="position-relative h-100">
-                                <img class="position-absolute img-fluid w-100 h-100 object-cover" src="img2/project-3.jpg" alt="">
+                                <img class="position-absolute img-fluid w-100 h-100 object-cover" src="img2/project-3.jpg" alt="Residential kitchen remolding design with modern architect.">
 
                                 </div>
                             </div>
@@ -144,7 +144,7 @@
                         <div class="row g-4">
                             <div class="col-md-6" >
                                 <div class="position-relative h-100">
-                                <img class="position-absolute img-fluid w-100 h-100 object-cover" src="img2/project-4.jpg" alt="">
+                                <img class="position-absolute img-fluid w-100 h-100 object-cover" src="img2/project-4.jpg" alt="Commercial construction building for modern shopping centers with innovative">
 
                                 </div>
                             </div>

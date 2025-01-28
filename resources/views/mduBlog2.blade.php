@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="canonical" href="https://cresttel.net/MDU%20article%202.html">
+    
 
     <meta charset="utf-8">
     <meta charset="UTF-8">
