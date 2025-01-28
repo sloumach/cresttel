@@ -117,13 +117,7 @@
     <div class="container py-5">
         <h1 class="display-3 text-white mb-3 animated slideInDown">The Importance of Regular Maintenance for Commercial
             Properties</h1>
-        <nav aria-label="breadcrumb animated slideInDown">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a class="text-white" href="{{ route('welcome') }}">Home</a></li>
-                <li class="breadcrumb-item"><a class="text-white" href="{{ route('blogs') }}">Blogs</a></li>
-                <li class="breadcrumb-item text-white active" aria-current="page">Commercial_article_2</li>
-            </ol>
-        </nav>
+       
     </div>
 </div>
 <!-- Page Header End -->
@@ -143,7 +137,7 @@
                     <article class="blog-post">
                         <!-- Blog Image -->
                         <div class="post-img">
-                            <img src="img/COmer/12vgc.jpg" alt="Blog Image" class="img-fluid">
+                            <img src="img/COmer/12vgc.webp" alt="Blog Image" class="img-fluid">
                         </div>
 
                         <!-- Blog Content -->

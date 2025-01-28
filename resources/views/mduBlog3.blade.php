@@ -114,13 +114,7 @@
     <div class="container py-5">
         <h1 class="display-3 text-white mb-3 animated slideInDown">Understanding the Different Types of Multi-Dwelling
             Units: Which One Is Right for You?</h1>
-        <nav aria-label="breadcrumb animated slideInDown">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a class="text-white" href="{{ route('welcome') }}">Home</a></li>
-                <li class="breadcrumb-item"><a class="text-white" href="{{ route('blogs') }}">Blogs</a></li>
-                <li class="breadcrumb-item text-white active" aria-current="page">MDU_article_3</li>
-            </ol>
-        </nav>
+       
     </div>
 </div>
 <!-- Page Header End -->
@@ -137,7 +131,7 @@
                     <article class="blog-post">
                         <!-- Blog Image -->
                         <div class="post-img">
-                            <img src="img/MDU_img/Library_PhotoPietroSavorelli.jpg" alt="Blog Image"
+                            <img src="img/MDU_img/Library_PhotoPietroSavorelli.webp" alt="Blog Image"
                                 class="img-fluid">
                         </div>
 <!-- Blog Content -->

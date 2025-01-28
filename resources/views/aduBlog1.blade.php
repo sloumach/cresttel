@@ -118,13 +118,7 @@
     <div class="container py-5">
         <h1 class="display-3 text-white mb-3 animated slideInDown">How an Accessory Dwelling Unit Can Add Value to Your
             Property</h1>
-        <nav aria-label="breadcrumb animated slideInDown">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a class="text-white" href="{{ route('welcome') }}">Home</a></li>
-                <li class="breadcrumb-item"><a class="text-white" href="{{ route('blogs') }}">Blogs</a></li>
-                <li class="breadcrumb-item text-white active" aria-current="page">ADU_article_1</li>
-            </ol>
-        </nav>
+      
     </div>
 </div>
 <!-- Page Header End -->
@@ -142,7 +136,7 @@
                     <article class="blog-post">
                         <!-- Blog Image -->
                         <div class="post-img">
-                            <img src="img/ADU_img/how-much-does-it-cost-to-build-an-adu.jpg" alt="Blog Image"
+                            <img src="img/ADU_img/how-much-does-it-cost-to-build-an-adu.webp" alt="Blog Image"
                                 class="img-fluid">
                         </div>
 

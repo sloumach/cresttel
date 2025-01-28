@@ -125,7 +125,14 @@
         </div>
     </div>
     <!-- Page Header End -->
+   
+    
+   
 
+
+   
+   
+   
 
     <!-- Quote Start -->
     <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
@@ -159,63 +166,18 @@
     </div>
     </div>
     <!-- Quote End -->
-    <!-- Map Start -->
-    <div class="container-fluid px-0">
+  <!-- Map Start -->
+<div class="container-fluid px-0">
+    <div class="map-container" style="position: relative; overflow: hidden; padding-top: 20%; width: 95%;"> <!-- Adjust padding-top to reduce height -->
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3174.6043386906284!2d-116.95677548469295!3d32.8057198809606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d9533e7ddf22cf%3A0x45967470da9a6de4!2s1662%20N%20Magnolia%20Ave%2C%20El%20Cajon%2C%20CA%2092020%2C%20USA!5e0!3m2!1sen!2sus!4v1697567425423!5m2!1sen!2sus"
-            width="100%" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            style="position: absolute; top: 0; left: 5%; width: 100%; height: 100%; border: 0;"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
         </iframe>
     </div>
-    <!-- Map End -->
-    <section id="about" class="scrollspy-section padding-xlarge">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-md-12">
-
-                    <div class="section-header">
-                        <div class="title">
-                        </div>
-                        <h2 class="section-title">With <span>Cresttel</span> turning your
-                            vision into reality </h2>
-                    </div>
-                </div>
-
-            </div>
-
-
-
-            <div class="row">
-                <div class="col-md-6">
-                    <figure class="jarallax-keep-img">
-                        <img src="images/r3.jpg" alt="about us" class="jarallax-img single-image">
-                    </figure>
-                </div>
-                <div class="col-md-6 description text-lead">
-                    <p><strong>Why Choose Our Construction Company?</strong></p>
-                    <ul>
-                        <li>Unmatched Expertise: Whether you're searching for a local construction company or a team for
-                            residential and commercial construction, our experience speaks for itself.</li>
-                        <li>Tailored Solutions: From new builds to intricate renovations, we provide services customized
-                            to your unique needs.</li>
-                        <li> Timely Execution: Deadlines matter, and our efficient project management ensures your
-                            project stays on track.</li>
-                    </ul>
-
-                    <p><strong>Our Comprehensive Process</strong></p>
-                    <ul>
-                        <li>Consultation: We listen to your ideas and goals.</li>
-                        <li>Planning & Design: Detailed designs meet practical solutions.</li>
-                        <li>Construction Phase: Skilled professionals bring your project to life.</li>
-                        <li>Final Touches: Every detail is inspected to exceed your expectations</li>
-                    </ul>
-                </div>
-            </div>
-
-
-
-        </div>
-    </section>
+</div>
+<!-- Map End -->
+    
 
     <!-- Footer Start -->
     @include('footer')

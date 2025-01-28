@@ -1,3 +1,7 @@
+
+
+
+
 function toggleSocialIcons() {
     const socialIcons = document.querySelector("#expandable-bubble .social-icons");
     socialIcons.style.display = socialIcons.style.display === "flex" ? "none" : "flex";

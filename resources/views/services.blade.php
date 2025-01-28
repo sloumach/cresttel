@@ -124,7 +124,7 @@
                     alt="Reliable fence services for residential and commercial properties, ensuring privacy and security">
                 <div class="content">
                     <p>Service</p>
-                    <h2>Fence</h2>
+                    <h3>Fence</h3>
                     <p>
                         Enhance your property's security and curb appeal with our fencing services. From fence
                         installation to fence repairs, our experienced team provides reliable solutions for both
@@ -134,11 +134,11 @@
                 </div>
             </div>
             <div class="item">
-                <img src="img/ADU_img/blog-2.jpg"
-                    alt="Professional ADU construction services for affordable and efficient accessory dwelling units">
+                <img src="img/ADU_img/blog-2.webp"
+                    alt="Modern backyard office with sleek exterior design, wooden accents, large windows, and landscaped garden - Cresttel construction and renovation services.">
                 <div class="content">
                     <p>Service</p>
-                    <h2>Accessory Dwelling Units (ADUs)</h2>
+                    <h3>Accessory Dwelling Units (ADUs)</h3>
                     <p>
                         Maximize your property's value with our ADU construction services. Perfect for homeowners
                         seeking additional living space or rental opportunities, we provide top-tier ADU construction
@@ -152,7 +152,7 @@
                     alt="Commercial construction services for modern office spaces and commercial properties">
                 <div class="content">
                     <p>Service</p>
-                    <h2>Commercial Construction Services</h2>
+                    <h3>Commercial Construction Services</h3>
                     <p>
                         Take your business to the next level with our commercial construction services. From office
                         buildings to retail spaces and industrial facilities, we deliver tailored solutions that blend
@@ -167,7 +167,7 @@
                     alt="MDU construction services for multi-dwelling units with efficient planning and execution">
                 <div class="content">
                     <p>Service</p>
-                    <h2>Multi-Dwelling Units (MDUs)</h2>
+                    <h3>Multi-Dwelling Units (MDUs)</h3>
                     <p>
                         Our MDU construction services are tailored for developers and investors, offering seamless
                         solutions for apartments, condos, and townhouses. With attention to detail, we ensure that every
@@ -182,7 +182,7 @@
                     alt="Residential construction services for durable and reliable homes with expert craftsmanship">
                 <div class="content">
                     <p>Service</p>
-                    <h2>Residential Construction Services</h2>
+                    <h3>Residential Construction Services</h3>
                     <p>
                         Bring your dream home into reality with our residential construction services. Whether it’s a
                         custom new build or a home renovation, we specialize in creating spaces that reflect your style
@@ -208,7 +208,7 @@
                 </div>
             </div>
             <div class="item">
-                <img src="img/ADU_img/blog-2.jpg">
+                <img src="img/ADU_img/blog-2.webp">
                 <div class="content">
                     ADU
                 </div>
@@ -236,8 +236,178 @@
 
 
 
+    <section class="services-section">
+  <div class="container">
+    <div class="services-content">
+      <!-- Left Side: Text Content -->
+      <div class="text-content">
+      <h2 class="text-primary">Our Services</h2>
+      <div class="service-text active" data-service="adu">
+          <h3>ADU (Accessory Dwelling Units)</h3>
+          <p>We specialize in designing and building custom ADUs to maximize your property's potential. Perfect for extra space or rental income.</p>
+        </div>
+        <div class="service-text" data-service="mdu">
+          <h3>MDU (Multi-Dwelling Units)</h3>
+          <p>From duplexes to apartment complexes, we deliver high-quality MDU projects tailored to your needs.</p>
+        </div>
+        <div class="service-text" data-service="fence">
+          <h3>Fence Installation</h3>
+          <p>Enhance your property's security and aesthetics with our durable and stylish fencing solutions.</p>
+        </div>
+        <div class="service-text" data-service="commercial">
+          <h3>Commercial Projects</h3>
+          <p>We handle commercial construction projects of all sizes, ensuring efficiency and quality.</p>
+        </div>
+        <div class="service-text" data-service="residential">
+          <h3>Residential Construction</h3>
+          <p>Build your dream home with our expert residential construction services, tailored to your vision.</p>
+        </div>
+      </div>
 
+      <!-- Right Side: Slider -->
+      <div class="slider" id="service-slider">
+        <div class="slider-images">
+          <img src="img/newphotos/adu/adu.jpg" alt="ADU" class="active" data-service="adu">
+          <img src="img/newphotos/mdu/Library_PhotoPietroSavorelli2.jpg" alt="MDU" data-service="mdu">
+          <img src="img/newphotos/fence/received_2027745611076508.jpeg" alt="Fence" data-service="fence">
+          <img src="img/newphotos/commercial/Panda_Jacksonville_001 (1).jpg" alt="Commercial" data-service="commercial">
+          <img src="img/newphotos/residential/instagrampost3.png" alt="Residential" data-service="residential">
+        </div>
+        <div class="slider-controls">
+          <button class="prev">&#10094;</button>
+          <button class="next">&#10095;</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<style>
+    .services-section {
+  padding: 50px 0;
+}
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.services-content {
+  display: flex;
+  flex-direction: column; /* Stack content vertically on smaller screens */
+  align-items: center;
+  gap: 40px;
+}
+
+.text-content {
+  flex: 1;
+  text-align: center; /* Center text on smaller screens */
+}
+
+.text-content h2 {
+  font-size: 2rem; /* Smaller font size for mobile */
+  margin-bottom: 20px;
+}
+
+.service-text {
+  display: none;
+}
+
+.service-text.active {
+  display: block;
+}
+
+/* Scoped styles for the service slider */
+#service-slider {
+  flex: 1;
+  position: relative;
+  width: 100%; /* Full width on smaller screens */
+  max-width: 600px; /* Limit slider width */
+}
+
+#service-slider .slider-images img {
+  display: none;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#service-slider .slider-images img.active {
+  display: block;
+}
+
+#service-slider .slider-controls {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+#service-slider .slider-controls button {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 1.2rem;
+}
+
+#service-slider .slider-controls button:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* Responsive Breakpoints */
+@media (min-width: 768px) {
+  .services-content {
+    flex-direction: row; /* Side-by-side layout on larger screens */
+    align-items: flex-start; /* Align items to the top */
+  }
+
+  .text-content {
+    text-align: left; /* Left-align text on larger screens */
+  }
+
+  .text-content h2 {
+    font-size: 2.5rem; /* Larger font size for desktop */
+  }
+}
+</style>
+
+<script>document.addEventListener("DOMContentLoaded", function () {
+  const services = ["adu", "mdu", "fence", "commercial", "residential"];
+  let currentIndex = 0;
+
+  const textContents = document.querySelectorAll(".service-text");
+  const images = document.querySelectorAll(".slider-images img");
+  const prevButton = document.querySelector(".slider-controls .prev");
+  const nextButton = document.querySelector(".slider-controls .next");
+
+  function updateService(index) {
+    // Remove active class from all elements
+    textContents.forEach((text) => text.classList.remove("active"));
+    images.forEach((img) => img.classList.remove("active"));
+
+    // Add active class to the current service
+    textContents[index].classList.add("active");
+    images[index].classList.add("active");
+  }
+
+  prevButton.addEventListener("click", () => {
+    currentIndex = (currentIndex - 1 + services.length) % services.length;
+    updateService(currentIndex);
+  });
+
+  nextButton.addEventListener("click", () => {
+    currentIndex = (currentIndex + 1) % services.length;
+    updateService(currentIndex);
+  });
+
+  // Initialize the first service
+  updateService(currentIndex);
+});</script>
 
     <!-- Footer Start -->
     @include('footer')

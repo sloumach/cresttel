@@ -116,13 +116,7 @@
 <div class="container-fluid s bg-primary">
     <div class="container py-5">
         <h1 class="display-3 text-white mb-3 animated slideInDown">What Are MDUs and Why Are They Important?</h1>
-        <nav aria-label="breadcrumb animated slideInDown">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a class="text-white" href="{{ route('welcome') }}">Home</a></li>
-                <li class="breadcrumb-item"><a class="text-white" href="{{ route('blogs') }}">Blogs</a></li>
-                <li class="breadcrumb-item text-white active" aria-current="page">MDU article 1</li>
-            </ol>
-        </nav>
+        
     </div>
 </div>
 <!-- Page Header End -->
@@ -139,7 +133,7 @@
                     <article class="blog-post">
                         <!-- Blog Image -->
                         <div class="post-img">
-                            <img src="img/MDU_img/7e08c1c418c0dd4fec6c0de211313fd8.jpg" alt="Blog Image"
+                            <img src="img/MDU_img/7e08c1c418c0dd4fec6c0de211313fd8.webp" alt="Blog Image"
                                 class="img-fluid">
                         </div>
 
