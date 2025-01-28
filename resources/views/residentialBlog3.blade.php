@@ -115,13 +115,7 @@
 <div class="container-fluid s bg-primary">
     <div class="container py-5">
         <h1 class="display-3 text-white mb-3 animated slideInDown">How to Choose the Right Flooring for Your Home?</h1>
-        <nav aria-label="breadcrumb animated slideInDown">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a class="text-white" href="{{ route('welcome') }}">Home</a></li>
-                <li class="breadcrumb-item"><a class="text-white" href="{{ route('blogs') }}">Blogs</a></li>
-                <li class="breadcrumb-item text-white active" aria-current="page">Residential_article_3</li>
-            </ol>
-        </nav>
+       
     </div>
 </div>
 <!-- Page Header End -->
@@ -137,7 +131,7 @@
                     <article class="blog-post">
                         <!-- Blog Image -->
                         <div class="post-img">
-                            <img src="img/Residential_img/flooring 4f43.jpg" alt="Blog Image" class="img-fluid">
+                            <img src="img/Residential_img/flooring 4f43.webp" alt="Blog Image" class="img-fluid">
                         </div>
 
                         <!-- Blog Content -->

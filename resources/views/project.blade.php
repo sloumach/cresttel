@@ -4,9 +4,9 @@
 <head>
     <link rel="canonical" href="https://cresttel.net/project.blade.php">
     <meta charset="utf-8">
-    <title>
+    
         <title>Construction Company Projects | Quality Builds | Cresttel</title>
-    </title>
+    
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta
@@ -115,42 +115,68 @@
     <!-- Projects Start -->
     <!-- partial:index.partial.html -->
 
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- About Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="about-img">
-                        <img class="img-fluid" src="img2/about-2.jpg" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                    <h4 class="section-title">About Us</h4>
-                    <h1 class="display-5 mb-4">Welcome to Cresttel, your trusted construction company offering
-                        innovative building solutions. Whether it's a residential construction project, a transformative
-                        home renovation, or a complex commercial project, we bring your ideas to life. With extensive
-                        expertise, we create spaces that inspire, protect, and elevate your way of living and working.
-                        </p>
-
-                        <div class="d-flex align-items-center mb-5">
-                            <div
-                                class="d-flex flex-shrink-0 align-items-center justify-content-center border border-5 border-primary">
-                                <h2 class="display-1 mb-n2" data-toggle="counter-up">25</h2>
-                            </div>
-                            <div class="ps-4">
-                                <h3 class="mb-1">Years</h3>
-                                <h3 class="mb-1">Working</h3>
-                                <h3 class="mb-0">Experience and +</h3>
-                            </div>
+<!-- Hero Section with Slideshow -->
+<section class="cresttel-hero-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Slideshow on the Left -->
+            <div class="col-md-6">
+                <div id="cresttelHeroCarousel" class="carousel slide cresttel-carousel" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <!-- Slide 1 -->
+                        <div class="carousel-item active">
+                            <img src="img/newphotos/residential/received_1352407176110917.jpeg" alt="Slide 1">
                         </div>
-
-                        <a class="btn btn-primary py-3 px-5" href="{{ route('blogs') }}">Read More</a>
+                        <!-- Slide 2 -->
+                        <div class="carousel-item">
+                            <img src="img/newphotos/residential/received_8939254502861696.jpeg" alt="Slide 2">
+                        </div>
+                        <!-- Slide 3 -->
+                        <div class="carousel-item">
+                            <img src="img/newphotos/adu/adu.jpg" alt="Slide 3">
+                        </div>
+                        <!-- Slide 4 -->
+                        <div class="carousel-item">
+                            <img src="img/newphotos/mdu/Library_PhotoPietroSavorelli1 (2).jpg" alt="Slide 4">
+                        </div>
+                        <!-- Slide 5 -->
+                        <div class="carousel-item">
+                            <img src="img/newphotos/fence/received_601254496133002 (1).jpeg" alt="Slide 5">
+                        </div>
+                        <!-- Slide 6 -->
+                        <div class="carousel-item">
+                            <img src="img/newphotos/commercial/Chick-f-la-Food-Court-4.jpg" alt="Slide 6">
+                        </div>
+                    </div>
+                    <!-- Carousel Controls -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#cresttelHeroCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#cresttelHeroCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
+            </div>
+            <!-- Heading on the Right -->
+            <div class="col-md-6 cresttel-hero-content">
+                <h1 class="display-4">Cresttel Projects</h1>
+                <p class="lead">Building the future with innovation and excellence.</p>
             </div>
         </div>
     </div>
-    <!-- About End -->
+</section>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+   
+
+   
 
     <!-- Facts Start -->
     <div class="container-xxl py-5">

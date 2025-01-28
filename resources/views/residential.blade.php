@@ -114,13 +114,7 @@
             <h1 class="display-3 text-white mb-3 animated slideInDown">Expert Residential Construction Services & Home
                 Remodeling Solutions
                 remodeling services</h1>
-            <nav aria-label="breadcrumb animated slideInDown">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a class="text-white" href="{{ route('welcome') }}">Home</a></li>
-                    <li class="breadcrumb-item"><a class="text-white" href="{{ route('service') }}">Service</a></li>
-                    <li class="breadcrumb-item text-white active" aria-current="page">Residential</li>
-                </ol>
-            </nav>
+           
         </div>
     </div>
     <!-- Page Header End -->
@@ -131,62 +125,122 @@
     <section id="services">
         <h2 class="text-primary">Service</h2>
 
-        <p class="fs-1">
-            At Cresttel, we specialize in residential construction, turning your dream home into reality with precision
-            and care. Our services encompass everything from home remodeling to complete renovation services, ensuring
-            every project aligns with your vision and lifestyle.
-            Whether you're searching for residential construction or in need of Home renovation, our skilled team
-            delivers top-tier construction services tailored to your needs. From house construction to Kitchen
-            renovation or bath remodeling, we take pride in offering reliable, high-quality solutions that stand the
-            test of time.
-            With Cresttel, your journey toward a beautiful home is seamless. Start building your future with us
-            today—contact your trusted residential construction company to bring your vision to life!
-
-        </p>
+        <p class="fs-5">
+    At Cresttel, we specialize in residential construction, turning your dream home into reality with precision
+    and care. Our services encompass everything from home remodeling to complete renovation services, ensuring
+    every project aligns with your vision and lifestyle.
+    Whether you're searching for residential construction or in need of Home renovation, our skilled team
+    delivers top-tier construction services tailored to your needs. From house construction to Kitchen
+    renovation or bath remodeling, we take pride in offering reliable, high-quality solutions that stand the
+    test of time.
+    With Cresttel, your journey toward a beautiful home is seamless. Start building your future with us
+    today—contact your trusted residential construction company to bring your vision to life!
+</p>
     </section>
 
-    <div class="slider">
-        <div class="list">
-            <div class="item">
-                <img src="img/Residential_img/flooring 13.jpg" alt="">
-            </div>
-            <div class="item">
-                <img src="img/Residential_img/flooring 15.jpg" alt="">
-            </div>
-            <div class="item">
-                <img src="img/Residential_img/flooring 20.jpg" alt="">
-            </div>
-            <div class="item">
-                <img src="img/Residential_img/flooring 332.jpg" alt="">
-            </div>
-            <div class="item">
-                <img src="img/Residential_img/flooring 4343.jpg" alt="">
-            </div>
-            <div class="item">
-                <img src="img/Residential_img/flooring 4f43.jpg" alt="">
-            </div>
-            <div class="item">
-                <img src="img/Residential_img/flooring10.jpg" alt="">
-            </div>
-            <div class="item">
-                <img src="img/Residential_img/flooring212.jpg" alt="">
-            </div>
 
+
+ 
+ 
+    <!-- Slider Container -->
+    <div class="slider-container" id="slider-container-1">
+        <!-- Slider -->
+        <div class="slider" id="slider-1">
+            <!-- Slide 1 -->
+            <div class="slide active">
+                <div class="image-container">
+                    <img src="img/newphotos/residential/ghy.jpg" alt="Flooring 13">
+                </div>
+                <div class="text-content">
+                    <h2>Title 1</h2>
+                    <p>text</p>
+                </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="slide">
+                <div class="image-container">
+                    <img src="img/newphotos/residential/gr.jpg" alt="Flooring 15">
+                </div>
+                <div class="text-content">
+                    <h2>Title 2</h2>
+                    <p>text</p>
+                </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="slide">
+                <div class="image-container">
+                    <img src="img/newphotos/residential/H1.jpg" alt="Flooring 20">
+                </div>
+                <div class="text-content">
+                    <h2>Title 3</h2>
+                    <p>text</p>
+                </div>
+            </div>
+            <!-- Slide 4 -->
+            <div class="slide">
+                <div class="image-container">
+                    <img src="img/newphotos/residential/housess.jpg" alt="Flooring 332">
+                </div>
+                <div class="text-content">
+                    <h2>Title 4</h2>
+                    <p>text</p>
+                </div>
+            </div>
+            <!-- Slide 5 -->
+            <div class="slide">
+                <div class="image-container">
+                    <img src="img/newphotos/residential/instagram post 2.png" alt="Flooring 4343">
+                </div>
+                <div class="text-content">
+                    <h2>Title 5</h2>
+                    <p>text</p>
+                </div>
+            </div>
+            <!-- Slide 6 -->
+            <div class="slide">
+                <div class="image-container">
+                    <img src="img/newphotos/residential/instagram post 4.png" alt="Flooring 4f43">
+                </div>
+                <div class="text-content">
+                    <h2>Title 6</h2>
+                    <p>text</p>
+                </div>
+            </div>
+            <!-- Slide 7 -->
+            <div class="slide">
+                <div class="image-container">
+                    <img src="img/newphotos/residential/instagrampost3.png" alt="Flooring 10">
+                </div>
+                <div class="text-content">
+                    <h2>Title 7</h2>
+                    <p>text</p>
+                </div>
+            </div>
+            <!-- Slide 8 -->
+            <div class="slide">
+                <div class="image-container">
+                    <img src="img/newphotos/residential/received_619267730579775.jpeg" alt="Flooring 212">
+                </div>
+                <div class="text-content">
+                    <h2>Title 8</h2>
+                    <p>text</p>
+                </div>
+            </div>
         </div>
-        <div class="buttons">
-            <button id="prev">
-                << /button>
-                    <button id="next">></button>
+        <!-- Navigation Buttons -->
+        <div class="navigation">
+            <button class="prev" data-slider="slider-container-1">&#10094;</button>
+            <button class="next" data-slider="slider-container-1">&#10095;</button>
         </div>
-        <ul class="dots">
-            <li class="active"></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
     </div>
 
+   
+ 
+  
+
+ <script></script>
+
+  
     <!-- Why Choose Us Section -->
     <section id="why-us">
         <h2>Why Choose Us</h2>
@@ -210,31 +264,8 @@
         </ul>
     </section>
 
-    <!-- Testimonials Section -->
-    <h2 class="text-center my-5 mt-5">Our Clients Say!</h2>
-    <div class="line"></div> <!-- Line under the header -->
-    <div class="testimonials">
-        <div class="testimonial-container">
-            <div class="testimonial">
-                <p class="quote">"This service has changed my life! 10/10 would recommend!"</p>
-                <h5 class="author">Mark</h5>
-            </div>
-            <div class="testimonial">
-                <p class="quote">"The team was professional and delivered the project ahead of time."</p>
-                <h5 class="author">Mia</h5>
-            </div>
-            <div class="testimonial">
-                <p class="quote">"Amazing experience! The quality exceeded my expectations."</p>
-                <h5 class="author">Liam</h5>
-            </div>
-        </div>
-    </div>
+    
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Get in Touch</h2>
-        @include('contactform')
-    </section>
     <!-- Blog Section -->
     <section id="blog" class="blog">
         <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -245,7 +276,7 @@
                     <div class="post-item position-relative h-100">
 
                         <div class="post-img position-relative overflow-hidden">
-                            <img src="img/Residential_img/flooring 13.jpg" class="img-fluid" alt="">
+                            <img src="img/Residential_img/flooring 13.webp" class="img-fluid" alt="">
 
                         </div>
 
@@ -283,7 +314,7 @@
                     <div class="post-item position-relative h-100">
 
                         <div class="post-img position-relative overflow-hidden">
-                            <img src="img/Residential_img/flooring 15.jpg" class="img-fluid" alt="">
+                            <img src="img/Residential_img/flooring 15.webp" class="img-fluid" alt="">
                         </div>
 
                         <div class="post-content d-flex flex-column">
@@ -319,7 +350,7 @@
                     <div class="post-item position-relative h-100">
 
                         <div class="post-img position-relative overflow-hidden">
-                            <img src="img/Residential_img/flooring 20.jpg" class="img-fluid" alt="">
+                            <img src="img/Residential_img/flooring 20.webp" class="img-fluid" alt="">
                         </div>
 
                         <div class="post-content d-flex flex-column">

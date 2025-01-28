@@ -111,6 +111,45 @@
     @include('aboutheader')
     <!-- Page Header End -->
 
+
+    <!-- About Start -->
+    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+        <div class="container about px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-6 ps-lg-0 min-height-400">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100 object-cover" src="img/IMG_5389-1.jpg"
+                            alt="">
+
+                    </div>
+                </div>
+                <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="p-lg-5 pe-lg-0">
+
+                        <h4 class="display-5 mb-4">Why Choose Cresttel?</h4>
+                        <p class="mb-4 pb-2">“Cresttel offers innovative, reliable construction solutions combining
+                            expertise, affordability, and customer satisfaction. From residential remodeling to custom
+                            home building and commercial construction, we deliver results you can trust.”</p>
+                        <div class="row g-4 mb-4 pb-3">
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
+                                <div class="d-flex align-items-center">
+                                    <div class="btn- bg-white ">
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <a href="{{ route('service') }}" class="btn btn-primary rounded-pill py-3 px-5">Explore
+                            More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
     <!-- Image Slider Start -->
     <div class="container">
         <header class="main-header clearfix">
@@ -178,20 +217,7 @@
             </div>
 
             <div class="cube-container">
-                <div class="photo-cube">
-                    <img class="front" src="img/Cube.png" alt="">
-                    <div class="back photo-desc">
-                        <h3></h3>
-                        <p></p>
-                        <a href="{{ route('services') }}" class="button"><b><br><br><br> MORE</a></b>
-                    </div>
-                    <img class="left" src="img/Cube.png" alt="">
-                    <img class="right" src="img/Cube.png" alt="">
-                </div>
-            </div>
-
-            <div class="cube-container">
-                <div class="photo-cube">
+            <div class="photo-cube">
                     <img class="front" src="img/5. Interior Design & Specifications.png" alt="">
                     <div class="back photo-desc">
                         <h3>5. Interior Design & Specifications</h3>
@@ -206,14 +232,11 @@
 
                 </div>
             </div>
-        </div>
-    </div>
 
-
-    <div class="content clearfix">
-        <div class="cube-container">
-            <div class="photo-cube">
-                <img class="front" src="img/6. Permit & Contract.png" alt="">
+            <div class="cube-container">
+                <div class="photo-cube">
+                    <img class="front" src="img/5. Interior Design & Specifications.png" alt="">
+                    <img class="front" src="img/6. Permit & Contract.png" alt="">
                 <div class="back photo-desc">
                     <h3>6. Permit & Contract</h3>
                     <p>We finalize all permits and contracts, ensuring compliance with local regulations for smooth
@@ -222,34 +245,12 @@
                 </div>
                 <img class="left" src="img/OIP2.jpg" alt="">
                 <img class="right" src="img/fdfd.jpg" alt="">
-            </div>
-        </div>
-        <div class="cube-container">
-            <div class="photo-cube">
-                <img class="front" src="img/7. Fabricate.png" alt="">
-                <div class="back photo-desc">
-                    <h3>7. Fabricate</h3>
-                    <p>Our skilled craftsmen bring your vision to life with meticulous attention to detail, delivering
-                        top-quality results.</p>
 
                 </div>
-                <img class="left" src="img/OIP3.jpg" alt="">
-                <img class="right" src="img/electrical-construction metal.jpg" alt="">
             </div>
-        </div>
-        <div class="cube-container">
-            <div class="photo-cube">
-                <img class="front" src="img/8. DeliveR.png" alt="">
-                <div class="back photo-desc">
-                    <h3>8. Deliver</h3>
-                    <p>We ensure on-time delivery and installation, guaranteeing satisfaction with move-in-ready homes
-                        or fully functional commercial spaces.</p>
+     
 
-                </div>
-                <img class="left" src="img/ff.jpg" alt="">
-                <img class="right" src="img/delivery-4102583_1280.jpg" alt="">
-            </div>
-        </div>
+    
 
     </div>
     </div>
@@ -310,43 +311,31 @@
     <!-- Icon Boxes End -->
 
 
+<section class="testimonials-section">
+  <h2>What Our Clients Say</h2>
+  <p class="subtitle">
+    Your success is our success. Here’s what our valued clients have to say
+    about working with us.
+  </p>
 
-    <!-- About Start -->
-    <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
-        <div class="container about px-lg-0">
-            <div class="row g-0 mx-lg-0">
-                <div class="col-lg-6 ps-lg-0 min-height-400">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100 object-cover" src="img/IMG_5389-1.jpg"
-                            alt="">
+  <div class="testimonial-card">
+    <p id="testimonial-text"></p>
+    <div id="client-name" class="client-name"></div>
+    <div id="client-title" class="client-title"></div>
+  </div>
 
-                    </div>
-                </div>
-                <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="p-lg-5 pe-lg-0">
-
-                        <h4 class="display-5 mb-4">Why Choose Cresttel?</h4>
-                        <p class="mb-4 pb-2">“Cresttel offers innovative, reliable construction solutions combining
-                            expertise, affordability, and customer satisfaction. From residential remodeling to custom
-                            home building and commercial construction, we deliver results you can trust.”</p>
-                        <div class="row g-4 mb-4 pb-3">
-                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
-                                <div class="d-flex align-items-center">
-                                    <div class="btn- bg-white ">
-
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <a href="{{ route('service') }}" class="btn btn-primary rounded-pill py-3 px-5">Explore
-                            More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+  <div class="cta-section">
+    <p>
+      Let us help you achieve your goals—just like we’ve done for these satisfied
+      clients.
+    </p>
+    <a href="{{ route('contact') }}" class="cta-button" id="cta-button">Get Started Today</a>
     </div>
-    <!-- About End -->
+</section>
+
+
+
+  
 
     <!-- Footer Start -->
     @include('footer')

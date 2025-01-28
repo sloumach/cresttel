@@ -1,3 +1,7 @@
+
+
+
+
 /* Responsive styles for smaller screens */
 @media (max-width: 768px) {
 
@@ -447,6 +451,7 @@
         background-color: #127dc2;
     }
 
-    h2 {
+    h3 { font-size: 210%;
         color: white;
+        text-align: left;
     }
