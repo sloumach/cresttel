@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Construction and remodeling company" name="keywords">
-    <meta content="San diego construction and renovation & building contractors" name="keywords">
+    <meta content="San diego construction, renovation & building contractors" name="keywords">
     <meta name="description"
         content="Discover how Cresttel, a leading construction company, delivers innovative, sustainable, and high-quality building solutions for residential and commercial projects.">
     <title>Residential & Commercial Construction company | Cresttel</title>
@@ -116,7 +116,8 @@
     <div class="container-fluid p-0 pb-5">
         <div class="owl-carousel header-carousel position-relative">
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/wephome/ezgif-2-fd9d395e0a.webp" alt="Modern residential construction by a local construction company, showcasing innovative design and renovation services.">
+                <img class="img-fluid" src="img/wephome/ezgif-2-fd9d395e0a.webp"
+                    alt="Modern residential construction by a local construction company, showcasing innovative design and renovation services.">
                 <div class="carousel-inner">
                     <div class="container">
                         <div class="row justify-content-center">
@@ -139,7 +140,8 @@
                 </div>
             </div>
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/wephome/ezgif-5-7e1dbe95f2.webp" alt="Modern residential construction by a local construction company featuring a pool and stylish design elements.">
+                <img class="img-fluid" src="img/wephome/ezgif-5-7e1dbe95f2.webp"
+                    alt="Modern residential construction by a local construction company featuring a pool and stylish design elements.">
                 <div class="carousel-inner">
                     <div class="container">
                         <div class="row justify-content-center">
@@ -159,7 +161,8 @@
                 </div>
             </div>
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/wephome/ezgif-2-51e1d28112.webp" alt="residential construction by a construction company, featuring a pool & open living spaces, perfect for renovation services.">
+                <img class="img-fluid" src="img/wephome/ezgif-2-51e1d28112.webp"
+                    alt="residential construction by a construction company, featuring a pool & open living spaces, perfect for renovation services.">
                 <div class="carousel-inner">
                     <div class="container">
                         <div class="row justify-content-center">
@@ -183,183 +186,194 @@
 
 
 
-   <!-- Service Start -->
-<div class="container-xxl py-5">
-    <div class="container">
-        <div class="text-center mb-5">
-            <h5 class="section-title display-5 mb-4"><span>Our Services</span></h5>
-            <p class="lead text-muted">Crafting spaces that inspire, innovate, and elevate.</p>
-        </div>
-        <div class="row g-4 justify-content-center">
-            <!-- Service Item 1 -->
-            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="service-item glass-card h-100 p-4 text-center">
-                    <div class="icon-box mb-4 mx-auto">
-                        <a href="{{ route('adu') }}">
-                            <img class="img-fluid" src="img/wephome/ezgif-2-117d8ed6c3.webp" alt="ADU Icon">
-                        </a>
-                    </div>
-                    <h5 class="card-title mb-3">ADU</h5>
-                    <p class="card-text mb-4">"Innovative ADU Design & Construction for Extra Space"</p>
-                    <div class="d-flex justify-content-center">
-                        <a href="{{ route('adu') }}" class="btn btn-gradient">Explore More</a>
-                    </div>
-                </div>
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h5 class="section-title display-5 mb-4"><span>Our Services</span></h5>
+                <p class="lead text-muted">Crafting spaces that inspire, innovate, and elevate.</p>
             </div>
-            <!-- Service Item 2 -->
-            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="service-item glass-card h-100 p-4 text-center">
-                    <div class="icon-box mb-4 mx-auto">
-                        <a href="{{ route('mdu') }}">
-                            <img class="img-fluid" src="img/wephome/ezgif-5-23356bdb13.webp" alt="MDU Icon">
-                        </a>
-                    </div>
-                    <h5 class="card-title mb-3">MDU</h5>
-                    <p class="card-text mb-4">"Efficient MDU Development for Modern Living Solutions"</p>
-                    <div class="d-flex justify-content-center">
-                        <a href="{{ route('mdu') }}" class="btn btn-gradient">Explore More</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Service Item 3 -->
-            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="service-item glass-card h-100 p-4 text-center">
-                    <div class="icon-box mb-4 mx-auto">
-                        <a href="{{ route('residential') }}">
-                            <img class="img-fluid" src="img/wephome/ezgif-5-613f01933b.webp" alt="Residential Icon">
-                        </a>
-                    </div>
-                    <h5 class="card-title mb-3">Residential</h5>
-                    <p class="card-text mb-4">"Residential Building & Remodeling Experts"</p>
-                    <div class="d-flex justify-content-center">
-                        <a href="{{ route('residential') }}" class="btn btn-gradient">Explore More</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Service Item 4 -->
-            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
-                <div class="service-item glass-card h-100 p-4 text-center">
-                    <div class="icon-box mb-4 mx-auto">
-                        <a href="{{ route('commercial') }}">
-                            <img class="img-fluid" src="img/Home icons/Commercial.webp" alt="Commercial Icon">
-                        </a>
-                    </div>
-                    <h5 class="card-title mb-3">Commercial</h5>
-                    <p class="card-text mb-4">"Commercial Construction & Renovation Services"</p>
-                    <div class="d-flex justify-content-center">
-                        <a href="{{ route('commercial') }}" class="btn btn-gradient">Explore More</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Service Item 5 -->
-            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.9s">
-                <div class="service-item glass-card h-100 p-4 text-center">
-                    <div class="icon-box mb-4 mx-auto">
-                        <a href="{{ route('fence') }}">
-                            <img class="img-fluid" src="img/Home icons/fence-6148694-5024979.png" alt="Fence Icon">
-                        </a>
-                    </div>
-                    <h5 class="card-title mb-3">Fence</h5>
-                    <p class="card-text mb-4">"Reliable Fence Installation & Custom Design Solutions"</p>
-                    <div class="d-flex justify-content-center">
-                        <a href="{{ route('fence') }}" class="btn btn-gradient">Explore More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Service End -->
-
-
-
-
-<!-- Hero Section -->
-<section class="hero-section">
-    <div class="container text-center">
-        <p class="mb-4">Welcome to Our Unique Company</p>
-        <p class="mb-4">Discover the extraordinary and make your dreams come true with our innovative solutions.
-            At Our Unique Company, we believe in pushing boundaries and redefining possibilities.
-            Our team of experts is dedicated to delivering excellence in every project we undertake.
-            We strive to create solutions that are not only innovative but also sustainable.
-            With a focus on quality and customer satisfaction, we aim to exceed expectations.
-            Our commitment to excellence drives us to continuously improve and evolve.
-            We are passionate about what we do and take pride in our work.
-            Our collaborative approach ensures that every voice is heard and valued.
-            We are committed to building long-lasting relationships with our clients.
-            Together, we can achieve greatness and make a positive impact on the world.
-            Join us on this journey and let's create something extraordinary together.
-        </p>
-    </div>
-</section>
-
- <!-- Features Section -->
-<section id="features" class="feature-cards d-flex align-items-center justify-content-center" style="min-height: 70vh;"> <!-- Reduced min-height -->
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-6 text-center">
-                <div class="feature-card">
-                    <h2 class="mb-3">Feature</h2> <!-- Reduced margin-bottom -->
-                    <div class="d-flex justify-content-center align-items-center mb-3"> <!-- Reduced margin-bottom -->
-                        <div>
-                            <h3 class="display-4">1</h3>
-                            <p>Innovative Solutions</p>
+            <div class="row g-4 justify-content-center">
+                <!-- Service Item 1 -->
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item glass-card h-100 p-4 text-center">
+                        <div class="icon-box mb-4 mx-auto">
+                            <a href="{{ route('adu') }}">
+                                <img class="img-fluid" src="img/wephome/ezgif-2-117d8ed6c3.webp" alt="ADU Icon">
+                            </a>
+                        </div>
+                        <h5 class="card-title mb-3">ADU</h5>
+                        <p class="card-text mb-4">"Innovative ADU Design & Construction for Extra Space"</p>
+                        <div class="d-flex justify-content-center">
+                            <a href="{{ route('adu') }}" class="btn btn-gradient">Explore More</a>
                         </div>
                     </div>
-                    <p>We provide cutting-edge solutions tailored to your needs, ensuring success in every project.</p>
+                </div>
+                <!-- Service Item 2 -->
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item glass-card h-100 p-4 text-center">
+                        <div class="icon-box mb-4 mx-auto">
+                            <a href="{{ route('mdu') }}">
+                                <img class="img-fluid" src="img/wephome/ezgif-5-23356bdb13.webp" alt="MDU Icon">
+                            </a>
+                        </div>
+                        <h5 class="card-title mb-3">MDU</h5>
+                        <p class="card-text mb-4">"Efficient MDU Development for Modern Living Solutions"</p>
+                        <div class="d-flex justify-content-center">
+                            <a href="{{ route('mdu') }}" class="btn btn-gradient">Explore More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service Item 3 -->
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item glass-card h-100 p-4 text-center">
+                        <div class="icon-box mb-4 mx-auto">
+                            <a href="{{ route('residential') }}">
+                                <img class="img-fluid" src="img/wephome/ezgif-5-613f01933b.webp"
+                                    alt="Residential Icon">
+                            </a>
+                        </div>
+                        <h5 class="card-title mb-3">Residential</h5>
+                        <p class="card-text mb-4">"Residential Building & Remodeling Experts"</p>
+                        <div class="d-flex justify-content-center">
+                            <a href="{{ route('residential') }}" class="btn btn-gradient">Explore More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service Item 4 -->
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item glass-card h-100 p-4 text-center">
+                        <div class="icon-box mb-4 mx-auto">
+                            <a href="{{ route('commercial') }}">
+                                <img class="img-fluid" src="img/Home icons/Commercial.webp" alt="Commercial Icon">
+                            </a>
+                        </div>
+                        <h5 class="card-title mb-3">Commercial</h5>
+                        <p class="card-text mb-4">"Commercial Construction & Renovation Services"</p>
+                        <div class="d-flex justify-content-center">
+                            <a href="{{ route('commercial') }}" class="btn btn-gradient">Explore More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service Item 5 -->
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.9s">
+                    <div class="service-item glass-card h-100 p-4 text-center">
+                        <div class="icon-box mb-4 mx-auto">
+                            <a href="{{ route('fence') }}">
+                                <img class="img-fluid" src="img/Home icons/fence-6148694-5024979.png"
+                                    alt="Fence Icon">
+                            </a>
+                        </div>
+                        <h5 class="card-title mb-3">Fence</h5>
+                        <p class="card-text mb-4">"Reliable Fence Installation & Custom Design Solutions"</p>
+                        <div class="d-flex justify-content-center">
+                            <a href="{{ route('fence') }}" class="btn btn-gradient">Explore More</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</section>
+    <!-- Service End -->
+
+
+
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container text-center">
+            <p class="mb-4">OUR MISSION</p>
+            <p class="mb-4">At Cresttel, our mission is to provide top-quality construction services that meet the
+                diverse needs of our clients, whether it's for residential construction, commercial construction, or
+                renovation services. We are committed to transforming ideas into reality by delivering reliable,
+                professional, and cost-effective construction solutions.
+            </p>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="feature-cards d-flex align-items-center justify-content-center"
+        style="min-height: 70vh;"> <!-- Reduced min-height -->
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center">
+                    <div class="feature-card">
+                        <h2 class="mb-3">OUR VALUE</h2> <!-- Reduced margin-bottom -->
+                        <div class="d-flex justify-content-center align-items-center mb-3">
+                            <!-- Reduced margin-bottom -->
+                            <div>
+
+                                <p>At Cresttel, we believe that our values are the foundation of our success. Our
+                                    approach to construction is centered around:</p>
+                            </div>
+                        </div>
+                        <p> • Integrity: We operate with honesty and transparency, ensuring our clients trust us every
+                            step of the way.
+                            • Quality: We are dedicated to delivering high-quality construction services for every
+                            project, whether it’s residential construction, commercial construction, or home remodeling.
+                            Our work speaks for itself, and we take pride in every detail.
+                            • Customer-Centricity: We place our clients’ needs at the forefront, providing tailored
+                            solutions that exceed expectations.
+                            • Innovation: We stay at the forefront of the latest construction and remodeling
+                            technologies to offer efficient, cost-effective solutions.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <section class="testimonials-section bg-light py-5">
-    <div class="container">
-        <h2 class="text-center mb-5">What Our Clients Say</h2>
-        <!-- Carousel with faster transition -->
-        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
-            <div class="carousel-inner">
-                <!-- Testimonial 1 -->
-                <div class="carousel-item active">
-                    <div class="testimonial text-center">
-                        <p>"This company transformed our business! Their solutions are top-notch and their team is incredibly professional."</p>
-                        <h5>John Doe</h5>
-                        <p>CEO, Company XYZ</p>
+        <div class="container">
+            <h2 class="text-center mb-5">What Our Clients Say</h2>
+            <!-- Carousel with faster transition -->
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                <div class="carousel-inner">
+                    <!-- Testimonial 1 -->
+                    <div class="carousel-item active">
+                        <div class="testimonial text-center">
+                            <p>"This company transformed our business! Their solutions are top-notch and their team is
+                                incredibly professional."</p>
+                            <h5>John Doe</h5>
+                            <p>CEO, Company XYZ</p>
+                        </div>
+                    </div>
+                    <!-- Testimonial 2 -->
+                    <div class="carousel-item">
+                        <div class="testimonial text-center">
+                            <p>"I couldn't be happier with the results. They delivered beyond our expectations!"</p>
+                            <h5>Jane Smith</h5>
+                            <p>Founder, Startup ABC</p>
+                        </div>
+                    </div>
+                    <!-- Testimonial 3 -->
+                    <div class="carousel-item">
+                        <div class="testimonial text-center">
+                            <p>"Their attention to detail and customer focus is unmatched. Highly recommended!"</p>
+                            <h5>Mike Johnson</h5>
+                            <p>Marketing Specialist</p>
+                        </div>
                     </div>
                 </div>
-                <!-- Testimonial 2 -->
-                <div class="carousel-item">
-                    <div class="testimonial text-center">
-                        <p>"I couldn't be happier with the results. They delivered beyond our expectations!"</p>
-                        <h5>Jane Smith</h5>
-                        <p>Founder, Startup ABC</p>
-                    </div>
-                </div>
-                <!-- Testimonial 3 -->
-                <div class="carousel-item">
-                    <div class="testimonial text-center">
-                        <p>"Their attention to detail and customer focus is unmatched. Highly recommended!"</p>
-                        <h5>Mike Johnson</h5>
-                        <p>Marketing Specialist</p>
-                    </div>
-                </div>
+                <!-- Carousel Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <!-- Carousel Controls -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
         </div>
-    </div>
-</section>
+    </section>
 
 
-<div class="stock-ticker">
+    <div class="stock-ticker">
         <ul>
             <li>
                 <span class="company">We are the best construction company</span>
@@ -453,45 +467,71 @@
 
 
     <!-- Combined Section Start -->
-<div class="container-fluid py-6 px-5">
-    <div class="row g-5">
-        <!-- First Image and Text -->
-        <div class="col-lg-5 pb-5 about-image">
-            <div class="position-relative bg-dark-radial h-100 ms-3 larger-image">
-                <img id="unique-image-id" class="position-absolute img-custom w-100"
-                    src="img/wephome/ezgif-2-a4321ed7e9.webp"
-                    alt="Modern luxury house with swimming pool and outdoor kitchen at sunset, showcasing Cresttel's premium residential construction and design services">
-            </div>
-        </div>
-        <div class="col-lg-7 about-text">
-            <h3 class="display-5 text-uppercase mb-4">We are <span class="fading">the Leader</span> in Construction Industry!</h3>
-            <p>Looking for a trusted construction company to bring your vision to life? With years of expertise, we deliver outstanding residential construction, commercial construction, and remodeling services. Whether it's a new build, renovation services, or an ADU (Accessory Dwelling Unit) project, our team ensures exceptional results tailored to your needs. From fence services to complete construction and remodeling, we provide quality solutions for every property type. Searching for “construction companies near me”? We’re your reliable choice for innovative designs and superior craftsmanship. At every step, we prioritize your satisfaction by focusing on clear communication, meticulous planning, and delivering exceptional craftsmanship. Our commitment to completing projects on time and within budget ensures a stress-free experience for you. We work closely with you to bring your ideas to life, creating spaces that reflect your vision and meet your unique needs. Whether it's a small renovation or a large-scale construction project, we dedicate ourselves to achieving outstanding results. Let us transform your vision into reality with precision and care. Contact us today to explore how our professional construction services can make a difference.</p>
-            <div class="row gx-5 py-2">
-                <div class="col-sm-6 mb-2">
-                    <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>Perfect Planning</p>
-                    <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>Professional Workers</p>
-                    <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>First Working Process</p>
-                </div>
-                <div class="col-sm-6 mb-2">
-                    <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>Expert Coordination</p>
-                    <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>Skilled Technicians</p>
-                    <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>Innovative Solutions</p>
+    <div class="container-fluid py-6 px-5">
+        <div class="row g-5">
+            <!-- First Image and Text -->
+            <div class="col-lg-5 pb-5 about-image">
+                <div class="position-relative bg-dark-radial h-100 ms-3 larger-image">
+                    <img id="unique-image-id" class="position-absolute img-custom w-100"
+                        src="img/wephome/ezgif-2-a4321ed7e9.webp"
+                        alt="Modern luxury house with swimming pool and outdoor kitchen at sunset, showcasing Cresttel's premium residential construction and design services">
                 </div>
             </div>
-        </div>
+            <div class="col-lg-7 about-text">
+                <h3 class="display-5 text-uppercase mb-4">We are <span class="fading">the Leader</span> in
+                    Construction Industry!</h3>
+                <p>Looking for a trusted construction company to bring your vision to life? With years of expertise, we
+                    deliver outstanding residential construction, commercial construction, and remodeling services.
+                    Whether it's a new build, renovation services, or an ADU (Accessory Dwelling Unit) project, our team
+                    ensures exceptional results tailored to your needs. From fence services to complete construction and
+                    remodeling, we provide quality solutions for every property type. Searching for “construction
+                    companies near me”? We’re your reliable choice for innovative designs and superior craftsmanship. At
+                    every step, we prioritize your satisfaction by focusing on clear communication, meticulous planning,
+                    and delivering exceptional craftsmanship. Our commitment to completing projects on time and within
+                    budget ensures a stress-free experience for you. We work closely with you to bring your ideas to
+                    life, creating spaces that reflect your vision and meet your unique needs. Whether it's a small
+                    renovation or a large-scale construction project, we dedicate ourselves to achieving outstanding
+                    results. Let us transform your vision into reality with precision and care. Contact us today to
+                    explore how our professional construction services can make a difference.</p>
+                <div class="row gx-5 py-2">
+                    <div class="col-sm-6 mb-2">
+                        <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>Perfect Planning</p>
+                        <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>Professional Workers</p>
+                        <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>First Working Process</p>
+                    </div>
+                    <div class="col-sm-6 mb-2">
+                        <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>Expert Coordination</p>
+                        <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>Skilled Technicians</p>
+                        <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>Innovative Solutions</p>
+                    </div>
+                </div>
+            </div>
 
-        <!-- Second Paragraph (Left) -->
-        <div class="col-lg-5 about-text">
-            <p>Looking for a trusted construction company to bring your vision to life? With years of expertise, we deliver outstanding residential construction, commercial construction, and remodeling services. Whether it's a new build, renovation services, or an ADU (Accessory Dwelling Unit) project, our team ensures exceptional results tailored to your needs. From fence services to complete construction and remodeling, we provide quality solutions for every property type. Searching for “construction companies near me”? We’re your reliable choice for innovative designs and superior craftsmanship. At every step, we prioritize your satisfaction by focusing on clear communication, meticulous planning, and delivering exceptional craftsmanship. Our commitment to completing projects on time and within budget ensures a stress-free experience for you. We work closely with you to bring your ideas to life, creating spaces that reflect your vision and meet your unique needs. Whether it's a small renovation or a large-scale construction project, we dedicate ourselves to achieving outstanding results. Let us transform your vision into reality with precision and care. Contact us today to explore how our professional construction services can make a difference.</p>
-        </div>
+            <!-- Second Paragraph (Left) -->
+            <div class="col-lg-5 about-text">
+                <p>Looking for a trusted construction company to bring your vision to life? With years of expertise, we
+                    deliver outstanding residential construction, commercial construction, and remodeling services.
+                    Whether it's a new build, renovation services, or an ADU (Accessory Dwelling Unit) project, our team
+                    ensures exceptional results tailored to your needs. From fence services to complete construction and
+                    remodeling, we provide quality solutions for every property type. Searching for “construction
+                    companies near me”? We’re your reliable choice for innovative designs and superior craftsmanship. At
+                    every step, we prioritize your satisfaction by focusing on clear communication, meticulous planning,
+                    and delivering exceptional craftsmanship. Our commitment to completing projects on time and within
+                    budget ensures a stress-free experience for you. We work closely with you to bring your ideas to
+                    life, creating spaces that reflect your vision and meet your unique needs. Whether it's a small
+                    renovation or a large-scale construction project, we dedicate ourselves to achieving outstanding
+                    results. Let us transform your vision into reality with precision and care. Contact us today to
+                    explore how our professional construction services can make a difference.</p>
+            </div>
 
-        <!-- Second Image (Right) -->
-        <div class="col-lg-7 about-image">
-            <img src="https://hanthelconsulting.com/wp-content/uploads/2023/06/modern-construction.png" alt="About Us" class="img-fluid rounded">
+            <!-- Second Image (Right) -->
+            <div class="col-lg-7 about-image">
+                <img src="https://hanthelconsulting.com/wp-content/uploads/2023/06/modern-construction.png"
+                    alt="About Us" class="img-fluid rounded">
+            </div>
         </div>
     </div>
-</div>
-<!-- Combined Section End -->
+    <!-- Combined Section End -->
 
 
 
@@ -541,6 +581,6 @@
 <script src="{{ asset('js/home.js') }}"></script>
 <!-- Bootstrap JS and dependencies -->
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 
 </html>

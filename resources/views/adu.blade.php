@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    
+
     <meta charset="utf-8">
     <title> Expert ADU Construction services in San Diego | Cresttel </title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -116,7 +116,7 @@
         <div class="container py-5">
             <h1 class="display-3 text-white mb-3 animated slideInDown">Accessory Dwelling Unit Construction & Design
             </h1>
-            
+
         </div>
     </div>
     <!-- Page Header End -->
@@ -138,7 +138,7 @@
         </p>
     </section>
 
-   
+
 <!-- Slider Container -->
 <div class="slider-container" id="slider-container-1">
     <!-- Slider -->
@@ -149,8 +149,8 @@
                 <img src="img/newphotos/adu/adu.jpg" alt="1-Bed ADU House Plan">
             </div>
             <div class="text-content">
-                <h2>Title 1</h2>
-                <p>text</p>
+                <h2>Modern house design</h2>
+                <p>A Stunning ADU construction project Completed by Cresttel Construction</p>
             </div>
         </div>
         <!-- Slide 2 -->
@@ -159,8 +159,8 @@
                 <img src="img/ADU_img/1.Maydan-Architects_Palo-Alto-ADU_Photography-by-Dave-Edwards.webp" alt="Maydan Architects ADU">
             </div>
             <div class="text-content">
-                <h2>Title 2</h2>
-                <p>text</p>
+                <h2>Seamless Modern Living</h2>
+                <p>A Sophisticated ADU finished project Crafted by the Cresttel Construction team</p>
             </div>
         </div>
         <!-- Slide 3 -->
@@ -169,8 +169,8 @@
                 <img src="img/ADU_img/20200903_094940-1200x900.webp" alt="ADU Image">
             </div>
             <div class="text-content">
-                <h2>Title 3</h2>
-                <p>text</p>
+                <h2>Charming and Functional</h2>
+                <p>A Custom Cottage-Style ADU construction project finished by Cresttel Construction team</p>
             </div>
         </div>
         <!-- Slide 4 -->
@@ -189,8 +189,8 @@
                 <img src="img/newphotos/adu/modern-adu-tiny-home-acessory-dwelling-unit copy.webp" alt="750 Sq Ft ADU">
             </div>
             <div class="text-content">
-                <h2>Title 5</h2>
-                <p>text</p>
+                <h2>Contemporary Comfort design </h2>
+                <p>A Modern Backyard ADU design constructed by Cresttel Construction team</p>
             </div>
         </div>
         <!-- Slide 6 -->
@@ -304,9 +304,9 @@
         </ul>
     </section>
 
-     
 
-    
+
+
 
     <!-- Blog Section -->
     <section id="blog" class="blog">
