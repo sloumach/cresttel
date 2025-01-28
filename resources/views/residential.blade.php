@@ -152,8 +152,8 @@
                     <img src="img/newphotos/residential/ghy.jpg" alt="Flooring 13">
                 </div>
                 <div class="text-content">
-                    <h2>Title 1</h2>
-                    <p>text</p>
+                    <h2>Elegant Residential Renovation</h2>
+                    <p>A Modern Fireplace and Minimalist Interior Design constructed by Cresttel Construction team</p>
                 </div>
             </div>
             <!-- Slide 2 -->
@@ -162,8 +162,8 @@
                     <img src="img/newphotos/residential/gr.jpg" alt="Flooring 15">
                 </div>
                 <div class="text-content">
-                    <h2>Title 2</h2>
-                    <p>text</p>
+                    <h2>A Residential Remodeling Transformation </h2>
+                    <p>Cozy and Contemporary Bedroom Transformation by Cresttel Construction team</p>
                 </div>
             </div>
             <!-- Slide 3 -->
@@ -172,8 +172,8 @@
                     <img src="img/newphotos/residential/H1.jpg" alt="Flooring 20">
                 </div>
                 <div class="text-content">
-                    <h2>Title 3</h2>
-                    <p>text</p>
+                    <h2>Modern Minimalist Residential Design</h2>
+                    <p>A Perfect Blend of Light and Space by Cresttel Construction company</p>
                 </div>
             </div>
             <!-- Slide 4 -->
@@ -182,8 +182,8 @@
                     <img src="img/newphotos/residential/housess.jpg" alt="Flooring 332">
                 </div>
                 <div class="text-content">
-                    <h2>Title 4</h2>
-                    <p>text</p>
+                    <h2>Charming Residential Retreat </h2>
+                    <p>A Perfect Harmony of Nature and Modern Living by Cresttel Construction company </p>
                 </div>
             </div>
             <!-- Slide 5 -->
@@ -192,8 +192,8 @@
                     <img src="img/newphotos/residential/instagram post 2.png" alt="Flooring 4343">
                 </div>
                 <div class="text-content">
-                    <h2>Title 5</h2>
-                    <p>text</p>
+                    <h2>Modern Design</h2>
+                    <p>Stunning Residential Skylight Installation by Cresttel Construction team Maximizing Natural Light </p>
                 </div>
             </div>
             <!-- Slide 6 -->
@@ -202,8 +202,8 @@
                     <img src="img/newphotos/residential/instagram post 4.png" alt="Flooring 4f43">
                 </div>
                 <div class="text-content">
-                    <h2>Title 6</h2>
-                    <p>text</p>
+                    <h2>Luxurious Bathroom Renovation</h2>
+                    <p>Sleek Re-Design and Modern Functionality for bathroom by Cresttel Construction Team </p>
                 </div>
             </div>
             <!-- Slide 7 -->

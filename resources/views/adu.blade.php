@@ -199,8 +199,8 @@
                 <img src="img/ADU_img/Adu - Photos & Ideas (1)(1).webp" alt="ADU Photos & Ideas 1">
             </div>
             <div class="text-content">
-                <h2>Title 6</h2>
-                <p>text</p>
+                <h2>Modern Backyard ADU Transformation</h2>
+                <p>Work Combining A Blend of Functionality and Style by Cresttel Construction team </p>
             </div>
         </div>
         <!-- Slide 7 -->
@@ -209,8 +209,8 @@
                 <img src="img/ADU_img/Adu - Photos & Ideas.webp" alt="ADU Photos & Ideas 2">
             </div>
             <div class="text-content">
-                <h2>Title 7</h2>
-                <p>text</p>
+                <h2>Elegant ADU Creation</h2>
+                <p>A Spacious and Modern Living Solution constructed by Cresttel Construction team </p>
             </div>
         </div>
         <!-- Slide 8 -->
