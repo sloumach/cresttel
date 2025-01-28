@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="canonical" href="https://cresttel.net/mdu.blade.php">
+    
     <meta charset="utf-8">
     <title>MDU Construction Services | Multi-Dwelling Unit Experts</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">

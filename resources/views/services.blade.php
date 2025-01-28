@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="canonical" href="https://cresttel.net/{{ route('service') }}">
+
     <meta charset="utf-8">
     <title>Expert Construction Services for Homes & Businesses | Cresttel </title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -121,7 +121,7 @@
         <div class="list">
             <div class="item active">
                 <img src="img/service img/31.jpg"
-                    alt="Wooden garden fence with vibrant flowers and lush green lawn under a clear blue sky - Cresttel Fencing Services">
+                    alt="Reliable fence services for residential and commercial properties, ensuring privacy and security">
                 <div class="content">
                     <p>Service</p>
                     <h2>Fence</h2>
@@ -135,7 +135,7 @@
             </div>
             <div class="item">
                 <img src="img/ADU_img/blog-2.jpg"
-                    alt="Modern backyard office with sleek exterior design, wooden accents, large windows, and landscaped garden - Cresttel construction and renovation services.">
+                    alt="Professional ADU construction services for affordable and efficient accessory dwelling units">
                 <div class="content">
                     <p>Service</p>
                     <h2>Accessory Dwelling Units (ADUs)</h2>
@@ -149,7 +149,7 @@
             </div>
             <div class="item">
                 <img src="img/service img/ser com.jpg"
-                    alt="Modern commercial building with American flag at sunset, featuring sleek design and parking accessibility - Cresttel Commercial Services">
+                    alt="Commercial construction services for modern office spaces and commercial properties">
                 <div class="content">
                     <p>Service</p>
                     <h2>Commercial Construction Services</h2>
@@ -164,7 +164,7 @@
             </div>
             <div class="item">
                 <img src="img/service img/ser mdu.jpg"
-                    alt="Modern building exterior with sleek design, stone facade, and geometric architecture under clear blue sky - Cresttel Services">
+                    alt="MDU construction services for multi-dwelling units with efficient planning and execution">
                 <div class="content">
                     <p>Service</p>
                     <h2>Multi-Dwelling Units (MDUs)</h2>
@@ -179,7 +179,7 @@
 
             <div class="item">
                 <img src="img/service img/rs.jpg"
-                    alt="Elegant modern luxury home with lush landscaping, grand entrance, and beautiful exterior - Cresttel residential construction and renovation services.">
+                    alt="Residential construction services for durable and reliable homes with expert craftsmanship">
                 <div class="content">
                     <p>Service</p>
                     <h2>Residential Construction Services</h2>
@@ -269,15 +269,15 @@
             <a href="https://www.facebook.com/cresttelconstruction" target="_blank" class="icon facebook"
                 title="Facebook">
                 <img src="img/Home icons/3d-render-facebook-logo-icon-with-new-notification-isolated-on-transparent-background-free-png.png"
-                    alt="Facebook" />
+                    alt="Facebook icon" />
             </a>
             <a href="https://www.instagram.com/cresttelconstruction/" target="_blank" class="icon instagram"
                 title="Instagram">
-                <img src="img/Home icons/instagram-logo-3d-illustration-free-png.png" alt="Instagram" />
+                <img src="img/Home icons/instagram-logo-3d-illustration-free-png.png" alt="Instagram icon" />
             </a>
             <a href="https://www.linkedin.com/company/cresttelconstruction" target="_blank" class="icon linkedin"
                 title="LinkedIn">
-                <img src="img/Home icons/linkedin-3d-icon-free-png.png" alt="LinkedIn" />
+                <img src="img/Home icons/linkedin-3d-icon-free-png.png" alt="LinkedIn icon" />
             </a>
         </div>
     </div>

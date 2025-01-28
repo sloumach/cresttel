@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="canonical" href="https://cresttel.net/project.blade.php">
+
     <meta charset="utf-8">
     <title>
         <title>Construction Company Projects | Quality Builds | Cresttel</title>
@@ -122,7 +122,7 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                     <div class="about-img">
-                        <img class="img-fluid" src="img2/about-2.jpg" alt="">
+                        <img class="img-fluid" src="img2/about-2.jpg" alt="Commercial construction building with innovative architectural design.">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">

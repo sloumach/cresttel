@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="canonical" href="{{ route('welcome') }}">
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -116,7 +116,7 @@
     <div class="container-fluid p-0 pb-5">
         <div class="owl-carousel header-carousel position-relative">
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/wephome/ezgif-2-fd9d395e0a.webp" alt="">
+                <img class="img-fluid" src="img/wephome/ezgif-2-fd9d395e0a.webp" alt="Modern residential construction by a local construction company, showcasing innovative design and renovation services.">
                 <div class="carousel-inner">
                     <div class="container">
                         <div class="row justify-content-center">
@@ -139,7 +139,7 @@
                 </div>
             </div>
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/wephome/ezgif-5-7e1dbe95f2.webp" alt="">
+                <img class="img-fluid" src="img/wephome/ezgif-5-7e1dbe95f2.webp" alt="Modern residential construction by a local construction company featuring a pool and stylish design elements.">
                 <div class="carousel-inner">
                     <div class="container">
                         <div class="row justify-content-center">
@@ -159,7 +159,7 @@
                 </div>
             </div>
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/wephome/ezgif-2-51e1d28112.webp" alt="">
+                <img class="img-fluid" src="img/wephome/ezgif-2-51e1d28112.webp" alt="residential construction by a construction company, featuring a pool & open living spaces, perfect for renovation services.">
                 <div class="carousel-inner">
                     <div class="container">
                         <div class="row justify-content-center">
@@ -197,7 +197,7 @@
                         <div class="btn-square bg-light rounded-circle mb-3 image-hover custom-size">
                             <a href="{{ route('adu') }}">
                                 <img class="img-fluid rounded-circle" src="img/wephome/ezgif-2-117d8ed6c3.webp"
-                                    alt="Icon">
+                                    alt="adu construction icon">
                             </a>
                         </div>
                         <h5 class="mb-2">ADU</h5>
@@ -213,7 +213,7 @@
                         <div class="btn-square bg-light rounded-circle mb-3 image-hover custom-size">
                             <a href="{{ route('mdu') }}">
                                 <img class="img-fluid rounded-circle" src="img/wephome/ezgif-5-23356bdb13.webp"
-                                    alt="Icon">
+                                    alt="mdu construction icon ">
                             </a>
                         </div>
                         <h5 class="mb-2">MDU</h5>
@@ -229,7 +229,7 @@
                         <div class="btn-square bg-light rounded-circle mb-3 image-hover custom-size">
                             <a href="{{ route('residential') }}">
                                 <img class="img-fluid rounded-circle" src="img/wephome/ezgif-5-613f01933b.webp"
-                                    alt="Icon">
+                                    alt="Residential home icon ">
                             </a>
                         </div>
                         <h5 class="mb-2">Residential</h5>
@@ -245,7 +245,7 @@
                         <div class="btn-square bg-light rounded-circle mb-3 image-hover custom-size">
                             <a href="{{ route('commercial') }}">
                                 <img class="img-fluid rounded-circle" src="img/Home icons/Commercial.webp"
-                                    alt="Icon">
+                                    alt="commercial construction icon">
                             </a>
                         </div>
                         <h5 class="mb-2">Commercial</h5>
@@ -261,7 +261,7 @@
                         <div class="btn-square bg-light rounded-circle mb-3 image-hover custom-size">
                             <a href="{{ route('fence') }}">
                                 <img class="img-fluid rounded-circle" src="img/Home icons/fence-6148694-5024979.png"
-                                    alt="Icon">
+                                    alt="fence icon ">
                             </a>
                         </div>
                         <h5 class="mb-2">Fence</h5>
@@ -373,7 +373,7 @@
                 <div class="position-relative bg-dark-radial h-100 ms-3 larger-image">
                     <img id="unique-image-id" class="position-absolute img-custom"
                         src="img/wephome/ezgif-2-a4321ed7e9.webp"
-                        alt="Modern luxury house with swimming pool and outdoor kitchen at sunset, showcasing Cresttel's premium residential construction and design services">
+                        alt="Luxury house with pool & kitchen at sunset, showcasing the construction company cresttel's residential construction project">
                 </div>
             </div>
             <div class="col-lg-7 about-text">

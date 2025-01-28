@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="canonical" href="{{ route('adublog2') }}">
+    
 
     <meta charset="utf-8">
     <meta charset="UTF-8">

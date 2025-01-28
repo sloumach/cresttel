@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="canonical" href="https://cresttel.net/residential.blade.php">
+
     <meta charset="utf-8">
     <title>Residential Construction Services | Expert Building Solutions</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -175,8 +175,8 @@
         </div>
         <div class="buttons">
             <button id="prev">
-                << /button>
-                    <button id="next">></button>
+
+                    <button id="next"></button>
         </div>
         <ul class="dots">
             <li class="active"></li>
