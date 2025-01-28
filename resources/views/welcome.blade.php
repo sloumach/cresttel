@@ -509,19 +509,13 @@
 
             <!-- Second Paragraph (Left) -->
             <div class="col-lg-5 about-text">
-                <p>Looking for a trusted construction company to bring your vision to life? With years of expertise, we
-                    deliver outstanding residential construction, commercial construction, and remodeling services.
-                    Whether it's a new build, renovation services, or an ADU (Accessory Dwelling Unit) project, our team
-                    ensures exceptional results tailored to your needs. From fence services to complete construction and
-                    remodeling, we provide quality solutions for every property type. Searching for “construction
-                    companies near me”? We’re your reliable choice for innovative designs and superior craftsmanship. At
-                    every step, we prioritize your satisfaction by focusing on clear communication, meticulous planning,
-                    and delivering exceptional craftsmanship. Our commitment to completing projects on time and within
-                    budget ensures a stress-free experience for you. We work closely with you to bring your ideas to
-                    life, creating spaces that reflect your vision and meet your unique needs. Whether it's a small
-                    renovation or a large-scale construction project, we dedicate ourselves to achieving outstanding
-                    results. Let us transform your vision into reality with precision and care. Contact us today to
-                    explore how our professional construction services can make a difference.</p>
+                <p>your vision is our top priority. As a trusted construction company, we specialize in turning your
+                    dreams into reality with unmatched dedication and expertise. Whether it's a stunning residential
+                    construction project, a state-of-the-art commercial construction, or personalized remodeling
+                    services, we deliver exceptional results tailored to your needs. Our team’s commitment to quality
+                    ensures that every detail of your project is handled with care, making us the go-to choice for those
+                    searching for "trusted construction companies near me" or renovation services that exceed
+                    expectations. At Cresttel, we don’t just build structures—we build trust.</p>
             </div>
 
             <!-- Second Image (Right) -->
