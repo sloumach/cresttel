@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    
+
     <meta charset="utf-8">
     <title>Commercial Construction Services | Expert Contractors</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -120,7 +120,7 @@
         <div class="container py-5">
             <h1 class="display-3 text-white mb-3 animated slideInDown">Your Trusted Contractor for Commercial
                 Construction Services </h1>
-            
+
         </div>
     </div>
     <!-- Page Header End -->
@@ -146,7 +146,7 @@
         </p>
     </section>
 
-    
+
 
 
     <!-- Slider Container -->
@@ -159,8 +159,8 @@
                     <img src="img/newphotos/commercial/Chick-f-la-Food-Court-1.jpg" alt="12vgc">
                 </div>
                 <div class="text-content">
-                    <h2>Title 1</h2>
-                    <p>text</p>
+                    <h2>Modern Food Court Buildout </h2>
+                    <p>A Functional and Stylish Commercial Redesign Space for Chick-fil-A by Cresttel Construction team for commercial remodeling project </p>
                 </div>
             </div>
             <!-- Slide 2 -->
@@ -169,8 +169,8 @@
                     <img src="img/newphotos/commercial/Chick-f-la-Food-Court-4.jpg" alt="ATT Store">
                 </div>
                 <div class="text-content">
-                    <h2>Title 2</h2>
-                    <p>text</p>
+                    <h2>Efficient Commercial Kitchen Remodel</h2>
+                    <p>kitchen remodling project by Cresttel Construction company Optimized for High-Performance Operations</p>
                 </div>
             </div>
             <!-- Slide 3 -->
@@ -179,8 +179,8 @@
                     <img src="img/newphotos/commercial/Panda_Jacksonville_001 (1).jpg" alt="Construction Electrical">
                 </div>
                 <div class="text-content">
-                    <h2>Title 3</h2>
-                    <p>text</p>
+                    <h2>Contemporary Panda Express Buildout</h2>
+                    <p>A Bold and Inviting Commercial Space by Cresttel Construction team</p>
                 </div>
             </div>
             <!-- Slide 4 -->
@@ -189,8 +189,8 @@
                     <img src="img/newphotos/commercial/Panera_Lewisville002 (2).jpg" alt="ED3">
                 </div>
                 <div class="text-content">
-                    <h2>Title 4</h2>
-                    <p>text</p>
+                    <h2>Modern Panera Bread </h2>
+                    <p>A Sleek commercial property construction by Cresttel team </p>
                 </div>
             </div>
             <!-- Slide 5 -->
@@ -199,8 +199,8 @@
                     <img src="img/newphotos/commercial/received_1146069000561897.jpeg" alt="Fadfe">
                 </div>
                 <div class="text-content">
-                    <h2>Title 5</h2>
-                    <p>text</p>
+                    <h2>Vibrant Subway Remodel project</h2>
+                    <p>A Fresh and Modern redisgn for subway commercial building by Cresttel Construction team providing the perfect Dining Experience </p>
                 </div>
             </div>
             <!-- Slide 6 -->
@@ -209,8 +209,8 @@
                     <img src="img/newphotos/commercial/received_1780802519346379.jpeg" alt="IMG 0702">
                 </div>
                 <div class="text-content">
-                    <h2>Title 6</h2>
-                    <p>text</p>
+                    <h2>Modern Subway Exterior Remodel by Cresttel Construction: Inviting Design with a Fresh Look</h2>
+                    <p>Inviting Design with a Fresh Look a Remodel project finished by Cresttel Construction team </p>
                 </div>
             </div>
             <!-- Slide 7 -->
@@ -268,9 +268,9 @@
         </ul>
     </section>
 
-     
 
-   
+
+
     <!-- Blog Section -->
     <section id="blog" class="blog">
         <div class="container" data-aos="fade-up" data-aos-delay="100">

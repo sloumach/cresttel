@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    
+
     <meta charset="utf-8">
     <title>Fence Services | Expert Fence Installation & Repair</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -120,7 +120,7 @@
         <div class="container py-5">
             <h1 class="display-3 text-white mb-3 animated slideInDown">Reliable Fence Installations & Repairs by Expert
             </h1>
-           
+
         </div>
     </div>
 
@@ -143,7 +143,7 @@
         </p>
     </section>
 
-   
+
 
 <!-- Slider Container -->
 <div class="slider-container" id="slider-container-1">
@@ -155,8 +155,8 @@
                 <img src="img/Fence/26.webp" alt="Fence 26">
             </div>
             <div class="text-content">
-                <h2>Title 1</h2>
-                <p>text</p>
+                <h2>Durable and Modern Metal Fence</h2>
+                <p>A Secure and Stylish Boundary metal fence Installation by Cresttel team</p>
             </div>
         </div>
         <!-- Slide 2 -->
@@ -165,8 +165,8 @@
                 <img src="img/Fence/27.webp" alt="Fence 27">
             </div>
             <div class="text-content">
-                <h2>Title 2</h2>
-                <p>text</p>
+                <h2>Elegant Sliding Fence</h2>
+                <p>Modern fence Installation project by Cresttel team Combining Privacy and Modern Design </p>
             </div>
         </div>
         <!-- Slide 3 -->
@@ -175,8 +175,8 @@
                 <img src="img/Fence/28.webp" alt="Fence 28">
             </div>
             <div class="text-content">
-                <h2>Title 3</h2>
-                <p>text</p>
+                <h2>Stylish Wood-Panel Fence</h2>
+                <p> wood fence Installation project by Cresttel team for A Blend of Modern Aesthetics and Durability</p>
             </div>
         </div>
         <!-- Slide 4 -->
@@ -185,8 +185,8 @@
                 <img src="img/Fence/29.webp" alt="Fence 29">
             </div>
             <div class="text-content">
-                <h2>Title 4</h2>
-                <p>text</p>
+                <h2>Grand Iron Gate</h2>
+                <p>iron fence Installation project by Cresttel team for a Timeless Elegance and Security</p>
             </div>
         </div>
         <!-- Slide 5 -->
@@ -195,8 +195,8 @@
                 <img src="img/Fence/30 - Copie.webp" alt="Fence 30">
             </div>
             <div class="text-content">
-                <h2>Title 5</h2>
-                <p>text</p>
+                <h2>Elegant Black Metal Fence</h2>
+                <p> Another metal fence Installation by Cresttel team for A Perfect Blend of Security and Style</p>
             </div>
         </div>
         <!-- Slide 6 -->
@@ -205,8 +205,8 @@
                 <img src="img/Fence/31.webp" alt="Fence 31">
             </div>
             <div class="text-content">
-                <h2>Title 6</h2>
-                <p>text</p>
+                <h2>Metal Fence Repair </h2>
+                <p>Professional fence repair by Cresttel Construction team Restoring Strength and Elegance </p>
             </div>
         </div>
         <!-- Slide 7 -->
@@ -291,9 +291,9 @@
         </ul>
     </section>
 
-     
 
-  
+
+
     <!-- Blog Section -->
     <section id="blog" class="blog">
         <div class="container" data-aos="fade-up" data-aos-delay="100">

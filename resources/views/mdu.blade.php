@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    
+
     <meta charset="utf-8">
     <title>MDU Construction Services | Multi-Dwelling Unit Experts</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -118,7 +118,7 @@
         <div class="container py-5">
             <h1 class="display-3 text-white mb-3 animated slideInDown">Expert Multi-Dwelling Unit (MDU) Construction
                 services </h1>
-           
+
         </div>
     </div>
 
@@ -163,8 +163,8 @@
                     <img src="img/MDU_img/7e08c1c418c0dd4fec6c0de211313fd8.webp" alt="Image 2">
                 </div>
                 <div class="text-content">
-                    <h2>Title 2</h2>
-                    <p>text</p>
+                    <h2>Modern Multi-Dwelling Unit project </h2>
+                    <p>Innovative Design and Urban Functionality Construction by Cresttel team </p>
                 </div>
             </div>
             <!-- Slide 3 -->
@@ -173,8 +173,8 @@
                     <img src="img/MDU_img/9_GreveLibrary_PhotoPietroSavorelli3.webp" alt="Image 3">
                 </div>
                 <div class="text-content">
-                    <h2>Title 3</h2>
-                    <p>text</p>
+                    <h2>Contemporary Multi-Dwelling Unit </h2>
+                    <p> A modern construction with the focus on Modern Architecture and Functionality</p>
                 </div>
             </div>
             <!-- Slide 4 -->
@@ -193,8 +193,8 @@
                     <img src="img/MDU_img/Library4_PhotoPietroSavorelli.webp" alt="Image 5">
                 </div>
                 <div class="text-content">
-                    <h2>Title 5</h2>
-                    <p>text</p>
+                    <h2>Dynamic Multi-Dwelling Unit project<</h2>
+                    <p>construction project by Cresttel Construction team with the focus on Fusion of Form and Function</p>
                 </div>
             </div>
             <!-- Slide 6 -->
@@ -203,8 +203,8 @@
                     <img src="img/MDU_img/Library_PhotoPietroSavorelli1.webp" alt="Image 6">
                 </div>
                 <div class="text-content">
-                    <h2>Title 6</h2>
-                    <p>text</p>
+                    <h2>Striking Multi-Dwelling Unit design </h2>
+                    <p>A Modern Architectural Landmark by Cresttel Construction company</p>
                 </div>
             </div>
             <!-- Slide 7 -->
@@ -213,8 +213,8 @@
                     <img src="img/MDU_img/Library_PhotoPietroSavorelli2.webp" alt="Image 7">
                 </div>
                 <div class="text-content">
-                    <h2>Title 7</h2>
-                    <p>text</p>
+                    <h2>Illuminated Multi-Dwelling Unit project </h2>
+                    <p> A Modern design for a MDU construction project by the cresttel construction team</p>
                 </div>
             </div>
             <!-- Slide 8 -->
@@ -235,8 +235,8 @@
         </div>
     </div>
 
-  
-   
+
+
 
     <!-- Why Choose Us Section -->
     <section id="why-us">
@@ -261,9 +261,9 @@
         </ul>
     </section>
 
-     
 
-    
+
+
     <!-- Blog Section -->
     <section id="blog" class="blog">
         <div class="container" data-aos="fade-up" data-aos-delay="100">
