@@ -153,7 +153,7 @@
                 </div>
                 <div class="text-content">
                     <h2>Elegant Residential Renovation</h2>
-                    <p>A Modern Fireplace and Minimalist Interior Design constructed by Cresttel Construction team</p>
+                    <p>A Modern Fireplace and Minimalist Interior Design <br>constructed by Cresttel Construction team</p>
                 </div>
             </div>
             <!-- Slide 2 -->
@@ -162,8 +162,8 @@
                     <img src="img/newphotos/residential/gr.jpg" alt="Flooring 15">
                 </div>
                 <div class="text-content">
-                    <h2>A Residential Remodeling Transformation </h2>
-                    <p>Cozy and Contemporary Bedroom Transformation by Cresttel Construction team</p>
+                    <h2>A Residential Remodeling <br>Transformation </h2>
+                    <p>Cozy and Contemporary Bedroom Transformation <br>by Cresttel Construction team</p>
                 </div>
             </div>
             <!-- Slide 3 -->
@@ -172,8 +172,8 @@
                     <img src="img/newphotos/residential/H1.jpg" alt="Flooring 20">
                 </div>
                 <div class="text-content">
-                    <h2>Modern Minimalist Residential Design</h2>
-                    <p>A Perfect Blend of Light and Space by Cresttel Construction company</p>
+                    <h2>Modern Minimalist <br>Residential Design</h2>
+                    <p>A Perfect Blend of Light and Space <br>by Cresttel Construction company</p>
                 </div>
             </div>
             <!-- Slide 4 -->
@@ -183,7 +183,7 @@
                 </div>
                 <div class="text-content">
                     <h2>Charming Residential Retreat </h2>
-                    <p>A Perfect Harmony of Nature and Modern Living by Cresttel Construction company </p>
+                    <p>A Perfect Harmony of Nature and Modern Living <br>by Cresttel Construction company </p>
                 </div>
             </div>
             <!-- Slide 5 -->
@@ -193,7 +193,7 @@
                 </div>
                 <div class="text-content">
                     <h2>Modern Design</h2>
-                    <p>Stunning Residential Skylight Installation by Cresttel Construction team Maximizing Natural Light </p>
+                    <p>Stunning Residential Skylight Installation by Cresttel <br>Construction team Maximizing Natural Light </p>
                 </div>
             </div>
             <!-- Slide 6 -->
@@ -203,29 +203,11 @@
                 </div>
                 <div class="text-content">
                     <h2>Luxurious Bathroom Renovation</h2>
-                    <p>Sleek Re-Design and Modern Functionality for bathroom by Cresttel Construction Team </p>
+                    <p>Sleek Re-Design and Modern Functionality <br>for bathroom by Cresttel Construction Team </p>
                 </div>
             </div>
-            <!-- Slide 7 -->
-            <div class="slide">
-                <div class="image-container">
-                    <img src="img/newphotos/residential/instagrampost3.png" alt="Flooring 10">
-                </div>
-                <div class="text-content">
-                    <h2>Title 7</h2>
-                    <p>text</p>
-                </div>
-            </div>
-            <!-- Slide 8 -->
-            <div class="slide">
-                <div class="image-container">
-                    <img src="img/newphotos/residential/received_619267730579775.jpeg" alt="Flooring 212">
-                </div>
-                <div class="text-content">
-                    <h2>Title 8</h2>
-                    <p>text</p>
-                </div>
-            </div>
+           
+           
         </div>
         <!-- Navigation Buttons -->
         <div class="navigation">
