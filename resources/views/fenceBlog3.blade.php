@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    
+    <link rel="canonical" href="https://cresttel.net/fenceblog3">
     <meta charset="utf-8">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="style.css">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
-    <meta content="How to Build a Proper Fence: A Comprehensive Guide | Cresttel" name="description">
+    <meta content="Learn about fence maintenance and care. Keep your fence looking great with expert tips on cleaning, repairs, and extending its lifespan. Discover more with Cresttel" name="description">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -115,7 +115,7 @@
     <div class="container py-5">
         <h1 class="display-3 text-white mb-3 animated slideInDown">How to Build a Proper Fence: A Comprehensive Guide?
         </h1>
-       
+
     </div>
 </div>
 <!-- Page Header End -->
@@ -125,7 +125,7 @@
     <section id="blog-details" class="blog-details">
         <div class="container" data-aos="fade-up">
             <div class="row">
-                <h2 class="title">How to Build a Proper Fence: A Comprehensive Guide? </h2>
+                
                 <!-- Main Blog Content -->
                 <div class="col-lg-8">
                     <article class="blog-post">

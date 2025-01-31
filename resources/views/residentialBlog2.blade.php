@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    
+    <link rel="canonical" href="https://cresttel.net/residentialblog2">
     <meta charset="utf-8">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="style.css">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
-    <meta content="Top 5 Home Renovation Trends for 2024 | Cresttel" name="description">
+    <meta content="Discover innovative residential design ideas with Cresttel. Maximize space, boost curb appeal, and create a home that blends style and functionality. Learn more!" name="description">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -114,8 +114,8 @@
 <!-- Page Header Start -->
 <div class="container-fluid s bg-primary">
     <div class="container py-5">
-        <h1 class="display-3 text-white mb-3 animated slideInDown">Top 5 Home Renovation Trends for 2024</h1>
-       
+        <h1 class="display-3 text-white mb-3 animated slideInDown">Top 5 Home Renovation Trends for 2025</h1>
+
     </div>
 </div>
 <!-- Page Header End -->
@@ -125,7 +125,7 @@
     <section id="blog-details" class="blog-details">
         <div class="container" data-aos="fade-up">
             <div class="row">
-                <h2 class="title">Top 5 Home Renovation Trends for 2024 </h2>
+
                 <!-- Main Blog Content -->
                 <div class="col-lg-8">
                     <article class="blog-post">

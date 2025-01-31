@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="canonical" href="{{ route('adublog3') }}">
+    <link rel="canonical" href="https://cresttel.net/adublog3">
     <meta charset="utf-8">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -111,7 +111,7 @@
 <div class="container-fluid s bg-primary">
     <div class="container py-5">
         <h1 class="display-3 text-white mb-3 animated slideInDown">Best Accessory Dwelling Unit</h1>
-        
+
     </div>
 </div>
 <!-- Page Header End -->

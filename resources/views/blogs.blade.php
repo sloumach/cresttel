@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-   
+    <link rel="canonical" href="https://cresttel.net/blogs">
     <meta charset="utf-8">
     <title>Cresttel Blog | San Diego Construction News, Tips & Insights </title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">

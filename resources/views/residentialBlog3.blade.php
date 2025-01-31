@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    
+    <link rel="canonical" href="https://cresttel.net/residentialblog3">
     <meta charset="utf-8">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="style.css">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
-    <meta content="How to Choose the Right Flooring for Your Home? | Cresttel" name="description">
+    <meta content="Explore sustainable residential design ideas with Cresttel. Create eco-friendly, energy-efficient homes that enhance comfort and increase property value. Learn more!" name="description">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -115,7 +115,7 @@
 <div class="container-fluid s bg-primary">
     <div class="container py-5">
         <h1 class="display-3 text-white mb-3 animated slideInDown">How to Choose the Right Flooring for Your Home?</h1>
-       
+
     </div>
 </div>
 <!-- Page Header End -->
@@ -125,7 +125,7 @@
     <section id="blog-details" class="blog-details">
         <div class="container" data-aos="fade-up">
             <div class="row">
-                <h2 class="title">How to Choose the Right Flooring for Your Home? </h2>
+                
                 <!-- Main Blog Content -->
                 <div class="col-lg-8">
                     <article class="blog-post">

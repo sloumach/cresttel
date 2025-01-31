@@ -2,8 +2,8 @@
 <html lang="en">
 
 <head>
-    
 
+    <link rel="canonical" href="https://cresttel.net/adublog2">
     <meta charset="utf-8">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -117,7 +117,7 @@
     <div class="container py-5">
         <h1 class="display-3 text-white mb-3 animated slideInDown">Top 5 Benefits of Building an ADU on Your Property
         </h1>
-        
+
     </div>
 </div>
 <!-- Page Header End -->
@@ -131,7 +131,7 @@
     <section id="blog-details" class="blog-details">
         <div class="container" data-aos="fade-up">
             <div class="row">
-                <h2 class="title">Our TOP 5 !</h2>
+
                 <!-- Main Blog Content -->
                 <div class="col-lg-8">
                     <article class="blog-post">
@@ -183,7 +183,7 @@
 
 
                             <img src="img/ADU_img/adu ar3.jpg" class="img-fluid" alt="">
-                          
+
                             <a href="{{ route('adu') }}"
    class="btn btn-primary btn-sm rounded-pill py-2 px-4 me-3 animated slideInLeft mt-5 ms-3">
     <span>Visit Our Service ADU Page</span>

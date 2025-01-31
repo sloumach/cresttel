@@ -3,7 +3,7 @@
 
 <head>
 
-
+    <link rel="canonical" href="https://cresttel.net/contact">
     <meta charset="utf-8">
     <Title>Contact Us | Cresttel Construction Company</Title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -125,14 +125,14 @@
         </div>
     </div>
     <!-- Page Header End -->
-   
-    
-   
 
 
-   
-   
-   
+
+
+
+
+
+
 
     <!-- Quote Start -->
     <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
@@ -177,7 +177,7 @@
     </div>
 </div>
 <!-- Map End -->
-    
+
 
     <!-- Footer Start -->
     @include('footer')
