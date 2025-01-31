@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+    <url>
+        <loc>http://localhost:8000/</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/about</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/services</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/project</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/blogs</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/contact</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/adu</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/mdu</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/residential</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/commercial</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/fence</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/adublog1</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/adublog2</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/adublog3</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/mdublog1</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/mdublog2</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/mdublog3</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/fenceblog1</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/fenceblog2</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/fenceblog3</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/commercialblog1</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/commercialblog2</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/commercialblog3</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/residentialblog1</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/residentialblog2</loc>
+    
+            </url>
+    <url>
+        <loc>http://localhost:8000/residentialblog3</loc>
+    
+            </url>
+</urlset>
