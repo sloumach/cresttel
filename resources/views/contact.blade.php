@@ -41,6 +41,8 @@
     <link rel="icon" href="img/icon/Cresttel-icon.png" type="image/x-icon">
     <!-- or for PNG files -->
     <link rel="icon" href="img/icon/Cresttel-icon.png" type="image/png">
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
 
@@ -166,6 +168,12 @@
     </div>
     </div>
     <!-- Quote End -->
+
+  
+ 
+  
+
+
   <!-- Map Start -->
 <div class="container-fluid px-0">
     <div class="map-container" style="position: relative; overflow: hidden; padding-top: 20%; width: 95%;"> <!-- Adjust padding-top to reduce height -->
@@ -177,7 +185,36 @@
     </div>
 </div>
 <!-- Map End -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cresttel Construction</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+ 
 
+  <!-- Use container-fluid for full-width layout -->
+  <div class="container-fluid my-5">
+    <div class="custom-container">
+      <div class="row align-items-center">
+        <!-- Left Column: Paragraph -->
+        <div class="col-md-6">
+        <h3 class="text-primary" style="font-size: 2.75rem;">We Will Turn Your Dream Home or Business into Reality</h3>
+        <p class="p2">
+            When it comes to finding a reliable construction company, choosing the right partner is essential. At Cresttel, we take pride in delivering top-tier construction services tailored to residential and commercial needs. Whether you're searching for a local construction company for a custom home or need expert solutions for a large-scale project, we ensure quality craftsmanship and timely execution. Furthermore, our expertise in modern building techniques and strong industry connections make us a preferred choice among San Diego construction companies. Most importantly, our commitment to client satisfaction sets us apart—every project is handled with precision, transparency, and professionalism. Additionally, our well-structured construction website provides seamless access to our portfolio and services, ensuring you stay informed at every step. So, if you're looking for a trusted name in the industry, Cresttel is your go-to partner for outstanding results.
+          </p>
+        </div>
+        <!-- Right Column: Image -->
+        <div class="col-md-6">
+          <img src="img/Roof 9.jpg" alt="Construction Image" class="img-fluid rounded">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
 
     <!-- Footer Start -->
     @include('footer')
@@ -238,6 +275,8 @@
 <script src="{{ asset('js/bublle.js') }}"></script>
 <script src="{{ asset('js/contact.js') }}"></script>
 
+<!-- Bootstrap JS (Optional) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
 
 </html>

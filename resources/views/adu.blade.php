@@ -196,7 +196,7 @@
         <!-- Slide 6 -->
         <div class="slide">
             <div class="image-container">
-                <img src="img/ADU_img/Adu - Photos & Ideas (1)(1).webp" alt="ADU Photos & Ideas 1">
+                <img src="img/ADU_img/AduPhotos Ideas (1)(1).webp" alt="ADU Photos & Ideas 1">
             </div>
             <div class="text-content">
                 <h2>Modern Backyard ADU Transformation</h2>
@@ -206,7 +206,7 @@
         <!-- Slide 7 -->
         <div class="slide">
             <div class="image-container">
-                <img src="img/ADU_img/Adu - Photos & Ideas.webp" alt="ADU Photos & Ideas 2">
+                <img src="img/ADU_img/AduPhotosIdeas.webp" alt="ADU Photos & Ideas 2">
             </div>
             <div class="text-content">
                 <h2>Elegant ADU Creation</h2>
