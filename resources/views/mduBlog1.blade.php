@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    
+    <link rel="canonical" href="https://cresttel.net/mdublog1">
     <meta charset="utf-8">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="style.css">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
-    <meta content="What Are MDUs and Why Are They Important? | Cresttel" name="description">
+    <meta content="Learn about MDUs (Multi-Dwelling Units), Explore their benefits, design options, and impact on property value. Unlock MDU insights now, Discover more with Cresttel." name="description">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -116,7 +116,7 @@
 <div class="container-fluid s bg-primary">
     <div class="container py-5">
         <h1 class="display-3 text-white mb-3 animated slideInDown">What Are MDUs and Why Are They Important?</h1>
-        
+
     </div>
 </div>
 <!-- Page Header End -->
@@ -127,7 +127,7 @@
     <section id="blog-details" class="blog-details">
         <div class="container" data-aos="fade-up">
             <div class="row">
-                <h2 class="title">What Are MDUs and Why Are They Important? </h2>
+                
                 <!-- Main Blog Content -->
                 <div class="col-lg-8">
                     <article class="blog-post">

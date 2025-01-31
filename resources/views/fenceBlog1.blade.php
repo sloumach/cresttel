@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    
+    <link rel="canonical" href="https://cresttel.net/fenceblog1">
     <meta charset="utf-8">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="style.css">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
-    <meta content="Guide to Choosing the Perfect Fence for Your Home | Cresttel" name="description">
+    <meta content="Explore these fence installation tips and Learn how to choose the best materials, styles, and techniques for durable, attractive fencing solutions with Cresttel." name="description">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -113,7 +113,7 @@
     <div class="container py-5">
         <h1 class="display-3 text-white mb-3 animated slideInDown">Choosing the Perfect Fence for Your Home: A
             Comprehensive Guide</h1>
-        
+
     </div>
 </div>
 <!-- Page Header End -->
@@ -127,7 +127,7 @@
     <section id="blog-details" class="blog-details">
         <div class="container" data-aos="fade-up">
             <div class="row">
-                <h2 class="title">Choosing the Perfect Fence for Your Home: A Comprehensive Guide</h2>
+                
                 <!-- Main Blog Content -->
                 <div class="col-lg-8">
                     <article class="blog-post">
