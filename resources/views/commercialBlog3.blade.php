@@ -146,9 +146,10 @@
     </p>
 </div><!-- End post content -->
 
+
 <div class="post-img">
-    <img src="img/COmer/att store.webp" alt="" class="img-fluid">
-</div>
+  <img src="img/COmer/att-store.webp" alt="Blog Image" class="img-fluid">
+ </div>
 
 <h3>Experience :</h3>
 <div class="content">

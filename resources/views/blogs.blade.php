@@ -115,47 +115,14 @@
 
     <!-- Topbar End -->
 
-    <section id="testimonial" class="padding-large">
-        <div class="container">
+<!-- Page Header Start -->
+<div class="container-fluid s bg-primary">
+    <div class="container py-5">
+        <h1 class="display-3 text-white mb-3 animated slideInDown">Latest news, Trends & Guides for construction and renovation</h1>
 
-            <div class="row">
-
-                <div class="col-md-6">
-
-                    <figure class="jarallax-keep-img testimonial-image" data-speed="0.5">
-                        <img src="images/w800x533.jpg" alt="review" class="jarallax-img">
-                    </figure>
-
-                </div>
-
-                <div class="col-md-6">
-
-                    <div class="testimonial-block">
-                        <div class="section-header">
-                            <div class="title">
-                                <span>About us </span>
-                            </div>
-                            <h2 class="section-title">Cresttel</h2>
-                        </div>
-                        <div class="testimonials-inner">
-                            <q>At Cresttel, we pride ourselves on transforming your construction dreams into tangible
-                                realities. Our unwavering commitment to quality craftsmanship and timely delivery sets
-                                us apart in the industry. Our team of seasoned experts collaborates closely with you to
-                                ensure every aspect of your project is executed flawlessly.</q>
-                            <div class="testimonial-author">
-                                <div class="author-detail">
-                                    <div class="name">Services :</div>
-                                    <div class="author-title">ADU ,MDU ,Fence ,Commercial ,Residential</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!--reviews-content-->
-
-                </div>
-            </div><!--grid-->
-
-        </div>
-    </section>
+    </div>
+</div>
+<!-- Page Header End -->
 
     <section id="latest-blog" class="scrollspy-section bg-grey padding-large">
         <div class="container">
@@ -677,6 +644,47 @@
     </section>
 
 
+    <section id="testimonial" class="padding-large">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-6">
+
+                    <figure class="jarallax-keep-img testimonial-image" data-speed="0.5">
+                        <img src="images/w800x533.jpg" alt="review" class="jarallax-img">
+                    </figure>
+
+                </div>
+
+                <div class="col-md-6">
+
+                    <div class="testimonial-block">
+                        <div class="section-header">
+                            <div class="title">
+                                <span>About us </span>
+                            </div>
+                            <h2 class="section-title">Cresttel</h2>
+                        </div>
+                        <div class="testimonials-inner">
+                            <q>At Cresttel, we pride ourselves on transforming your construction dreams into tangible
+                                realities. Our unwavering commitment to quality craftsmanship and timely delivery sets
+                                us apart in the industry. Our team of seasoned experts collaborates closely with you to
+                                ensure every aspect of your project is executed flawlessly.</q>
+                            <div class="testimonial-author">
+                                <div class="author-detail">
+                                    <div class="name">Services :</div>
+                                    <div class="author-title">ADU ,MDU ,Fence ,Commercial ,Residential</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--reviews-content-->
+
+                </div>
+            </div><!--grid-->
+
+        </div>
+    </section>
 
     </div>
     </div>
