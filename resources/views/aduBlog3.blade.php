@@ -141,7 +141,7 @@
 </div><!-- End post content -->
 
 <div class="post-img">
-    <img src="img/ADU_img/1.Maydan-Architects_Palo-Alto-ADU_Photography-by-Dave-Edwards.jpg" alt="" class="img-fluid">
+    <img src="img/ADU_img/1.Maydan-Architects_Palo-Alto-ADU_Photography-by-Dave-Edwards.webp" alt="" class="img-fluid">
 </div>
 
 <h3>What’s an ADU, Anyway?</h3>
@@ -184,7 +184,7 @@
 
                             <div class="col-lg-4">
                                 <div class="post-item">
-                                    <img src="img/ADU_img/4adcc7fd5377527c9901dbdba02bfa48.jpg" alt=""
+                                    <img src="img/ADU_img/4adcc7fd5377527c9901dbdba02bfa48.webp" alt=""
                                         class="img-fluid">
 
                                 </div>
@@ -192,14 +192,14 @@
 
                             <div class="col-lg-4">
                                 <div class="post-item">
-                                    <img src="img/ADU_img/1-Bed ADU House Plan with Cathedral Ceilings - 593 Sq Ft.jpg"
+                                    <img src="img/ADU_img/1-Bed ADU House Plan with Cathedral Ceilings - 593 Sq Ft.webp"
                                         alt="" class="img-fluid">
 
                                 </div>
                             </div>
                             <div class="col-lg-4">
                                 <div class="post-item">
-                                    <img src="img/ADU_img/Miller-renovation-remodel-example.jpg" alt=""
+                                    <img src="img/ADU_img/miller-renovation-remodel-example.webp" alt=""
                                         class="img-fluid">
 
                                 </div>

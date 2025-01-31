@@ -172,7 +172,7 @@
 </p>
 
 
-                        <img src="img/Residential_img/flooring 4343.jpg" class="img-fluid" alt="">
+                        <img src="img/Residential_img/flooring 4343.webp" class="img-fluid" alt="">
                         <a href="{{ route('residential') }}"
    class="btn btn-primary rounded-pill py-2 px-4 me-3 animated slideInLeft mt-5 ms-3">
     <span>Visit Our Service residential Page</span>

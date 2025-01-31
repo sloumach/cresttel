@@ -176,7 +176,7 @@
         <!-- Slide 4 -->
         <div class="slide">
             <div class="image-container">
-                <img src="img/newphotos/adu/Tailored Excellence_ Site-Built or Prefab ADUs with Nestadu 🌟.jpg" alt="ADU Design">
+                <img src="img/newphotos/adu/TailoredExcellence.jpg" alt="ADU Design">
             </div>
             <div class="text-content">
                 <h2>Title 4</h2>

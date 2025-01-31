@@ -185,7 +185,7 @@
 
                         </div><!-- End post content -->
                         <div class="post-img">
-                            <img src="img/Fence/30 - Copie.jpg" alt="" class="img-fluid">
+                            <img src="img/Fence/30 - Copie.webp" alt="" class="img-fluid">
                         </div>
 
                         <a href="{{ route('fence') }}"

@@ -147,7 +147,7 @@
 </div><!-- End post content -->
 
 <div class="post-img">
-    <img src="img/COmer/att store.jpg" alt="" class="img-fluid">
+    <img src="img/COmer/att store.webp" alt="" class="img-fluid">
 </div>
 
 <h3>Experience :</h3>
@@ -196,20 +196,20 @@
 
                             <div class="col-lg-4">
                                 <div class="post-item">
-                                    <img src="img/COmer/ed3.jpg" alt="" class="img-fluid">
+                                    <img src="img/COmer/ed3.webp" alt="" class="img-fluid">
 
                                 </div>
                             </div>
 
                             <div class="col-lg-4">
                                 <div class="post-item">
-                                    <img src="img/COmer/fadsfd.png" alt="" class="img-fluid">
+                                    <img src="img/COmer/fadsfd.webp" alt="" class="img-fluid">
 
                                 </div>
                             </div>
                             <div class="col-lg-4">
                                 <div class="post-item">
-                                    <img src="img/COmer/12vgc.jpg" alt="" class="img-fluid">
+                                    <img src="img/COmer/12vgc.webp" alt="" class="img-fluid">
 
                                 </div>
                             </div>

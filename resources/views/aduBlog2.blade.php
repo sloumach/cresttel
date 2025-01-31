@@ -182,7 +182,7 @@
 
 
 
-                            <img src="img/ADU_img/adu ar3.jpg" class="img-fluid" alt="">
+                            <img src="img/ADU_img/adu ar3.webp" class="img-fluid" alt="">
 
                             <a href="{{ route('adu') }}"
    class="btn btn-primary btn-sm rounded-pill py-2 px-4 me-3 animated slideInLeft mt-5 ms-3">
@@ -202,7 +202,7 @@
 
                             <div class="col-lg-4">
                                 <div class="post-item">
-                                    <img src="img/ADU_img/4adcc7fd5377527c9901dbdba02bfa48.jpg" alt=""
+                                    <img src="img/ADU_img/4adcc7fd5377527c9901dbdba02bfa48.webp" alt=""
                                         class="img-fluid">
 
                                 </div>
@@ -210,14 +210,14 @@
 
                             <div class="col-lg-4">
                                 <div class="post-item">
-                                    <img src="img/ADU_img/1-Bed ADU House Plan with Cathedral Ceilings - 593 Sq Ft.jpg"
+                                    <img src="img/ADU_img/1-Bed ADU House Plan with Cathedral Ceilings - 593 Sq Ft.webp"
                                         alt="" class="img-fluid">
 
                                 </div>
                             </div>
                             <div class="col-lg-4">
                                 <div class="post-item">
-                                    <img src="img/ADU_img/Miller-renovation-remodel-example.jpg" alt=""
+                                    <img src="img/ADU_img/miller-renovation-remodel-example.webp" alt=""
                                         class="img-fluid">
 
                                 </div>
