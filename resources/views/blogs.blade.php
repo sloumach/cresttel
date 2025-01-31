@@ -681,14 +681,6 @@
     </div>
     </div>
 
-    <script src="jsblog/jquery-1.11.0.min.js"></script>
-    <script src="jsblog/ui-easing.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
-    </script>
-    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-    <script src="jsblog/plugins.js"></script>
-    <script src="jsblog/script.js"></script>
 
 
     <!-- Scroll to Top Button -->
@@ -771,6 +763,7 @@
 <script src="{{ asset('js/main.js') }}"></script>
 <script src="{{ asset('js/bublle.js') }}"></script>
 <script src="{{ asset('js/blogs.js') }}"></script>
+
 
 </html>
 

@@ -9,7 +9,7 @@
     <title>How to Choose the Right Flooring for Your Home? | Cresttel</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+     <link href="css/style.css" rel="stylesheet">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="Explore sustainable residential design ideas with Cresttel. Create eco-friendly, energy-efficient homes that enhance comfort and increase property value. Learn more!" name="description">
