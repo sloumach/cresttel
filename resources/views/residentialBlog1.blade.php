@@ -143,7 +143,7 @@
 </div><!-- End post content -->
 
 <div class="post-img">
-    <img src="img/Residential_img/flooring 332.jpg" alt="Flooring Image" class="img-fluid">
+    <img src="img/Residential_img/flooring 332.webp" alt="Flooring Image" class="img-fluid">
 </div>
 
 <h3 class="mt-4">Key Aspects of Home Maintenance :</h3>
@@ -188,7 +188,7 @@
 </div>
 
 
-                                <img src="img/Residential_img/flooring 4f43.jpg" class="img-fluid" alt="">
+                                <img src="img/Residential_img/flooring 4f43.webp" class="img-fluid" alt="">
                                 <a href="{{ route('residential') }}"
    class="btn btn-primary rounded-pill py-2 px-4 me-3 animated slideInLeft mt-5 ms-3">
     <span>Visit Our Service residential Page</span>

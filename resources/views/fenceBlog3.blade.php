@@ -143,7 +143,7 @@
 </div><!-- End post content -->
 
 <div class="post-img">
-    <img src="img/Fence/31.jpg" alt="" class="img-fluid">
+    <img src="img/Fence/31.webp" alt="" class="img-fluid">
 </div>
 
 <h3>Step 1: Assess Your Needs</h3>
@@ -206,7 +206,7 @@
 </p>
 
 
-                            <img src="img/Fence/35.jpg" class="img-fluid" alt="">
+                            <img src="img/Fence/35.webp" class="img-fluid" alt="">
                             <a href="{{ route('fence') }}"
    class="btn btn-primary rounded-pill py-2 px-4 me-3 animated slideInLeft mt-5 ms-3">
    <span>Visit Our Service Fence Page</span>

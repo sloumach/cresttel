@@ -178,7 +178,7 @@
 
 
 
-                                <img src="img/MDU_img/9_GreveLibrary_PhotoPietroSavorelli3.jpg" class="img-fluid"
+                                <img src="img/MDU_img/9_GreveLibrary_PhotoPietroSavorelli3.webp" class="img-fluid"
                                     alt="">
                                     <a href="{{ route('mdu') }}"
    class="btn btn-primary rounded-pill py-2 px-4 me-3 animated slideInLeft mt-5 ms-3">
@@ -199,7 +199,7 @@
 
                             <div class="col-lg-4">
                                 <div class="post-item">
-                                    <img src="img/MDU_img/GreveLibrary_PhotoPietroSavorelli.jpg" alt=""
+                                    <img src="img/MDU_img/GreveLibrary_PhotoPietroSavorelli.webp" alt=""
                                         class="img-fluid">
 
                                 </div>
@@ -207,14 +207,14 @@
 
                             <div class="col-lg-4">
                                 <div class="post-item">
-                                    <img src="img/MDU_img/Library4_PhotoPietroSavorelli.jpg" alt=""
+                                    <img src="img/MDU_img/Library4_PhotoPietroSavorelli.webp" alt=""
                                         class="img-fluid">
 
                                 </div>
                             </div>
                             <div class="col-lg-4">
                                 <div class="post-item">
-                                    <img src="img/MDU_img/Library_PhotoPietroSavorelli2.jpg" alt=""
+                                    <img src="img/MDU_img/Library_PhotoPietroSavorelli2.webp" alt=""
                                         class="img-fluid">
 
                                 </div>

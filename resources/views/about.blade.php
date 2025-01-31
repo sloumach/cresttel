@@ -182,7 +182,7 @@
                             plan effectively and ensure project feasibility.</p>
                     </div>
                     <img class="left" src="img/turned to webp/ezgif-6-9f66ba3211.webp" alt="">
-                    <img class="right" src="img/ADU_img/Adu - Photos & Ideas (1)(1).jpg" alt="">
+                    <img class="right" src="img/ADU_img/AduPhotosIdeas.webp" alt="">
                 </div>
             </div>
 

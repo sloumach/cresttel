@@ -188,7 +188,7 @@
 
 
 
-                            <img src="img/Fence/30 - Copie.jpg  " class="img-fluid" alt="">
+                            <img src="img/Fence/30 - Copie.webp  " class="img-fluid" alt="">
                             <a href="{{ route('fence') }}"
    class="btn btn-primary rounded-pill py-2 px-4 me-3 animated slideInLeft mt-5 ms-3">
    <span>Visit Our Service Fence Page</span>

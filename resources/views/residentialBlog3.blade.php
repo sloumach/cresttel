@@ -199,7 +199,7 @@
     In conclusion, selecting the right flooring for your home is crucial for its aesthetic and functionality. Consider hardwood, laminate, tile, and carpet materials, lifestyle needs, and room functionality to make an informed decision. At Cresttel, our team can assist you in remodeling your home, ensuring you choose a solution that not only beautifies your space but also fits your lifestyle and budget. Trust us to help you create a home that reflects your style and stands the test of time.
 </p>
 
-                                <img src="img/Residential_img/flooring212.jpg" class="img-fluid" alt="">
+                                <img src="img/Residential_img/flooring212.webp" class="img-fluid" alt="">
                                 <a href="{{ route('residential') }}"
    class="btn btn-primary rounded-pill py-2 px-4 me-3 animated slideInLeft mt-5 ms-3">
     <span>Visit Our Service residential Page</span>

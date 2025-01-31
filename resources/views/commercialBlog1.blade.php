@@ -167,7 +167,7 @@
 
 
 
-                            <img src="img/COmer/construction_electrical.jpg" class="img-fluid" alt="">
+                            <img src="img/COmer/construction_electrical.webp" class="img-fluid" alt="">
                             <a href="{{ route('commercial') }}"
    class="btn btn-primary rounded-pill py-2 px-4 me-3 animated slideInLeft mt-5 ms-3">
    <span>Visit Our Service Commercial Page</span>
@@ -188,20 +188,20 @@
 
                             <div class="col-lg-4">
                                 <div class="post-item">
-                                    <img src="img/COmer/ed3.jpg" alt="" class="img-fluid">
+                                    <img src="img/COmer/ed3.webp" alt="" class="img-fluid">
 
                                 </div>
                             </div>
 
                             <div class="col-lg-4">
                                 <div class="post-item">
-                                    <img src="img/COmer/fadsfd.png" alt="" class="img-fluid">
+                                    <img src="img/COmer/fadsfd.webp" alt="" class="img-fluid">
 
                                 </div>
                             </div>
                             <div class="col-lg-4">
                                 <div class="post-item">
-                                    <img src="img/COmer/12vgc.jpg" alt="" class="img-fluid">
+                                    <img src="img/COmer/12vgc.webp" alt="" class="img-fluid">
 
                                 </div>
                             </div>
