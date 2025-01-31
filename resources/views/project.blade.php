@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-
+    <link rel="canonical" href="https://cresttel.net/project">
     <meta charset="utf-8">
 
         <title>Construction Company Projects | Quality Builds | Cresttel</title>

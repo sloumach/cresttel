@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-
+    <link rel="canonical" href="https://cresttel.net/fence">
     <meta charset="utf-8">
     <title>Fence Services | Expert Fence Installation & Repair</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">

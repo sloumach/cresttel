@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    
+    <link rel="canonical" href="https://cresttel.net/about">
     <meta charset="utf-8">
     <title>About Us | Cresttel - Expert Construction & Remodeling</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -248,9 +248,9 @@
 
                 </div>
             </div>
-     
 
-    
+
+
 
     </div>
     </div>
@@ -335,7 +335,7 @@
 
 
 
-  
+
 
     <!-- Footer Start -->
     @include('footer')

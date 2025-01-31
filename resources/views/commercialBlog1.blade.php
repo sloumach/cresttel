@@ -2,17 +2,17 @@
 <html lang="en">
 
 <head>
-   
+    <link rel="canonical" href="https://cresttel.net/commercialblog1">
     <meta charset="utf-8">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your trusted contractor for commercial construction projects</title>
+    <title>The Benefits of Commercial Remodeling | Cresttel</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
-    <meta content="The Benefits of Commercial Remodeling | Cresttel" name="description">
+    <meta content="Explore commercial construction insights with Cresttel. Learn how to design, build, and optimize commercial spaces for efficiency, growth, and profitability." name="description">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -115,8 +115,8 @@
 <!-- Page Header Start -->
 <div class="container-fluid s bg-primary">
     <div class="container py-5">
-        <h1 class="display-3 text-white mb-3 animated slideInDown">The Benefits of Commercial Remodeling</h1>
-        
+        <h1 class="display-3 text-white mb-3 animated slideInDown">The Benefits of Commercial Remodeling & property maintenance</h1>
+
     </div>
 </div>
 <!-- Page Header End -->
@@ -130,7 +130,7 @@
     <section id="blog-details" class="blog-details">
         <div class="container" data-aos="fade-up">
             <div class="row">
-                <h2 class="title">The Benefits of Commercial Remodeling </h2>
+
                 <!-- Main Blog Content -->
                 <div class="col-lg-8">
                     <article class="blog-post">
