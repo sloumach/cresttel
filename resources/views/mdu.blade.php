@@ -86,7 +86,7 @@
                         d="M12 12.713l-11.713-7.021c-.242-.145-.287-.475-.09-.688l.033-.033c.199-.221.534-.232.78-.024l11.287 6.928 11.287-6.928c.246-.208.581-.197.78.024l.033.033c.197.213.152.543-.09.688l-11.713 7.021zm11.944-6.713c-.063-.019-.129-.033-.194-.033h-23.5c-.066 0-.132.014-.194.033.042.055.102.123.181.176l11.757 7.04c.24.144.563.144.803 0l11.757-7.04c.08-.052.14-.121.181-.176zm-23.944 1.854v11.145c0 .552.448 1 1 1h22c.552 0 1-.448 1-1v-11.145l-11 6.592c-.31.185-.69.185-1 0l-11-6.592z" />
                 </svg>
             </div>
-            <div class="text">cs@cresttel.net</div>
+            <div class="text"><p><a href="mailto:cs@cresttel.net">Send email</a></p></div>
         </div>
 
         <!-- Phone Icon -->
@@ -147,7 +147,7 @@
     <div class="slider-container" id="slider-container-1">
         <!-- Slider -->
         <div class="slider" id="slider-1">
-           
+
             <!-- Slide 2 -->
             <div class="slide">
                 <div class="image-container">
@@ -168,7 +168,7 @@
                     <p> A modern construction with the focus on Modern <br>Architecture and Functionality</p>
                 </div>
             </div>
-           
+
             <!-- Slide 5 -->
             <div class="slide">
                 <div class="image-container">
@@ -199,7 +199,7 @@
                     <p> A Modern design for a MDU construction project <br> by the cresttel construction team</p>
                 </div>
             </div>
-            
+
         </div>
         <!-- Navigation Buttons -->
         <div class="navigation">
@@ -309,7 +309,7 @@
 
                             <hr>
 
-                            <a href="{{ route('mdublog2') }}" class="readmore stretched-link"></a>
+                            <a href="{{ route('mdublog2') }}" class="readmore stretched-link"><span></span></a>
 
                         </div>
 
@@ -347,7 +347,7 @@
 
                             <hr>
 
-                            <a href="{{ route('mdublog3') }}" class="readmore stretched-link"></a>
+                            <a href="{{ route('mdublog3') }}" class="readmore stretched-link"><span></span></a>
 
                         </div>
 

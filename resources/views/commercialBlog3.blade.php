@@ -130,7 +130,7 @@
     <section id="blog-details" class="blog-details">
         <div class="container" data-aos="fade-up">
             <div class="row">
-             
+
                 <!-- Main Blog Content -->
                 <div class="col-lg-8">
                     <article class="blog-post">
