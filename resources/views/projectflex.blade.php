@@ -62,7 +62,7 @@
                                                 class="fa fa-check text-primary me-3"></i>Innovative Solutions</p>
                                     </div>
                                 </div>
-                                <a href="{{ route('blogs') }}" class="btn btn-primary py-3 px-5 mt-3">Read More</a>
+                                <a href="{{ route('blogs') }}" class="btn btn-primary py-3 px-5 mt-3">Explore the latest news and trends for Residential Construction</a>
                             </div>
                         </div>
                     </div>
@@ -99,7 +99,7 @@
                                                 class="fa fa-check text-primary me-3"></i>Innovative Solutions</p>
                                     </div>
                                 </div>
-                                <a href="{{ route('blogs') }}" class="btn btn-primary py-3 px-5 mt-3">Read More</a>
+                                <a href="{{ route('blogs') }}" class="btn btn-primary py-3 px-5 mt-3">Explore the latest news and trends for Commercial Construction</a>
                             </div>
                         </div>
                     </div>
@@ -136,7 +136,7 @@
                                                 class="fa fa-check text-primary me-3"></i>Innovative Solutions</p>
                                     </div>
                                 </div>
-                                <a href="{{ route('blogs') }}" class="btn btn-primary py-3 px-5 mt-3">Read More</a>
+                                <a href="{{ route('blogs') }}" class="btn btn-primary py-3 px-5 mt-3">Explore the latest news and trends for the value of ADU </a>
                             </div>
                         </div>
                     </div>
@@ -173,7 +173,7 @@
                                                 class="fa fa-check text-primary me-3"></i>Innovative Solutions</p>
                                     </div>
                                 </div>
-                                <a href="{{ route('blogs') }}" class="btn btn-primary py-3 px-5 mt-3">Read More</a>
+                                <a href="{{ route('blogs') }}" class="btn btn-primary py-3 px-5 mt-3">Explore the latest news and trends for the benefits MDU</a>
                             </div>
                         </div>
                     </div>
