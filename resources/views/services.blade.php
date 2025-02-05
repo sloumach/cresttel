@@ -130,7 +130,7 @@
                         installation to fence repairs, our experienced team provides reliable solutions for both
                         residential and commercial properties.
                     </p>
-                    <button class="link-button"><a href="{{ route('fence') }}">Learn More</a></button>
+                    <button class="link-button"><a href="{{ route('fence') }}">Explore Our Fence Services</a></button>
                 </div>
             </div>
             <div class="item">
@@ -144,7 +144,7 @@
                         seeking additional living space or rental opportunities, we provide top-tier ADU construction
                         blending style and utility.
                     </p>
-                    <button class="link-button"><a href="{{ route('adu') }}">Learn More</a></button>
+                    <button class="link-button"><a href="{{ route('adu') }}">Discover Our ADU Solutions</a></button>
                 </div>
             </div>
             <div class="item">
@@ -159,7 +159,7 @@
                         functionality with design. Our commercial building construction services cater to businesses of
                         all sizes, offering unmatched craftsmanship to bring your vision to life.
                     </p>
-                    <button class="link-button"><a href="{{ route('commercial') }}">Learn More</a></button>
+                    <button class="link-button"><a href="{{ route('commercial') }}">Explore our Commercial service</a></button>
                 </div>
             </div>
             <div class="item">
@@ -173,7 +173,7 @@
                         solutions for apartments, condos, and townhouses. With attention to detail, we ensure that every
                         project meets your expectations.
                     </p>
-                    <button class="link-button"><a href="{{ route('mdu') }}">Learn More</a></button>
+                    <button class="link-button"><a href="{{ route('mdu') }}">Explore Our MDU Construction</a></button>
                 </div>
             </div>
 
@@ -189,7 +189,7 @@
                         and meet your needs. Searching for " home remodeling services "? then leave it to us for high
                         quality results tailored to your desires.
                     </p>
-                    <button class="link-button"><a href="{{ route('residential') }}">Learn More</a></button>
+                    <button class="link-button"><a href="{{ route('residential') }}">discover Our Residential service </a></button>
                 </div>
             </div>
         </div>
