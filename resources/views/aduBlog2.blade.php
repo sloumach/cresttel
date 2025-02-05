@@ -217,7 +217,7 @@
                             </div>
                             <div class="col-lg-4">
                                 <div class="post-item">
-                                    <img src="img/ADU_img/miller-renovation-remodel-example.webp" alt=""
+                                    <img src="img/ADU_img/Miller-renovation-remodel-example.webp" alt=""
                                         class="img-fluid">
 
                                 </div>
